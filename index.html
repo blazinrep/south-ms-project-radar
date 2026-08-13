@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>South Mississippi Project Radar — Private Beta</title>
+<link rel="preconnect" href="https://unpkg.com">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2b3542;--text:#f3f5f7;--muted:#9da9b5;--accent:#ff9f1c;--good:#48c78e;--warn:#ffd166;--bad:#ff6b6b}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;gap:14px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.brand h1{font-size:20px;margin:0}.brand p{margin:3px 0 0;color:var(--muted)}
+.badge{border:1px solid #6a4d19;background:#2c2415;color:#ffd27a;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700}
+.wrap{display:grid;grid-template-columns:380px 1fr;min-height:calc(100vh - 78px)}
+.sidebar{border-right:1px solid var(--line);padding:16px;overflow:auto;max-height:calc(100vh - 78px)}
+#map{min-height:calc(100vh - 78px);background:#10161d}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px}.metric b{font-size:20px;display:block}.metric span{font-size:11px;color:var(--muted)}
+.controls{display:grid;gap:8px;margin-bottom:12px}.controls input,.controls select{width:100%;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px;margin:9px 0;cursor:pointer}.card:hover{border-color:#536274}.card h3{font-size:15px;margin:0 0 5px}.meta{color:var(--muted);font-size:12px}.scores{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}.score{background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:11px}.high{color:#72e6aa}.med{color:#ffd166}.low{color:#ff8b8b}
+.detail{position:fixed;right:18px;top:95px;width:min(390px,calc(100vw - 36px));max-height:calc(100vh - 115px);overflow:auto;background:#111821;border:1px solid #394656;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 15px 40px #0008;display:none}
+.detail button{float:right;background:none;border:1px solid var(--line);color:var(--text);border-radius:7px;padding:5px 8px}.detail h2{font-size:19px;margin:4px 0 5px}.detail a{color:#ffb84d}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.tag{background:#202b37;border-radius:6px;padding:4px 6px;font-size:11px}.note{border-left:3px solid var(--accent);padding-left:10px;color:#d9e0e6}
+.signup{margin-top:14px;padding:12px;background:#1b2118;border:1px solid #39452f;border-radius:10px}.signup p{margin:0 0 8px}.signup input{width:100%;padding:9px;border-radius:7px;border:1px solid var(--line);background:#10161d;color:white}.signup button{margin-top:7px;width:100%;padding:9px;border:0;border-radius:7px;background:var(--accent);color:#17120a;font-weight:800}
+.disclaimer{font-size:11px;color:var(--muted);margin-top:12px}
+@media(max-width:760px){.wrap{grid-template-columns:1fr}.sidebar{max-height:none;border-right:0}.sidebar{order:2}#map{min-height:55vh;order:1}.detail{top:70px}}
+</style>
+</head>
+<body>
+<header><div class="brand"><h1>South Mississippi Project Radar</h1><p>Excavation & sitework opportunity intelligence · Columbia-centered beta</p></div><span class="badge">PRIVATE BETA · V0.1</span></header>
+<div class="wrap">
+<aside class="sidebar">
+<div class="metrics"><div class="metric"><b id="count">0</b><span>tracked</span></div><div class="metric"><b id="high">0</b><span>90%+ match</span></div><div class="metric"><b id="value">$0</b><span>known value</span></div></div>
+<div class="controls">
+<input id="q" placeholder="Search project, county, scope…">
+<select id="bucket"><option value="">All stages</option><option value="watch">Watch / verify</option><option value="active">Active construction</option><option value="closed">Closed / historical</option></select>
+<select id="county"><option value="">All counties</option></select>
+</div>
+<div id="list"></div>
+<div class="signup"><p><b>Want new matches?</b><br><span class="meta">Beta interest capture only — no backend is connected yet.</span></p><input type="email" placeholder="contractor@example.com"><button type="button" id="interest">I'm interested in alerts</button><div id="msg" class="meta"></div></div>
+<div class="disclaimer">Prototype data is source-linked and manually curated. Scores are editorial heuristics, not guarantees of bid eligibility, subcontract availability, project status, or scope. Approximate map points are used when an exact project coordinate was not confirmed.</div>
+</aside>
+<div id="map"></div>
+</div>
+<div class="detail" id="detail"><button id="close">Close</button><div id="detailBody"></div></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map=L.map('map').setView([31.29,-89.55],9);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const markers=L.layerGroup().addTo(map); let data=[];
+const money=n=>n?('$'+(n>=1e6?(n/1e6).toFixed(1)+'M':Math.round(n/1000)+'K')):'—';
+const cls=n=>n>=85?'high':n>=60?'med':'low';
+function show(p){document.getElementById('detailBody').innerHTML=`<div class="meta">${p.county} County · ${p.status}</div><h2>${p.name}</h2><div class="scores"><span class="score ${cls(p.match)}">Match ${p.match}/100</span><span class="score ${cls(p.timing)}">Timing ${p.timing}/100</span><span class="score ${cls(p.confidence)}">Confidence ${p.confidence}/100</span></div><p><b>Owner:</b> ${p.owner}<br><b>Known value:</b> ${money(p.value)}<br><b>Published deadline:</b> ${p.deadline||'—'}</p><div class="tags">${p.scope.map(x=>`<span class="tag">${x}</span>`).join('')}</div><p class="note">${p.why}</p><p><a href="${p.source}" target="_blank" rel="noopener">View original source ↗</a></p>`;document.getElementById('detail').style.display='block';map.setView([p.lat,p.lon],Math.max(map.getZoom(),11))}
+function render(){
+ let q=document.getElementById('q').value.toLowerCase(), b=document.getElementById('bucket').value,c=document.getElementById('county').value;
+ let rows=data.filter(p=>(!b||p.bucket===b)&&(!c||p.county===c)&&(!q||JSON.stringify(p).toLowerCase().includes(q))).sort((a,b)=>(b.timing+b.match)-(a.timing+a.match));
+ markers.clearLayers(); document.getElementById('list').innerHTML='';
+ rows.forEach(p=>{let m=L.circleMarker([p.lat,p.lon],{radius:8,color:p.bucket==='active'?'#48c78e':p.bucket==='watch'?'#ffd166':'#7b8794',fillOpacity:.85}).addTo(markers).bindTooltip(p.name);m.on('click',()=>show(p));let el=document.createElement('div');el.className='card';el.innerHTML=`<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status} · ${money(p.value)}</div><div class="scores"><span class="score ${cls(p.match)}">Match ${p.match}</span><span class="score ${cls(p.timing)}">Timing ${p.timing}</span></div>`;el.addEventListener('click',()=>show(p));document.getElementById('list').appendChild(el)});
+ document.getElementById('count').textContent=rows.length;document.getElementById('high').textContent=rows.filter(x=>x.match>=90).length;document.getElementById('value').textContent=money(rows.reduce((s,x)=>s+(x.value||0),0));
+}
+fetch('projects.json').then(r=>r.json()).then(d=>{data=d;[...new Set(d.map(x=>x.county))].sort().forEach(x=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${x}</option>`));render()}).catch(()=>{document.getElementById('list').innerHTML='<p>Could not load projects.json. Serve this folder with a local web server or deploy to GitHub Pages.</p>'});
+['q','bucket','county'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));
+document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
+document.getElementById('interest').addEventListener('click',()=>document.getElementById('msg').textContent='Interest noted on this device only. Connect Formspree/ConvertKit later if the beta validates.');
+</script>
+</body></html>
