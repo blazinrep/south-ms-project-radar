@@ -1,24 +1,14 @@
-# South Mississippi Project Radar — V0.1
+# South Mississippi Project Radar — V0.2
 
-Private-ish validation prototype for excavation/sitework contractors.
+Private beta for excavation/sitework opportunity intelligence.
 
-## Deploy to GitHub Pages
-1. Create a new GitHub repository (for example `south-ms-project-radar`).
-2. Upload `index.html` and `projects.json` to the repository root.
-3. In GitHub: Settings → Pages → Build and deployment → Deploy from a branch.
-4. Select `main` and `/ (root)`, then Save.
-5. GitHub will provide the Pages URL. Do not advertise it yet.
+## V0.2 changes
+- Dashboard now leads with Act Now / Watch / Active instead of total historical project value.
+- Closed work is retained only as validation/history.
+- Added future-deadline leads verified on August 13, 2026.
+- Added deadline countdowns, distance, pre-bid information, contact fields, source type, and last-verified date.
+- Updated Ebenezer Church Road with local field observation: no visible construction activity on Aug. 13; bridge-out/road-closed signage remains.
+- Removed the fake-functional email signup from V0.1. We will connect a real capture endpoint only when ready.
 
-`index.html` contains `noindex,nofollow,noarchive` to discourage search indexing.
-
-## Important V0.1 limitations
-- The dataset is deliberately small and verified rather than padded with invented leads.
-- Some pins are approximate city/project-area coordinates when an exact coordinate was not confirmed.
-- Most discovered 2026 public bids are already closed as of Aug. 13, 2026. The prototype therefore demonstrates why freshness/status verification is the core product.
-- The email-interest box is UI-only in V0.1. Do not collect addresses until a backend/form endpoint is connected.
-- Opportunity scores are editorial heuristics and must not be represented as bid eligibility or guaranteed available work.
-
-## Files
-- `index.html` — complete map app
-- `projects.json` — editable opportunity dataset
-- `research-notes.md` — source notes and next data targets
+## Deploy
+Replace `index.html` and `projects.json` in the existing GitHub Pages repository with the V0.2 versions. README and research notes can also be replaced.

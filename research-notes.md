@@ -1,16 +1,25 @@
-# Research notes — 2026-08-13
+# V0.2 research notes — August 13, 2026
 
-Verified seed records used in V0.1:
-- Marion County LSBP-46(20), Ebenezer Church Road bridge & approaches — MS procurement RFx 3170035671.
-- US 98 Pearl River bridge replacement — MDOT; $57.7M, construction underway.
-- Church Street & Wilks Avenue infrastructure — City of Columbia; storm sewer, sanitary sewer, water distribution; closed.
-- Emergency Watershed Protection, Horseshoe Drive — City of Columbia; heavy equipment earth handling; closed.
-- New 500 GPM booster station — City of Columbia; documented sitework; bid results/older project.
-- Columbia–Marion County Airport apron expansion — FY2025; closed.
-- Forrest County FC23-289 — clearing & grubbing; closed Apr. 30, 2026.
-- Hattiesburg RFx 3170035236 — heavy sewer/utility construction categories; closed Apr. 9, 2026.
-- Hattiesburg RFx 3170035238 — bridge/heavy construction categories; closed Apr. 9, 2026.
-- Hattiesburg Fourth Street Improvements Phase IV — closed May 7, 2026; estimate $550k–$600k plus $250k add option.
+## Live / actionable
+### AAA Ambulance Service Resource Center — Hattiesburg
+- Accepting bids.
+- Voluntary pre-bid: Aug. 20, 2026 at 10:00 AM.
+- Bid deadline: Sept. 3, 2026 at 2:00 PM.
+- New single-story resource center; single lump-sum prime contract.
+- Sitework scope is NOT asserted as confirmed until drawings/specs are reviewed.
+- Contact: Kevin Kitchens, Landry Kitchens Germany Architects.
 
-Key validation finding:
-The public sources are fragmented and status can be stale. Example: Marion County RFx 3170035671 showed “Open” even though its published submission date was May 20, 2026. A paid product must add freshness, status reconciliation, trade matching, and alerts—not merely re-display a map.
+### MS Oil & Gas Board orphaned wells — Adams & Walthall Counties
+- Official IFB RFx 3160008150.
+- Deadline: Aug. 24, 2026 at 4:00 PM.
+- Walthall County is inside the test market.
+- Mandatory site inspection was July 30–31; published notice says alternate dates may be requested.
+- Specialized oilfield/remediation qualifications mean this is a conditional match, not a generic excavation lead.
+
+## Key product lesson
+A broad web search produces many stale, closed, irrelevant, or mislabeled records. V0.2 intentionally shows fewer “Act Now” records rather than pretending historical projects are current opportunities. Freshness reconciliation is part of the product.
+
+## Ebenezer Church Road
+Official procurement deadline: May 20, 2026.
+Local field observation supplied Aug. 13, 2026: no visible construction activity; bridge-out and road-closed signage still present.
+Current classification: Watch / pre-construction / award unknown.

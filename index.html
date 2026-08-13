@@ -1,67 +1,39 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive">
-<title>South Mississippi Project Radar — Private Beta</title>
-<link rel="preconnect" href="https://unpkg.com">
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive"><title>South Mississippi Project Radar — V0.2</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-:root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2b3542;--text:#f3f5f7;--muted:#9da9b5;--accent:#ff9f1c;--good:#48c78e;--warn:#ffd166;--bad:#ff6b6b}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-header{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;gap:14px;justify-content:space-between;align-items:center;flex-wrap:wrap}
-.brand h1{font-size:20px;margin:0}.brand p{margin:3px 0 0;color:var(--muted)}
-.badge{border:1px solid #6a4d19;background:#2c2415;color:#ffd27a;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700}
-.wrap{display:grid;grid-template-columns:380px 1fr;min-height:calc(100vh - 78px)}
-.sidebar{border-right:1px solid var(--line);padding:16px;overflow:auto;max-height:calc(100vh - 78px)}
-#map{min-height:calc(100vh - 78px);background:#10161d}
-.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
-.metric{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px}.metric b{font-size:20px;display:block}.metric span{font-size:11px;color:var(--muted)}
-.controls{display:grid;gap:8px;margin-bottom:12px}.controls input,.controls select{width:100%;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:10px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px;margin:9px 0;cursor:pointer}.card:hover{border-color:#536274}.card h3{font-size:15px;margin:0 0 5px}.meta{color:var(--muted);font-size:12px}.scores{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}.score{background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:11px}.high{color:#72e6aa}.med{color:#ffd166}.low{color:#ff8b8b}
-.detail{position:fixed;right:18px;top:95px;width:min(390px,calc(100vw - 36px));max-height:calc(100vh - 115px);overflow:auto;background:#111821;border:1px solid #394656;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 15px 40px #0008;display:none}
-.detail button{float:right;background:none;border:1px solid var(--line);color:var(--text);border-radius:7px;padding:5px 8px}.detail h2{font-size:19px;margin:4px 0 5px}.detail a{color:#ffb84d}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.tag{background:#202b37;border-radius:6px;padding:4px 6px;font-size:11px}.note{border-left:3px solid var(--accent);padding-left:10px;color:#d9e0e6}
-.signup{margin-top:14px;padding:12px;background:#1b2118;border:1px solid #39452f;border-radius:10px}.signup p{margin:0 0 8px}.signup input{width:100%;padding:9px;border-radius:7px;border:1px solid var(--line);background:#10161d;color:white}.signup button{margin-top:7px;width:100%;padding:9px;border:0;border-radius:7px;background:var(--accent);color:#17120a;font-weight:800}
-.disclaimer{font-size:11px;color:var(--muted);margin-top:12px}
-@media(max-width:760px){.wrap{grid-template-columns:1fr}.sidebar{max-height:none;border-right:0}.sidebar{order:2}#map{min-height:55vh;order:1}.detail{top:70px}}
-</style>
-</head>
-<body>
-<header><div class="brand"><h1>South Mississippi Project Radar</h1><p>Excavation & sitework opportunity intelligence · Columbia-centered beta</p></div><span class="badge">PRIVATE BETA · V0.1</span></header>
-<div class="wrap">
-<aside class="sidebar">
-<div class="metrics"><div class="metric"><b id="count">0</b><span>tracked</span></div><div class="metric"><b id="high">0</b><span>90%+ match</span></div><div class="metric"><b id="value">$0</b><span>known value</span></div></div>
-<div class="controls">
-<input id="q" placeholder="Search project, county, scope…">
-<select id="bucket"><option value="">All stages</option><option value="watch">Watch / verify</option><option value="active">Active construction</option><option value="closed">Closed / historical</option></select>
-<select id="county"><option value="">All counties</option></select>
-</div>
-<div id="list"></div>
-<div class="signup"><p><b>Want new matches?</b><br><span class="meta">Beta interest capture only — no backend is connected yet.</span></p><input type="email" placeholder="contractor@example.com"><button type="button" id="interest">I'm interested in alerts</button><div id="msg" class="meta"></div></div>
-<div class="disclaimer">Prototype data is source-linked and manually curated. Scores are editorial heuristics, not guarantees of bid eligibility, subcontract availability, project status, or scope. Approximate map points are used when an exact project coordinate was not confirmed.</div>
-</aside>
-<div id="map"></div>
-</div>
-<div class="detail" id="detail"><button id="close">Close</button><div id="detailBody"></div></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-const map=L.map('map').setView([31.29,-89.55],9);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
-const markers=L.layerGroup().addTo(map); let data=[];
-const money=n=>n?('$'+(n>=1e6?(n/1e6).toFixed(1)+'M':Math.round(n/1000)+'K')):'—';
-const cls=n=>n>=85?'high':n>=60?'med':'low';
-function show(p){document.getElementById('detailBody').innerHTML=`<div class="meta">${p.county} County · ${p.status}</div><h2>${p.name}</h2><div class="scores"><span class="score ${cls(p.match)}">Match ${p.match}/100</span><span class="score ${cls(p.timing)}">Timing ${p.timing}/100</span><span class="score ${cls(p.confidence)}">Confidence ${p.confidence}/100</span></div><p><b>Owner:</b> ${p.owner}<br><b>Known value:</b> ${money(p.value)}<br><b>Published deadline:</b> ${p.deadline||'—'}</p><div class="tags">${p.scope.map(x=>`<span class="tag">${x}</span>`).join('')}</div><p class="note">${p.why}</p><p><a href="${p.source}" target="_blank" rel="noopener">View original source ↗</a></p>`;document.getElementById('detail').style.display='block';map.setView([p.lat,p.lon],Math.max(map.getZoom(),11))}
-function render(){
- let q=document.getElementById('q').value.toLowerCase(), b=document.getElementById('bucket').value,c=document.getElementById('county').value;
- let rows=data.filter(p=>(!b||p.bucket===b)&&(!c||p.county===c)&&(!q||JSON.stringify(p).toLowerCase().includes(q))).sort((a,b)=>(b.timing+b.match)-(a.timing+a.match));
- markers.clearLayers(); document.getElementById('list').innerHTML='';
- rows.forEach(p=>{let m=L.circleMarker([p.lat,p.lon],{radius:8,color:p.bucket==='active'?'#48c78e':p.bucket==='watch'?'#ffd166':'#7b8794',fillOpacity:.85}).addTo(markers).bindTooltip(p.name);m.on('click',()=>show(p));let el=document.createElement('div');el.className='card';el.innerHTML=`<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status} · ${money(p.value)}</div><div class="scores"><span class="score ${cls(p.match)}">Match ${p.match}</span><span class="score ${cls(p.timing)}">Timing ${p.timing}</span></div>`;el.addEventListener('click',()=>show(p));document.getElementById('list').appendChild(el)});
- document.getElementById('count').textContent=rows.length;document.getElementById('high').textContent=rows.filter(x=>x.match>=90).length;document.getElementById('value').textContent=money(rows.reduce((s,x)=>s+(x.value||0),0));
-}
-fetch('projects.json').then(r=>r.json()).then(d=>{data=d;[...new Set(d.map(x=>x.county))].sort().forEach(x=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${x}</option>`));render()}).catch(()=>{document.getElementById('list').innerHTML='<p>Could not load projects.json. Serve this folder with a local web server or deploy to GitHub Pages.</p>'});
-['q','bucket','county'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));
-document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
-document.getElementById('interest').addEventListener('click',()=>document.getElementById('msg').textContent='Interest noted on this device only. Connect Formspree/ConvertKit later if the beta validates.');
-</script>
-</body></html>
+:root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2c3745;--text:#f4f6f8;--muted:#9da9b5;--orange:#f4a62a;--green:#49d59a;--yellow:#f2cb61;--red:#ff7676;--blue:#7fb4ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}h1{font-size:20px;margin:0}header p{margin:3px 0 0;color:var(--muted)}
+.beta{border:1px solid #72511a;background:#2b2314;color:#ffd27a;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}
+.layout{display:grid;grid-template-columns:400px 1fr;min-height:calc(100vh - 76px)}aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 76px)}#map{min-height:calc(100vh - 76px)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:12px}.metric{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:9px}.metric b{display:block;font-size:19px}.metric span{font-size:10px;color:var(--muted)}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:10px}.tabs button{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 4px;font-size:11px}.tabs button.on{border-color:var(--orange);color:#ffd27a}
+.controls{display:grid;grid-template-columns:1fr 120px;gap:6px;margin-bottom:10px}.controls input,.controls select{min-width:0;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:9px}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:12px;margin:8px 0;cursor:pointer}.card:hover{border-color:#56687b}.card.act{border-left:4px solid var(--green)}.card.watch{border-left:4px solid var(--yellow)}.card.active{border-left:4px solid var(--blue)}.card.closed{opacity:.72}.card h3{margin:0 0 4px;font-size:15px}.meta{color:var(--muted);font-size:12px}.urgent{color:var(--green);font-weight:800;font-size:11px}.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.chip{background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:11px}.good{color:var(--green)}.mid{color:var(--yellow)}.bad{color:var(--red)}
+.detail{display:none;position:fixed;right:18px;top:92px;width:min(410px,calc(100vw - 36px));max-height:calc(100vh - 112px);overflow:auto;background:#111821;border:1px solid #3c4959;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 16px 42px #0009}.detail .x{float:right;background:transparent;color:white;border:1px solid var(--line);border-radius:7px;padding:5px 8px}.detail h2{font-size:19px;margin:4px 0}.detail a{color:#ffb84d}.callout{border-left:3px solid var(--orange);padding-left:10px}.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{background:#202a36;border-radius:6px;padding:4px 6px;font-size:11px}.source{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
+.notice{background:#1d2118;border:1px solid #3c4530;border-radius:9px;padding:9px;font-size:12px;margin-bottom:10px}.foot{font-size:11px;color:var(--muted);margin-top:10px}
+@media(max-width:780px){.layout{grid-template-columns:1fr}aside{order:2;max-height:none;border-right:0}#map{order:1;min-height:52vh}.metrics{grid-template-columns:repeat(2,1fr)}.detail{top:70px}}
+</style></head><body>
+<header><div><h1>South Mississippi Project Radar</h1><p>Excavation & sitework intelligence · Columbia-centered test market</p></div><span class="beta">PRIVATE BETA · V0.2</span></header>
+<div class="layout"><aside>
+<div class="notice"><b>Freshness first.</b> “Act Now” only contains leads with a future deadline or an immediate pursuit window. Closed work no longer inflates the opportunity dashboard.</div>
+<div class="metrics"><div class="metric"><b id="actN">0</b><span>ACT NOW</span></div><div class="metric"><b id="watchN">0</b><span>WATCH</span></div><div class="metric"><b id="activeN">0</b><span>ACTIVE</span></div><div class="metric"><b id="fresh">0</b><span>VERIFIED TODAY</span></div></div>
+<div class="tabs"><button data-b="" class="on">ALL</button><button data-b="act">🔥 ACT NOW</button><button data-b="watch">👀 WATCH</button><button data-b="active">🏗 ACTIVE</button></div>
+<div class="controls"><input id="q" placeholder="Search project, scope, county…"><select id="county"><option value="">All counties</option></select></div>
+<div id="list"></div><div class="foot">Scores are editorial screening aids, not guarantees of eligibility, subcontract availability, scope, award, or project status. Exact project documents control. Some map points are approximate when exact coordinates were not confirmed.</div>
+</aside><div id="map"></div></div>
+<div class="detail" id="detail"><button class="x" id="close">Close</button><div id="body"></div></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
+const TODAY=new Date('2026-08-13T18:00:00');let data=[],bucket='';
+const map=L.map('map').setView([31.28,-89.62],9);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);const layer=L.layerGroup().addTo(map);
+const C={act:'#49d59a',watch:'#f2cb61',active:'#7fb4ff',closed:'#7d8792'};
+const cls=n=>n>=85?'good':n>=55?'mid':'bad';
+function days(p){if(!p.deadline)return null;return Math.ceil((new Date(p.deadline)-TODAY)/86400000)}
+function deadline(p){let d=days(p);if(d===null)return 'No bid deadline';if(d>=0)return `${d} day${d===1?'':'s'} remaining`;return `closed ${Math.abs(d)} days ago`}
+function show(p){document.getElementById('body').innerHTML=`<div class="meta">${p.county} County · ${p.status}</div><h2>${p.name}</h2>${p.bucket==='act'?`<div class="urgent">🔥 ${deadline(p).toUpperCase()}</div>`:''}<div class="chips"><span class="chip ${cls(p.match)}">Match ${p.match}/100</span><span class="chip ${cls(p.timing)}">Timing ${p.timing}/100</span><span class="chip ${cls(p.confidence)}">Confidence ${p.confidence}/100</span><span class="chip">~${p.distance} mi from Columbia</span></div><p><b>Owner:</b> ${p.owner}<br><b>Deadline:</b> ${p.deadline?new Date(p.deadline).toLocaleString([], {dateStyle:'medium',timeStyle:p.deadline.includes('T')?'short':undefined}):'—'}<br><b>Pre-bid:</b> ${p.prebid||'—'}<br><b>Contact:</b> ${p.contact}</p><div class="tags">${p.scope.map(s=>`<span class="tag">${s}</span>`).join('')}</div><p class="callout">${p.why}</p><p><a href="${p.source}" target="_blank" rel="noopener">Open source / bid record ↗</a></p><div class="source">Last verified: ${p.verified} · ${p.sourceType}</div>`;document.getElementById('detail').style.display='block';map.setView([p.lat,p.lon],Math.max(10,map.getZoom()))}
+function render(){let q=document.getElementById('q').value.toLowerCase(),county=document.getElementById('county').value;let rows=data.filter(p=>(!bucket||p.bucket===bucket)&&(!county||p.county===county)&&(!q||JSON.stringify(p).toLowerCase().includes(q))).sort((a,b)=>({act:0,watch:1,active:2,closed:3}[a.bucket]-{act:0,watch:1,active:2,closed:3}[b.bucket])||b.timing-a.timing);layer.clearLayers();let list=document.getElementById('list');list.innerHTML='';rows.forEach(p=>{let m=L.circleMarker([p.lat,p.lon],{radius:p.bucket==='act'?9:7,color:C[p.bucket],fillColor:C[p.bucket],fillOpacity:.82}).addTo(layer).bindTooltip(p.name);m.on('click',()=>show(p));let e=document.createElement('div');e.className=`card ${p.bucket}`;e.innerHTML=`${p.bucket==='act'?`<div class="urgent">🔥 ACT NOW · ${deadline(p)}</div>`:''}<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status}</div><div class="chips"><span class="chip ${cls(p.match)}">Match ${p.match}</span><span class="chip ${cls(p.timing)}">Timing ${p.timing}</span><span class="chip">~${p.distance} mi</span></div>`;e.addEventListener('click',()=>show(p));list.appendChild(e)});document.getElementById('actN').textContent=data.filter(x=>x.bucket==='act').length;document.getElementById('watchN').textContent=data.filter(x=>x.bucket==='watch').length;document.getElementById('activeN').textContent=data.filter(x=>x.bucket==='active').length;document.getElementById('fresh').textContent=data.filter(x=>x.verified==='2026-08-13').length}
+fetch('projects.json').then(r=>r.json()).then(d=>{data=d;[...new Set(d.map(x=>x.county))].sort().forEach(c=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${c}</option>`));render()});
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');bucket=b.dataset.b;render()}));document.getElementById('q').addEventListener('input',render);document.getElementById('county').addEventListener('change',render);document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
+</script></body></html>
