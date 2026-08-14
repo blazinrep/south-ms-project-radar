@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 set -e
 mkdir -p data/raw data/snapshots state
 python3 collectors/fetch_mdot_live.py
