@@ -1,63 +1,11 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-08-14T23:31:38.823051+00:00",
+  "generated_at": "2026-08-14T23:36:59.351726+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
-    "no_longer_open": 1,
+    "no_longer_open": 0,
     "stale_unverified": 0
   },
-  "events": [
-    {
-      "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46278",
-      "before": {
-        "id": "msproc-46278",
-        "name": "Forrest / 9280-27-R-IFBD-00004",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-08-13T14:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "PERSONNEL SERVICE - TECHNOLOGY",
-          "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, August 13, 2026, 2:0"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46278?AppId=1",
-        "verified": "2026-08-14",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-08-14T16:54:19.586985-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46278",
-        "sourceSmartNumber": "9280-27-R-IFBD-00004",
-        "sourceRFx": "3160008185",
-        "sourceRFxStatus": "Closed",
-        "majorProcurementCategory": "INFORMATION TECHNOLOGY (IT)",
-        "subProcurementCategory": "PERSONNEL SERVICE - TECHNOLOGY",
-        "submissionDateRaw": "08/13/2026 2:00 PM"
-      }
-    }
-  ]
+  "events": []
 }
