@@ -1,0 +1,30 @@
+name: Refresh Mississippi Procurement
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 11 * * *"
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Monitor known opportunities and lightweight discovery
+        run: |
+          chmod +x run_ms_procurement_pipeline.sh
+          ./run_ms_procurement_pipeline.sh
+      - name: Commit meaningful state
+        run: |
+          git config user.name "project-radar-bot"
+          git config user.email "project-radar-bot@users.noreply.github.com"
+          git add projects.json data/raw/ms_procurement_candidates.json data/review/ms_procurement_review.json data/review/ms_procurement_fetch_status.json data/review/ms_procurement_changes.json state/ms_procurement_previous.json state/ms_procurement_discovery.json
+          if git diff --cached --quiet; then
+            echo "No Mississippi procurement changes to commit"
+          else
+            git commit -m "Auto-refresh resilient Mississippi procurement state"
+            git push
+          fi

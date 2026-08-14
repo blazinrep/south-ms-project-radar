@@ -1,0 +1,182 @@
+[
+  {
+    "detail_id": 46142,
+    "decision": "publish",
+    "county": "Jones"
+  },
+  {
+    "detail_id": 46147,
+    "decision": "publish",
+    "county": "Perry"
+  },
+  {
+    "detail_id": 46148,
+    "decision": "publish",
+    "county": "Harrison"
+  },
+  {
+    "detail_id": 46173,
+    "decision": "publish",
+    "county": "Lincoln"
+  },
+  {
+    "detail_id": 46179,
+    "decision": "publish",
+    "county": "Harrison"
+  },
+  {
+    "detail_id": 46194,
+    "decision": "publish",
+    "county": "Lincoln"
+  },
+  {
+    "detail_id": 46220,
+    "decision": "publish",
+    "county": "Hancock"
+  },
+  {
+    "detail_id": 46233,
+    "decision": "publish",
+    "county": "Jasper"
+  },
+  {
+    "detail_id": 46244,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46248,
+    "decision": "publish",
+    "county": "Jackson"
+  },
+  {
+    "detail_id": 46249,
+    "decision": "publish",
+    "county": "Harrison"
+  },
+  {
+    "detail_id": 46273,
+    "decision": "publish",
+    "county": "Greene"
+  },
+  {
+    "detail_id": 46278,
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "9280-27-R-IFBD-00004",
+      "Advertised Date": "08/12/2026 4:10 PM",
+      "RFx #": "3160008185",
+      "Submission Date": "08/13/2026 2:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "INFORMATION TECHNOLOGY (IT)",
+      "RFx Opening Date": "08/13/2026 2:00 PM",
+      "Sub Procurement Category": "PERSONNEL SERVICE - TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, August 13, 2026, 2:0"
+    }
+  },
+  {
+    "detail_id": 46282,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46283,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46284,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46285,
+    "decision": "publish",
+    "county": "Jackson"
+  },
+  {
+    "detail_id": 46286,
+    "decision": "publish",
+    "county": "Lincoln"
+  },
+  {
+    "detail_id": 46287,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46288,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46289,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46290,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46291,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46292,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46293,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46294,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46295,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  }
+]
