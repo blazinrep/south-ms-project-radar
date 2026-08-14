@@ -1,24 +1,24 @@
-# South Mississippi Project Radar — V0.3
+# South Mississippi Project Radar — V0.4
 
 Private beta focused on excavation/sitework contractors.
 
-## What changed
-- Reframed opportunity stages into:
-  - ACT NOW — open, actionable bids.
-  - GET AHEAD — future lettings / pre-construction / unresolved award status.
-  - SUBCONTRACT — active or awarded work where the prime is known.
-- Added Pine Belt Landfill Cell 7, Laurel Citywide Paving, JCJC Walking Plaza, Pineview Parking Lot, Greene County road maintenance, Clarkco Trail, and MDOT future letting signals.
-- Kept claims conservative: scopes described as “likely” are not treated as confirmed.
-- Dashboard no longer rewards stale closed jobs.
+## V0.4 adds the action/intelligence layer
+- Contractor capability profile in the browser.
+- Personalized project score: `YOUR MATCH`, recalculated from the selected capabilities, timing, confidence, radius, and work style.
+- Preferred working radius filter.
+- Prime vs subcontract preference.
+- Human-readable match explanation on every card.
+- Recommended Next Move inside each project.
+- Change/freshness fields and automation metadata in `projects.json`.
+- Human-review flag for ambiguous or inferred scope.
+
+## Important architecture decision
+The project record remains neutral. Customer-specific opportunity interpretation happens in the matching layer.
+That preserves the ability to support other customer types later without rewriting the project database.
 
 ## Deploy
-Replace the existing repo's:
-- index.html
-- projects.json
-- README.md
-- research-notes.md
+Replace the existing repo files with these V0.4 versions, then:
 
-Then:
 git add .
-git commit -m "Update Project Radar to V0.3"
+git commit -m "Update Project Radar to V0.4"
 git push origin main

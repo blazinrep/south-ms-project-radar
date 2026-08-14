@@ -27,7 +27,21 @@
     "contact": "Kris Lightsey \u00b7 (601) 649-1840 \u00b7 kris.lightsey@neel-schaffer.com",
     "source": "https://www.neel-schafferplans.com/projects/20657/details/ns19811002-pine-belt-landfill-cell-no-7-construction",
     "verified": "2026-08-13",
-    "sourceType": "Engineer plan room / published bid notice"
+    "sourceType": "Engineer plan room / published bid notice",
+    "capabilityTags": [
+      "excavation",
+      "grading",
+      "erosion_control",
+      "utilities",
+      "hauling"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Engineer plan room / published bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "jcjc-walking-plaza",
@@ -56,7 +70,19 @@
     "contact": "Dustin Gatlin \u00b7 (601) 545-1565 \u00b7 dustin.gatlin@neel-schaffer.com",
     "source": "https://www.neel-schafferplans.com/projects/20677/details/19212-jcjc-central-avenue-walking-plaza-re-bid",
     "verified": "2026-08-13",
-    "sourceType": "Engineer plan room / published bid notice"
+    "sourceType": "Engineer plan room / published bid notice",
+    "capabilityTags": [
+      "grading",
+      "drainage",
+      "paving_base"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Engineer plan room / published bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "laurel-citywide-paving",
@@ -86,7 +112,21 @@
     "contact": "Kyla James \u00b7 (601) 649-1840 \u00b7 kyla.james@neel-schaffer.com",
     "source": "https://www.neel-schafferplans.com/projects/20683/details/20387-2026-citywide-paving-project",
     "verified": "2026-08-13",
-    "sourceType": "Engineer plan room / published bid notice"
+    "sourceType": "Engineer plan room / published bid notice",
+    "capabilityTags": [
+      "utilities",
+      "excavation",
+      "grading",
+      "paving_base",
+      "hauling"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Engineer plan room / published bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "walthall-orphan-wells",
@@ -116,7 +156,20 @@
     "contact": "Morris Welch \u00b7 (601) 576-4925 \u00b7 mwelch@ogb.state.ms.us",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/45990",
     "verified": "2026-08-13",
-    "sourceType": "Official Mississippi procurement"
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [
+      "excavation",
+      "grading",
+      "environmental",
+      "hauling"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Official Mississippi procurement",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "aaa-resource-center",
@@ -145,7 +198,21 @@
     "contact": "Kevin Kitchens \u00b7 (601) 271-7711 \u00b7 kkitchens@llgarch.com",
     "source": "https://www.planhouseplanroom.com/projects/20771/details/4182-aaa-ambulance-service-resource-center",
     "verified": "2026-08-13",
-    "sourceType": "Plan room / published bid notice"
+    "sourceType": "Plan room / published bid notice",
+    "capabilityTags": [
+      "excavation",
+      "grading",
+      "drainage",
+      "utilities",
+      "clearing"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Plan room / published bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": true
+    }
   },
   {
     "id": "pineview-parking",
@@ -175,7 +242,20 @@
     "contact": "Geoffrey Crosby \u00b7 (601) 545-1565 \u00b7 geoffrey.crosby@neel-schaffer.com",
     "source": "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot",
     "verified": "2026-08-13",
-    "sourceType": "Engineer plan room / state bid notice"
+    "sourceType": "Engineer plan room / state bid notice",
+    "capabilityTags": [
+      "grading",
+      "drainage",
+      "paving_base",
+      "hauling"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Engineer plan room / state bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": true
+    }
   },
   {
     "id": "greene-road-maintenance",
@@ -203,7 +283,21 @@
     "contact": "Jason Lamb \u00b7 (601) 583-2127 \u00b7 jtlamb@thewalkerassociates.com",
     "source": "https://www.planhouseplanroom.com/projects/20770/details/185-24-sap-2115m-greene-county-ms",
     "verified": "2026-08-13",
-    "sourceType": "County/engineer bid notice"
+    "sourceType": "County/engineer bid notice",
+    "capabilityTags": [
+      "grading",
+      "drainage",
+      "paving_base",
+      "hauling",
+      "erosion_control"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "County/engineer bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "clarkco-trail",
@@ -231,7 +325,20 @@
     "contact": "Geoffrey Crosby \u00b7 (601) 545-1565 \u00b7 geoffrey.crosby@neel-schaffer.com",
     "source": "https://www.neel-schafferplans.com/projects/20686/details/20270-clarkco-recreational-trail",
     "verified": "2026-08-13",
-    "sourceType": "Engineer plan room / state bid notice"
+    "sourceType": "Engineer plan room / state bid notice",
+    "capabilityTags": [
+      "grading",
+      "drainage",
+      "clearing",
+      "erosion_control"
+    ],
+    "changeStatus": "new",
+    "nextMove": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
+    "automation": {
+      "sourceKey": "Engineer plan room / state bid notice",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": true
+    }
   },
   {
     "id": "marion-ebenezer-bridge",
@@ -262,7 +369,22 @@
     "contact": "See official procurement record",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/45250",
     "verified": "2026-08-13",
-    "sourceType": "Official procurement + local field observation"
+    "sourceType": "Official procurement + local field observation",
+    "capabilityTags": [
+      "excavation",
+      "grading",
+      "drainage",
+      "clearing",
+      "erosion_control",
+      "hauling"
+    ],
+    "changeStatus": "watch",
+    "nextMove": "Watch the source for letting/award changes now; identify likely primes and make contact before the project becomes crowded.",
+    "automation": {
+      "sourceKey": "Official procurement + local field observation",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": true
+    }
   },
   {
     "id": "mdot-forrest-i59-oct",
@@ -291,7 +413,18 @@
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
     "verified": "2026-08-13",
-    "sourceType": "Official MDOT proposed letting"
+    "sourceType": "Official MDOT proposed letting",
+    "capabilityTags": [
+      "paving_base",
+      "hauling"
+    ],
+    "changeStatus": "watch",
+    "nextMove": "Watch the source for letting/award changes now; identify likely primes and make contact before the project becomes crowded.",
+    "automation": {
+      "sourceKey": "Official MDOT proposed letting",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "mdot-lamar-i59-oct",
@@ -319,7 +452,18 @@
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
     "verified": "2026-08-13",
-    "sourceType": "Official MDOT proposed letting"
+    "sourceType": "Official MDOT proposed letting",
+    "capabilityTags": [
+      "paving_base",
+      "hauling"
+    ],
+    "changeStatus": "watch",
+    "nextMove": "Watch the source for letting/award changes now; identify likely primes and make contact before the project becomes crowded.",
+    "automation": {
+      "sourceKey": "Official MDOT proposed letting",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "mdot-forrest-us11-nov",
@@ -347,7 +491,18 @@
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
     "verified": "2026-08-13",
-    "sourceType": "Official MDOT proposed letting"
+    "sourceType": "Official MDOT proposed letting",
+    "capabilityTags": [
+      "paving_base",
+      "hauling"
+    ],
+    "changeStatus": "watch",
+    "nextMove": "Watch the source for letting/award changes now; identify likely primes and make contact before the project becomes crowded.",
+    "automation": {
+      "sourceKey": "Official MDOT proposed letting",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   },
   {
     "id": "marion-us98-bridges",
@@ -376,6 +531,20 @@
     "contact": "Prime: T.L. Wallace Construction",
     "source": "https://mdot.ms.gov/portal/news_release_view/1774",
     "verified": "2026-08-13",
-    "sourceType": "Official MDOT"
+    "sourceType": "Official MDOT",
+    "capabilityTags": [
+      "excavation",
+      "grading",
+      "drainage",
+      "hauling",
+      "erosion_control"
+    ],
+    "changeStatus": "active",
+    "nextMove": "Contact the known prime or project team and ask about remaining subcontract, trucking, material, or support packages.",
+    "automation": {
+      "sourceKey": "Official MDOT",
+      "lastSeen": "2026-08-13T18:00:00-05:00",
+      "needsHumanReview": false
+    }
   }
 ]

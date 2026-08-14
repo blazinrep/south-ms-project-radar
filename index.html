@@ -1,47 +1,136 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive"><title>South Mississippi Project Radar — V0.3</title>
+<meta name="robots" content="noindex,nofollow,noarchive"><title>South Mississippi Project Radar — V0.4</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-:root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2c3745;--text:#f4f6f8;--muted:#9da9b5;--orange:#f4a62a;--green:#49d59a;--yellow:#f2cb61;--blue:#7fb4ff;--purple:#c89cff;--red:#ff7676}
+:root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2c3745;--text:#f4f6f8;--muted:#9da9b5;--orange:#f4a62a;--green:#49d59a;--yellow:#f2cb61;--purple:#c89cff;--red:#ff7676;--blue:#7fb4ff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+button,input,select{font:inherit}
 header{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
-h1{font-size:20px;margin:0}header p{margin:3px 0 0;color:var(--muted)}.beta{border:1px solid #72511a;background:#2b2314;color:#ffd27a;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}
-.layout{display:grid;grid-template-columns:430px 1fr;min-height:calc(100vh - 76px)}aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 76px)}#map{min-height:calc(100vh - 76px)}
-.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:12px}.metric{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:9px}.metric b{display:block;font-size:19px}.metric span{font-size:10px;color:var(--muted)}
-.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:10px}.tabs button{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 4px;font-size:11px}.tabs button.on{border-color:var(--orange);color:#ffd27a}
-.controls{display:grid;grid-template-columns:1fr 120px;gap:6px;margin-bottom:10px}.controls input,.controls select{min-width:0;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:9px}
-.card{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:12px;margin:8px 0;cursor:pointer}.card:hover{border-color:#56687b}.card.act{border-left:4px solid var(--green)}.card.ahead{border-left:4px solid var(--yellow)}.card.sub{border-left:4px solid var(--purple)}.card h3{margin:0 0 4px;font-size:15px}.meta{color:var(--muted);font-size:12px}.urgent{color:var(--green);font-weight:800;font-size:11px}.aheadtxt{color:var(--yellow);font-weight:800;font-size:11px}.subtxt{color:var(--purple);font-weight:800;font-size:11px}
+h1{font-size:20px;margin:0}header p{margin:3px 0 0;color:var(--muted)}
+.beta{border:1px solid #72511a;background:#2b2314;color:#ffd27a;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}
+.layout{display:grid;grid-template-columns:450px 1fr;min-height:calc(100vh - 76px)}
+aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 76px)}
+#map{min-height:calc(100vh - 76px)}
+.notice{background:#171f28;border:1px solid #334050;border-radius:9px;padding:10px;font-size:12px;margin-bottom:10px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:12px}
+.metric{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:9px}.metric b{display:block;font-size:19px}.metric span{font-size:10px;color:var(--muted)}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:10px}
+.tabs button,.profileBtn{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 4px;font-size:11px;cursor:pointer}
+.tabs button.on,.profileBtn.on{border-color:var(--orange);color:#ffd27a}
+.profile{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:11px;margin-bottom:10px}
+.profile h3{margin:0 0 8px;font-size:14px}.profileGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
+.profileBtn{text-align:left;padding:7px 8px}.profileMeta{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+.profile input,.profile select,.controls input,.controls select{min-width:0;width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px}
+.controls{display:grid;grid-template-columns:1fr 120px;gap:6px;margin-bottom:10px}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:12px;margin:8px 0;cursor:pointer}
+.card:hover{border-color:#56687b}.card.act{border-left:4px solid var(--green)}.card.ahead{border-left:4px solid var(--yellow)}.card.sub{border-left:4px solid var(--purple)}
+.card h3{margin:0 0 4px;font-size:15px}.meta{color:var(--muted);font-size:12px}
+.urgent{color:var(--green);font-weight:800;font-size:11px}.aheadtxt{color:var(--yellow);font-weight:800;font-size:11px}.subtxt{color:var(--purple);font-weight:800;font-size:11px}
 .chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.chip{background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:11px}.good{color:var(--green)}.mid{color:var(--yellow)}.bad{color:var(--red)}
-.detail{display:none;position:fixed;right:18px;top:92px;width:min(430px,calc(100vw - 36px));max-height:calc(100vh - 112px);overflow:auto;background:#111821;border:1px solid #3c4959;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 16px 42px #0009}.detail .x{float:right;background:transparent;color:white;border:1px solid var(--line);border-radius:7px;padding:5px 8px}.detail h2{font-size:19px;margin:4px 0}.detail a{color:#ffb84d}
-.callout{border-left:3px solid var(--orange);padding-left:10px}.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{background:#202a36;border-radius:6px;padding:4px 6px;font-size:11px}.source{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
-.notice{background:#171f28;border:1px solid #334050;border-radius:9px;padding:10px;font-size:12px;margin-bottom:10px}.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin:8px 0 12px}.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:4px}
+.matchExplain{margin-top:8px;font-size:12px;color:#d9e2ea}.matched{color:var(--green)}.missing{color:var(--muted)}
+.detail{display:none;position:fixed;right:18px;top:92px;width:min(450px,calc(100vw - 36px));max-height:calc(100vh - 112px);overflow:auto;background:#111821;border:1px solid #3c4959;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 16px 42px #0009}
+.detail .x{float:right;background:transparent;color:white;border:1px solid var(--line);border-radius:7px;padding:5px 8px}.detail h2{font-size:19px;margin:4px 0}.detail a{color:#ffb84d}
+.callout{border-left:3px solid var(--orange);padding-left:10px}.nextmove{background:#1d261f;border:1px solid #354b3d;border-radius:10px;padding:10px;margin:12px 0}.nextmove b{color:var(--green)}
+.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{background:#202a36;border-radius:6px;padding:4px 6px;font-size:11px}
+.source{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
 .foot{font-size:11px;color:var(--muted);margin-top:10px}
-@media(max-width:780px){.layout{grid-template-columns:1fr}aside{order:2;max-height:none;border-right:0}#map{order:1;min-height:52vh}.metrics{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){.layout{grid-template-columns:1fr}aside{order:2;max-height:none;border-right:0}#map{order:1;min-height:52vh}.metrics{grid-template-columns:repeat(2,1fr)}}
 </style></head>
-<body><header><div><h1>South Mississippi Project Radar</h1><p>Excavation & sitework intelligence · Columbia-centered test market</p></div><span class="beta">PRIVATE BETA · V0.3</span></header>
+<body>
+<header><div><h1>South Mississippi Project Radar</h1><p>Personalized excavation & sitework intelligence · Columbia-centered test market</p></div><span class="beta">PRIVATE BETA · V0.4</span></header>
 <div class="layout"><aside>
-<div class="notice"><b>V0.3 separates three ways to make money:</b> bid it now, get ahead before letting/award, or pursue subcontract/vendor work after the prime is known.</div>
-<div class="metrics"><div class="metric"><b id="actN">0</b><span>ACT NOW</span></div><div class="metric"><b id="aheadN">0</b><span>GET AHEAD</span></div><div class="metric"><b id="subN">0</b><span>SUBCONTRACT</span></div><div class="metric"><b id="freshN">0</b><span>VERIFIED TODAY</span></div></div>
+<div class="notice"><b>V0.4 adds the action layer.</b> Pick the capabilities your company actually performs. Match scores and explanations update instantly, and each project now includes a recommended next move.</div>
+
+<div class="profile">
+<h3>Your company profile</h3>
+<div class="profileGrid" id="caps"></div>
+<div class="profileMeta">
+<label><span class="meta">Preferred radius</span><select id="radius"><option value="40">40 mi</option><option value="60" selected>60 mi</option><option value="75">75 mi</option><option value="100">100 mi</option></select></label>
+<label><span class="meta">Work style</span><select id="workstyle"><option value="both">Prime + subcontract</option><option value="prime">Prime bids</option><option value="sub">Subcontract/vendor</option></select></label>
+</div>
+</div>
+
+<div class="metrics"><div class="metric"><b id="newN">0</b><span>NEW MATCHES</span></div><div class="metric"><b id="actN">0</b><span>ACT NOW</span></div><div class="metric"><b id="aheadN">0</b><span>GET AHEAD</span></div><div class="metric"><b id="subN">0</b><span>SUBCONTRACT</span></div></div>
+
 <div class="tabs"><button data-b="" class="on">ALL</button><button data-b="act">🔥 ACT NOW</button><button data-b="ahead">👀 GET AHEAD</button><button data-b="sub">🤝 SUBCONTRACT</button></div>
 <div class="controls"><input id="q" placeholder="Search scope, project, county…"><select id="county"><option value="">All counties</option></select></div>
-<div class="legend"><span><i class="dot" style="background:var(--green)"></i>Open bid</span><span><i class="dot" style="background:var(--yellow)"></i>Early signal</span><span><i class="dot" style="background:var(--purple)"></i>Prime known</span></div>
 <div id="list"></div>
-<div class="foot">Editorial screening only. Bid documents and official sources control. Distances and some map points are approximate. “Likely” scope is explicitly labeled and should be verified before outreach.</div>
+<div class="foot">Prototype personalization is computed in your browser and is not saved. Official bid documents control. “Likely” scope remains labeled as such and should be verified before outreach.</div>
 </aside><div id="map"></div></div>
+
 <div class="detail" id="detail"><button class="x" id="close">Close</button><div id="body"></div></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
-const TODAY=new Date('2026-08-13T18:00:00');let data=[],bucket='';
-const map=L.map('map').setView([31.45,-89.45],8);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);const layer=L.layerGroup().addTo(map);
-const C={act:'#49d59a',ahead:'#f2cb61',sub:'#c89cff'};const cls=n=>n>=85?'good':n>=55?'mid':'bad';
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TODAY=new Date('2026-08-13T18:00:00');
+let data=[],bucket='';
+const capabilityLabels={
+ excavation:'Excavation', grading:'Grading', drainage:'Drainage', utilities:'Water / sewer',
+ clearing:'Clearing & grubbing', erosion_control:'Erosion control', hauling:'Hauling',
+ paving_base:'Paving / base', environmental:'Environmental / remediation'
+};
+let profile=new Set(['excavation','grading','drainage','utilities','clearing','erosion_control']);
+const map=L.map('map').setView([31.45,-89.45],8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const layer=L.layerGroup().addTo(map);
+const C={act:'#49d59a',ahead:'#f2cb61',sub:'#c89cff'};
+const cls=n=>n>=85?'good':n>=55?'mid':'bad';
+
 function days(p){if(!p.deadline)return null;return Math.ceil((new Date(p.deadline)-TODAY)/86400000)}
 function countdown(p){let d=days(p);if(d===null)return 'No current bid deadline';if(d>=0)return `${d} day${d===1?'':'s'} remaining`;return `deadline passed ${Math.abs(d)} day${Math.abs(d)===1?'':'s'} ago`}
 function money(n){return n?('$'+(n>=1e6?(n/1e6).toFixed(1)+'M':Math.round(n/1000)+'K')):'—'}
 function label(p){if(p.bucket==='act')return `<div class="urgent">🔥 ACT NOW · ${countdown(p)}</div>`;if(p.bucket==='ahead')return `<div class="aheadtxt">👀 GET AHEAD · ${p.status}</div>`;return `<div class="subtxt">🤝 SUBCONTRACT / VENDOR</div>`}
-function show(p){document.getElementById('body').innerHTML=`<div class="meta">${p.county} County · ${p.city}</div><h2>${p.name}</h2>${label(p)}<div class="chips"><span class="chip ${cls(p.match)}">Match ${p.match}/100</span><span class="chip ${cls(p.timing)}">Timing ${p.timing}/100</span><span class="chip ${cls(p.confidence)}">Confidence ${p.confidence}/100</span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div><p><b>Status:</b> ${p.status}<br><b>Owner:</b> ${p.owner}<br><b>Deadline:</b> ${p.deadline?new Date(p.deadline).toLocaleString([], {dateStyle:'medium',timeStyle:'short'}):'—'}<br><b>Pre-bid:</b> ${p.prebid||'—'}<br><b>Contact:</b> ${p.contact}</p><div class="tags">${p.scope.map(s=>`<span class="tag">${s}</span>`).join('')}</div><p class="callout">${p.why}</p><p><a href="${p.source}" target="_blank" rel="noopener">Open source / bid record ↗</a></p><div class="source">Last verified: ${p.verified} · ${p.sourceType}</div>`;document.getElementById('detail').style.display='block';map.setView([p.lat,p.lon],Math.max(9,map.getZoom()))}
-function render(){let q=document.getElementById('q').value.toLowerCase(),county=document.getElementById('county').value;let order={act:0,ahead:1,sub:2};let rows=data.filter(p=>(!bucket||p.bucket===bucket)&&(!county||p.county===county)&&(!q||JSON.stringify(p).toLowerCase().includes(q))).sort((a,b)=>(order[a.bucket]-order[b.bucket])||b.timing-a.timing);layer.clearLayers();let list=document.getElementById('list');list.innerHTML='';rows.forEach(p=>{let m=L.circleMarker([p.lat,p.lon],{radius:p.bucket==='act'?9:7,color:C[p.bucket],fillColor:C[p.bucket],fillOpacity:.84}).addTo(layer).bindTooltip(p.name);m.on('click',()=>show(p));let e=document.createElement('div');e.className=`card ${p.bucket}`;e.innerHTML=`${label(p)}<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status}</div><div class="chips"><span class="chip ${cls(p.match)}">Match ${p.match}</span><span class="chip ${cls(p.timing)}">Timing ${p.timing}</span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div>`;e.addEventListener('click',()=>show(p));list.appendChild(e)});
-document.getElementById('actN').textContent=data.filter(x=>x.bucket==='act').length;document.getElementById('aheadN').textContent=data.filter(x=>x.bucket==='ahead').length;document.getElementById('subN').textContent=data.filter(x=>x.bucket==='sub').length;document.getElementById('freshN').textContent=data.filter(x=>x.verified==='2026-08-13').length}
-fetch('projects.json').then(r=>r.json()).then(d=>{data=d;[...new Set(d.map(x=>x.county))].sort().forEach(c=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${c}</option>`));render()});
-document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');bucket=b.dataset.b;render()}));document.getElementById('q').addEventListener('input',render);document.getElementById('county').addEventListener('change',render);document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
+function personal(p){
+ const caps=p.capabilityTags||[];
+ const hits=caps.filter(x=>profile.has(x));
+ const misses=caps.filter(x=>!profile.has(x));
+ const radius=+document.getElementById('radius').value;
+ const style=document.getElementById('workstyle').value;
+ let capScore=caps.length?Math.round((hits.length/caps.length)*100):50;
+ let distancePenalty=p.distance>radius?Math.min(40,(p.distance-radius)):0;
+ let styleBonus=(style==='both'||(style==='prime'&&p.bucket==='act')||(style==='sub'&&p.bucket==='sub'))?8:0;
+ let score=Math.max(0,Math.min(100,Math.round(capScore*.62+p.timing*.23+p.confidence*.15+styleBonus-distancePenalty)));
+ return {score,hits,misses};
+}
+function show(p){
+ const pm=personal(p);
+ document.getElementById('body').innerHTML=`<div class="meta">${p.county} County · ${p.city}</div><h2>${p.name}</h2>${label(p)}
+ <div class="chips"><span class="chip ${cls(pm.score)}">YOUR MATCH ${pm.score}/100</span><span class="chip">Timing ${p.timing}</span><span class="chip">Confidence ${p.confidence}</span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div>
+ <p class="matchExplain"><span class="matched"><b>Matches:</b> ${pm.hits.length?pm.hits.map(x=>capabilityLabels[x]).join(', '):'none selected'}</span>${pm.misses.length?`<br><span class="missing"><b>Other scope:</b> ${pm.misses.map(x=>capabilityLabels[x]).join(', ')}</span>`:''}</p>
+ <p><b>Status:</b> ${p.status}<br><b>Owner:</b> ${p.owner}<br><b>Deadline:</b> ${p.deadline?new Date(p.deadline).toLocaleString([], {dateStyle:'medium',timeStyle:'short'}):'—'}<br><b>Pre-bid:</b> ${p.prebid||'—'}<br><b>Contact:</b> ${p.contact}</p>
+ <div class="tags">${p.scope.map(s=>`<span class="tag">${s}</span>`).join('')}</div>
+ <p class="callout">${p.why}</p>
+ <div class="nextmove"><b>Recommended next move</b><br>${p.nextMove}</div>
+ <p><a href="${p.source}" target="_blank" rel="noopener">Open source / bid record ↗</a></p>
+ <div class="source">Last verified: ${p.verified} · ${p.sourceType}<br>Pipeline flag: ${p.automation.needsHumanReview?'Human review recommended':'Structured source confidence high'}</div>`;
+ document.getElementById('detail').style.display='block';map.setView([p.lat,p.lon],Math.max(9,map.getZoom()))
+}
+function render(){
+ let q=document.getElementById('q').value.toLowerCase(),county=document.getElementById('county').value;
+ let radius=+document.getElementById('radius').value, style=document.getElementById('workstyle').value;
+ let order={act:0,ahead:1,sub:2};
+ let rows=data.filter(p=>(!bucket||p.bucket===bucket)&&(!county||p.county===county)&&(!q||JSON.stringify(p).toLowerCase().includes(q))&&p.distance<=radius&&(style==='both'||(style==='prime'&&p.bucket!=='sub')||(style==='sub'&&p.bucket!=='act')))
+ .map(p=>({...p,_p:personal(p)})).sort((a,b)=>b._p.score-a._p.score||(order[a.bucket]-order[b.bucket]));
+ layer.clearLayers();let list=document.getElementById('list');list.innerHTML='';
+ rows.forEach(p=>{
+   let m=L.circleMarker([p.lat,p.lon],{radius:p.bucket==='act'?9:7,color:C[p.bucket],fillColor:C[p.bucket],fillOpacity:.84}).addTo(layer).bindTooltip(`${p.name} — ${p._p.score}% match`);m.on('click',()=>show(p));
+   let e=document.createElement('div');e.className=`card ${p.bucket}`;
+   e.innerHTML=`${label(p)}<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status}</div><div class="chips"><span class="chip ${cls(p._p.score)}">YOUR MATCH ${p._p.score}</span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div><div class="matchExplain">${p._p.hits.length?`Matches: ${p._p.hits.slice(0,4).map(x=>capabilityLabels[x]).join(', ')}`:'Low capability overlap'}</div>`;
+   e.addEventListener('click',()=>show(p));list.appendChild(e)
+ });
+ document.getElementById('newN').textContent=rows.filter(x=>x.changeStatus==='new'&&x._p.score>=70).length;
+ document.getElementById('actN').textContent=rows.filter(x=>x.bucket==='act').length;
+ document.getElementById('aheadN').textContent=rows.filter(x=>x.bucket==='ahead').length;
+ document.getElementById('subN').textContent=rows.filter(x=>x.bucket==='sub').length;
+}
+function buildCaps(){
+ const box=document.getElementById('caps');box.innerHTML='';
+ Object.entries(capabilityLabels).forEach(([k,v])=>{let b=document.createElement('button');b.type='button';b.className='profileBtn'+(profile.has(k)?' on':'');b.textContent=(profile.has(k)?'✓ ':'')+v;b.addEventListener('click',()=>{profile.has(k)?profile.delete(k):profile.add(k);buildCaps();render()});box.appendChild(b)})
+}
+fetch('projects.json').then(r=>r.json()).then(d=>{data=d;[...new Set(d.map(x=>x.county))].sort().forEach(c=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${c}</option>`));buildCaps();render()});
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');bucket=b.dataset.b;render()}));
+['q','county','radius','workstyle'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));
+document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
 </script></body></html>
