@@ -1,0 +1,33 @@
+name: Refresh MDOT Project Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 11 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run live MDOT pipeline
+        run: |
+          chmod +x run_mdot_pipeline.sh
+          ./run_mdot_pipeline.sh
+      - name: Commit meaningful changes
+        run: |
+          git config user.name "project-radar-bot"
+          git config user.email "project-radar-bot@users.noreply.github.com"
+          git add projects.json changes.json data/snapshots/mdot_proposed.json data/raw/mdot_proposed_candidates.json state/previous_projects.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-refresh MDOT project signals"
+            git push
+          fi
