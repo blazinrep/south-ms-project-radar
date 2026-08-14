@@ -1,14 +1,24 @@
-# South Mississippi Project Radar — V0.2
+# South Mississippi Project Radar — V0.3
 
-Private beta for excavation/sitework opportunity intelligence.
+Private beta focused on excavation/sitework contractors.
 
-## V0.2 changes
-- Dashboard now leads with Act Now / Watch / Active instead of total historical project value.
-- Closed work is retained only as validation/history.
-- Added future-deadline leads verified on August 13, 2026.
-- Added deadline countdowns, distance, pre-bid information, contact fields, source type, and last-verified date.
-- Updated Ebenezer Church Road with local field observation: no visible construction activity on Aug. 13; bridge-out/road-closed signage remains.
-- Removed the fake-functional email signup from V0.1. We will connect a real capture endpoint only when ready.
+## What changed
+- Reframed opportunity stages into:
+  - ACT NOW — open, actionable bids.
+  - GET AHEAD — future lettings / pre-construction / unresolved award status.
+  - SUBCONTRACT — active or awarded work where the prime is known.
+- Added Pine Belt Landfill Cell 7, Laurel Citywide Paving, JCJC Walking Plaza, Pineview Parking Lot, Greene County road maintenance, Clarkco Trail, and MDOT future letting signals.
+- Kept claims conservative: scopes described as “likely” are not treated as confirmed.
+- Dashboard no longer rewards stale closed jobs.
 
 ## Deploy
-Replace `index.html` and `projects.json` in the existing GitHub Pages repository with the V0.2 versions. README and research notes can also be replaced.
+Replace the existing repo's:
+- index.html
+- projects.json
+- README.md
+- research-notes.md
+
+Then:
+git add .
+git commit -m "Update Project Radar to V0.3"
+git push origin main

@@ -1,25 +1,44 @@
-# V0.2 research notes — August 13, 2026
+# V0.3 research notes — Aug. 13, 2026
 
-## Live / actionable
-### AAA Ambulance Service Resource Center — Hattiesburg
-- Accepting bids.
-- Voluntary pre-bid: Aug. 20, 2026 at 10:00 AM.
-- Bid deadline: Sept. 3, 2026 at 2:00 PM.
-- New single-story resource center; single lump-sum prime contract.
-- Sitework scope is NOT asserted as confirmed until drawings/specs are reviewed.
-- Contact: Kevin Kitchens, Landry Kitchens Germany Architects.
+## Strongest current leads
+1. Pine Belt Landfill Cell No. 7 — Perry County
+   - Bid: Aug. 18, 2026, 10:00 AM
+   - Explicit scope: ~12-acre landfill cell; excavation, clay liner, FML liner, leachate collection.
+   - This is the strongest pure sitework lead found in the current pass.
 
-### MS Oil & Gas Board orphaned wells — Adams & Walthall Counties
-- Official IFB RFx 3160008150.
-- Deadline: Aug. 24, 2026 at 4:00 PM.
-- Walthall County is inside the test market.
-- Mandatory site inspection was July 30–31; published notice says alternate dates may be requested.
-- Specialized oilfield/remediation qualifications mean this is a conditional match, not a generic excavation lead.
+2. Laurel 2026 Citywide Paving
+   - Bid: Aug. 25, 2026, 9:00 AM
+   - Estimate: $3.5M
+   - Explicit scope: water services, sewer services, milling and overlay.
 
-## Key product lesson
-A broad web search produces many stale, closed, irrelevant, or mislabeled records. V0.2 intentionally shows fewer “Act Now” records rather than pretending historical projects are current opportunities. Freshness reconciliation is part of the product.
+3. JCJC Central Avenue Walking Plaza Re-Bid
+   - Bid: Aug. 18, 2026, 10:00 AM
+   - Estimate: $700K-$725K + $100K-$125K add option.
+   - Published summary says pedestrian plaza and lighting; verify plans for exact earthwork package.
 
-## Ebenezer Church Road
-Official procurement deadline: May 20, 2026.
-Local field observation supplied Aug. 13, 2026: no visible construction activity; bridge-out and road-closed signage still present.
-Current classification: Watch / pre-construction / award unknown.
+4. Pineview/Cotton Corner Parking Lot — Ellisville State School
+   - Bid: Sep. 3, 2026, 2:00 PM
+   - Estimate: $160K-$185K.
+   - Exact grading/drainage/base quantities require plan review.
+
+5. Greene County SAP-21(15)M
+   - Bid: Sep. 9, 2026, 10:00 AM
+   - 59.933 miles of maintenance on county roads.
+
+6. Clarkco State Park Recreational Trail
+   - Bid: Sep. 1, 2026, 2:00 PM
+   - Pre-bid: Aug. 20.
+   - Exact earthwork scope requires plan review.
+
+## Future/early signals
+MDOT's official proposed letting schedule was updated Aug. 13, 2026 and lists:
+- October 2026: Forrest County I-59 OGFC lift / fog seal.
+- October 2026: Lamar County I-59 fog seal.
+- November 2026: Forrest County US 11 overlay from the Leaf River Bridge north abutment to Jones County line.
+These are not open bids yet and are deliberately classified GET AHEAD.
+
+## Product finding
+V0.3's strongest value is not map density. It is classification of where the contractor can still act:
+- bid now,
+- prepare before letting,
+- or contact the known prime.
