@@ -1,24 +1,12 @@
-# South Mississippi Project Radar — V0.4
+# South Mississippi Project Radar — V0.4.1 Contractor Demo
 
-Private beta focused on excavation/sitework contractors.
+This is a field-test refinement of V0.4, not a new feature release.
 
-## V0.4 adds the action/intelligence layer
-- Contractor capability profile in the browser.
-- Personalized project score: `YOUR MATCH`, recalculated from the selected capabilities, timing, confidence, radius, and work style.
-- Preferred working radius filter.
-- Prime vs subcontract preference.
-- Human-readable match explanation on every card.
-- Recommended Next Move inside each project.
-- Change/freshness fields and automation metadata in `projects.json`.
-- Human-review flag for ambiguous or inferred scope.
+Changes:
+- Ranked opportunity list is visually dominant.
+- Every card surfaces personalized match %, matching capabilities, distance/value, deadline classification, and Recommended Next Move without requiring a click.
+- Honest low-density messaging explains that results are filtered rather than padded.
+- Map remains available as geographic context.
+- No backend, auth, payments, collectors, or new verticals were added.
 
-## Important architecture decision
-The project record remains neutral. Customer-specific opportunity interpretation happens in the matching layer.
-That preserves the ability to support other customer types later without rewriting the project database.
-
-## Deploy
-Replace the existing repo files with these V0.4 versions, then:
-
-git add .
-git commit -m "Update Project Radar to V0.4"
-git push origin main
+Goal: put this exact version in front of real excavation/sitework contractors and observe whether the opportunities create action.

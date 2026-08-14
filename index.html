@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive"><title>South Mississippi Project Radar — V0.4</title>
+<meta name="robots" content="noindex,nofollow,noarchive"><title>South Mississippi Project Radar — V0.4.1</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
 :root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2c3745;--text:#f4f6f8;--muted:#9da9b5;--orange:#f4a62a;--green:#49d59a;--yellow:#f2cb61;--purple:#c89cff;--red:#ff7676;--blue:#7fb4ff}
@@ -10,7 +10,7 @@ button,input,select{font:inherit}
 header{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
 h1{font-size:20px;margin:0}header p{margin:3px 0 0;color:var(--muted)}
 .beta{border:1px solid #72511a;background:#2b2314;color:#ffd27a;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}
-.layout{display:grid;grid-template-columns:450px 1fr;min-height:calc(100vh - 76px)}
+.layout{display:grid;grid-template-columns:minmax(520px,46vw) 1fr;min-height:calc(100vh - 76px)}
 aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 76px)}
 #map{min-height:calc(100vh - 76px)}
 .notice{background:#171f28;border:1px solid #334050;border-radius:9px;padding:10px;font-size:12px;margin-bottom:10px}
@@ -39,9 +39,9 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
 @media(max-width:800px){.layout{grid-template-columns:1fr}aside{order:2;max-height:none;border-right:0}#map{order:1;min-height:52vh}.metrics{grid-template-columns:repeat(2,1fr)}}
 </style></head>
 <body>
-<header><div><h1>South Mississippi Project Radar</h1><p>Personalized excavation & sitework intelligence · Columbia-centered test market</p></div><span class="beta">PRIVATE BETA · V0.4</span></header>
+<header><div><h1>South Mississippi Project Radar</h1><p>Personalized excavation & sitework intelligence · Columbia-centered test market</p></div><span class="beta">CONTRACTOR DEMO · V0.4.1</span></header>
 <div class="layout"><aside>
-<div class="notice"><b>V0.4 adds the action layer.</b> Pick the capabilities your company actually performs. Match scores and explanations update instantly, and each project now includes a recommended next move.</div>
+<div class="notice"><b>Only the opportunities that fit your company.</b> Set your capabilities and radius. Project Radar ranks the work you can still act on — without padding the list with irrelevant projects.</div>
 
 <div class="profile">
 <h3>Your company profile</h3>
@@ -56,7 +56,7 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
 
 <div class="tabs"><button data-b="" class="on">ALL</button><button data-b="act">🔥 ACT NOW</button><button data-b="ahead">👀 GET AHEAD</button><button data-b="sub">🤝 SUBCONTRACT</button></div>
 <div class="controls"><input id="q" placeholder="Search scope, project, county…"><select id="county"><option value="">All counties</option></select></div>
-<div id="list"></div>
+<div id="honesty" class="notice"></div><div id="list"></div>
 <div class="foot">Prototype personalization is computed in your browser and is not saved. Official bid documents control. “Likely” scope remains labeled as such and should be verified before outreach.</div>
 </aside><div id="map"></div></div>
 
@@ -117,13 +117,17 @@ function render(){
  rows.forEach(p=>{
    let m=L.circleMarker([p.lat,p.lon],{radius:p.bucket==='act'?9:7,color:C[p.bucket],fillColor:C[p.bucket],fillOpacity:.84}).addTo(layer).bindTooltip(`${p.name} — ${p._p.score}% match`);m.on('click',()=>show(p));
    let e=document.createElement('div');e.className=`card ${p.bucket}`;
-   e.innerHTML=`${label(p)}<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status}</div><div class="chips"><span class="chip ${cls(p._p.score)}">YOUR MATCH ${p._p.score}</span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div><div class="matchExplain">${p._p.hits.length?`Matches: ${p._p.hits.slice(0,4).map(x=>capabilityLabels[x]).join(', ')}`:'Low capability overlap'}</div>`;
+   e.innerHTML=`${label(p)}<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status}</div>
+   <div class="chips"><span class="chip ${cls(p._p.score)}"><b>${p._p.score}% YOUR MATCH</b></span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div>
+   <div class="matchExplain"><b>Matches:</b> ${p._p.hits.length?p._p.hits.slice(0,5).map(x=>capabilityLabels[x]).join(', '):'Low capability overlap'}</div>
+   <div class="nextmove"><b>NEXT MOVE →</b> ${p.nextMove}</div>`;
    e.addEventListener('click',()=>show(p));list.appendChild(e)
  });
  document.getElementById('newN').textContent=rows.filter(x=>x.changeStatus==='new'&&x._p.score>=70).length;
  document.getElementById('actN').textContent=rows.filter(x=>x.bucket==='act').length;
  document.getElementById('aheadN').textContent=rows.filter(x=>x.bucket==='ahead').length;
  document.getElementById('subN').textContent=rows.filter(x=>x.bucket==='sub').length;
+ document.getElementById('honesty').innerHTML=`<b>${rows.length} relevant project${rows.length===1?'':'s'} in this view.</b> Project Radar does not pad results with unrelated work. Change your capabilities or radius to widen or narrow the list.`;
 }
 function buildCaps(){
  const box=document.getElementById('caps');box.innerHTML='';

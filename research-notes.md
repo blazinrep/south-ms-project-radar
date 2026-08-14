@@ -1,28 +1,20 @@
-# V0.4 build notes
+# V0.4.1 field-test notes
 
-V0.4 intentionally does not add more projects. It upgrades what the product does with the project data.
+Primary validation questions:
+1. Which projects did the contractor already know about?
+2. How did they hear about them?
+3. Which project(s) are new to them?
+4. Would they pursue any?
+5. What work is missing?
+6. Where do they currently look?
+7. What would they need before making a call?
+8. Would filtered monitoring save meaningful time?
+9. What would have to happen for this to be worth paying for?
 
-## Prototype matching model
-Each project now contains neutral `capabilityTags`.
-The browser compares those tags with the contractor's selected capabilities and calculates a personalized match score using:
-- capability overlap,
-- timing,
-- source confidence,
-- preferred working radius,
-- prime/subcontract work preference.
-
-This is still a validation heuristic, not a production scoring model.
-
-## Production pipeline target
-source collectors
-→ raw document/page capture
-→ structured extraction
-→ deduplication
-→ status reconciliation
-→ neutral project record
-→ AI/human review when ambiguous
-→ customer-specific matching
-→ alerts / map / digest
-
-## Human review
-Projects containing inferred language such as “likely” and projects with unresolved award/status questions are explicitly flagged for review.
+Behavioral signals to watch:
+- opens source documents
+- asks who the engineer/prime is
+- takes notes or makes a call
+- asks how often it updates
+- asks whether another county/trade can be covered
+- asks price without being prompted
