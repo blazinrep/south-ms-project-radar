@@ -1,140 +1,307 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive"><title>South Mississippi Project Radar — V0.4.1</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Project Radar — Contractor Command Center</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-:root{--bg:#0d1117;--panel:#151b23;--panel2:#1b2430;--line:#2c3745;--text:#f4f6f8;--muted:#9da9b5;--orange:#f4a62a;--green:#49d59a;--yellow:#f2cb61;--purple:#c89cff;--red:#ff7676;--blue:#7fb4ff}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+:root{
+  --bg:#0b1016;--panel:#121922;--panel2:#18222e;--panel3:#202c39;--line:#2b3948;
+  --text:#f4f7fa;--muted:#9ba9b7;--orange:#f2a53a;--green:#52d59a;--yellow:#f1cc67;
+  --red:#ff7b76;--blue:#7fb5ff;--purple:#c59cff;--slate:#74869a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
 button,input,select{font:inherit}
-header{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+header{padding:15px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
 h1{font-size:20px;margin:0}header p{margin:3px 0 0;color:var(--muted)}
-.beta{border:1px solid #72511a;background:#2b2314;color:#ffd27a;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}
-.layout{display:grid;grid-template-columns:minmax(520px,46vw) 1fr;min-height:calc(100vh - 76px)}
-aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 76px)}
-#map{min-height:calc(100vh - 76px)}
-.notice{background:#171f28;border:1px solid #334050;border-radius:9px;padding:10px;font-size:12px;margin-bottom:10px}
-.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:12px}
-.metric{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:9px}.metric b{display:block;font-size:19px}.metric span{font-size:10px;color:var(--muted)}
-.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:10px}
-.tabs button,.profileBtn{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 4px;font-size:11px;cursor:pointer}
-.tabs button.on,.profileBtn.on{border-color:var(--orange);color:#ffd27a}
-.profile{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:11px;margin-bottom:10px}
-.profile h3{margin:0 0 8px;font-size:14px}.profileGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
-.profileBtn{text-align:left;padding:7px 8px}.profileMeta{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
-.profile input,.profile select,.controls input,.controls select{min-width:0;width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px}
-.controls{display:grid;grid-template-columns:1fr 120px;gap:6px;margin-bottom:10px}
-.card{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:12px;margin:8px 0;cursor:pointer}
-.card:hover{border-color:#56687b}.card.act{border-left:4px solid var(--green)}.card.ahead{border-left:4px solid var(--yellow)}.card.sub{border-left:4px solid var(--purple)}
-.card h3{margin:0 0 4px;font-size:15px}.meta{color:var(--muted);font-size:12px}
-.urgent{color:var(--green);font-weight:800;font-size:11px}.aheadtxt{color:var(--yellow);font-weight:800;font-size:11px}.subtxt{color:var(--purple);font-weight:800;font-size:11px}
-.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.chip{background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:11px}.good{color:var(--green)}.mid{color:var(--yellow)}.bad{color:var(--red)}
-.matchExplain{margin-top:8px;font-size:12px;color:#d9e2ea}.matched{color:var(--green)}.missing{color:var(--muted)}
-.detail{display:none;position:fixed;right:18px;top:92px;width:min(450px,calc(100vw - 36px));max-height:calc(100vh - 112px);overflow:auto;background:#111821;border:1px solid #3c4959;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 16px 42px #0009}
-.detail .x{float:right;background:transparent;color:white;border:1px solid var(--line);border-radius:7px;padding:5px 8px}.detail h2{font-size:19px;margin:4px 0}.detail a{color:#ffb84d}
-.callout{border-left:3px solid var(--orange);padding-left:10px}.nextmove{background:#1d261f;border:1px solid #354b3d;border-radius:10px;padding:10px;margin:12px 0}.nextmove b{color:var(--green)}
-.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{background:#202a36;border-radius:6px;padding:4px 6px;font-size:11px}
-.source{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
-.foot{font-size:11px;color:var(--muted);margin-top:10px}
-@media(max-width:800px){.layout{grid-template-columns:1fr}aside{order:2;max-height:none;border-right:0}#map{order:1;min-height:52vh}.metrics{grid-template-columns:repeat(2,1fr)}}
-</style></head>
+.badge{display:inline-flex;align-items:center;border:1px solid #72511a;background:#2a2215;color:#ffd484;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800}
+.layout{display:grid;grid-template-columns:minmax(640px,56vw) 1fr;min-height:calc(100vh - 75px)}
+aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 75px)}
+#map{min-height:calc(100vh - 75px)}
+.profile{border:1px solid var(--line);background:linear-gradient(135deg,#131c26,#111820);border-radius:12px;padding:11px 12px;margin-bottom:10px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.profile b{font-size:13px}.profile small{color:var(--muted);display:block;margin-top:3px}
+.readiness{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+.pill{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:10px;white-space:nowrap}
+.unknown{color:var(--yellow)}.ready{color:var(--green)}.notready{color:var(--red)}
+.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-bottom:10px}
+.metric{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:8px;min-width:0}
+.metric b{display:block;font-size:18px}.metric span{display:block;font-size:9px;color:var(--muted);line-height:1.2}
+.queueIntro{border:1px solid #37485a;background:#141d27;border-radius:11px;padding:10px 11px;margin-bottom:9px;color:#dce5ed}
+.queueIntro strong{color:#fff}
+.controls{display:grid;grid-template-columns:1fr 145px;gap:6px;margin-bottom:8px}
+.controls input,.controls select{width:100%;min-width:0;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px}
+.tabs{display:flex;gap:5px;overflow:auto;padding-bottom:3px;margin-bottom:8px}
+.tabs button{white-space:nowrap;background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:7px 9px;cursor:pointer;font-size:11px}
+.tabs button.on{color:#ffd488;border-color:#86622c;background:#211b12}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:12px;margin:8px 0;cursor:pointer;position:relative}
+.card:hover{border-color:#53677b}
+.card.act_today{border-left:4px solid var(--red)}
+.card.pursue_now{border-left:4px solid var(--green)}
+.card.verify_then_pursue,.card.verify_scope{border-left:4px solid var(--yellow)}
+.card.optional_outside_radius{border-left:4px solid var(--blue)}
+.card.watch{border-left:4px solid var(--purple)}
+.card.low_priority,.card.specialist_only{border-left:4px solid var(--slate)}
+.topline{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.card h3{font-size:15px;margin:2px 0 3px;line-height:1.25}
+.rank{font-size:10px;color:var(--muted);font-weight:800}
+.lane{display:inline-flex;margin-top:5px;border:1px solid var(--line);background:#0f1720;border-radius:999px;padding:4px 7px;font-size:9px;font-weight:900;letter-spacing:.25px;color:#d9e5ef}
+.sourceBtn{display:inline-flex;margin-top:8px;border:1px solid #42566a;background:#141e29;color:#dfeaf4;border-radius:7px;padding:5px 8px;font-size:10px;text-decoration:none}
+.markerRank{width:25px;height:25px;border:2px solid white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:11px;color:#081018;box-shadow:0 2px 7px #0008}
+.homeMarker{width:24px;height:24px;border-radius:6px;background:#111923;border:2px solid #f2a53a;color:#ffd486;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;box-shadow:0 2px 7px #0008}
+.mapLegend{position:absolute;right:10px;bottom:22px;z-index:500;background:#111923e8;border:1px solid #39495a;border-radius:9px;padding:7px 8px;color:#dce7ef;font-size:10px;line-height:1.7}
+.legendDot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.decision{font-size:10px;font-weight:900;letter-spacing:.35px}
+.act_today .decision{color:var(--red)}.pursue_now .decision{color:var(--green)}
+.verify_then_pursue .decision,.verify_scope .decision{color:var(--yellow)}
+.optional_outside_radius .decision{color:var(--blue)}
+.watch .decision{color:var(--purple)}
+.low_priority .decision,.specialist_only .decision{color:var(--muted)}
+.meta{color:var(--muted);font-size:11px}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}
+.chip{background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:10px}
+.action{background:#17251f;border:1px solid #2d493b;border-radius:9px;padding:9px;margin-top:9px;font-size:12px}
+.action b{color:var(--green)}
+.stop{font-size:11px;color:#e5b3ae;margin-top:7px}
+.hiddenNote{font-size:11px;color:var(--muted);padding:10px 3px}
+.detail{display:none;position:fixed;right:18px;top:90px;width:min(500px,calc(100vw - 36px));max-height:calc(100vh - 110px);overflow:auto;background:#101720;border:1px solid #3a4a5b;border-radius:14px;padding:16px;z-index:1000;box-shadow:0 18px 50px #000a}
+.detail .x{float:right;background:transparent;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 8px;cursor:pointer}
+.detail h2{font-size:19px;line-height:1.2;margin:6px 0}
+.detail h4{font-size:12px;margin:14px 0 5px;color:#dfe8ef}
+.detail a{color:#ffbd62}
+.section{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}
+.bigaction{background:#17251f;border:1px solid #345241;border-radius:10px;padding:11px;margin:12px 0}
+.bigaction b{display:block;color:var(--green);margin-bottom:3px}
+.warn{background:#2a2115;border:1px solid #564322;border-radius:9px;padding:9px;margin-top:8px}
+.contact{background:#151f2a;border-radius:9px;padding:9px;margin-top:8px}
+.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{background:var(--panel2);border-radius:6px;padding:4px 6px;font-size:10px}
+.gate{border-left:2px solid var(--yellow);padding-left:8px;margin:6px 0;font-size:11px}
+.foot{font-size:10px;color:var(--muted);margin:10px 2px}
+.error{border:1px solid #663a3a;background:#291818;color:#ffd0d0;border-radius:10px;padding:12px}
+@media(max-width:900px){
+ .layout{grid-template-columns:1fr}.layout aside{order:2;max-height:none;border-right:0}.layout #map{order:1;min-height:42vh}
+ .metrics{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:520px){.metrics{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr}.profile{display:block}.readiness{justify-content:flex-start;margin-top:8px}}
+</style>
+</head>
 <body>
-<header><div><h1>South Mississippi Project Radar</h1><p>Personalized excavation & sitework intelligence · Columbia-centered test market</p></div><span class="beta">CONTRACTOR DEMO · V0.4.1</span></header>
-<div class="layout"><aside>
-<div class="notice"><b>Only the opportunities that fit your company.</b> Set your capabilities and radius. Project Radar ranks the work you can still act on — without padding the list with irrelevant projects.</div>
+<header>
+  <div><h1>Project Radar</h1><p>Opportunity intelligence for excavation & sitework contractors</p></div>
+  <span class="badge">LIVE OPPORTUNITY INTELLIGENCE</span>
+</header>
+<div class="layout">
+<aside>
+  <div class="profile">
+    <div><b>Your Company Profile · Excavation / Sitework</b><small>Columbia, MS · preferred radius 75 mi · subcontract + qualified prime opportunities</small></div>
+    <div class="readiness" id="readiness"></div>
+  </div>
 
-<div class="profile">
-<h3>Your company profile</h3>
-<div class="profileGrid" id="caps"></div>
-<div class="profileMeta">
-<label><span class="meta">Preferred radius</span><select id="radius"><option value="40">40 mi</option><option value="60" selected>60 mi</option><option value="75">75 mi</option><option value="100">100 mi</option></select></label>
-<label><span class="meta">Work style</span><select id="workstyle"><option value="both">Prime + subcontract</option><option value="prime">Prime bids</option><option value="sub">Subcontract/vendor</option></select></label>
+  <div class="metrics">
+    <div class="metric"><b id="todayN">0</b><span>ACT TODAY</span></div>
+    <div class="metric"><b id="pursueN">0</b><span>PURSUE NOW</span></div>
+    <div class="metric"><b id="verifyN">0</b><span>VERIFY FIRST</span></div>
+    <div class="metric"><b id="optionalN">0</b><span>OPTIONAL</span></div>
+    <div class="metric"><b id="hiddenN">0</b><span>FILTERED OUT</span></div>
+  </div>
+
+  <div class="queueIntro"><strong>What should I do first?</strong> <span id="attentionText"></span><br><small>Ranked by action priority, company fit, evidence quality, deadline and territory. Qualification gates override the score.</small></div>
+
+  <div class="tabs">
+    <button class="on" data-filter="priority">Priority queue</button>
+    <button data-filter="act_today">Act today</button>
+    <button data-filter="pursue_now">Pursue now</button>
+    <button data-filter="verify">Verify first</button>
+    <button data-filter="optional">Optional</button>
+    <button data-filter="all">All vetted</button>
+  </div>
+
+  <div class="controls">
+    <input id="q" placeholder="Search project, county, scope, owner…">
+    <select id="county"><option value="">All counties</option></select>
+  </div>
+
+  <div id="list"></div>
+  <div class="foot">Decision support only. Official solicitation documents, addenda, licensing rules, bonding requirements and owner/GC instructions control. “Unknown” company readiness is intentionally not treated as qualified.</div>
+</aside>
+<div id="map" style="position:relative">
+      <div class="mapLegend">
+        <div><span class="legendDot" style="background:#ff7b76"></span>Act today</div>
+        <div><span class="legendDot" style="background:#52d59a"></span>Pursue now</div>
+        <div><span class="legendDot" style="background:#f1cc67"></span>Verify first</div>
+        <div><span class="legendDot" style="background:#7fb5ff"></span>Optional</div>
+      </div>
+    </div>
 </div>
-</div>
 
-<div class="metrics"><div class="metric"><b id="newN">0</b><span>NEW MATCHES</span></div><div class="metric"><b id="actN">0</b><span>ACT NOW</span></div><div class="metric"><b id="aheadN">0</b><span>GET AHEAD</span></div><div class="metric"><b id="subN">0</b><span>SUBCONTRACT</span></div></div>
-
-<div class="tabs"><button data-b="" class="on">ALL</button><button data-b="act">🔥 ACT NOW</button><button data-b="ahead">👀 GET AHEAD</button><button data-b="sub">🤝 SUBCONTRACT</button></div>
-<div class="controls"><input id="q" placeholder="Search scope, project, county…"><select id="county"><option value="">All counties</option></select></div>
-<div id="honesty" class="notice"></div><div id="list"></div>
-<div class="foot">Prototype personalization is computed in your browser and is not saved. Official bid documents control. “Likely” scope remains labeled as such and should be verified before outreach.</div>
-</aside><div id="map"></div></div>
-
-<div class="detail" id="detail"><button class="x" id="close">Close</button><div id="body"></div></div>
+<div class="detail" id="detail"><button class="x" id="close">Close</button><div id="detailBody"></div></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const TODAY=new Date('2026-08-13T18:00:00');
-let data=[],bucket='';
-const capabilityLabels={
- excavation:'Excavation', grading:'Grading', drainage:'Drainage', utilities:'Water / sewer',
- clearing:'Clearing & grubbing', erosion_control:'Erosion control', hauling:'Hauling',
- paving_base:'Paving / base', environmental:'Environmental / remediation'
-};
-let profile=new Set(['excavation','grading','drainage','utilities','clearing','erosion_control']);
-const map=L.map('map').setView([31.45,-89.45],8);
+let payload=null,cards=[],filter='priority';
+const map=L.map('map').setView([31.2518,-89.8354],8);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
 const layer=L.layerGroup().addTo(map);
-const C={act:'#49d59a',ahead:'#f2cb61',sub:'#c89cff'};
-const cls=n=>n>=85?'good':n>=55?'mid':'bad';
+const contractorBase=[31.2518,-89.8354];
+L.circle(contractorBase,{radius:75*1609.344,color:'#f2a53a',weight:1.5,dashArray:'6 7',fillColor:'#f2a53a',fillOpacity:.035,interactive:false}).addTo(map);
+L.marker(contractorBase,{icon:L.divIcon({className:'',html:'<div class="homeMarker">HQ</div>',iconSize:[24,24],iconAnchor:[12,12]})})
+ .addTo(map).bindTooltip('Company base · Columbia, MS · 75-mile preferred radius');
 
-function days(p){if(!p.deadline)return null;return Math.ceil((new Date(p.deadline)-TODAY)/86400000)}
-function countdown(p){let d=days(p);if(d===null)return 'No current bid deadline';if(d>=0)return `${d} day${d===1?'':'s'} remaining`;return `deadline passed ${Math.abs(d)} day${Math.abs(d)===1?'':'s'} ago`}
-function money(n){return n?('$'+(n>=1e6?(n/1e6).toFixed(1)+'M':Math.round(n/1000)+'K')):'—'}
-function label(p){if(p.bucket==='act')return `<div class="urgent">🔥 ACT NOW · ${countdown(p)}</div>`;if(p.bucket==='ahead')return `<div class="aheadtxt">👀 GET AHEAD · ${p.status}</div>`;return `<div class="subtxt">🤝 SUBCONTRACT / VENDOR</div>`}
-function personal(p){
- const caps=p.capabilityTags||[];
- const hits=caps.filter(x=>profile.has(x));
- const misses=caps.filter(x=>!profile.has(x));
- const radius=+document.getElementById('radius').value;
- const style=document.getElementById('workstyle').value;
- let capScore=caps.length?Math.round((hits.length/caps.length)*100):50;
- let distancePenalty=p.distance>radius?Math.min(40,(p.distance-radius)):0;
- let styleBonus=(style==='both'||(style==='prime'&&p.bucket==='act')||(style==='sub'&&p.bucket==='sub'))?8:0;
- let score=Math.max(0,Math.min(100,Math.round(capScore*.62+p.timing*.23+p.confidence*.15+styleBonus-distancePenalty)));
- return {score,hits,misses};
+const D={
+ act_today:'ACT TODAY',pursue_now:'PURSUE NOW',verify_then_pursue:'VERIFY → PURSUE',
+ verify_scope:'VERIFY SCOPE',optional_outside_radius:'OPTIONAL · OUTSIDE RADIUS',
+ watch:'WATCH',low_priority:'LOW PRIORITY',specialist_only:'SPECIALIST ONLY'
+};
+const LANE={
+ subcontract_target:'SUBCONTRACT TARGET',
+ subcontract_target_unless_landfill_qualified:'SUBCONTRACT · UNLESS LANDFILL QUALIFIED',
+ verify_prime_or_sub:'VERIFY PRIME / SUB',
+ optional_outside_radius:'OPTIONAL · OUTSIDE RADIUS',
+ verify_scope_before_outreach:'VERIFY SCOPE BEFORE OUTREACH',
+ specialist_only:'SPECIALIST ONLY',
+ prime_candidate:'PRIME CANDIDATE',
+ verify_prime_readiness:'VERIFY PRIME READINESS',
+ research_and_verify:'RESEARCH & VERIFY'
+};
+const M={
+ act_today:'#ff7b76',pursue_now:'#52d59a',verify_then_pursue:'#f1cc67',
+ verify_scope:'#f1cc67',optional_outside_radius:'#7fb5ff',watch:'#c59cff',
+ low_priority:'#74869a',specialist_only:'#74869a'
+};
+function esc(v){return String(v??'').replace(/[&<>"']/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[s]))}
+function fmtMoney(v){if(!v)return null;return v>=1000000?'$'+(v/1000000).toFixed(1)+'M':'$'+Math.round(v/1000)+'K'}
+function fmtDeadline(v){if(!v)return 'No current bid deadline';const d=new Date(v);return d.toLocaleString([],{dateStyle:'medium',timeStyle:'short'})}
+function daysText(c){
+ if(c.daysToDeadline===null||c.daysToDeadline===undefined)return 'No bid countdown';
+ let d=Math.ceil(c.daysToDeadline);
+ if(d<0)return `${Math.abs(d)}d past deadline`;
+ if(d===0)return 'Due today';
+ return `${d}d remaining`;
 }
-function show(p){
- const pm=personal(p);
- document.getElementById('body').innerHTML=`<div class="meta">${p.county} County · ${p.city}</div><h2>${p.name}</h2>${label(p)}
- <div class="chips"><span class="chip ${cls(pm.score)}">YOUR MATCH ${pm.score}/100</span><span class="chip">Timing ${p.timing}</span><span class="chip">Confidence ${p.confidence}</span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div>
- <p class="matchExplain"><span class="matched"><b>Matches:</b> ${pm.hits.length?pm.hits.map(x=>capabilityLabels[x]).join(', '):'none selected'}</span>${pm.misses.length?`<br><span class="missing"><b>Other scope:</b> ${pm.misses.map(x=>capabilityLabels[x]).join(', ')}</span>`:''}</p>
- <p><b>Status:</b> ${p.status}<br><b>Owner:</b> ${p.owner}<br><b>Deadline:</b> ${p.deadline?new Date(p.deadline).toLocaleString([], {dateStyle:'medium',timeStyle:'short'}):'—'}<br><b>Pre-bid:</b> ${p.prebid||'—'}<br><b>Contact:</b> ${p.contact}</p>
- <div class="tags">${p.scope.map(s=>`<span class="tag">${s}</span>`).join('')}</div>
- <p class="callout">${p.why}</p>
- <div class="nextmove"><b>Recommended next move</b><br>${p.nextMove}</div>
- <p><a href="${p.source}" target="_blank" rel="noopener">Open source / bid record ↗</a></p>
- <div class="source">Last verified: ${p.verified} · ${p.sourceType}<br>Pipeline flag: ${p.automation.needsHumanReview?'Human review recommended':'Structured source confidence high'}</div>`;
- document.getElementById('detail').style.display='block';map.setView([p.lat,p.lon],Math.max(9,map.getZoom()))
+function readinessClass(s){return s==='verified'?'ready':s==='not_ready'?'notready':'unknown'}
+function readinessLabel(k,v){
+ const s=(v&&v.status)||'unknown';
+ const label={commercialLicense:'License',bonding:'Bonding',stateVendorRegistration:'MAGIC',insurance:'Insurance',crewCapacity:'Crew'}[k]||k;
+ return `<span class="pill ${readinessClass(s)}">${esc(label)}: ${esc(s)}</span>`;
+}
+function buildReadiness(){
+ const r=(payload&&payload.profileReadiness)||{};
+ document.getElementById('readiness').innerHTML=Object.entries(r).map(([k,v])=>readinessLabel(k,v)).join('');
+}
+function counts(){
+ const all=cards;
+ const today=all.filter(c=>c.decision==='act_today').length;
+ const pursue=all.filter(c=>c.decision==='pursue_now').length;
+ const verify=all.filter(c=>['verify_then_pursue','verify_scope'].includes(c.decision)).length;
+ const optional=all.filter(c=>['optional_outside_radius','watch','specialist_only'].includes(c.decision)).length;
+ const hidden=all.filter(c=>c.decision==='low_priority').length;
+ document.getElementById('todayN').textContent=today;
+ document.getElementById('pursueN').textContent=pursue;
+ document.getElementById('verifyN').textContent=verify;
+ document.getElementById('optionalN').textContent=optional;
+ document.getElementById('hiddenN').textContent=hidden;
+ document.getElementById('attentionText').textContent=`${today+pursue+verify} opportunities need attention; ${hidden} weaker records are filtered out.`;
+}
+function includeByFilter(c){
+ if(filter==='priority')return ['act_today','pursue_now','verify_then_pursue','verify_scope'].includes(c.decision);
+ if(filter==='verify')return ['verify_then_pursue','verify_scope'].includes(c.decision);
+ if(filter==='optional')return ['optional_outside_radius','watch','specialist_only'].includes(c.decision);
+ if(filter==='all')return true;
+ return c.decision===filter;
+}
+function cardHTML(c,rank){
+ const money=fmtMoney(c.value);
+ const lane=LANE[c.recommendedLane]||String(c.recommendedLane||'').replaceAll('_',' ').toUpperCase();
+ return `<div class="topline"><div><div class="decision">${esc(D[c.decision]||c.decision)}</div><div class="lane">${esc(lane)}</div><h3>${esc(c.name)}</h3></div><span class="rank">#${rank}</span></div>
+ <div class="meta">${esc(c.county||'')} ${c.city?'· '+esc(c.city):''} · ${esc(daysText(c))} · Due ${esc(fmtDeadline(c.deadline))}</div>
+ <div class="chips">
+  <span class="chip">Action ${esc(c.actionPriority??'—')}</span>
+  <span class="chip">Fit ${esc(c.fitScore??'—')}</span>
+  <span class="chip">${esc(c.distanceMiles??'—')} mi</span>
+  ${c.recommendedLane&&String(c.recommendedLane).includes('prime')?`<span class="chip">Prime gate: ${esc(c.primeReadiness||'unknown')}</span>`:''}
+  ${money?`<span class="chip">${esc(money)}</span>`:''}
+ </div>
+ <div class="action"><b>FIRST MOVE →</b> ${esc(c.firstAction||'Open source and verify requirements.')}</div>
+ ${c.stopIf?`<div class="stop"><b>STOP IF:</b> ${esc(c.stopIf)}</div>`:''}
+ ${c.source?`<a class="sourceBtn" href="${esc(c.source)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open bid/source ↗</a>`:''}`;
 }
 function render(){
- let q=document.getElementById('q').value.toLowerCase(),county=document.getElementById('county').value;
- let radius=+document.getElementById('radius').value, style=document.getElementById('workstyle').value;
- let order={act:0,ahead:1,sub:2};
- let rows=data.filter(p=>(!bucket||p.bucket===bucket)&&(!county||p.county===county)&&(!q||JSON.stringify(p).toLowerCase().includes(q))&&p.distance<=radius&&(style==='both'||(style==='prime'&&p.bucket!=='sub')||(style==='sub'&&p.bucket!=='act')))
- .map(p=>({...p,_p:personal(p)})).sort((a,b)=>b._p.score-a._p.score||(order[a.bucket]-order[b.bucket]));
- layer.clearLayers();let list=document.getElementById('list');list.innerHTML='';
- rows.forEach(p=>{
-   let m=L.circleMarker([p.lat,p.lon],{radius:p.bucket==='act'?9:7,color:C[p.bucket],fillColor:C[p.bucket],fillOpacity:.84}).addTo(layer).bindTooltip(`${p.name} — ${p._p.score}% match`);m.on('click',()=>show(p));
-   let e=document.createElement('div');e.className=`card ${p.bucket}`;
-   e.innerHTML=`${label(p)}<h3>${p.name}</h3><div class="meta">${p.county} · ${p.status}</div>
-   <div class="chips"><span class="chip ${cls(p._p.score)}"><b>${p._p.score}% YOUR MATCH</b></span><span class="chip">~${p.distance} mi</span>${p.value?`<span class="chip">${money(p.value)}</span>`:''}</div>
-   <div class="matchExplain"><b>Matches:</b> ${p._p.hits.length?p._p.hits.slice(0,5).map(x=>capabilityLabels[x]).join(', '):'Low capability overlap'}</div>
-   <div class="nextmove"><b>NEXT MOVE →</b> ${p.nextMove}</div>`;
-   e.addEventListener('click',()=>show(p));list.appendChild(e)
+ const q=document.getElementById('q').value.trim().toLowerCase();
+ const county=document.getElementById('county').value;
+ let rows=cards.filter(c=>includeByFilter(c)&&(!county||c.county===county)&&(!q||JSON.stringify(c).toLowerCase().includes(q)));
+ rows.sort((a,b)=>(b.actionPriority||0)-(a.actionPriority||0)||(b.fitScore||0)-(a.fitScore||0));
+
+ layer.clearLayers();
+ const list=document.getElementById('list');list.innerHTML='';
+ rows.forEach((c,i)=>{
+   if(Number.isFinite(c.lat)&&Number.isFinite(c.lon)){
+     const color=M[c.decision]||'#74869a';
+     const marker=L.marker([c.lat,c.lon],{
+       icon:L.divIcon({
+         className:'',
+         html:`<div class="markerRank" style="background:${color}">${i+1}</div>`,
+         iconSize:[25,25],iconAnchor:[12,12]
+       })
+     }).addTo(layer);
+     marker.bindTooltip(`#${i+1} ${c.name} — ${D[c.decision]||c.decision}`);
+     marker.on('click',()=>show(c));
+   }
+   const e=document.createElement('div');e.className=`card ${c.decision}`;e.innerHTML=cardHTML(c,i+1);e.addEventListener('click',()=>show(c));list.appendChild(e);
  });
- document.getElementById('newN').textContent=rows.filter(x=>x.changeStatus==='new'&&x._p.score>=70).length;
- document.getElementById('actN').textContent=rows.filter(x=>x.bucket==='act').length;
- document.getElementById('aheadN').textContent=rows.filter(x=>x.bucket==='ahead').length;
- document.getElementById('subN').textContent=rows.filter(x=>x.bucket==='sub').length;
- document.getElementById('honesty').innerHTML=`<b>${rows.length} relevant project${rows.length===1?'':'s'} in this view.</b> Project Radar does not pad results with unrelated work. Change your capabilities or radius to widen or narrow the list.`;
+ if(!rows.length)list.innerHTML='<div class="hiddenNote">No opportunities match this view.</div>';
+ if(filter==='priority'){
+   const optional=cards.filter(c=>['optional_outside_radius','watch','specialist_only'].includes(c.decision)).length;
+   const hidden=cards.filter(c=>c.decision==='low_priority').length;
+   list.insertAdjacentHTML('beforeend',`<div class="hiddenNote">${optional} optional/specialty opportunities and ${hidden} low-priority records are kept out of the working queue by default. Use the tabs above to inspect them.</div>`);
+ }
 }
-function buildCaps(){
- const box=document.getElementById('caps');box.innerHTML='';
- Object.entries(capabilityLabels).forEach(([k,v])=>{let b=document.createElement('button');b.type='button';b.className='profileBtn'+(profile.has(k)?' on':'');b.textContent=(profile.has(k)?'✓ ':'')+v;b.addEventListener('click',()=>{profile.has(k)?profile.delete(k):profile.add(k);buildCaps();render()});box.appendChild(b)})
+function show(c){
+ const gates=(c.blockersAndChecks||[]).map(g=>`<div class="gate"><b>${esc(g.type||'Check')}</b> · ${esc(g.status||'verify')}<br>${esc(g.detail||'')}</div>`).join('');
+ const scope=(c.scope||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join('');
+ const evidence=(c.fitEvidence||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join('');
+ let contact='';
+ if(c.contact&&typeof c.contact==='object'){
+   const phone=c.contact.phone?`<br><a href="tel:${esc(c.contact.phone)}">${esc(c.contact.phone)}</a>`:'';
+   const email=c.contact.email?`<br><a href="mailto:${esc(c.contact.email)}">${esc(c.contact.email)}</a>`:'';
+   contact=`<div class="contact"><b>${esc(c.contact.name||'Contact')}</b>${c.contact.organization?'<br>'+esc(c.contact.organization):''}${phone}${email}</div>`;
+ }else if(c.contact){contact=`<div class="contact">${esc(c.contact)}</div>`}
+ document.getElementById('detailBody').innerHTML=`
+  <div class="decision">${esc(D[c.decision]||c.decision)}</div>
+  <h2>${esc(c.name)}</h2>
+  <div class="meta">${esc(c.county||'')} ${c.city?'· '+esc(c.city):''} · ${esc(daysText(c))} · ${esc(c.distanceMiles??'—')} mi</div>
+  <div class="chips"><span class="chip">Action ${esc(c.actionPriority??'—')}</span><span class="chip">Fit ${esc(c.fitScore??'—')}</span><span class="chip">Lane: ${esc(c.recommendedLane||'—')}</span><span class="chip">Prime: ${esc(c.primeReadiness||'unknown')}</span></div>
+  <div class="bigaction"><b>FIRST MOVE</b>${esc(c.firstAction||'—')}</div>
+  ${c.secondAction?`<div class="section"><h4>SECOND MOVE</h4>${esc(c.secondAction)}</div>`:''}
+  ${c.stopIf?`<div class="warn"><b>STOP / NO-BID IF</b><br>${esc(c.stopIf)}</div>`:''}
+  <div class="section"><h4>WHY THIS MATTERS</h4>${esc(c.whyThisMatters||'—')}</div>
+  ${scope?`<div class="section"><h4>PUBLISHED / CAPTURED SCOPE</h4><div class="tags">${scope}</div></div>`:''}
+  ${evidence?`<div class="section"><h4>FIT EVIDENCE</h4><div class="tags">${evidence}</div></div>`:''}
+  ${gates?`<div class="section"><h4>BLOCKERS & REQUIRED CHECKS</h4>${gates}</div>`:''}
+  ${contact?`<div class="section"><h4>CONTACT</h4>${contact}</div>`:''}
+  <div class="section"><b>Owner:</b> ${esc(c.owner||'—')}<br><b>Status:</b> ${esc(c.status||'—')}<br><b>Deadline:</b> ${esc(fmtDeadline(c.deadline))}<br><b>Last verified:</b> ${esc(c.verified||'—')}</div>
+  <div class="section"><a href="${esc(c.source||'#')}" target="_blank" rel="noopener">Open authoritative source / bid record ↗</a></div>`;
+ document.getElementById('detail').style.display='block';
+ if(Number.isFinite(c.lat)&&Number.isFinite(c.lon))map.setView([c.lat,c.lon],Math.max(9,map.getZoom()));
 }
-fetch('projects.json').then(r=>r.json()).then(d=>{data=d;[...new Set(d.map(x=>x.county))].sort().forEach(c=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${c}</option>`));buildCaps();render()});
-document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');bucket=b.dataset.b;render()}));
-['q','county','radius','workstyle'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));
+function init(data){
+ payload=data;cards=data.allCards||[];
+ buildReadiness();counts();
+ [...new Set(cards.map(c=>c.county).filter(Boolean))].sort().forEach(c=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
+ render();
+}
+fetch('data/intelligence/pursuit_cards.json',{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()})
+ .then(init)
+ .catch(err=>{
+   document.getElementById('list').innerHTML=`<div class="error"><b>Intelligence layer not available.</b><br>${esc(err.message)}<br><br>Run <code>./run_intelligence_pipeline.sh</code> and commit <code>data/intelligence/pursuit_cards.json</code>.</div>`;
+ });
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');filter=b.dataset.filter;render();
+}));
+['q','county'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));
 document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
-</script></body></html>
+</script>
+</body>
+</html>

@@ -2,3 +2,6 @@ data/snapshots/mdot_proposed_live.html
 
 __pycache__/
 *.py[cod]
+
+# Local UI backups
+index-v*-backup.html

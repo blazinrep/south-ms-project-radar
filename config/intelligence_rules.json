@@ -1,0 +1,74 @@
+{
+  "version": "0.7.0",
+  "scoreWeights": {
+    "scopeFit": 35,
+    "pursuitAccessibility": 20,
+    "timing": 15,
+    "geography": 15,
+    "evidenceQuality": 15
+  },
+  "hardRejectMajorCategories": [
+    "PERSONNEL SERVICES NON-IT",
+    "PERSONNEL SERVICES IT"
+  ],
+  "hardRejectSubcategories": [
+    "EQUIPMENT - NON-TECHNOLOGY",
+    "PROFESSIONAL SERVICES"
+  ],
+  "hardRejectPhrases": [
+    "hydraulic excavator",
+    "purchase of one excavator",
+    "purchase of an excavator",
+    "professional engineering services",
+    "statement of qualifications",
+    "statements of qualifications",
+    "maintenance of flower beds",
+    "flower bed maintenance"
+  ],
+  "siteworkPositiveTerms": {
+    "excavation": 9,
+    "earthwork": 9,
+    "grading": 8,
+    "site work": 8,
+    "sitework": 8,
+    "drainage": 8,
+    "storm sewer": 8,
+    "culvert": 8,
+    "clearing": 6,
+    "grubbing": 6,
+    "erosion": 6,
+    "riprap": 6,
+    "water service": 7,
+    "water main": 8,
+    "sewer service": 7,
+    "sewer main": 8,
+    "utility": 5,
+    "hauling": 5,
+    "base preparation": 6,
+    "roadbed": 6,
+    "landfill": 8,
+    "leachate": 7
+  },
+  "specialtyRiskTerms": [
+    "fml liner",
+    "geomembrane",
+    "well plugging",
+    "nuclear",
+    "bridge superstructure",
+    "pile driving"
+  ],
+  "primeComplexityTerms": [
+    "milling and overlay",
+    "asphalt",
+    "bridge",
+    "landfill cell",
+    "new construction"
+  ],
+  "inferenceTerms": [
+    "likely",
+    "possible",
+    "potential",
+    "should be checked",
+    "must be confirmed"
+  ]
+}

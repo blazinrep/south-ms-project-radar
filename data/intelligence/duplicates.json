@@ -1,0 +1,44 @@
+[
+  {
+    "canonicalProjectKey": "stbg-9999-06-382",
+    "selectedRecordId": "mdot-108781-306000",
+    "duplicateRecordIds": [
+      "mdot-108781-306100"
+    ]
+  },
+  {
+    "canonicalProjectKey": "stbg-0002-02-076",
+    "selectedRecordId": "mdot-108949-301000",
+    "duplicateRecordIds": [
+      "mdot-108949-302000"
+    ]
+  },
+  {
+    "canonicalProjectKey": "stbg-0025-02-017",
+    "selectedRecordId": "mdot-108949-303000",
+    "duplicateRecordIds": [
+      "mdot-108949-304000"
+    ]
+  },
+  {
+    "canonicalProjectKey": "stbg-0023-01-097",
+    "selectedRecordId": "mdot-109087-301000",
+    "duplicateRecordIds": [
+      "mdot-109087-302000"
+    ]
+  },
+  {
+    "canonicalProjectKey": "stbg-2902-00-016",
+    "selectedRecordId": "mdot-109083-301000",
+    "duplicateRecordIds": [
+      "mdot-109083-302000"
+    ]
+  },
+  {
+    "canonicalProjectKey": "nh-0046-01-018",
+    "selectedRecordId": "mdot-109798-301000",
+    "duplicateRecordIds": [
+      "mdot-109798-303000"
+    ]
+  }
+]

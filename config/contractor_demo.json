@@ -1,0 +1,67 @@
+{
+  "profileId": "demo-excavation-sitework-columbia-ms",
+  "name": "Demo Excavation / Sitework Contractor",
+  "base": {
+    "city": "Columbia",
+    "state": "MS",
+    "lat": 31.2518,
+    "lon": -89.8354
+  },
+  "preferredRadiusMiles": 75,
+  "capabilities": [
+    "excavation",
+    "grading",
+    "drainage",
+    "clearing",
+    "erosion_control",
+    "hauling",
+    "utilities"
+  ],
+  "notAssumedCapabilities": [
+    "asphalt_paving",
+    "bridge_structures",
+    "geosynthetic_liner_installation",
+    "oilfield_well_plugging",
+    "professional_engineering"
+  ],
+  "commercialLicenseStatus": "unknown",
+  "stateVendorRegistrationStatus": "unknown",
+  "primeBidCapacity": "unknown",
+  "bondingCapacity": "unknown",
+  "version": "0.8.0",
+  "readiness": {
+    "commercialLicense": {
+      "status": "unknown",
+      "classifications": []
+    },
+    "bonding": {
+      "status": "unknown",
+      "singleProjectLimit": null
+    },
+    "stateVendorRegistration": {
+      "status": "unknown"
+    },
+    "insurance": {
+      "status": "unknown"
+    },
+    "crewCapacity": {
+      "status": "unknown"
+    }
+  },
+  "capabilitiesConfirmed": [
+    "excavation",
+    "grading",
+    "drainage",
+    "clearing",
+    "erosion_control",
+    "hauling",
+    "utilities"
+  ],
+  "capabilitiesNotConfirmed": [
+    "asphalt_paving",
+    "landfill_construction",
+    "geosynthetic_liner_installation",
+    "oilfield_well_plugging",
+    "bridge_structures"
+  ]
+}
