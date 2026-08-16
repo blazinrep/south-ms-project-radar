@@ -4,13 +4,16 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows:
-      - Refresh MDOT Project Radar
       - Refresh Mississippi Procurement
     types:
       - completed
 
 permissions:
   contents: write
+
+concurrency:
+  group: project-radar-intelligence
+  cancel-in-progress: false
 
 jobs:
   intelligence:

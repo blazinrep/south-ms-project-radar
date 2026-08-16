@@ -225,14 +225,15 @@ function cardHTML(c,rank){
  </div>
  <div class="action"><b>FIRST MOVE →</b> ${esc(c.firstAction||'Open source and verify requirements.')}</div>
  ${c.stopIf?`<div class="stop"><b>STOP IF:</b> ${esc(c.stopIf)}</div>`:''}
+ <div class="meta" style="margin-top:7px">SOURCE CHECKED · ${esc(c.verified||payload?.generatedAt||'date unavailable')}</div>
  ${c.source?`<a class="sourceBtn" href="${esc(c.source)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open bid/source ↗</a>`:''}`;
 }
 function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const county=document.getElementById('county').value;
  let rows=cards.filter(c=>includeByFilter(c)&&(!county||c.county===county)&&(!q||JSON.stringify(c).toLowerCase().includes(q)));
- rows.sort((a,b)=>(b.actionPriority||0)-(a.actionPriority||0)||(b.fitScore||0)-(a.fitScore||0));
-
+ // Preserve pursuit_cards.json order exactly.
+ // The intelligence generator is the single source of truth.
  layer.clearLayers();
  const list=document.getElementById('list');list.innerHTML='';
  rows.forEach((c,i)=>{

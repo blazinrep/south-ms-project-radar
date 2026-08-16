@@ -1,4 +1,4 @@
-# Project Radar V0.5.2 — Live MDOT Automation
+# Project Radar V0.9.4 — Contractor Opportunity Intelligence
 
 This upgrade replaces the static MDOT source snapshot with live retrieval from MDOT's official Proposed Lettings page.
 
