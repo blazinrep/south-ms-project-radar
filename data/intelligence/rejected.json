@@ -72,13 +72,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 13,
         "evidenceQuality": 8,
-        "fitTotal": 34,
+        "fitTotal": 30,
         "actionPriority": 0
       },
-      "daysToDeadline": 2.3,
+      "daysToDeadline": 1.3,
       "distanceMiles": 42.3,
       "riskFlags": [
         "false_positive_landscape_maintenance"
@@ -168,13 +168,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 15,
+        "runway": 6,
         "geography": 13,
         "evidenceQuality": 8,
-        "fitTotal": 36,
+        "fitTotal": 27,
         "actionPriority": 0
       },
-      "daysToDeadline": 5.1,
+      "daysToDeadline": 4.1,
       "distanceMiles": 42.3,
       "riskFlags": [
         "false_positive_equipment_purchase"
@@ -268,7 +268,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 17.3,
+      "daysToDeadline": 16.3,
       "distanceMiles": 32.6,
       "riskFlags": [
         "false_positive_equipment_procurement"
@@ -364,7 +364,7 @@
         "fitTotal": 26,
         "actionPriority": 0
       },
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 75.3,
       "riskFlags": [
         "false_positive_professional_services",
