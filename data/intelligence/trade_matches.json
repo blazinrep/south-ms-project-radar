@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 72,
-  "matchedProjectCount": 57,
+  "projectCount": 93,
+  "matchedProjectCount": 67,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2267,7 +2267,7 @@
       ]
     },
     {
-      "projectId": "gulfport-planroom-20714",
+      "projectId": "gulfport_planroom-20714",
       "projectName": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
       "owner": "City of Gulfport",
       "county": "Harrison",
@@ -2374,7 +2374,7 @@
       ]
     },
     {
-      "projectId": "gulfport-planroom-20166",
+      "projectId": "gulfport_planroom-20166",
       "projectName": "Coffee Creek Sewer Rehabilitation",
       "owner": "City of Gulfport",
       "county": "Harrison",
@@ -2430,7 +2430,7 @@
       ]
     },
     {
-      "projectId": "gulfport-planroom-19885",
+      "projectId": "gulfport_planroom-19885",
       "projectName": "Building Repairs and Construction Unit Price Project",
       "owner": "City of Gulfport",
       "county": "Harrison",
@@ -2484,6 +2484,462 @@
           "opportunitySummary": "Possible roofing scope detected from roofing, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: roofing"
+        }
+      ]
+    },
+    {
+      "projectId": "hattiesburg_planroom-20011",
+      "projectName": "17245 City of Hattiesburg - 4th Street Improvements Phase IV",
+      "owner": "City of Hattiesburg",
+      "county": "Forrest",
+      "status": "published",
+      "source": "https://www.hattiesburgmsbids.com/projects/20011/details/17245-city-of-hattiesburg-4th-street-improvements-phase-iv",
+      "tradeMatches": [
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "sidewalk"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible concrete scope detected from sidewalk, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: sidewalk"
+        },
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "lighting"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: lighting"
+        }
+      ]
+    },
+    {
+      "projectId": "hattiesburg_planroom-19232",
+      "projectName": "18749 Camp Street RE-BID",
+      "owner": "City of Hattiesburg",
+      "county": "Forrest",
+      "status": "published",
+      "source": "https://www.hattiesburgmsbids.com/projects/19232/details/18749-camp-street-re-bid",
+      "tradeMatches": [
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "lighting"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: lighting"
+        }
+      ]
+    },
+    {
+      "projectId": "hattiesburg_planroom-19187",
+      "projectName": "16258 FTA Sidewalk Project - Grace Avenue - City of Hattiesburg",
+      "owner": "City of Hattiesburg",
+      "county": "Forrest",
+      "status": "published",
+      "source": "https://www.hattiesburgmsbids.com/projects/19187/details/16258-fta-sidewalk-project-grace-avenue-city-of-hattiesburg",
+      "tradeMatches": [
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 3,
+          "matchedScope": [
+            "curb",
+            "gutter",
+            "sidewalk"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant concrete scope appears in the project: curb, gutter, sidewalk.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: curb, gutter, sidewalk"
+        }
+      ]
+    },
+    {
+      "projectId": "hattiesburg_planroom-19186",
+      "projectName": "18874 Hattiesburg Bobby Chain Municipal Airport - Construct Taxilane",
+      "owner": "City of Hattiesburg",
+      "county": "Forrest",
+      "status": "published",
+      "source": "https://www.hattiesburgmsbids.com/projects/19186/details/18874-hattiesburg-bobby-chain-municipal-airport-construct-taxilane",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "strong",
+          "matchScore": 5,
+          "matchedScope": [
+            "asphalt",
+            "paving"
+          ],
+          "strongSignals": [
+            "asphalt paving"
+          ],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": false,
+          "opportunitySummary": "Paving / Asphalt scope is clearly indicated by asphalt paving, asphalt, paving.",
+          "recommendedAction": "Open the source documents and identify the exact bid package, plans/spec sections, bidder list, and prime/subcontract path.",
+          "whyMatched": "Strong scope signal detected: asphalt paving"
+        },
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "concrete"
+          ],
+          "strongSignals": [
+            "concrete paving"
+          ],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant concrete scope appears in the project: concrete.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Strong scope signal detected: concrete paving"
+        },
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "hattiesburg_planroom-19028",
+      "projectName": "18749 City of Hattiesburg - Camp Street Lighting",
+      "owner": "City of Hattiesburg",
+      "county": "Forrest",
+      "status": "published",
+      "source": "https://www.hattiesburgmsbids.com/projects/19028/details/18749-city-of-hattiesburg-camp-street-lighting",
+      "tradeMatches": [
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "lighting"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: lighting"
+        }
+      ]
+    },
+    {
+      "projectId": "hattiesburg_planroom-19012",
+      "projectName": "18691 Highway 49 Lighting Phase II",
+      "owner": "City of Hattiesburg",
+      "county": "Forrest",
+      "status": "published",
+      "source": "https://www.hattiesburgmsbids.com/projects/19012/details/18691-highway-49-lighting-phase-ii",
+      "tradeMatches": [
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "lighting"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: lighting"
+        }
+      ]
+    },
+    {
+      "projectId": "jhh_architects_planroom-20301",
+      "projectName": "25112 New Rankin County District Attorney Office Building",
+      "owner": "JH&H Architects",
+      "county": null,
+      "status": "published",
+      "source": "https://www.jhharchitectsplans.com/projects/20301/details/25112-new-rankin-county-district-attorney-office-building",
+      "tradeMatches": [
+        {
+          "tradeKey": "hvac_mechanical",
+          "trade": "HVAC / Mechanical",
+          "opportunityLabel": "HVAC / MECHANICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "hvac"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "mechanical_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible hvac / mechanical scope detected from hvac, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: hvac"
+        },
+        {
+          "tradeKey": "roofing",
+          "trade": "Roofing",
+          "opportunityLabel": "ROOFING OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "roofing"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "manufacturer_requirements",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible roofing scope detected from roofing, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: roofing"
+        }
+      ]
+    },
+    {
+      "projectId": "jhh_architects_planroom-19778",
+      "projectName": "25-139 Rankin County Justice Center Re-Roof and HVAC Improvements",
+      "owner": "JH&H Architects",
+      "county": null,
+      "status": "published",
+      "source": "https://www.jhharchitectsplans.com/projects/19778/details/25-139-rankin-county-justice-center-re-roof-and-hvac-improvements",
+      "tradeMatches": [
+        {
+          "tradeKey": "roofing",
+          "trade": "Roofing",
+          "opportunityLabel": "ROOFING OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 3,
+          "matchedScope": [
+            "roof",
+            "roofing",
+            "re-roof"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "manufacturer_requirements",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant roofing scope appears in the project: roof, roofing, re-roof.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: roof, roofing, re-roof"
+        },
+        {
+          "tradeKey": "hvac_mechanical",
+          "trade": "HVAC / Mechanical",
+          "opportunityLabel": "HVAC / MECHANICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "hvac"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "mechanical_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible hvac / mechanical scope detected from hvac, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: hvac"
+        }
+      ]
+    },
+    {
+      "projectId": "ms_agc_planroom-30905",
+      "projectName": "Quote # 26-27-1 \u2013 Arthur Rd Drainage",
+      "owner": "AGC of Mississippi",
+      "county": null,
+      "status": "published",
+      "source": "https://www.msagcplanroom.com/projects/30905/details/quote-26-27-1-arthur-rd-drainage",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "ms_agc_planroom-30898",
+      "projectName": "IN PROCESS 3-10248 Booneville Water Systems SCADA Controls",
+      "owner": "AGC of Mississippi",
+      "county": null,
+      "status": "published",
+      "source": "https://www.msagcplanroom.com/projects/30898/details/in-process-3-10248-booneville-water-systems-scada-controls",
+      "tradeMatches": [
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "controls"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from controls, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: controls"
         }
       ]
     }

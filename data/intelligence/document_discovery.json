@@ -1,0 +1,1812 @@
+{
+  "version": "0.12.0",
+  "projectCount": 93,
+  "projects": [
+    {
+      "projectId": "pine-belt-landfill-cell7",
+      "projectName": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.neel-schafferplans.com/projects/20657/details/ns19811002-pine-belt-landfill-cell-no-7-construction"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jcjc-walking-plaza",
+      "projectName": "JCJC Central Avenue Walking Plaza (Re-Bid)",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.neel-schafferplans.com/projects/20677/details/19212-jcjc-central-avenue-walking-plaza-re-bid"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "laurel-citywide-paving",
+      "projectName": "Laurel 2026 Citywide Paving Project",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.neel-schafferplans.com/projects/20683/details/20387-2026-citywide-paving-project"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "walthall-orphan-wells",
+      "projectName": "Orphaned Well Plugging, Remediation & Reclamation",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/45990"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "aaa-resource-center",
+      "projectName": "AAA Ambulance Service Resource Center",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.planhouseplanroom.com/projects/20771/details/4182-aaa-ambulance-service-resource-center"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "pineview-parking",
+      "projectName": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "greene-road-maintenance",
+      "projectName": "Greene County SAP-21(15)M Road Maintenance",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.planhouseplanroom.com/projects/20770/details/185-24-sap-2115m-greene-county-ms"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "clarkco-trail",
+      "projectName": "Clarkco State Park Recreational Trail",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.neel-schafferplans.com/projects/20686/details/20270-clarkco-recreational-trail"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "marion-ebenezer-bridge",
+      "projectName": "Ebenezer Church Road Bridge & Approaches",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/45250"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-forrest-i59-oct",
+      "projectName": "MDOT Proposed: I-59 Forrest County OGFC Lift / Fog Seal",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-lamar-i59-oct",
+      "projectName": "MDOT Proposed: I-59 Lamar County Fog Seal",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-forrest-us11-nov",
+      "projectName": "MDOT Proposed: US 11 Overlay \u2014 Forrest County",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "marion-us98-bridges",
+      "projectName": "US 98 Pearl River Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/portal/news_release_view/1774"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110227-301000",
+      "projectName": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108588-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Pearl River County Mill & Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110076-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Lamar County Fog Seal",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110077-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Forrest County Fog Seal",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110078-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Forrest County OGFC Lift",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108999-301000",
+      "projectName": "MDOT Proposed: MS 48 \u2014 Pike County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109492-301000",
+      "projectName": "MDOT Proposed: US 84 \u2014 Franklin County Slide Improvement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-106972-301000",
+      "projectName": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-106972-302000",
+      "projectName": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108781-306000",
+      "projectName": "MDOT Proposed: MS 15 \u2014 Harrison County Bridge Preventive Maintenance",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108781-306100",
+      "projectName": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110070-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Jasper County Fog Seal",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109253-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-100881-301000",
+      "projectName": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-106971-301000",
+      "projectName": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110044-301000",
+      "projectName": "MDOT Proposed: I 55 \u2014 Lincoln County Bridge Repair",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108949-301000",
+      "projectName": "MDOT Proposed: MS 57 \u2014 Greene County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108949-302000",
+      "projectName": "MDOT Proposed: MS 57 \u2014 Wayne County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108949-303000",
+      "projectName": "MDOT Proposed: US 45 \u2014 Greene County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108949-304000",
+      "projectName": "MDOT Proposed: US 45 \u2014 Wayne County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109987-301000",
+      "projectName": "MDOT Proposed: MS 42 \u2014 Greene County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109988-301000",
+      "projectName": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109986-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Forrest County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109364-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Simpson County Reconstruction",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109087-301000",
+      "projectName": "MDOT Proposed: MS 13 \u2014 Pearl River County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109087-302000",
+      "projectName": "MDOT Proposed: Project \u2014 Forrest County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109953-301000",
+      "projectName": "MDOT Proposed: MS 13 \u2014 Jefferson Davis County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108393-301000",
+      "projectName": "MDOT Proposed: MS 53 \u2014 Harrison County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108394-301000",
+      "projectName": "MDOT Proposed: MS 42 \u2014 Perry County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109083-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109083-302000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109798-301000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Lincoln County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109798-303000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Pike County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109799-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Simpson County Mill & Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110242-301000",
+      "projectName": "MDOT Proposed: US 84 \u2014 Lincoln County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-307909-301000",
+      "projectName": "MDOT Proposed: MS 540 \u2014 Simpson County Seal",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-309951-301000",
+      "projectName": "MDOT Proposed: MS 26 \u2014 Stone County Widen & Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-310366-301000",
+      "projectName": "MDOT Proposed: MS 587 \u2014 Marion County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-108395-301000",
+      "projectName": "MDOT Proposed: MS 29 \u2014 Stone County Bridge Replacement",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-310370-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Lamar County Mill & Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-110248-301000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Lamar County Mill & Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "mdot-109471-301000",
+      "projectName": "MDOT Proposed: MS 27 \u2014 Lawrence County Overlay",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46142",
+      "projectName": "Jones / 1130-27-R-IFBD-00005",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46142?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46147",
+      "projectName": "Perry / 45-20260723131206 BSPC",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46147?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46148",
+      "projectName": "Harrison / 212-20260723160736 MHS",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46148?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46173",
+      "projectName": "Lincoln / 3515-20260730090934 Brookhaven",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46173?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46179",
+      "projectName": "Harrison / 43-20260728091408 Gulfport",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46179?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46194",
+      "projectName": "Lincoln / 3515-20260730085656 Brookhaven",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46194?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46220",
+      "projectName": "Hancock / 342-20260728161540 HCBS",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46220?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46233",
+      "projectName": "Jasper / 169-20260731111926 BSJC",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46233?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46244",
+      "projectName": "Forrest / 9280-27-R-IFBD-00006",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46244?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46248",
+      "projectName": "Jackson / 94-20260803133348 BSJC",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46248?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46249",
+      "projectName": "Harrison / 43-20260803165414 Gulfport",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46249?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46273",
+      "projectName": "Greene / 45-20260804080102 BSGC",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46285",
+      "projectName": "Jackson / 152-20260805081145 Pascagoula",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46285?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "msproc-46286",
+      "projectName": "Lincoln / 21-20260805085032 Brookhaven",
+      "sourceId": null,
+      "documentsDetected": [],
+      "documentTypes": [],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46286?AppId=1"
+      ],
+      "needsDeeperScopeEvidence": false,
+      "recommendedAction": "Check the discovered document source for the project documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "gulfport_planroom-20714",
+      "projectName": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
+      "sourceId": "gulfport_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "addenda",
+          "evidence": [
+            "addenda"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "addenda"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.gulfportmsbids.com/projects/20714/details/fblf-9159-00001-interconnecting-gulfport-airport-road-extension-interstate-10-overpass"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "gulfport_planroom-20166",
+      "projectName": "Coffee Creek Sewer Rehabilitation",
+      "sourceId": "gulfport_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications"
+      ],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.gulfportmsbids.com/projects/20166/details/coffee-creek-sewer-rehabilitation"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Check the discovered document source for the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "gulfport_planroom-19885",
+      "projectName": "Building Repairs and Construction Unit Price Project",
+      "sourceId": "gulfport_planroom",
+      "documentsDetected": [
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "bid_documents"
+      ],
+      "access": "unknown",
+      "documentSources": [
+        "https://www.gulfportmsbids.com/projects/19885/details/building-repairs-and-construction-unit-price-project"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Check the discovered document source for the bid documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-20283",
+      "projectName": "12254 River Avenue Pedestrian Bridge (RE-BID)",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "bid_documents"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/20283/details/12254-river-avenue-pedestrian-bridge-re-bid"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the bid documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-20011",
+      "projectName": "17245 City of Hattiesburg - 4th Street Improvements Phase IV",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "drawings",
+            "contract drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "addenda",
+          "evidence": [
+            "addenda"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "addenda",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/20011/details/17245-city-of-hattiesburg-4th-street-improvements-phase-iv"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19794",
+      "projectName": "12254 River Avenue Pedestrian Bridge Rehabilitation",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "bid_documents"
+      ],
+      "access": "registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19794/details/12254-river-avenue-pedestrian-bridge-rehabilitation"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Register/login at the designated planroom and obtain the bid documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19792",
+      "projectName": "12230 Hattiesburg High Area Infrastructure Improvements \u2013 Phase I",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "bid_documents"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19792/details/12230-hattiesburg-high-area-infrastructure-improvements-phase-i"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the bid documents before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19232",
+      "projectName": "18749 Camp Street RE-BID",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans",
+            "drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19232/details/18749-camp-street-re-bid"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19187",
+      "projectName": "16258 FTA Sidewalk Project - Grace Avenue - City of Hattiesburg",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans",
+            "drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19187/details/16258-fta-sidewalk-project-grace-avenue-city-of-hattiesburg"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19186",
+      "projectName": "18874 Hattiesburg Bobby Chain Municipal Airport - Construct Taxilane",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "contract documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "bid_documents",
+        "bid_tab"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19186/details/18874-hattiesburg-bobby-chain-municipal-airport-construct-taxilane",
+        "https://www.neelschafferplans"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the plans before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19028",
+      "projectName": "18749 City of Hattiesburg - Camp Street Lighting",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans",
+            "drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19028/details/18749-city-of-hattiesburg-camp-street-lighting"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-19012",
+      "projectName": "18691 Highway 49 Lighting Phase II",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans",
+            "drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/19012/details/18691-highway-49-lighting-phase-ii"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "hattiesburg_planroom-18825",
+      "projectName": "Item #2 Repair and Rehabilitiation of Streets for the City of Hattiesburg",
+      "sourceId": "hattiesburg_planroom",
+      "documentsDetected": [
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "specifications",
+        "bid_documents"
+      ],
+      "access": "registration_required",
+      "documentSources": [
+        "https://www.hattiesburgmsbids.com/projects/18825/details/item-2-repair-and-rehabilitiation-of-streets-for-the-city-of-hattiesburg"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Register/login at the designated planroom and obtain the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-20515",
+      "projectName": "25132 Athletic Field Improvements at O\u2019Bannon High School and Riverside High School",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans",
+            "drawings"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/20515/details/25132-athletic-field-improvements-at-obannon-high-school-and-riverside-high-school",
+        "https://www.jhharchitectsplans.com"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-20322",
+      "projectName": "26102 Rogers Park Playground and Pavilion",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid-tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/20322/details/26102-rogers-park-playground-and-pavilion",
+        "http://www.madison-co.com/bids",
+        "http://www.jhharchitectsplans.com"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-20301",
+      "projectName": "25112 New Rankin County District Attorney Office Building",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/20301/details/25112-new-rankin-county-district-attorney-office-building",
+        "http://www.centralbidding.com",
+        "http://www.jhharchitectsplans.com"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-19778",
+      "projectName": "25-139 Rankin County Justice Center Re-Roof and HVAC Improvements",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/19778/details/25-139-rankin-county-justice-center-re-roof-and-hvac-improvements",
+        "http://www.centralbidding.com",
+        "http://www.jhharchitectsplans.com"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-19712",
+      "projectName": "26-09 Richland High School Serving Line Improvements",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/19712/details/26-09-richland-high-school-serving-line-improvements"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-19650",
+      "projectName": "24122 UMMC 209-588 TRC Research Lab Build Out",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "project_manual",
+          "evidence": [
+            "project manual"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "contract documents"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "project_manual",
+        "bid_documents"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/19650/details/24122-ummc-209-588-trc-research-lab-build-out",
+        "http://www.jhharchitectsplans.com/",
+        "http://www.ms.gov/dfa/contract_bid_search"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "jhh_architects_planroom-19574",
+      "projectName": "26-08 (25-118B) Northwest Rankin Elementary Connection Corridor - Re Bid",
+      "sourceId": "jhh_architects_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        },
+        {
+          "type": "specifications",
+          "evidence": [
+            "specifications"
+          ]
+        },
+        {
+          "type": "bid_documents",
+          "evidence": [
+            "bid documents",
+            "contract documents"
+          ]
+        },
+        {
+          "type": "bid_tab",
+          "evidence": [
+            "bid-tab"
+          ]
+        },
+        {
+          "type": "planholders",
+          "evidence": [
+            "plan holders"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans",
+        "specifications",
+        "bid_documents",
+        "bid_tab",
+        "planholders"
+      ],
+      "access": "purchase_or_registration_required",
+      "documentSources": [
+        "https://www.jhharchitectsplans.com/projects/19574/details/26-08-25-118b-northwest-rankin-elementary-connection-corridor-re-bid"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Open the designated planroom and register/order the project manual/specifications before making a final trade-scope decision."
+    },
+    {
+      "projectId": "ms_agc_planroom-30927",
+      "projectName": "08FPC26 FIRST PRESBYTERIAN CHURCH, WATER VALLEY, MS",
+      "sourceId": "ms_agc_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans"
+      ],
+      "access": "registration_required",
+      "documentSources": [
+        "https://www.msagcplanroom.com/projects/30927/details/08fpc26-first-presbyterian-church-water-valley-ms"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Register/login at the designated planroom and obtain the plans before making a final trade-scope decision."
+    },
+    {
+      "projectId": "ms_agc_planroom-30917",
+      "projectName": "26070 West Tallahatchie High School Renovations",
+      "sourceId": "ms_agc_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans"
+      ],
+      "access": "registration_required",
+      "documentSources": [
+        "https://www.msagcplanroom.com/projects/30917/details/26070-west-tallahatchie-high-school-renovations"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Register/login at the designated planroom and obtain the plans before making a final trade-scope decision."
+    },
+    {
+      "projectId": "ms_agc_planroom-30905",
+      "projectName": "Quote # 26-27-1 \u2013 Arthur Rd Drainage",
+      "sourceId": "ms_agc_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans"
+      ],
+      "access": "registration_required",
+      "documentSources": [
+        "https://www.msagcplanroom.com/projects/30905/details/quote-26-27-1-arthur-rd-drainage"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Register/login at the designated planroom and obtain the plans before making a final trade-scope decision."
+    },
+    {
+      "projectId": "ms_agc_planroom-30898",
+      "projectName": "IN PROCESS 3-10248 Booneville Water Systems SCADA Controls",
+      "sourceId": "ms_agc_planroom",
+      "documentsDetected": [
+        {
+          "type": "plans",
+          "evidence": [
+            "plans"
+          ]
+        }
+      ],
+      "documentTypes": [
+        "plans"
+      ],
+      "access": "registration_required",
+      "documentSources": [
+        "https://www.msagcplanroom.com/projects/30898/details/in-process-3-10248-booneville-water-systems-scada-controls"
+      ],
+      "needsDeeperScopeEvidence": true,
+      "recommendedAction": "Register/login at the designated planroom and obtain the plans before making a final trade-scope decision."
+    }
+  ]
+}

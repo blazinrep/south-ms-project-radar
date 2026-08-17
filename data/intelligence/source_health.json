@@ -1,0 +1,41 @@
+{
+  "version": "0.12.0",
+  "checkedAt": "2026-08-17T18:16:20.617706+00:00",
+  "sourcesChecked": 4,
+  "healthy": 4,
+  "failed": 0,
+  "sources": [
+    {
+      "sourceId": "gulfport_planroom",
+      "source": "City of Gulfport Planroom",
+      "platform": "reproconnect_planhouse",
+      "status": "healthy",
+      "rawCount": 10,
+      "constructionCandidateCount": 3
+    },
+    {
+      "sourceId": "hattiesburg_planroom",
+      "source": "City of Hattiesburg Planroom",
+      "platform": "reproconnect_planhouse",
+      "status": "healthy",
+      "rawCount": 10,
+      "constructionCandidateCount": 10
+    },
+    {
+      "sourceId": "jhh_architects_planroom",
+      "source": "JH&H Architects Online Plan Room",
+      "platform": "reproconnect_planhouse",
+      "status": "healthy",
+      "rawCount": 10,
+      "constructionCandidateCount": 7
+    },
+    {
+      "sourceId": "ms_agc_planroom",
+      "source": "AGC of Mississippi Online Plan Room",
+      "platform": "reproconnect_planhouse",
+      "status": "healthy",
+      "rawCount": 10,
+      "constructionCandidateCount": 4
+    }
+  ]
+}

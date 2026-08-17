@@ -7,9 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 BASE_PROJECTS = ROOT / "projects.json"
 
-VERTICAL_FEEDS = [
-    ROOT / "data" / "raw" / "gulfport_vertical_candidates.json"
-]
+SOURCES = ROOT / "config" / "sources.json"
 
 OUT = ROOT / "data" / "intelligence" / "source_records.json"
 
@@ -40,12 +38,25 @@ def main():
     for record in load(BASE_PROJECTS):
         add(record, "legacy_projects")
 
-    for path in VERTICAL_FEEDS:
+    source_config = load(SOURCES)
+
+    for source in source_config.get("sources", []):
+        if source.get("status") != "active":
+            continue
+
+        if source.get("platform") != "reproconnect_planhouse":
+            continue
+
+        path = (
+            ROOT / "data" / "raw" /
+            f'{source["id"]}_vertical_candidates.json'
+        )
+
         if not path.exists():
             continue
 
         for record in load(path):
-            add(record, path.stem)
+            add(record, source["id"])
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
 

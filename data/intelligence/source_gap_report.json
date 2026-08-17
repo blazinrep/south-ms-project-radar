@@ -1,20 +1,8 @@
 {
   "version": "0.11.0",
-  "projectsScanned": 72,
-  "sourceCount": 2,
+  "projectsScanned": 93,
+  "sourceCount": 6,
   "tradeGaps": [
-    {
-      "tradeId": "hvac_mechanical",
-      "trade": "HVAC / Mechanical",
-      "coverageGap": "critical",
-      "matches": 0,
-      "strong": 0,
-      "moderate": 0,
-      "possible": 0,
-      "supportingSources": [
-        "Mississippi Procurement"
-      ]
-    },
     {
       "tradeId": "drywall",
       "trade": "Drywall / Sheetrock",
@@ -24,7 +12,11 @@
       "moderate": 0,
       "possible": 0,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
@@ -36,7 +28,11 @@
       "moderate": 0,
       "possible": 0,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
@@ -48,7 +44,11 @@
       "moderate": 0,
       "possible": 0,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
@@ -60,31 +60,27 @@
       "moderate": 0,
       "possible": 0,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
-      "tradeId": "roofing",
-      "trade": "Roofing",
-      "coverageGap": "high",
-      "matches": 1,
-      "strong": 0,
-      "moderate": 0,
-      "possible": 1,
-      "supportingSources": [
-        "Mississippi Procurement"
-      ]
-    },
-    {
-      "tradeId": "electrical",
-      "trade": "Electrical",
+      "tradeId": "hvac_mechanical",
+      "trade": "HVAC / Mechanical",
       "coverageGap": "high",
       "matches": 2,
       "strong": 0,
       "moderate": 0,
       "possible": 2,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
@@ -96,7 +92,27 @@
       "moderate": 0,
       "possible": 5,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
+      ]
+    },
+    {
+      "tradeId": "electrical",
+      "trade": "Electrical",
+      "coverageGap": "high",
+      "matches": 7,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 7,
+      "supportingSources": [
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
@@ -108,46 +124,78 @@
       "moderate": 1,
       "possible": 0,
       "supportingSources": [
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
+      ]
+    },
+    {
+      "tradeId": "roofing",
+      "trade": "Roofing",
+      "coverageGap": "medium",
+      "matches": 3,
+      "strong": 0,
+      "moderate": 1,
+      "possible": 2,
+      "supportingSources": [
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
       "tradeId": "concrete",
       "trade": "Concrete",
       "coverageGap": "medium",
-      "matches": 5,
+      "matches": 8,
       "strong": 0,
-      "moderate": 1,
-      "possible": 4,
+      "moderate": 3,
+      "possible": 5,
       "supportingSources": [
         "Mississippi Department of Transportation",
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
       "tradeId": "excavation_sitework",
       "trade": "Excavation / Sitework",
       "coverageGap": "medium",
-      "matches": 33,
+      "matches": 35,
       "strong": 0,
       "moderate": 17,
-      "possible": 16,
+      "possible": 18,
       "supportingSources": [
         "Mississippi Department of Transportation",
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     },
     {
       "tradeId": "paving_asphalt",
       "trade": "Paving / Asphalt",
       "coverageGap": "covered",
-      "matches": 31,
-      "strong": 2,
+      "matches": 32,
+      "strong": 3,
       "moderate": 1,
       "possible": 28,
       "supportingSources": [
         "Mississippi Department of Transportation",
-        "Mississippi Procurement"
+        "Mississippi Procurement",
+        "City of Gulfport Planroom",
+        "City of Hattiesburg Planroom",
+        "JH&H Architects Online Plan Room",
+        "AGC of Mississippi Online Plan Room"
       ]
     }
   ]

@@ -25,7 +25,9 @@
       "type": "owner",
       "status": "active",
       "collector": "existing",
-      "geography": ["Mississippi"],
+      "geography": [
+        "Mississippi"
+      ],
       "tradeBias": [
         "excavation_sitework",
         "paving_asphalt",
@@ -38,8 +40,96 @@
       "type": "owner",
       "status": "active",
       "collector": "existing",
-      "geography": ["Mississippi"],
-      "tradeBias": ["all"]
+      "geography": [
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ]
+    },
+    {
+      "id": "gulfport_planroom",
+      "name": "City of Gulfport Planroom",
+      "type": "planroom",
+      "platform": "reproconnect_planhouse",
+      "collector": "collect_reproconnect.py",
+      "baseUrl": "https://www.gulfportmsbids.com/",
+      "owner": "City of Gulfport",
+      "country": "US",
+      "state": "MS",
+      "county": "Harrison",
+      "city": "Gulfport",
+      "status": "active",
+      "geography": [
+        "Gulfport",
+        "Harrison County",
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ]
+    },
+    {
+      "id": "hattiesburg_planroom",
+      "name": "City of Hattiesburg Planroom",
+      "type": "planroom",
+      "platform": "reproconnect_planhouse",
+      "collector": "collect_reproconnect.py",
+      "baseUrl": "https://www.hattiesburgmsbids.com/",
+      "owner": "City of Hattiesburg",
+      "country": "US",
+      "state": "MS",
+      "county": "Forrest",
+      "city": "Hattiesburg",
+      "status": "active",
+      "geography": [
+        "Hattiesburg",
+        "Forrest County",
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ]
+    },
+    {
+      "id": "jhh_architects_planroom",
+      "name": "JH&H Architects Online Plan Room",
+      "type": "architect_engineer",
+      "platform": "reproconnect_planhouse",
+      "collector": "collect_reproconnect.py",
+      "baseUrl": "https://www.jhharchitectsplans.com/",
+      "owner": "JH&H Architects",
+      "country": "US",
+      "state": "MS",
+      "county": null,
+      "city": null,
+      "status": "active",
+      "geography": [
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ]
+    },
+    {
+      "id": "ms_agc_planroom",
+      "name": "AGC of Mississippi Online Plan Room",
+      "type": "planroom",
+      "platform": "reproconnect_planhouse",
+      "collector": "collect_reproconnect.py",
+      "baseUrl": "https://www.msagcplanroom.com/",
+      "owner": "AGC of Mississippi",
+      "country": "US",
+      "state": "MS",
+      "county": null,
+      "city": null,
+      "status": "active",
+      "geography": [
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ]
     }
   ]
 }
