@@ -24,6 +24,20 @@
       "supportsDetailFetch": false,
       "supportsDocumentDiscovery": true,
       "status": "planned"
+    },
+    "central_bidding": {
+      "label": "Central Bidding / Central Auction House",
+      "collector": "scripts/collect_central_bidding.py",
+      "normalizer": "scripts/normalize_central_bidding.py",
+      "supportsDetailFetch": true,
+      "supportsDocumentDiscovery": true,
+      "status": "known_restricted",
+      "platformId": "central_auction_house",
+      "authentication": "required",
+      "supportsAnonymousDiscovery": false,
+      "supportsAuthenticatedDiscovery": true,
+      "adapterFamily": "authenticated_marketplace",
+      "implementationPriority": "post_v1"
     }
   }
 }

@@ -132,6 +132,31 @@
       "tradeBias": [
         "all"
       ]
+    },
+    {
+      "id": "central_bidding_ms",
+      "name": "Central Bidding / Central Auction House - Mississippi",
+      "type": "procurement_platform",
+      "platform": "central_bidding",
+      "collector": "collect_central_bidding.py",
+      "baseUrl": "https://www.centralbidding.com/",
+      "owner": "Central Bidding",
+      "country": "US",
+      "state": "MS",
+      "county": null,
+      "city": null,
+      "status": "known_restricted",
+      "geography": [
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ],
+      "authentication": "required",
+      "categoryId": 2,
+      "adapterFamily": "authenticated_marketplace",
+      "implementationPriority": "post_v1",
+      "discoveryNote": "State bid inventory requires authenticated Central Auction House session."
     }
   ]
 }
