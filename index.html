@@ -81,10 +81,33 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
 .foot{font-size:10px;color:var(--muted);margin:10px 2px}
 .error{border:1px solid #663a3a;background:#291818;color:#ffd0d0;border-radius:10px;padding:12px}
 @media(max-width:900px){
- .layout{grid-template-columns:1fr}.layout aside{order:2;max-height:none;border-right:0}.layout #map{order:1;min-height:42vh}
- .metrics{grid-template-columns:repeat(3,1fr)}
+ header{padding:12px 14px}
+ header h1{font-size:18px}
+ header p{font-size:12px;line-height:1.3}
+ .badge{font-size:10px;padding:5px 8px}
+ .layout{grid-template-columns:1fr}
+ .layout aside{order:1;max-height:none;border-right:0;padding:10px}
+ .layout #map{order:2;min-height:34vh;margin-top:8px}
+ .profile{padding:9px 10px;margin-bottom:8px}
+ .metrics{grid-template-columns:repeat(5,1fr);gap:4px}
+ .metric{padding:6px}
+ .metric b{font-size:15px}
+ .metric span{font-size:8px}
+ .queueIntro{padding:8px 9px}
+ .tabs{margin-bottom:6px}
+ .tabs button{padding:6px 8px}
 }
-@media(max-width:520px){.metrics{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr}.profile{display:block}.readiness{justify-content:flex-start;margin-top:8px}}
+@media(max-width:520px){
+ .profile{display:block}
+ .profile small{font-size:11px}
+ .readiness{justify-content:flex-start;margin-top:7px}
+ .pill{font-size:9px;padding:3px 6px}
+ .metrics{grid-template-columns:repeat(5,minmax(0,1fr))}
+ .controls{grid-template-columns:1fr}
+ .card{padding:10px}
+ .card h3{font-size:14px}
+ .action{font-size:11px;padding:8px}
+}
 </style>
 </head>
 <body>
@@ -107,13 +130,14 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
     <div class="metric"><b id="hiddenN">0</b><span>FILTERED OUT</span></div>
   </div>
 
-  <div class="queueIntro"><strong>What should I do first?</strong> <span id="attentionText"></span><br><small>Ranked by action priority, company fit, evidence quality, deadline and territory. Qualification gates override the score.</small></div>
+  <div class="queueIntro"><strong>What should I do first?</strong> <span id="attentionText"></span><br><small>Ordered by the Project Radar intelligence engine. ACT TODAY outranks PURSUE NOW. Qualification gates override score.</small></div>
 
   <div class="tabs">
     <button class="on" data-filter="priority">Priority queue</button>
     <button data-filter="act_today">Act today</button>
     <button data-filter="pursue_now">Pursue now</button>
     <button data-filter="verify">Verify first</button>
+    <button data-filter="active">Active / subcontract</button>
     <button data-filter="optional">Optional</button>
     <button data-filter="all">All vetted</button>
   </div>
@@ -204,12 +228,23 @@ function counts(){
  document.getElementById('hiddenN').textContent=hidden;
  document.getElementById('attentionText').textContent=`${today+pursue+verify} opportunities need attention; ${hidden} weaker records are filtered out.`;
 }
+function isActiveProject(c){
+ const status=String(c.status||'').toLowerCase();
+ return !c.deadline && (
+   status.includes('under construction') ||
+   status.includes('construction underway') ||
+   status.includes('awarded') ||
+   status.includes('work underway') ||
+   status.includes('active project')
+ );
+}
 function includeByFilter(c){
- if(filter==='priority')return ['act_today','pursue_now','verify_then_pursue','verify_scope'].includes(c.decision);
- if(filter==='verify')return ['verify_then_pursue','verify_scope'].includes(c.decision);
+ if(filter==='priority')return !isActiveProject(c)&&['act_today','pursue_now','verify_then_pursue','verify_scope'].includes(c.decision);
+ if(filter==='verify')return !isActiveProject(c)&&['verify_then_pursue','verify_scope'].includes(c.decision);
+ if(filter==='active')return isActiveProject(c);
  if(filter==='optional')return ['optional_outside_radius','watch','specialist_only'].includes(c.decision);
  if(filter==='all')return true;
- return c.decision===filter;
+ return !isActiveProject(c)&&c.decision===filter;
 }
 function cardHTML(c,rank){
  const money=fmtMoney(c.value);
@@ -220,7 +255,7 @@ function cardHTML(c,rank){
   <span class="chip">Action ${esc(c.actionPriority??'—')}</span>
   <span class="chip">Fit ${esc(c.fitScore??'—')}</span>
   <span class="chip">${esc(c.distanceMiles??'—')} mi</span>
-  ${c.recommendedLane&&String(c.recommendedLane).includes('prime')?`<span class="chip">Prime gate: ${esc(c.primeReadiness||'unknown')}</span>`:''}
+  ${c.recommendedLane&&String(c.recommendedLane).includes('prime')?`<span class="chip ${c.primeReadiness==='ready'?'ready':'notready'}">Prime gate: ${esc(c.primeReadiness||'unknown')}</span>`:''}
   ${money?`<span class="chip">${esc(money)}</span>`:''}
  </div>
  <div class="action"><b>FIRST MOVE →</b> ${esc(c.firstAction||'Open source and verify requirements.')}</div>
