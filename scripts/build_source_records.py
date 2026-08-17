@@ -44,7 +44,7 @@ def main():
         if source.get("status") != "active":
             continue
 
-        if source.get("platform") != "reproconnect_planhouse":
+        if source.get("management") == "legacy_pipeline":
             continue
 
         path = (

@@ -32,7 +32,8 @@
         "excavation_sitework",
         "paving_asphalt",
         "concrete"
-      ]
+      ],
+      "management": "legacy_pipeline"
     },
     {
       "id": "ms_procurement",
@@ -45,7 +46,8 @@
       ],
       "tradeBias": [
         "all"
-      ]
+      ],
+      "management": "legacy_pipeline"
     },
     {
       "id": "gulfport_planroom",

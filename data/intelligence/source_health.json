@@ -1,10 +1,22 @@
 {
   "version": "0.12.0",
-  "checkedAt": "2026-08-17T18:16:20.617706+00:00",
-  "sourcesChecked": 4,
+  "checkedAt": "2026-08-17T18:30:29.975523+00:00",
+  "sourcesChecked": 6,
   "healthy": 4,
   "failed": 0,
   "sources": [
+    {
+      "sourceId": "mdot",
+      "source": "Mississippi Department of Transportation",
+      "platform": null,
+      "status": "legacy_managed"
+    },
+    {
+      "sourceId": "ms_procurement",
+      "source": "Mississippi Procurement",
+      "platform": null,
+      "status": "legacy_managed"
+    },
     {
       "sourceId": "gulfport_planroom",
       "source": "City of Gulfport Planroom",

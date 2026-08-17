@@ -1,0 +1,29 @@
+{
+  "version": "0.13.0",
+  "adapters": {
+    "reproconnect_planhouse": {
+      "label": "ReproConnect / Plan House",
+      "collector": "scripts/collect_reproconnect.py",
+      "normalizer": "scripts/normalize_planroom.py",
+      "supportsDetailFetch": true,
+      "supportsDocumentDiscovery": true,
+      "status": "active"
+    },
+    "custom_html": {
+      "label": "Custom HTML Source",
+      "collector": null,
+      "normalizer": null,
+      "supportsDetailFetch": false,
+      "supportsDocumentDiscovery": false,
+      "status": "planned"
+    },
+    "api": {
+      "label": "API Source",
+      "collector": null,
+      "normalizer": null,
+      "supportsDetailFetch": false,
+      "supportsDocumentDiscovery": true,
+      "status": "planned"
+    }
+  }
+}

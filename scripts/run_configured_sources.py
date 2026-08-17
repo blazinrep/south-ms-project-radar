@@ -8,6 +8,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "config" / "sources.json"
+ADAPTERS = ROOT / "config" / "adapters.json"
 HEALTH = ROOT / "data" / "intelligence" / "source_health.json"
 
 
@@ -32,6 +33,8 @@ def run_command(cmd):
 
 def main():
     config = load(SOURCES)
+    adapter_config = load(ADAPTERS)
+    adapters = adapter_config.get("adapters", {})
 
     results = []
 
@@ -42,8 +45,45 @@ def main():
         platform = source.get("platform")
         source_id = source.get("id")
 
-        # Existing legacy collectors are managed separately for now.
-        if platform != "reproconnect_planhouse":
+        if source.get("management") == "legacy_pipeline":
+            results.append({
+                "sourceId": source_id,
+                "source": source.get("name"),
+                "platform": platform,
+                "status": "legacy_managed"
+            })
+            continue
+
+        adapter = adapters.get(platform)
+
+        if not adapter:
+            results.append({
+                "sourceId": source_id,
+                "source": source.get("name"),
+                "platform": platform,
+                "status": "adapter_missing"
+            })
+            continue
+
+        if adapter.get("status") != "active":
+            results.append({
+                "sourceId": source_id,
+                "source": source.get("name"),
+                "platform": platform,
+                "status": "adapter_inactive"
+            })
+            continue
+
+        collector = adapter.get("collector")
+        normalizer = adapter.get("normalizer")
+
+        if not collector or not normalizer:
+            results.append({
+                "sourceId": source_id,
+                "source": source.get("name"),
+                "platform": platform,
+                "status": "adapter_incomplete"
+            })
             continue
 
         print()
@@ -66,7 +106,7 @@ def main():
 
         collect = run_command([
             sys.executable,
-            "scripts/collect_reproconnect.py",
+            collector,
             "--source",
             source_id
         ])
@@ -90,7 +130,7 @@ def main():
 
         normalize = run_command([
             sys.executable,
-            "scripts/normalize_planroom.py",
+            normalizer,
             "--source",
             source_id
         ])
@@ -136,7 +176,10 @@ def main():
         "checkedAt": datetime.now(timezone.utc).isoformat(),
         "sourcesChecked": len(results),
         "healthy": sum(x["status"] == "healthy" for x in results),
-        "failed": sum(x["status"] != "healthy" for x in results),
+        "failed": sum(
+            x["status"] not in {"healthy", "legacy_managed"}
+            for x in results
+        ),
         "sources": results
     }
 
