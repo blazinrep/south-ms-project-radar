@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-PROJECTS = ROOT / "projects.json"
+SOURCE_RECORDS = ROOT / "data" / "intelligence" / "source_records.json"
 OPPS = ROOT / "data" / "intelligence" / "opportunities.json"
 OVERRIDES = ROOT / "data" / "intelligence" / "research_overrides.json"
 OUT = ROOT / "data" / "intelligence" / "scope_evidence.json"
@@ -14,7 +14,8 @@ def load(path):
 
 
 def main():
-    projects = load(PROJECTS)
+    source_payload = load(SOURCE_RECORDS)
+    projects = source_payload.get("records", [])
     opps = load(OPPS) if OPPS.exists() else []
     overrides = load(OVERRIDES) if OVERRIDES.exists() else {}
 
@@ -92,7 +93,7 @@ def main():
         })
 
     OUT.write_text(json.dumps({
-        "version": "0.10.0",
+        "version": "0.11.0",
         "projectCount": len(results),
         "projects": results
     }, indent=2) + "\n")

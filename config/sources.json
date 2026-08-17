@@ -1,0 +1,45 @@
+{
+  "version": "0.11.0",
+  "sourceTypes": {
+    "owner": {
+      "label": "Owner / Public Agency",
+      "priority": 1
+    },
+    "architect_engineer": {
+      "label": "Architect / Engineer",
+      "priority": 2
+    },
+    "planroom": {
+      "label": "Planroom / Bid Distribution",
+      "priority": 3
+    },
+    "general_contractor": {
+      "label": "General Contractor / Subcontract Solicitation",
+      "priority": 4
+    }
+  },
+  "sources": [
+    {
+      "id": "mdot",
+      "name": "Mississippi Department of Transportation",
+      "type": "owner",
+      "status": "active",
+      "collector": "existing",
+      "geography": ["Mississippi"],
+      "tradeBias": [
+        "excavation_sitework",
+        "paving_asphalt",
+        "concrete"
+      ]
+    },
+    {
+      "id": "ms_procurement",
+      "name": "Mississippi Procurement",
+      "type": "owner",
+      "status": "active",
+      "collector": "existing",
+      "geography": ["Mississippi"],
+      "tradeBias": ["all"]
+    }
+  ]
+}

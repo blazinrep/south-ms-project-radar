@@ -7,7 +7,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 TRADES = ROOT / "config" / "trades.json"
-PROJECTS = ROOT / "projects.json"
+SOURCE_RECORDS = ROOT / "data" / "intelligence" / "source_records.json"
 OPPORTUNITIES = ROOT / "data" / "intelligence" / "opportunities.json"
 OVERRIDES = ROOT / "data" / "intelligence" / "research_overrides.json"
 SCOPE_EVIDENCE = ROOT / "data" / "intelligence" / "scope_evidence.json"
@@ -184,7 +184,8 @@ def match_trade(text, key, trade):
 
 def main():
     trade_config = load(TRADES)
-    projects = load(PROJECTS)
+    source_payload = load(SOURCE_RECORDS)
+    projects = source_payload.get("records", [])
 
     opportunities = load(OPPORTUNITIES) if OPPORTUNITIES.exists() else []
     overrides = load(OVERRIDES) if OVERRIDES.exists() else {}
@@ -295,7 +296,7 @@ def main():
         json.dumps(coverage_payload, indent=2) + "\n"
     )
 
-    print("V0.10 TRADE MATCHER")
+    print("V0.11 TRADE MATCHER")
     print("Projects scanned:", len(projects))
     print("Projects with trade matches:", len(results))
 

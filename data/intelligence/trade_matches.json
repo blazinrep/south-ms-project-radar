@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 69,
-  "matchedProjectCount": 54,
+  "projectCount": 72,
+  "matchedProjectCount": 57,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2263,6 +2263,227 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "gulfport-planroom-20714",
+      "projectName": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
+      "owner": "City of Gulfport",
+      "county": "Harrison",
+      "status": "published",
+      "source": "https://www.gulfportmsbids.com/projects/20714/details/fblf-9159-00001-interconnecting-gulfport-airport-road-extension-interstate-10-overpass",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "earthwork",
+            "clearing",
+            "grubbing",
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, clearing, grubbing, drainage.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: earthwork, clearing, grubbing, drainage"
+        },
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "concrete",
+            "sidewalk"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant concrete scope appears in the project: concrete, sidewalk.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: concrete, sidewalk"
+        },
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "asphalt",
+            "striping"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant paving / asphalt scope appears in the project: asphalt, striping.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: asphalt, striping"
+        },
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "lighting"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: lighting"
+        }
+      ]
+    },
+    {
+      "projectId": "gulfport-planroom-20166",
+      "projectName": "Coffee Creek Sewer Rehabilitation",
+      "owner": "City of Gulfport",
+      "county": "Harrison",
+      "status": "published",
+      "source": "https://www.gulfportmsbids.com/projects/20166/details/coffee-creek-sewer-rehabilitation",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: drainage, erosion control"
+        },
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "concrete"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible concrete scope detected from concrete, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: concrete"
+        }
+      ]
+    },
+    {
+      "projectId": "gulfport-planroom-19885",
+      "projectName": "Building Repairs and Construction Unit Price Project",
+      "owner": "City of Gulfport",
+      "county": "Harrison",
+      "status": "published",
+      "source": "https://www.gulfportmsbids.com/projects/19885/details/building-repairs-and-construction-unit-price-project",
+      "tradeMatches": [
+        {
+          "tradeKey": "plumbing",
+          "trade": "Plumbing",
+          "opportunityLabel": "PLUMBING OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 3,
+          "matchedScope": [
+            "plumbing",
+            "fixtures",
+            "plumbing fixtures"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "plumbing_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant plumbing scope appears in the project: plumbing, fixtures, plumbing fixtures.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: plumbing, fixtures, plumbing fixtures"
+        },
+        {
+          "tradeKey": "roofing",
+          "trade": "Roofing",
+          "opportunityLabel": "ROOFING OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "roofing"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "manufacturer_requirements",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible roofing scope detected from roofing, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: roofing"
         }
       ]
     }

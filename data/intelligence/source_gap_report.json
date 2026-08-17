@@ -1,0 +1,154 @@
+{
+  "version": "0.11.0",
+  "projectsScanned": 72,
+  "sourceCount": 2,
+  "tradeGaps": [
+    {
+      "tradeId": "hvac_mechanical",
+      "trade": "HVAC / Mechanical",
+      "coverageGap": "critical",
+      "matches": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "drywall",
+      "trade": "Drywall / Sheetrock",
+      "coverageGap": "critical",
+      "matches": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "framing_carpentry",
+      "trade": "Framing / Carpentry",
+      "coverageGap": "critical",
+      "matches": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "metal_framing",
+      "trade": "Metal Stud Framing",
+      "coverageGap": "critical",
+      "matches": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "structural_steel_welding",
+      "trade": "Structural Steel / Welding",
+      "coverageGap": "critical",
+      "matches": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "roofing",
+      "trade": "Roofing",
+      "coverageGap": "high",
+      "matches": 1,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 1,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "electrical",
+      "trade": "Electrical",
+      "coverageGap": "high",
+      "matches": 2,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 2,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "demolition",
+      "trade": "Demolition",
+      "coverageGap": "high",
+      "matches": 5,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 5,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "plumbing",
+      "trade": "Plumbing",
+      "coverageGap": "medium",
+      "matches": 1,
+      "strong": 0,
+      "moderate": 1,
+      "possible": 0,
+      "supportingSources": [
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "concrete",
+      "trade": "Concrete",
+      "coverageGap": "medium",
+      "matches": 5,
+      "strong": 0,
+      "moderate": 1,
+      "possible": 4,
+      "supportingSources": [
+        "Mississippi Department of Transportation",
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "excavation_sitework",
+      "trade": "Excavation / Sitework",
+      "coverageGap": "medium",
+      "matches": 33,
+      "strong": 0,
+      "moderate": 17,
+      "possible": 16,
+      "supportingSources": [
+        "Mississippi Department of Transportation",
+        "Mississippi Procurement"
+      ]
+    },
+    {
+      "tradeId": "paving_asphalt",
+      "trade": "Paving / Asphalt",
+      "coverageGap": "covered",
+      "matches": 31,
+      "strong": 2,
+      "moderate": 1,
+      "possible": 28,
+      "supportingSources": [
+        "Mississippi Department of Transportation",
+        "Mississippi Procurement"
+      ]
+    }
+  ]
+}

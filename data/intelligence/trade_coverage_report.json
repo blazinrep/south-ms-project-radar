@@ -1,38 +1,38 @@
 {
   "version": "0.10.0",
-  "projectsScanned": 69,
+  "projectsScanned": 72,
   "trades": {
     "excavation_sitework": {
       "trade": "Excavation / Sitework",
-      "total": 31,
+      "total": 33,
       "strong": 0,
-      "moderate": 15,
+      "moderate": 17,
       "possible": 16,
-      "verifyFirst": 31
+      "verifyFirst": 33
     },
     "roofing": {
       "trade": "Roofing",
-      "total": 0,
-      "strong": 0,
-      "moderate": 0,
-      "possible": 0,
-      "verifyFirst": 0
-    },
-    "electrical": {
-      "trade": "Electrical",
       "total": 1,
       "strong": 0,
       "moderate": 0,
       "possible": 1,
       "verifyFirst": 1
     },
-    "plumbing": {
-      "trade": "Plumbing",
-      "total": 0,
+    "electrical": {
+      "trade": "Electrical",
+      "total": 2,
       "strong": 0,
       "moderate": 0,
+      "possible": 2,
+      "verifyFirst": 2
+    },
+    "plumbing": {
+      "trade": "Plumbing",
+      "total": 1,
+      "strong": 0,
+      "moderate": 1,
       "possible": 0,
-      "verifyFirst": 0
+      "verifyFirst": 1
     },
     "hvac_mechanical": {
       "trade": "HVAC / Mechanical",
@@ -76,19 +76,19 @@
     },
     "concrete": {
       "trade": "Concrete",
-      "total": 3,
+      "total": 5,
       "strong": 0,
-      "moderate": 0,
-      "possible": 3,
-      "verifyFirst": 3
+      "moderate": 1,
+      "possible": 4,
+      "verifyFirst": 5
     },
     "paving_asphalt": {
       "trade": "Paving / Asphalt",
-      "total": 30,
+      "total": 31,
       "strong": 2,
-      "moderate": 0,
+      "moderate": 1,
       "possible": 28,
-      "verifyFirst": 28
+      "verifyFirst": 29
     },
     "demolition": {
       "trade": "Demolition",
