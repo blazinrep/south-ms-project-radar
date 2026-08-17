@@ -1,0 +1,1159 @@
+{
+  "version": "0.10.0",
+  "projectCount": 69,
+  "matchedProjectCount": 31,
+  "projects": [
+    {
+      "projectId": "pine-belt-landfill-cell7",
+      "projectName": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
+      "owner": "Pine Belt Regional Solid Waste Management Authority",
+      "county": "Perry",
+      "status": "Accepting bids",
+      "source": "https://www.neel-schafferplans.com/projects/20657/details/ns19811002-pine-belt-landfill-cell-no-7-construction",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "sitework",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, sitework, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, sitework, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "jcjc-walking-plaza",
+      "projectName": "JCJC Central Avenue Walking Plaza (Re-Bid)",
+      "owner": "Jones County Junior College",
+      "county": "Jones",
+      "status": "Accepting bids",
+      "source": "https://www.neel-schafferplans.com/projects/20677/details/19212-jcjc-central-avenue-walking-plaza-re-bid",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 3,
+          "matchedScope": [
+            "grading",
+            "sitework",
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: grading, sitework, drainage.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: grading, sitework, drainage"
+        },
+        {
+          "tradeKey": "electrical",
+          "trade": "Electrical",
+          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "lighting"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "electrical_license",
+            "insurance",
+            "bonding",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: lighting"
+        }
+      ]
+    },
+    {
+      "projectId": "laurel-citywide-paving",
+      "projectName": "Laurel 2026 Citywide Paving Project",
+      "owner": "City of Laurel",
+      "county": "Jones",
+      "status": "Accepting bids",
+      "source": "https://www.neel-schafferplans.com/projects/20683/details/20387-2026-citywide-paving-project",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 3,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "sitework"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, sitework.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, sitework"
+        }
+      ]
+    },
+    {
+      "projectId": "walthall-orphan-wells",
+      "projectName": "Orphaned Well Plugging, Remediation & Reclamation",
+      "owner": "Mississippi Oil and Gas Board",
+      "county": "Walthall",
+      "status": "Accepting bids \u2014 specialized",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/45990",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "earthwork",
+            "grading",
+            "sitework"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, earthwork, grading, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, earthwork, grading, sitework"
+        }
+      ]
+    },
+    {
+      "projectId": "aaa-resource-center",
+      "projectName": "AAA Ambulance Service Resource Center",
+      "owner": "AAA Ambulance Service, Inc.",
+      "county": "Forrest",
+      "status": "Accepting bids",
+      "source": "https://www.planhouseplanroom.com/projects/20771/details/4182-aaa-ambulance-service-resource-center",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 5,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "sitework",
+            "clearing",
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, sitework, clearing.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, sitework, clearing, drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "pineview-parking",
+      "projectName": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
+      "owner": "Mississippi Bureau of Building / Ellisville State School",
+      "county": "Jones",
+      "status": "Accepting bids",
+      "source": "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 6,
+          "matchedScope": [
+            "earthwork",
+            "grading",
+            "sitework",
+            "clearing",
+            "drainage",
+            "aggregate"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, drainage, aggregate"
+        }
+      ]
+    },
+    {
+      "projectId": "greene-road-maintenance",
+      "projectName": "Greene County SAP-21(15)M Road Maintenance",
+      "owner": "Greene County Board of Supervisors",
+      "county": "Greene",
+      "status": "Accepting bids",
+      "source": "https://www.planhouseplanroom.com/projects/20770/details/185-24-sap-2115m-greene-county-ms",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "earthwork",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: earthwork, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "clarkco-trail",
+      "projectName": "Clarkco State Park Recreational Trail",
+      "owner": "Mississippi Bureau of Building / Clarkco State Park",
+      "county": "Clarke",
+      "status": "Accepting bids",
+      "source": "https://www.neel-schafferplans.com/projects/20686/details/20270-clarkco-recreational-trail",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 7,
+          "matchedScope": [
+            "earthwork",
+            "grading",
+            "sitework",
+            "clearing",
+            "grubbing",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, grubbing, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "marion-ebenezer-bridge",
+      "projectName": "Ebenezer Church Road Bridge & Approaches",
+      "owner": "Marion County Board of Supervisors",
+      "county": "Marion",
+      "status": "Pre-construction / award unknown",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/45250",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "clearing",
+            "grubbing",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, clearing, grubbing, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, clearing, grubbing, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "marion-us98-bridges",
+      "projectName": "US 98 Pearl River Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Marion",
+      "status": "Active construction \u2014 prime known",
+      "source": "https://mdot.ms.gov/portal/news_release_view/1774",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 5,
+          "matchedScope": [
+            "excavation",
+            "earthwork",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, earthwork, grading, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, earthwork, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110227-301000",
+      "projectName": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Covington",
+      "status": "Proposed 2026/09 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109492-301000",
+      "projectName": "MDOT Proposed: US 84 \u2014 Franklin County Slide Improvement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Franklin",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-106972-301000",
+      "projectName": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Pike",
+      "status": "Proposed 2026/08 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-106972-302000",
+      "projectName": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Pike",
+      "status": "Proposed 2026/08 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108781-306000",
+      "projectName": "MDOT Proposed: MS 15 \u2014 Harrison County Bridge Preventive Maintenance",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Harrison",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-100881-301000",
+      "projectName": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Simpson",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-106971-301000",
+      "projectName": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Simpson",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110044-301000",
+      "projectName": "MDOT Proposed: I 55 \u2014 Lincoln County Bridge Repair",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lincoln",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109364-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Simpson County Reconstruction",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Simpson",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 3,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109087-301000",
+      "projectName": "MDOT Proposed: MS 13 \u2014 Pearl River County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Pearl River",
+      "status": "Proposed 2027/01 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108393-301000",
+      "projectName": "MDOT Proposed: MS 53 \u2014 Harrison County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Harrison",
+      "status": "Proposed 2027/02 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108394-301000",
+      "projectName": "MDOT Proposed: MS 42 \u2014 Perry County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Perry",
+      "status": "Proposed 2027/02 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109083-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Clarke",
+      "status": "Proposed 2027/02 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108395-301000",
+      "projectName": "MDOT Proposed: MS 29 \u2014 Stone County Bridge Replacement",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Stone",
+      "status": "Proposed 2027/06 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46142",
+      "projectName": "Jones / 1130-27-R-IFBD-00005",
+      "owner": "MS DEPT FINANCE AND ADMINISTRATION",
+      "county": "Jones",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46142?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 6,
+          "matchedScope": [
+            "earthwork",
+            "grading",
+            "sitework",
+            "clearing",
+            "drainage",
+            "aggregate"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, drainage, aggregate"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46147",
+      "projectName": "Perry / 45-20260723131206 BSPC",
+      "owner": "MPTAP",
+      "county": "Perry",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46147?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "excavation",
+            "sitework"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, sitework.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, sitework"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46173",
+      "projectName": "Lincoln / 3515-20260730090934 Brookhaven",
+      "owner": "MPTAP",
+      "county": "Lincoln",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46173?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "excavation",
+            "sitework"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, sitework.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, sitework"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46194",
+      "projectName": "Lincoln / 3515-20260730085656 Brookhaven",
+      "owner": "MPTAP",
+      "county": "Lincoln",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46194?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "excavation"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: excavation"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46220",
+      "projectName": "Hancock / 342-20260728161540 HCBS",
+      "owner": "MPTAP",
+      "county": "Hancock",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46220?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "excavation",
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, drainage.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46244",
+      "projectName": "Forrest / 9280-27-R-IFBD-00006",
+      "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "county": "Forrest",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46244?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "sitework"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from sitework, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: sitework"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46273",
+      "projectName": "Greene / 45-20260804080102 BSGC",
+      "owner": "MPTAP",
+      "county": "Greene",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "earthwork"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from earthwork, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: earthwork"
+        }
+      ]
+    }
+  ]
+}

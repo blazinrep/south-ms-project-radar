@@ -78,6 +78,11 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
 .contact{background:#151f2a;border-radius:9px;padding:9px;margin-top:8px}
 .tags{display:flex;gap:5px;flex-wrap:wrap}.tag{background:var(--panel2);border-radius:6px;padding:4px 6px;font-size:10px}
 .gate{border-left:2px solid var(--yellow);padding-left:8px;margin:6px 0;font-size:11px}
+.userDecision{margin-top:9px;padding-top:8px;border-top:1px solid var(--line)}
+.userDecision b{display:block;font-size:10px;color:var(--muted);margin-bottom:5px}
+.decisionBtns{display:flex;gap:4px;flex-wrap:wrap}
+.decisionBtns button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:7px;padding:5px 7px;font-size:9px;cursor:pointer}
+.decisionBtns button.selected{border-color:var(--orange);color:#ffd484;background:#2a2215}
 .foot{font-size:10px;color:var(--muted);margin:10px 2px}
 .error{border:1px solid #663a3a;background:#291818;color:#ffd0d0;border-radius:10px;padding:12px}
 @media(max-width:900px){
@@ -208,6 +213,43 @@ const M={
  low_priority:'#74869a',specialist_only:'#74869a'
 };
 function esc(v){return String(v??'').replace(/[&<>"']/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[s]))}
+
+const DECISION_KEY='projectRadarContractorDecisions';
+
+function getUserDecisions(){
+ try{return JSON.parse(localStorage.getItem(DECISION_KEY)||'{}')}
+ catch{return {}}
+}
+
+function getUserDecision(id){
+ return getUserDecisions()[id]||''
+}
+
+function saveUserDecision(id,value){
+ const decisions=getUserDecisions();
+ if(value) decisions[id]=value;
+ else delete decisions[id];
+ localStorage.setItem(DECISION_KEY,JSON.stringify(decisions));
+ render();
+}
+
+function contractorDecisionHTML(c){
+ const current=getUserDecision(c.id);
+ const options=[
+   ['can_do','WE CAN DO THIS'],
+   ['review','MAYBE / REVIEW'],
+   ['out_scope','OUT OF OUR SCOPE'],
+   ['not_interested','NOT INTERESTED']
+ ];
+ return `<div class="userDecision" onclick="event.stopPropagation()">
+   <b>YOUR DECISION · Radar recommends, you decide.</b>
+   <div class="decisionBtns">
+   ${options.map(([value,label])=>
+     `<button class="${current===value?'selected':''}" onclick="saveUserDecision('${esc(c.id)}','${value}')">${label}</button>`
+   ).join('')}
+   </div>
+ </div>`;
+}
 function fmtMoney(v){if(!v)return null;return v>=1000000?'$'+(v/1000000).toFixed(1)+'M':'$'+Math.round(v/1000)+'K'}
 function fmtDeadline(v){if(!v)return 'No current bid deadline';const d=new Date(v);return d.toLocaleString([],{dateStyle:'medium',timeStyle:'short'})}
 function daysText(c){
@@ -277,6 +319,7 @@ function cardHTML(c,rank){
  <div class="action"><b>FIRST MOVE →</b> ${esc(c.firstAction||'Open source and verify requirements.')}</div>
  ${c.stopIf?`<div class="stop"><b>STOP IF:</b> ${esc(c.stopIf)}</div>`:''}
  <div class="meta" style="margin-top:7px">SOURCE CHECKED · ${esc(c.verified||payload?.generatedAt||'date unavailable')}</div>
+ ${contractorDecisionHTML(c)}
  ${c.source?`<a class="sourceBtn" href="${esc(c.source)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open bid/source ↗</a>`:''}`;
 }
 function render(){

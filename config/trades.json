@@ -1,0 +1,125 @@
+{
+  "version": "0.10.0",
+  "trades": {
+    "excavation_sitework": {
+      "label": "Excavation / Sitework",
+      "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+      "scopeTerms": [
+        "excavation",
+        "earthwork",
+        "grading",
+        "sitework",
+        "clearing",
+        "grubbing",
+        "drainage",
+        "storm drain",
+        "storm sewer",
+        "sanitary sewer",
+        "water line",
+        "underground utilities",
+        "base course",
+        "aggregate",
+        "erosion control",
+        "demolition",
+        "haul off"
+      ],
+      "strongSignals": [
+        "mass excavation",
+        "site grading",
+        "roadway excavation",
+        "utility installation",
+        "storm drainage",
+        "land clearing"
+      ],
+      "exclusions": [
+        "architectural design only",
+        "engineering services only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "bonding",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "roofing": {
+      "label": "Roofing",
+      "opportunityLabel": "ROOFING OPPORTUNITY",
+      "scopeTerms": [
+        "roof",
+        "roofing",
+        "reroof",
+        "re-roof",
+        "roof replacement",
+        "roof repair",
+        "metal roof",
+        "standing seam",
+        "tpo",
+        "epdm",
+        "modified bitumen",
+        "shingles",
+        "flashing",
+        "roof insulation",
+        "membrane roofing"
+      ],
+      "strongSignals": [
+        "roof replacement",
+        "reroof",
+        "roofing system",
+        "tpo roofing",
+        "metal roofing",
+        "standing seam roof"
+      ],
+      "exclusions": [
+        "roof inspection only",
+        "design services only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "insurance",
+        "manufacturer_requirements",
+        "crew_capacity"
+      ]
+    },
+    "electrical": {
+      "label": "Electrical",
+      "opportunityLabel": "ELECTRICAL OPPORTUNITY",
+      "scopeTerms": [
+        "electrical",
+        "electric",
+        "lighting",
+        "site lighting",
+        "service entrance",
+        "switchgear",
+        "panelboard",
+        "transformer",
+        "generator",
+        "conduit",
+        "wiring",
+        "power distribution",
+        "branch circuits",
+        "fire alarm",
+        "controls"
+      ],
+      "strongSignals": [
+        "electrical system",
+        "electrical renovation",
+        "new electrical service",
+        "power distribution",
+        "lighting replacement",
+        "generator installation"
+      ],
+      "exclusions": [
+        "electrical engineering services only",
+        "utility power purchase"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "electrical_license",
+        "insurance",
+        "bonding",
+        "crew_capacity"
+      ]
+    }
+  }
+}
