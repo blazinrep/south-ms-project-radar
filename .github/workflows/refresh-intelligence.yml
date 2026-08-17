@@ -44,7 +44,10 @@ jobs:
             data/intelligence/rejected.json \
             data/intelligence/duplicates.json \
             data/intelligence/daily_brief.json \
-            data/intelligence/pursuit_cards.json
+            data/intelligence/pursuit_cards.json \
+            data/intelligence/scope_evidence.json \
+            data/intelligence/trade_matches.json \
+            data/intelligence/trade_coverage_report.json
 
           if git diff --cached --quiet; then
             echo "No intelligence changes to commit"

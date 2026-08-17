@@ -5,3 +5,7 @@ __pycache__/
 
 # Local UI backups
 index-v*-backup.html
+
+# Private contractor relationship data
+data/company/relationships.json
+data/intelligence/relationship_matches.json

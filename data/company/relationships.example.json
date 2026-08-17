@@ -1,0 +1,20 @@
+{
+  "version": "0.10.0",
+  "relationships": [],
+  "schema": {
+    "organization": "GC, owner, engineer, architect, municipality, developer or customer",
+    "contactName": "Known person, if any",
+    "role": "Estimator, superintendent, PM, owner, purchasing contact, etc.",
+    "phone": "",
+    "email": "",
+    "relationship": "new | known | worked_together | repeat_customer | referral",
+    "strength": "unknown | weak | normal | strong",
+    "referredBy": "",
+    "tradesKnownFor": [],
+    "pastProjects": [],
+    "performanceNote": "",
+    "lastInteraction": "",
+    "nextFollowUp": "",
+    "notes": ""
+  }
+}

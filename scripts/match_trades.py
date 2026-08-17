@@ -10,6 +10,7 @@ TRADES = ROOT / "config" / "trades.json"
 PROJECTS = ROOT / "projects.json"
 OPPORTUNITIES = ROOT / "data" / "intelligence" / "opportunities.json"
 OVERRIDES = ROOT / "data" / "intelligence" / "research_overrides.json"
+SCOPE_EVIDENCE = ROOT / "data" / "intelligence" / "scope_evidence.json"
 OUT = ROOT / "data" / "intelligence" / "trade_matches.json"
 COVERAGE_OUT = ROOT / "data" / "intelligence" / "trade_coverage_report.json"
 
@@ -39,7 +40,16 @@ def normalize(text):
 
 
 def contains_term(text, term):
-    return normalize(term) in text
+    needle = normalize(term)
+    if not needle:
+        return False
+
+    # Match complete normalized words/phrases rather than arbitrary
+    # substrings. This prevents short trade abbreviations such as
+    # RTU, AHU or demo from matching inside unrelated words.
+    haystack = f" {text} "
+    phrase = f" {needle} "
+    return phrase in haystack
 
 
 def project_text(project, opportunity=None, override=None):
@@ -178,6 +188,13 @@ def main():
 
     opportunities = load(OPPORTUNITIES) if OPPORTUNITIES.exists() else []
     overrides = load(OVERRIDES) if OVERRIDES.exists() else {}
+    scope_evidence = load(SCOPE_EVIDENCE) if SCOPE_EVIDENCE.exists() else {"projects":[]}
+
+    evidence_by_id = {
+        p.get("projectId"): p.get("evidence", [])
+        for p in scope_evidence.get("projects", [])
+        if isinstance(p, dict) and p.get("projectId")
+    }
 
     opportunity_by_id = {
         p.get("id"): p
@@ -203,7 +220,17 @@ def main():
             if canonical_key:
                 override = override_projects.get(canonical_key, {})
 
+        evidence = evidence_by_id.get(project_id, [])
+        evidence_text = " ".join(
+            str(item.get("text", ""))
+            for item in evidence
+            if isinstance(item, dict)
+        )
+
         text = project_text(project, opportunity, override)
+        if evidence_text:
+            text = normalize(text + " " + evidence_text)
+
         matches = []
 
         for key, trade in trade_config["trades"].items():

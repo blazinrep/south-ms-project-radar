@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
   "projectCount": 69,
-  "matchedProjectCount": 31,
+  "matchedProjectCount": 54,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -97,6 +97,29 @@
           "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: lighting"
+        },
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -108,6 +131,33 @@
       "status": "Accepting bids",
       "source": "https://www.neel-schafferplans.com/projects/20683/details/20387-2026-citywide-paving-project",
       "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "strong",
+          "matchScore": 6,
+          "matchedScope": [
+            "asphalt",
+            "paving",
+            "milling"
+          ],
+          "strongSignals": [
+            "asphalt paving"
+          ],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": false,
+          "opportunitySummary": "Paving / Asphalt scope is clearly indicated by asphalt paving, asphalt, paving, milling.",
+          "recommendedAction": "Open the source documents and identify the exact bid package, plans/spec sections, bidder list, and prime/subcontract path.",
+          "whyMatched": "Strong scope signal detected: asphalt paving"
+        },
         {
           "tradeKey": "excavation_sitework",
           "trade": "Excavation / Sitework",
@@ -170,6 +220,31 @@
           "opportunitySummary": "Possible excavation / sitework scope detected from excavation, earthwork, grading, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: excavation, earthwork, grading, sitework"
+        },
+        {
+          "tradeKey": "demolition",
+          "trade": "Demolition",
+          "opportunityLabel": "DEMOLITION OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "demo"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "hazardous_material_check",
+            "crew_capacity"
+          ],
+          "riskFlags": [
+            "specialist_project_context"
+          ],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: demo"
         }
       ]
     },
@@ -207,6 +282,28 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, sitework, clearing.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, grading, sitework, clearing, drainage"
+        },
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "concrete"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible concrete scope detected from concrete, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: concrete"
         }
       ]
     },
@@ -245,6 +342,51 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, drainage, aggregate"
+        },
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "curb"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible concrete scope detected from curb, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: curb"
+        },
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -281,6 +423,52 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: earthwork, grading, drainage, erosion control"
+        },
+        {
+          "tradeKey": "demolition",
+          "trade": "Demolition",
+          "opportunityLabel": "DEMOLITION OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "demo"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "hazardous_material_check",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: demo"
+        },
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -320,6 +508,29 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, grubbing, drainage, erosion control"
+        },
+        {
+          "tradeKey": "demolition",
+          "trade": "Demolition",
+          "opportunityLabel": "DEMOLITION OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "demo"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "hazardous_material_check",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: demo"
         }
       ]
     },
@@ -356,6 +567,105 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, clearing, grubbing, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, clearing, grubbing, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-forrest-i59-oct",
+      "projectName": "MDOT Proposed: I-59 Forrest County OGFC Lift / Fog Seal",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Forrest",
+      "status": "Proposed October 2026 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-lamar-i59-oct",
+      "projectName": "MDOT Proposed: I-59 Lamar County Fog Seal",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lamar",
+      "status": "Proposed October 2026 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-forrest-us11-nov",
+      "projectName": "MDOT Proposed: US 11 Overlay \u2014 Forrest County",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Forrest",
+      "status": "Proposed November 2026 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -431,6 +741,171 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108588-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Pearl River County Mill & Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Pearl River",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110076-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Lamar County Fog Seal",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lamar",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110077-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Forrest County Fog Seal",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Forrest",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110078-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Forrest County OGFC Lift",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Forrest",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108999-301000",
+      "projectName": "MDOT Proposed: MS 48 \u2014 Pike County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Pike",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -580,6 +1055,72 @@
       ]
     },
     {
+      "projectId": "mdot-110070-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Jasper County Fog Seal",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Jasper",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109253-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Clarke",
+      "status": "Proposed 2026/10 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
       "projectId": "mdot-100881-301000",
       "projectName": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
@@ -692,6 +1233,171 @@
       ]
     },
     {
+      "projectId": "mdot-108949-301000",
+      "projectName": "MDOT Proposed: MS 57 \u2014 Greene County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Greene",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108949-303000",
+      "projectName": "MDOT Proposed: US 45 \u2014 Greene County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Greene",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109987-301000",
+      "projectName": "MDOT Proposed: MS 42 \u2014 Greene County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Greene",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109988-301000",
+      "projectName": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Wayne",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109986-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Forrest County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Forrest",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
       "projectId": "mdot-109364-301000",
       "projectName": "MDOT Proposed: US 49 \u2014 Simpson County Reconstruction",
       "owner": "Mississippi Department of Transportation",
@@ -761,6 +1467,39 @@
           "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, drainage, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109953-301000",
+      "projectName": "MDOT Proposed: MS 13 \u2014 Jefferson Davis County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Jefferson Davis",
+      "status": "Proposed 2027/01 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -879,6 +1618,138 @@
       ]
     },
     {
+      "projectId": "mdot-109798-301000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Lincoln County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lincoln",
+      "status": "Proposed 2027/02 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109799-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Simpson County Mill & Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Simpson",
+      "status": "Proposed 2027/03 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110242-301000",
+      "projectName": "MDOT Proposed: US 84 \u2014 Lincoln County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lincoln",
+      "status": "Proposed 2027/03 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-310366-301000",
+      "projectName": "MDOT Proposed: MS 587 \u2014 Marion County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Marion",
+      "status": "Proposed 2027/05 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
       "projectId": "mdot-108395-301000",
       "projectName": "MDOT Proposed: MS 29 \u2014 Stone County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
@@ -917,6 +1788,105 @@
       ]
     },
     {
+      "projectId": "mdot-310370-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Lamar County Mill & Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lamar",
+      "status": "Proposed 2027/06 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110248-301000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Lamar County Mill & Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lamar",
+      "status": "Proposed 2027/07 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109471-301000",
+      "projectName": "MDOT Proposed: MS 27 \u2014 Lawrence County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Lawrence",
+      "status": "Proposed 2027/07 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
       "projectId": "msproc-46142",
       "projectName": "Jones / 1130-27-R-IFBD-00005",
       "owner": "MS DEPT FINANCE AND ADMINISTRATION",
@@ -951,6 +1921,51 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, drainage, aggregate"
+        },
+        {
+          "tradeKey": "concrete",
+          "trade": "Concrete",
+          "opportunityLabel": "CONCRETE OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "curb"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible concrete scope detected from curb, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: curb"
+        },
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -962,6 +1977,33 @@
       "status": "Accepting bids",
       "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46147?AppId=1",
       "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "strong",
+          "matchScore": 6,
+          "matchedScope": [
+            "asphalt",
+            "paving",
+            "striping"
+          ],
+          "strongSignals": [
+            "asphalt paving"
+          ],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": false,
+          "opportunitySummary": "Paving / Asphalt scope is clearly indicated by asphalt paving, asphalt, paving, striping.",
+          "recommendedAction": "Open the source documents and identify the exact bid package, plans/spec sections, bidder list, and prime/subcontract path.",
+          "whyMatched": "Strong scope signal detected: asphalt paving"
+        },
         {
           "tradeKey": "excavation_sitework",
           "trade": "Excavation / Sitework",
@@ -985,6 +2027,29 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, sitework.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, sitework"
+        },
+        {
+          "tradeKey": "demolition",
+          "trade": "Demolition",
+          "opportunityLabel": "DEMOLITION OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "demo"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "hazardous_material_check",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: demo"
         }
       ]
     },
@@ -1131,6 +2196,29 @@
       "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
       "tradeMatches": [
         {
+          "tradeKey": "demolition",
+          "trade": "Demolition",
+          "opportunityLabel": "DEMOLITION OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "demo"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "insurance",
+            "hazardous_material_check",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: demo"
+        },
+        {
           "tradeKey": "excavation_sitework",
           "trade": "Excavation / Sitework",
           "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
@@ -1152,6 +2240,29 @@
           "opportunitySummary": "Possible excavation / sitework scope detected from earthwork, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: earthwork"
+        },
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     }

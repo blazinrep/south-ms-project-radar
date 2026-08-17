@@ -25,6 +25,78 @@
       "moderate": 0,
       "possible": 1,
       "verifyFirst": 1
+    },
+    "plumbing": {
+      "trade": "Plumbing",
+      "total": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "verifyFirst": 0
+    },
+    "hvac_mechanical": {
+      "trade": "HVAC / Mechanical",
+      "total": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "verifyFirst": 0
+    },
+    "drywall": {
+      "trade": "Drywall / Sheetrock",
+      "total": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "verifyFirst": 0
+    },
+    "framing_carpentry": {
+      "trade": "Framing / Carpentry",
+      "total": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "verifyFirst": 0
+    },
+    "metal_framing": {
+      "trade": "Metal Stud Framing",
+      "total": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "verifyFirst": 0
+    },
+    "structural_steel_welding": {
+      "trade": "Structural Steel / Welding",
+      "total": 0,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 0,
+      "verifyFirst": 0
+    },
+    "concrete": {
+      "trade": "Concrete",
+      "total": 3,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 3,
+      "verifyFirst": 3
+    },
+    "paving_asphalt": {
+      "trade": "Paving / Asphalt",
+      "total": 30,
+      "strong": 2,
+      "moderate": 0,
+      "possible": 28,
+      "verifyFirst": 28
+    },
+    "demolition": {
+      "trade": "Demolition",
+      "total": 5,
+      "strong": 0,
+      "moderate": 0,
+      "possible": 5,
+      "verifyFirst": 5
     }
   }
 }

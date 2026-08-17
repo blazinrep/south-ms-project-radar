@@ -170,7 +170,7 @@ def main():
     }
     OUT.write_text(json.dumps(payload,indent=2))
 
-    print("V0.9.3 PURSUIT CARDS")
+    print("V0.10 PURSUIT CARDS")
     print(f"Cards built: {len(cards)}")
     for i,c in enumerate(cards[:5],1):
         print(

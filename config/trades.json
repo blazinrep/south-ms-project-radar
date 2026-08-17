@@ -120,6 +120,284 @@
         "bonding",
         "crew_capacity"
       ]
+    },
+    "plumbing": {
+      "label": "Plumbing",
+      "opportunityLabel": "PLUMBING OPPORTUNITY",
+      "scopeTerms": [
+        "plumbing",
+        "domestic water",
+        "sanitary",
+        "sanitary piping",
+        "water heater",
+        "fixtures",
+        "lavatory",
+        "toilet",
+        "urinal",
+        "floor drain",
+        "grease interceptor",
+        "plumbing fixtures"
+      ],
+      "strongSignals": [
+        "plumbing renovation",
+        "new plumbing system",
+        "domestic water piping",
+        "sanitary piping",
+        "plumbing fixture replacement"
+      ],
+      "exclusions": [
+        "plumbing engineering services only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "plumbing_license",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "hvac_mechanical": {
+      "label": "HVAC / Mechanical",
+      "opportunityLabel": "HVAC / MECHANICAL OPPORTUNITY",
+      "scopeTerms": [
+        "hvac",
+        "mechanical",
+        "air conditioning",
+        "heating",
+        "ductwork",
+        "air handler",
+        "ahu",
+        "rtu",
+        "rooftop unit",
+        "chiller",
+        "boiler",
+        "ventilation",
+        "exhaust fan",
+        "mechanical equipment"
+      ],
+      "strongSignals": [
+        "hvac replacement",
+        "mechanical renovation",
+        "air handling unit replacement",
+        "rooftop unit replacement",
+        "chiller replacement"
+      ],
+      "exclusions": [
+        "mechanical engineering services only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "mechanical_license",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "drywall": {
+      "label": "Drywall / Sheetrock",
+      "opportunityLabel": "DRYWALL / SHEETROCK OPPORTUNITY",
+      "scopeTerms": [
+        "drywall",
+        "sheetrock",
+        "gypsum board",
+        "gypsum wallboard",
+        "gwb",
+        "wallboard",
+        "acoustical ceiling",
+        "ceiling tile",
+        "interior partitions"
+      ],
+      "strongSignals": [
+        "gypsum board",
+        "drywall partitions",
+        "drywall replacement",
+        "gypsum wallboard"
+      ],
+      "exclusions": [
+        "material supply only"
+      ],
+      "qualificationGates": [
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "framing_carpentry": {
+      "label": "Framing / Carpentry",
+      "opportunityLabel": "FRAMING / CARPENTRY OPPORTUNITY",
+      "scopeTerms": [
+        "framing",
+        "wood framing",
+        "carpentry",
+        "rough carpentry",
+        "wood studs",
+        "trusses",
+        "roof framing",
+        "blocking",
+        "sheathing",
+        "wood construction"
+      ],
+      "strongSignals": [
+        "wood framing",
+        "rough carpentry",
+        "wood trusses",
+        "structural wood framing"
+      ],
+      "exclusions": [
+        "finish furniture only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "metal_framing": {
+      "label": "Metal Stud Framing",
+      "opportunityLabel": "METAL FRAMING OPPORTUNITY",
+      "scopeTerms": [
+        "metal stud",
+        "metal studs",
+        "cold formed metal framing",
+        "cold-formed metal framing",
+        "light gauge framing",
+        "steel studs",
+        "metal framing",
+        "nonloadbearing framing"
+      ],
+      "strongSignals": [
+        "metal stud framing",
+        "cold formed metal framing",
+        "light gauge metal framing"
+      ],
+      "exclusions": [
+        "structural steel erection only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "structural_steel_welding": {
+      "label": "Structural Steel / Welding",
+      "opportunityLabel": "STEEL / WELDING OPPORTUNITY",
+      "scopeTerms": [
+        "structural steel",
+        "steel erection",
+        "miscellaneous metals",
+        "welding",
+        "welded",
+        "steel fabrication",
+        "metal fabrication",
+        "steel beam",
+        "steel column",
+        "handrail",
+        "guardrail",
+        "metal stairs"
+      ],
+      "strongSignals": [
+        "structural steel erection",
+        "steel fabrication",
+        "miscellaneous metals",
+        "welded steel"
+      ],
+      "exclusions": [
+        "steel material supply only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "welding_certifications",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "concrete": {
+      "label": "Concrete",
+      "opportunityLabel": "CONCRETE OPPORTUNITY",
+      "scopeTerms": [
+        "concrete",
+        "cast in place",
+        "cast-in-place",
+        "slab",
+        "footing",
+        "foundation",
+        "curb",
+        "gutter",
+        "sidewalk",
+        "concrete pavement",
+        "concrete repair"
+      ],
+      "strongSignals": [
+        "cast in place concrete",
+        "concrete paving",
+        "concrete foundation",
+        "concrete slab"
+      ],
+      "exclusions": [
+        "concrete testing only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "paving_asphalt": {
+      "label": "Paving / Asphalt",
+      "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+      "scopeTerms": [
+        "asphalt",
+        "paving",
+        "hot mix asphalt",
+        "hmac",
+        "asphalt pavement",
+        "mill and overlay",
+        "milling",
+        "resurfacing",
+        "seal coat",
+        "striping"
+      ],
+      "strongSignals": [
+        "asphalt paving",
+        "mill and overlay",
+        "asphalt resurfacing",
+        "hot mix asphalt"
+      ],
+      "exclusions": [
+        "pavement engineering only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "equipment_capacity",
+        "insurance",
+        "crew_capacity"
+      ]
+    },
+    "demolition": {
+      "label": "Demolition",
+      "opportunityLabel": "DEMOLITION OPPORTUNITY",
+      "scopeTerms": [
+        "demolition",
+        "demo",
+        "selective demolition",
+        "building demolition",
+        "structure removal",
+        "removal and disposal",
+        "site demolition"
+      ],
+      "strongSignals": [
+        "building demolition",
+        "selective demolition",
+        "structure removal",
+        "site demolition"
+      ],
+      "exclusions": [
+        "demolition study only"
+      ],
+      "qualificationGates": [
+        "commercial_license",
+        "insurance",
+        "hazardous_material_check",
+        "crew_capacity"
+      ]
     }
   }
 }
