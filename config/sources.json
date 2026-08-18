@@ -157,6 +157,36 @@
       "adapterFamily": "authenticated_marketplace",
       "implementationPriority": "post_v1",
       "discoveryNote": "State bid inventory requires authenticated Central Auction House session."
+    },
+    {
+      "id": "opengov_richmond_va",
+      "name": "City of Richmond, VA - OpenGov",
+      "type": "procurement_platform",
+      "platform": "opengov",
+      "agencySlug": "rva",
+      "country": "US",
+      "state": "VA",
+      "status": "validated",
+      "tradeBias": [
+        "all"
+      ],
+      "enabledForPipeline": false,
+      "purpose": "adapter_validation"
+    },
+    {
+      "id": "opengov_mesc_az",
+      "name": "Mohave Educational Services Cooperative - OpenGov",
+      "type": "procurement_platform",
+      "platform": "opengov",
+      "agencySlug": "mesc",
+      "country": "US",
+      "state": "AZ",
+      "status": "validated",
+      "tradeBias": [
+        "all"
+      ],
+      "enabledForPipeline": false,
+      "purpose": "adapter_validation"
     }
   ]
 }

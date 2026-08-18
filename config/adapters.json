@@ -38,6 +38,15 @@
       "supportsAuthenticatedDiscovery": true,
       "adapterFamily": "authenticated_marketplace",
       "implementationPriority": "post_v1"
+    },
+    "opengov": {
+      "label": "OpenGov Procurement",
+      "collector": "scripts/collect_opengov.py",
+      "normalizer": "scripts/normalize_opengov.py",
+      "supportsDetailFetch": true,
+      "supportsDocumentDiscovery": true,
+      "authentication": "not_required_for_public_metadata",
+      "status": "active"
     }
   }
 }
