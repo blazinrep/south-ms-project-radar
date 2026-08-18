@@ -16,8 +16,21 @@
   },
   {
     "detail_id": 46173,
-    "decision": "publish",
-    "county": "Lincoln"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "3515-20260730090934 Brookhaven",
+      "Advertised Date": "07/30/2026 5:00 PM",
+      "RFx #": "3170036390",
+      "Submission Date": "08/17/2026 1:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "COMMODITIES",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "The Mayor and Board of Alderman/ Alderwoman of Brookhaven, MS shall receive sealed bids until 1:00 p.m. on August 17, 2026 in City Clerk's Office located in City hall at 101 West Chickasaw St. Brookhaven, Mississippi 39601. The bids will then be publicly"
+    }
   },
   {
     "detail_id": 46179,
@@ -101,6 +114,72 @@
   },
   {
     "detail_id": 46295,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46296,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46297,
+    "decision": "publish",
+    "county": "Harrison"
+  },
+  {
+    "detail_id": 46298,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46299,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46300,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46301,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46302,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46303,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46304,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
