@@ -10,6 +10,7 @@ BASE_PROJECTS = ROOT / "projects.json"
 SOURCES = ROOT / "config" / "sources.json"
 
 OUT = ROOT / "data" / "intelligence" / "source_records.json"
+SOURCE_SELECTION = ROOT / "data" / "intelligence" / "contractor_source_selection.json"
 
 
 def load(path):
@@ -40,11 +41,24 @@ def main():
 
     source_config = load(SOURCES)
 
+    selected_ids = None
+
+    if SOURCE_SELECTION.exists():
+        selection = load(SOURCE_SELECTION)
+        selected_ids = {
+            x.get("sourceId")
+            for x in selection.get("selectedSources", [])
+            if x.get("sourceId")
+        }
+
     for source in source_config.get("sources", []):
         if source.get("status") != "active":
             continue
 
         if source.get("management") == "legacy_pipeline":
+            continue
+
+        if selected_ids is not None and source.get("id") not in selected_ids:
             continue
 
         path = (

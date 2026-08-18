@@ -45,6 +45,9 @@
     "majorProcurementCategory": "COMMODITIES",
     "subProcurementCategory": "CONSTRUCTION - SERVICES",
     "submissionDateRaw": "08/17/2026 1:00 PM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
     "displayName": "Lincoln / 3515-20260730090934 Brookhaven",
     "intelligence": {
       "version": "0.7.2",
@@ -72,13 +75,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 2,
+        "runway": 0,
         "geography": 13,
         "evidenceQuality": 8,
-        "fitTotal": 30,
+        "fitTotal": 28,
         "actionPriority": 0
       },
-      "daysToDeadline": 0.2,
+      "daysToDeadline": -0.3,
       "distanceMiles": 42.3,
       "riskFlags": [
         "false_positive_landscape_maintenance"
@@ -141,6 +144,9 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
     "submissionDateRaw": "08/20/2026 10:00 AM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
     "displayName": "Lincoln / 3515-20260730085656 Brookhaven",
     "intelligence": {
       "version": "0.7.2",
@@ -174,7 +180,7 @@
         "fitTotal": 27,
         "actionPriority": 0
       },
-      "daysToDeadline": 3.1,
+      "daysToDeadline": 2.5,
       "distanceMiles": 42.3,
       "riskFlags": [
         "false_positive_equipment_purchase"
@@ -235,6 +241,9 @@
     "majorProcurementCategory": "COMMODITIES",
     "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
     "submissionDateRaw": "09/01/2026 2:00 PM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
     "displayName": "Forrest / 9280-27-R-IFBD-00006",
     "intelligence": {
       "version": "0.7.2",
@@ -268,7 +277,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 15.3,
+      "daysToDeadline": 14.7,
       "distanceMiles": 32.6,
       "riskFlags": [
         "false_positive_equipment_procurement"
@@ -331,6 +340,9 @@
     "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
     "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
     "submissionDateRaw": "08/24/2026 10:00 AM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
     "displayName": "Harrison / 43-20260803165414 Gulfport",
     "intelligence": {
       "version": "0.7.2",
@@ -364,7 +376,7 @@
         "fitTotal": 26,
         "actionPriority": 0
       },
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.5,
       "distanceMiles": 75.3,
       "riskFlags": [
         "false_positive_professional_services",

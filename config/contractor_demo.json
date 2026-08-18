@@ -28,7 +28,7 @@
   "stateVendorRegistrationStatus": "unknown",
   "primeBidCapacity": "unknown",
   "bondingCapacity": "unknown",
-  "version": "0.8.0",
+  "version": "0.15.0",
   "readiness": {
     "commercialLicense": {
       "status": "unknown",
@@ -63,5 +63,17 @@
     "geosynthetic_liner_installation",
     "oilfield_well_plugging",
     "bridge_structures"
-  ]
+  ],
+  "territory": {
+    "homeState": "MS",
+    "allowedStates": [
+      "MS",
+      "LA",
+      "AL"
+    ],
+    "preferredRadiusMiles": 75,
+    "hardRadiusMiles": 125,
+    "outsideRadiusPolicy": "show_only_high_value_or_strong_fit",
+    "statewideSourcesAllowed": true
+  }
 }

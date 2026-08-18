@@ -1,0 +1,25 @@
+{
+  "version": "0.15.0",
+  "state": "MS",
+  "precision": "county_centroid",
+  "counties": {
+    "Clarke": {"lat": 32.045, "lon": -88.687},
+    "Covington": {"lat": 31.640, "lon": -89.558},
+    "Forrest": {"lat": 31.189, "lon": -89.258},
+    "Franklin": {"lat": 31.477, "lon": -90.897},
+    "Greene": {"lat": 31.214, "lon": -88.647},
+    "Harrison": {"lat": 30.416, "lon": -89.083},
+    "Jasper": {"lat": 32.017, "lon": -89.119},
+    "Jefferson Davis": {"lat": 31.569, "lon": -89.826},
+    "Lamar": {"lat": 31.197, "lon": -89.502},
+    "Lawrence": {"lat": 31.550, "lon": -90.107},
+    "Lincoln": {"lat": 31.535, "lon": -90.454},
+    "Marion": {"lat": 31.235, "lon": -89.807},
+    "Pearl River": {"lat": 30.768, "lon": -89.588},
+    "Perry": {"lat": 31.172, "lon": -89.036},
+    "Pike": {"lat": 31.174, "lon": -90.404},
+    "Simpson": {"lat": 31.902, "lon": -89.919},
+    "Stone": {"lat": 30.789, "lon": -89.120},
+    "Wayne": {"lat": 31.678, "lon": -88.641}
+  }
+}

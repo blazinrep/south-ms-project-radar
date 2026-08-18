@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 import copy, json, math, re, sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PROJECTS = ROOT / "projects.json"
+PROJECTS = ROOT / "data" / "intelligence" / "canonical_projects.json"
 PROFILE = ROOT / "config/contractor_demo.json"
 RULES = ROOT / "config/intelligence_rules.json"
 OVERRIDES = ROOT / "data/intelligence/research_overrides.json"
@@ -308,7 +308,9 @@ def main():
     for f in (PROJECTS,PROFILE,RULES,OVERRIDES):
         if not f.exists():
             print(f"Missing: {f}",file=sys.stderr);sys.exit(2)
-    projects=load(PROJECTS);profile=load(PROFILE);rules=load(RULES);ovs=load(OVERRIDES)
+    payload=load(PROJECTS)
+    projects=payload["projects"] if isinstance(payload,dict) and "projects" in payload else payload
+    profile=load(PROFILE);rules=load(RULES);ovs=load(OVERRIDES)
     enriched=[enrich(p,rules,profile,ovs) for p in projects]
 
     groups={}

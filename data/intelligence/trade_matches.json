@@ -1022,10 +1022,10 @@
       ]
     },
     {
-      "projectId": "mdot-108781-306000",
-      "projectName": "MDOT Proposed: MS 15 \u2014 Harrison County Bridge Preventive Maintenance",
+      "projectId": "mdot-108781-306100",
+      "projectName": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
       "owner": "Mississippi Department of Transportation",
-      "county": "Harrison",
+      "county": "Stone",
       "status": "Proposed 2026/10 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
@@ -2386,8 +2386,9 @@
           "trade": "Excavation / Sitework",
           "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
           "confidence": "moderate",
-          "matchScore": 2,
+          "matchScore": 3,
           "matchedScope": [
+            "sitework",
             "drainage",
             "erosion control"
           ],
@@ -2401,9 +2402,9 @@
           ],
           "riskFlags": [],
           "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: drainage, erosion control.",
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: sitework, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: drainage, erosion control"
+          "whyMatched": "Relevant scope detected: sitework, drainage, erosion control"
         },
         {
           "tradeKey": "concrete",

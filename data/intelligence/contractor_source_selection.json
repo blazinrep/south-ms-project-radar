@@ -1,0 +1,97 @@
+{
+  "version": "0.15.0",
+  "profileId": "demo-excavation-sitework-columbia-ms",
+  "homeBase": {
+    "city": "Columbia",
+    "state": "MS",
+    "lat": 31.2518,
+    "lon": -89.8354
+  },
+  "territory": {
+    "homeState": "MS",
+    "allowedStates": [
+      "MS",
+      "LA",
+      "AL"
+    ],
+    "preferredRadiusMiles": 75,
+    "hardRadiusMiles": 125,
+    "outsideRadiusPolicy": "show_only_high_value_or_strong_fit",
+    "statewideSourcesAllowed": true
+  },
+  "selectedCount": 6,
+  "excludedCount": 3,
+  "selectedSources": [
+    {
+      "sourceId": "mdot",
+      "source": "Mississippi Department of Transportation",
+      "platform": null,
+      "state": "MS",
+      "status": "active",
+      "authentication": null,
+      "selectionReason": "within_contractor_territory"
+    },
+    {
+      "sourceId": "ms_procurement",
+      "source": "Mississippi Procurement",
+      "platform": null,
+      "state": "MS",
+      "status": "active",
+      "authentication": null,
+      "selectionReason": "within_contractor_territory"
+    },
+    {
+      "sourceId": "gulfport_planroom",
+      "source": "City of Gulfport Planroom",
+      "platform": "reproconnect_planhouse",
+      "state": "MS",
+      "status": "active",
+      "authentication": null,
+      "selectionReason": "within_contractor_territory"
+    },
+    {
+      "sourceId": "hattiesburg_planroom",
+      "source": "City of Hattiesburg Planroom",
+      "platform": "reproconnect_planhouse",
+      "state": "MS",
+      "status": "active",
+      "authentication": null,
+      "selectionReason": "within_contractor_territory"
+    },
+    {
+      "sourceId": "jhh_architects_planroom",
+      "source": "JH&H Architects Online Plan Room",
+      "platform": "reproconnect_planhouse",
+      "state": "MS",
+      "status": "active",
+      "authentication": null,
+      "selectionReason": "within_contractor_territory"
+    },
+    {
+      "sourceId": "ms_agc_planroom",
+      "source": "AGC of Mississippi Online Plan Room",
+      "platform": "reproconnect_planhouse",
+      "state": "MS",
+      "status": "active",
+      "authentication": null,
+      "selectionReason": "within_contractor_territory"
+    }
+  ],
+  "excludedSources": [
+    {
+      "sourceId": "central_bidding_ms",
+      "source": "Central Bidding / Central Auction House - Mississippi",
+      "reason": "restricted_source"
+    },
+    {
+      "sourceId": "opengov_richmond_va",
+      "source": "City of Richmond, VA - OpenGov",
+      "reason": "explicitly_disabled"
+    },
+    {
+      "sourceId": "opengov_mesc_az",
+      "source": "Mohave Educational Services Cooperative - OpenGov",
+      "reason": "explicitly_disabled"
+    }
+  ]
+}

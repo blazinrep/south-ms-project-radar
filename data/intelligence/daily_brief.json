@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-17T12:00:03.778002+00:00",
+  "generatedAt": "2026-08-18T01:58:50.687158+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 69,
-  "canonicalProjectCount": 63,
+  "sourceRecordCount": 93,
+  "canonicalProjectCount": 87,
   "duplicateGroups": 6,
   "rejectedCount": 4,
   "decisionCounts": {
     "act_today": 1,
-    "verify_scope": 2,
+    "verify_scope": 3,
     "pursue_now": 1,
     "specialist_only": 1,
-    "verify_then_pursue": 3,
-    "optional_outside_radius": 7,
-    "low_priority": 43
+    "verify_then_pursue": 4,
+    "optional_outside_radius": 10,
+    "low_priority": 62
   },
   "actionQueue": [
     {
@@ -20,7 +20,7 @@
       "name": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
       "county": "Perry",
       "deadline": "2026-08-18T10:00:00",
-      "daysToDeadline": 0.9,
+      "daysToDeadline": 0.5,
       "distanceMiles": 58,
       "decision": "act_today",
       "pursuitPath": "prime_conditional_or_subcontract",
@@ -66,7 +66,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 7.9,
+      "daysToDeadline": 7.5,
       "distanceMiles": 55,
       "decision": "pursue_now",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -111,7 +111,7 @@
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 17.1,
+      "daysToDeadline": 16.7,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -155,7 +155,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.5,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -202,6 +202,38 @@
           "type": "state_aid_specifications",
           "status": "required_for_prime",
           "detail": "The work is governed by the Mississippi Standard Specifications for State Aid Road and Bridge Construction."
+        }
+      ]
+    },
+    {
+      "id": "gulfport_planroom-20714",
+      "name": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
+      "county": "Harrison",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 73.0,
+      "decision": "verify_then_pursue",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "strong",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 29,
+        "pursuitAccessibility": 15,
+        "runway": 7,
+        "geography": 10,
+        "evidenceQuality": 8,
+        "fitTotal": 69,
+        "actionPriority": 69
+      },
+      "whyItMatters": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass :: City of Gulfport, MS Bids Skip to main content Government Residents Business How Do I Visitors &times; Home Public Bids Private Bids Bid Calendar Upload Files Login Login 0 Home Public Bids Private Bids Bid Calendar Upload Files Added to your cart View cart \" > 0 Cart Register / Login Aug 31 Bids in 14 days FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass #20714 Gulfport, MS (G-NR-E) You need to register or login to view files and more project information. Order Remove Order all hard copy documents for $400.00 This is available for download to registered users. Log in now Details Mon, Aug 31 Bids in 14 days Status Accepting Bids Prebid Aug 17, 2026 1:30pm Bid Aug 31, 2026 10:00am Company & Contacts City of Gulfport Jessica Versiga jversiga@gulfport-ms.gov Estimated Cost Range: $59,000,000 - $61,000,000 The City of Gulfport, Mississippi will receive bids for the construction of the Interconnecting Gulfport \u2013 Airport Road Extension & Interstate 10 Overpass project, for a length of approximately 3 miles, Federal Aid Project Number FBLD-915900(001)LPA/108419-801000 no later than 10:00 a.m., August 31, 2026 , at the Purchasing Office of the City of Gulfport located in the Jones Building at 1422 23rd Avenue, Gulfport, Mississippi, after which time they will be opened and read aloud. Alternatively, bids may be submitted electronically to the City of Gulfport\u2019s Plan Room at www.gulfportmsbids.com . Bid documents are available via digital copy at www.gulfportmsbids.com or email request to the City of Gulfport to Jessica Versiga at jversiga@gulfport-ms.gov . A Pre-Bid Conference for this project is scheduled for 1:30 p.m. on August 17, 2026, at the City of Gulfport Engineering Department located at 4050 Hewes Avenue, Gulfport, MS 39507. Attendance at the Pre-Bid Conference is highly encouraged but is not mandatory. The work shall consist essentially of the following items: Construction of new road from the intersection of Poole Street and Old Highway 49 tracking westward across CPKC railroad then turning northward crossing a CPKC spur line to a roundabout intersecting of an extension of Factory Shop Boulevard and then proceeding northward crossing Interstate 10 with an overpass to a roundabout intersecting with an extension of Daniel Boulevard. The work will consist of clearing and grubbing, earthwork, drainage, concrete sidewalk, bridge work, road work (asphalt, stone base, cement) striping, signage, and roadway lighting. All other related items of work required to complete the project as shown and specified in the Contract Documents. The above general outline of features of the work does not in any way limit the responsibility of the contractor to perform all work and furnish all plant, labor, equipment and materials required by the specifications and the drawings referred to therein. The attention of bidders is directed to the Contract Provisions governing selection and employment of labor. Minimum wage rates for Federal-Aid projects have been predetermined by the Secretary of Labor and are subject to Public Law 87-581 Work Hours Act of 1962, as set forth in the Contract Provisions. The City of Gulfport hereby notifies all Bidders that it will affirmatively insure that in any contract entered into pursuant to this advertisement, disadvantaged and women\u2019s business enterprises will be afforded the full opportunity to submit bids in response to this invitation and will not be discriminated against on the grounds of race, color, or national origin in consideration for an award. Each bid shall be accompanied by a Cashier\u2019s check, Certified Check on a solvent bank or a Bidder\u2019s Bond issued by a Surety Company licensed to operate in the State of Mississippi, in the amount of five percent (5%) of the total bid price, payable to the City of Gulfport as bid security. Bidders shall also submit a current financial statement, if requested by the City of Gulfport. The successful bidder will be required to furnish a Performance Bond and a Payment bond each in the amount of one hundred percent (100%) of the contract amount. The proposal and contract documents in its entirety shall be submitted in a sealed envelope marked plainly, INTERCONNECTING GULFPORT \u2013 AIRPORT ROAD EXTENSION & INTERSTATE 10 OVERPASS, PROJECT NUMBER FBLD-9159-00(001)LPA/108419- 801000 and must be submitted prior to the time and date above designated. No stripped bids will be accepted. Work to be performed shall be in accordance with the \u201cMississippi State Highway Standard Specifications for Road and Bridge Construction, 2017\u201d, together with all amendments and/or special provisions and/or addenda to the standards duly approved and adopted, unless otherwise noted in these specifications. The attention of Bidders is directed to the provisions of Subsection 102.07 pertaining to irregular proposals and rejection of bids. Any questions that bidders might have should be directed to damon.torricelli@neelschaffer.com . The question period will end at 10:00 a.m. on August 20, 2026. PUBLISH: July 29, 2026 and August 5, 2026 Home \u00b7 Public Bids \u00b7 Private Bids \u00b7 Bid Calendar \u00b7 Upload Files Copyright &copy; 2026 | Online planroom powered by ReproConnect | Terms of Use Member of the Plan House Plan Room Network, for assistance call 662-407-0193 or email admin@phbidding.com",
+      "nextAction": "Open the source and verify scope, documents, deadline, requirements, and pursuit path.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify",
+          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
         }
       ]
     },
@@ -242,7 +274,7 @@
       "name": "JCJC Central Avenue Walking Plaza (Re-Bid)",
       "county": "Jones",
       "deadline": "2026-08-18T10:00:00",
-      "daysToDeadline": 0.9,
+      "daysToDeadline": 0.5,
       "distanceMiles": 46,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -276,7 +308,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 17.1,
+      "daysToDeadline": 16.7,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -312,11 +344,39 @@
       ]
     },
     {
+      "id": "gulfport_planroom-20166",
+      "name": "Coffee Creek Sewer Rehabilitation",
+      "county": "Harrison",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 73.0,
+      "decision": "verify_scope",
+      "pursuitPath": "subcontract_target",
+      "tradeFit": "conditional",
+      "evidenceLevel": "sitework_inferred_not_explicit",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 14,
+        "runway": 7,
+        "geography": 10,
+        "evidenceQuality": 4,
+        "fitTotal": 47,
+        "actionPriority": 47
+      },
+      "whyItMatters": "Scope of Work: Construction of a single cell 10\u2019 x 6\u2019 box culvert with headwall, replacement of approximately 3,000 linear feet of 8\u201d gravity sewer and appurtenances, and approximately 1,600 linear feet of drainage channel improvements that include engineered turf revetment for slope stabilization and placement of a U-shaped concrete channel and other associated work including, but not limited to, pavement repair, fence replacement, erosion control, traffic control, etc. Plans and specifications may be obtained from the Procurement Office, via email request to jversiga@gulfport-ms.gov or download from www.gulfportmsbids.com . A Non-Mandatory Pre-Bid Meeting will be held at 10:00 a.m. on May 14, 2026 at the following location: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 Questions \u2013 All questions regarding this bid must be submitted to Andrew Levens via email at andrew.l@overstreeteng.com and must be received by the end of business 5:00 p.m. CST, Friday, May 21, 2026. Questions submitted after this date will not be considered. Bidders shall provide an email address to direct the consolidated \u201cquestion and answer\u201d document. Answers will be provided in writing and transmitted via email to all perspective bidders who are known to have requested and received a copy of the bid package. No negotiations, decisions, or actions shall be initiated by any bidder as a result of verbal discussions. The City is NOT responsible for bids which are mailed to the wrong address or which arrive in the mail after the designated bid opening time. Bids may be delivered in person to the Office of Procurement prior to the bid opening at the time, date and location listed above. The project will be awarded to the lowest responsive and responsible bidder. However, the City of Gulfport reserves the right to accept or reject any or all bids or to waive any informality. The successful bidder must adhere to the City\u2019s policy concerning non-discrimination without regard to race, creed, color, age, sex, national origin or handicap. Any contract awarded under this Invitation for Bids may be paid for in whole or in part with grant funding from the RESTORE Council and the Mississippi Department of Environmental Quality (\u201cMDEQ\u201d) under the Resources and Ecosystems Sustainability, Tourist Opportunities, and Revived Economies of the Gulf Coast States Act of 2012 (RESTORE Act). Minority and women\u2019s business enterprises are solicited to bid on this contract as prime contractors and are encouraged to make inquiries regarding potential subcontracting opportunities and equipment, material and/or supply needs. All bidders must make positive efforts to use small and minority owned business and women business enterprises as subcontractors and/or suppliers, as applicable. For bids exceeding $50,000.00, Bidder must indicate their Certificate of Responsibility Number on the outside of sealed proposal as required by Mississippi State Law. Per MS Code 31-3-21(3), any bid submitted by a nonresident contractor which does not include the nonresident contractor\u2019s current state law pertaining to such state\u2019s treatment of nonresident contractors shall be rejected and not considered for award. If no such law exists in the nonresident contractor\u2019s state, then the nonresident contractor may provide a statement to that effect. No bidder may withdraw his bid within ninety (90) days after the actual date of the opening thereof. Direct contact with any City employee, GRC Commissioners, including Administration and City Council, on the subject of this proposal is strictly forbidden. Violation of this paragraph will result in disqualification of your submission. Publication Dates: 04/22/2026 and 04/29/2026 Home \u00b7 Public Bids \u00b7 Private Bids \u00b7 Bid Calendar \u00b7 Upload Files Copyright &copy; 2026 | Online planroom powered by ReproConnect | Terms of Use Member of the Plan House Plan Room Network, for assistance call 662-407-0193 or email admin@phbidding.com",
+      "nextAction": "Open the source and verify scope, documents, deadline, requirements, and pursuit path.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "sitework_scope_inferred"
+      ],
+      "qualificationGates": []
+    },
+    {
       "id": "clarkco-trail",
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.7,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -355,90 +415,6 @@
           "detail": "The official advertisement allows electronic bidding via MAGIC; verify registration and submission requirements if bidding electronically."
         }
       ]
-    },
-    {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 22.9,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 24,
-        "pursuitAccessibility": 12,
-        "runway": 13,
-        "geography": 3,
-        "evidenceQuality": 15,
-        "fitTotal": 67,
-        "actionPriority": 67
-      },
-      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "actionType": "optional_outside_radius_review",
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
-        }
-      ]
-    },
-    {
-      "id": "msproc-46285",
-      "name": "Jackson / 152-20260805081145 Pascagoula",
-      "county": "Jackson",
-      "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 17.3,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 11,
-        "pursuitAccessibility": 7,
-        "runway": 13,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 39,
-        "actionPriority": 39
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
     }
   ],
   "fitRanking": [
@@ -447,7 +423,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 7.9,
+      "daysToDeadline": 7.5,
       "distanceMiles": 55,
       "decision": "pursue_now",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -492,7 +468,7 @@
       "name": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
       "county": "Perry",
       "deadline": "2026-08-18T10:00:00",
-      "daysToDeadline": 0.9,
+      "daysToDeadline": 0.5,
       "distanceMiles": 58,
       "decision": "act_today",
       "pursuitPath": "prime_conditional_or_subcontract",
@@ -538,7 +514,7 @@
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 17.1,
+      "daysToDeadline": 16.7,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -582,7 +558,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.5,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -637,7 +613,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.7,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -678,11 +654,43 @@
       ]
     },
     {
+      "id": "gulfport_planroom-20714",
+      "name": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
+      "county": "Harrison",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 73.0,
+      "decision": "verify_then_pursue",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "strong",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 29,
+        "pursuitAccessibility": 15,
+        "runway": 7,
+        "geography": 10,
+        "evidenceQuality": 8,
+        "fitTotal": 69,
+        "actionPriority": 69
+      },
+      "whyItMatters": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass :: City of Gulfport, MS Bids Skip to main content Government Residents Business How Do I Visitors &times; Home Public Bids Private Bids Bid Calendar Upload Files Login Login 0 Home Public Bids Private Bids Bid Calendar Upload Files Added to your cart View cart \" > 0 Cart Register / Login Aug 31 Bids in 14 days FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass #20714 Gulfport, MS (G-NR-E) You need to register or login to view files and more project information. Order Remove Order all hard copy documents for $400.00 This is available for download to registered users. Log in now Details Mon, Aug 31 Bids in 14 days Status Accepting Bids Prebid Aug 17, 2026 1:30pm Bid Aug 31, 2026 10:00am Company & Contacts City of Gulfport Jessica Versiga jversiga@gulfport-ms.gov Estimated Cost Range: $59,000,000 - $61,000,000 The City of Gulfport, Mississippi will receive bids for the construction of the Interconnecting Gulfport \u2013 Airport Road Extension & Interstate 10 Overpass project, for a length of approximately 3 miles, Federal Aid Project Number FBLD-915900(001)LPA/108419-801000 no later than 10:00 a.m., August 31, 2026 , at the Purchasing Office of the City of Gulfport located in the Jones Building at 1422 23rd Avenue, Gulfport, Mississippi, after which time they will be opened and read aloud. Alternatively, bids may be submitted electronically to the City of Gulfport\u2019s Plan Room at www.gulfportmsbids.com . Bid documents are available via digital copy at www.gulfportmsbids.com or email request to the City of Gulfport to Jessica Versiga at jversiga@gulfport-ms.gov . A Pre-Bid Conference for this project is scheduled for 1:30 p.m. on August 17, 2026, at the City of Gulfport Engineering Department located at 4050 Hewes Avenue, Gulfport, MS 39507. Attendance at the Pre-Bid Conference is highly encouraged but is not mandatory. The work shall consist essentially of the following items: Construction of new road from the intersection of Poole Street and Old Highway 49 tracking westward across CPKC railroad then turning northward crossing a CPKC spur line to a roundabout intersecting of an extension of Factory Shop Boulevard and then proceeding northward crossing Interstate 10 with an overpass to a roundabout intersecting with an extension of Daniel Boulevard. The work will consist of clearing and grubbing, earthwork, drainage, concrete sidewalk, bridge work, road work (asphalt, stone base, cement) striping, signage, and roadway lighting. All other related items of work required to complete the project as shown and specified in the Contract Documents. The above general outline of features of the work does not in any way limit the responsibility of the contractor to perform all work and furnish all plant, labor, equipment and materials required by the specifications and the drawings referred to therein. The attention of bidders is directed to the Contract Provisions governing selection and employment of labor. Minimum wage rates for Federal-Aid projects have been predetermined by the Secretary of Labor and are subject to Public Law 87-581 Work Hours Act of 1962, as set forth in the Contract Provisions. The City of Gulfport hereby notifies all Bidders that it will affirmatively insure that in any contract entered into pursuant to this advertisement, disadvantaged and women\u2019s business enterprises will be afforded the full opportunity to submit bids in response to this invitation and will not be discriminated against on the grounds of race, color, or national origin in consideration for an award. Each bid shall be accompanied by a Cashier\u2019s check, Certified Check on a solvent bank or a Bidder\u2019s Bond issued by a Surety Company licensed to operate in the State of Mississippi, in the amount of five percent (5%) of the total bid price, payable to the City of Gulfport as bid security. Bidders shall also submit a current financial statement, if requested by the City of Gulfport. The successful bidder will be required to furnish a Performance Bond and a Payment bond each in the amount of one hundred percent (100%) of the contract amount. The proposal and contract documents in its entirety shall be submitted in a sealed envelope marked plainly, INTERCONNECTING GULFPORT \u2013 AIRPORT ROAD EXTENSION & INTERSTATE 10 OVERPASS, PROJECT NUMBER FBLD-9159-00(001)LPA/108419- 801000 and must be submitted prior to the time and date above designated. No stripped bids will be accepted. Work to be performed shall be in accordance with the \u201cMississippi State Highway Standard Specifications for Road and Bridge Construction, 2017\u201d, together with all amendments and/or special provisions and/or addenda to the standards duly approved and adopted, unless otherwise noted in these specifications. The attention of Bidders is directed to the provisions of Subsection 102.07 pertaining to irregular proposals and rejection of bids. Any questions that bidders might have should be directed to damon.torricelli@neelschaffer.com . The question period will end at 10:00 a.m. on August 20, 2026. PUBLISH: July 29, 2026 and August 5, 2026 Home \u00b7 Public Bids \u00b7 Private Bids \u00b7 Bid Calendar \u00b7 Upload Files Copyright &copy; 2026 | Online planroom powered by ReproConnect | Terms of Use Member of the Plan House Plan Room Network, for assistance call 662-407-0193 or email admin@phbidding.com",
+      "nextAction": "Open the source and verify scope, documents, deadline, requirements, and pursuit path.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify",
+          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        }
+      ]
+    },
+    {
       "id": "greene-road-maintenance",
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 22.9,
+      "daysToDeadline": 22.5,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -759,7 +767,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": 7.2,
+      "daysToDeadline": 6.8,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
@@ -805,7 +813,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 17.1,
+      "daysToDeadline": 16.7,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -837,43 +845,6 @@
           "type": "plans",
           "status": "required",
           "detail": "Civil/site sheets must be reviewed; current public notice does not prove the excavation/sitework package."
-        }
-      ]
-    },
-    {
-      "id": "msproc-46220",
-      "name": "Hancock / 342-20260728161540 HCBS",
-      "county": "Hancock",
-      "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 22.1,
-      "distanceMiles": 71.7,
-      "decision": "low_priority",
-      "pursuitPath": "investigate",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 14,
-        "pursuitAccessibility": 7,
-        "runway": 13,
-        "geography": 10,
-        "evidenceQuality": 8,
-        "fitTotal": 52,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
         }
       ]
     }
