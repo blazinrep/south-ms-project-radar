@@ -1,72 +1,25 @@
 {
-  "generatedAt": "2026-08-18T01:58:50.687158+00:00",
+  "generatedAt": "2026-08-18T12:01:00.945073+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 93,
   "canonicalProjectCount": 87,
   "duplicateGroups": 6,
   "rejectedCount": 4,
   "decisionCounts": {
-    "act_today": 1,
-    "verify_scope": 3,
     "pursue_now": 1,
     "specialist_only": 1,
+    "verify_scope": 2,
     "verify_then_pursue": 4,
     "optional_outside_radius": 10,
     "low_priority": 62
   },
   "actionQueue": [
     {
-      "id": "pine-belt-landfill-cell7",
-      "name": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
-      "county": "Perry",
-      "deadline": "2026-08-18T10:00:00",
-      "daysToDeadline": 0.5,
-      "distanceMiles": 58,
-      "decision": "act_today",
-      "pursuitPath": "prime_conditional_or_subcontract",
-      "tradeFit": "strong",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 35,
-        "pursuitAccessibility": 15,
-        "runway": 2,
-        "geography": 10,
-        "evidenceQuality": 15,
-        "fitTotal": 77,
-        "actionPriority": 89
-      },
-      "whyItMatters": "The published work explicitly contains major dirt-work scope, but the liner/leachate package makes prime pursuit more specialized than ordinary excavation.",
-      "nextAction": "Immediately review the bid documents and planholder list. If prime readiness is not already in place, target planholders/prime bidders for excavation, hauling, grading, or liner-support pricing.",
-      "actionType": "call_planholders_today",
-      "riskFlags": [
-        "specialized_landfill_scope",
-        "liner_scope_may_require_specialty_capability",
-        "short_bid_runway"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prospective prime bidders must register as plan holders to obtain official documents/addenda."
-        },
-        {
-          "type": "classification",
-          "status": "verify",
-          "detail": "Verify Mississippi contractor classifications appropriate to excavation and landfill/liner scope."
-        }
-      ]
-    },
-    {
       "id": "laurel-citywide-paving",
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 7.5,
+      "daysToDeadline": 6.9,
       "distanceMiles": 55,
       "decision": "pursue_now",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -79,7 +32,7 @@
         "geography": 13,
         "evidenceQuality": 15,
         "fitTotal": 93,
-        "actionPriority": 97
+        "actionPriority": 100
       },
       "whyItMatters": "The $3.5M published project includes explicit water/sewer work, creating a credible utility/sitework subcontract opportunity even when the contractor is not an asphalt prime.",
       "nextAction": "Open the official planroom, register as a planholder if considering prime pursuit, and identify the utility/sitework bid items and active planholders to quote.",
@@ -111,7 +64,7 @@
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 16.7,
+      "daysToDeadline": 16.1,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -155,7 +108,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 14.5,
+      "daysToDeadline": 14.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -270,45 +223,11 @@
       ]
     },
     {
-      "id": "jcjc-walking-plaza",
-      "name": "JCJC Central Avenue Walking Plaza (Re-Bid)",
-      "county": "Jones",
-      "deadline": "2026-08-18T10:00:00",
-      "daysToDeadline": 0.5,
-      "distanceMiles": 46,
-      "decision": "verify_scope",
-      "pursuitPath": "subcontract_target",
-      "tradeFit": "conditional",
-      "evidenceLevel": "sitework_inferred_not_explicit",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 14,
-        "runway": 2,
-        "geography": 13,
-        "evidenceQuality": 4,
-        "fitTotal": 45,
-        "actionPriority": 57
-      },
-      "whyItMatters": "Live re-bid with only days remaining. Published estimate is $700K\u2013$725K plus a $100K\u2013$125K add option. Sitework is not explicitly broken out in the notice, so drawings/specs should be checked before pursuing.",
-      "nextAction": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "sitework_scope_inferred"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        }
-      ]
-    },
-    {
       "id": "aaa-resource-center",
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 16.7,
+      "daysToDeadline": 16.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -376,7 +295,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 14.7,
+      "daysToDeadline": 14.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -415,6 +334,90 @@
           "detail": "The official advertisement allows electronic bidding via MAGIC; verify registration and submission requirements if bidding electronically."
         }
       ]
+    },
+    {
+      "id": "greene-road-maintenance",
+      "name": "Greene County SAP-21(15)M Road Maintenance",
+      "county": "Greene",
+      "deadline": "2026-09-09T10:00:00",
+      "daysToDeadline": 21.9,
+      "distanceMiles": 78,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "conditional",
+      "evidenceLevel": "published_scope_explicit",
+      "scores": {
+        "scopeFit": 24,
+        "pursuitAccessibility": 12,
+        "runway": 13,
+        "geography": 3,
+        "evidenceQuality": 15,
+        "fitTotal": 67,
+        "actionPriority": 67
+      },
+      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
+      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
+      "actionType": "optional_outside_radius_review",
+      "riskFlags": [
+        "outside_preferred_radius",
+        "road_project_may_be_paving_dominant"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "planholder",
+          "status": "required_for_prime",
+          "detail": "Prime bids are accepted only from bidders on the official planholder list."
+        },
+        {
+          "type": "bid_security",
+          "status": "required_for_prime",
+          "detail": "5% certified check or bid bond is required."
+        }
+      ]
+    },
+    {
+      "id": "msproc-46285",
+      "name": "Jackson / 152-20260805081145 Pascagoula",
+      "county": "Jackson",
+      "deadline": "2026-09-03T14:00:00-05:00",
+      "daysToDeadline": 16.3,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 11,
+        "pursuitAccessibility": 7,
+        "runway": 13,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 39,
+        "actionPriority": 39
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
     }
   ],
   "fitRanking": [
@@ -423,7 +426,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 7.5,
+      "daysToDeadline": 6.9,
       "distanceMiles": 55,
       "decision": "pursue_now",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -436,7 +439,7 @@
         "geography": 13,
         "evidenceQuality": 15,
         "fitTotal": 93,
-        "actionPriority": 97
+        "actionPriority": 100
       },
       "whyItMatters": "The $3.5M published project includes explicit water/sewer work, creating a credible utility/sitework subcontract opportunity even when the contractor is not an asphalt prime.",
       "nextAction": "Open the official planroom, register as a planholder if considering prime pursuit, and identify the utility/sitework bid items and active planholders to quote.",
@@ -464,57 +467,11 @@
       ]
     },
     {
-      "id": "pine-belt-landfill-cell7",
-      "name": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
-      "county": "Perry",
-      "deadline": "2026-08-18T10:00:00",
-      "daysToDeadline": 0.5,
-      "distanceMiles": 58,
-      "decision": "act_today",
-      "pursuitPath": "prime_conditional_or_subcontract",
-      "tradeFit": "strong",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 35,
-        "pursuitAccessibility": 15,
-        "runway": 2,
-        "geography": 10,
-        "evidenceQuality": 15,
-        "fitTotal": 77,
-        "actionPriority": 89
-      },
-      "whyItMatters": "The published work explicitly contains major dirt-work scope, but the liner/leachate package makes prime pursuit more specialized than ordinary excavation.",
-      "nextAction": "Immediately review the bid documents and planholder list. If prime readiness is not already in place, target planholders/prime bidders for excavation, hauling, grading, or liner-support pricing.",
-      "actionType": "call_planholders_today",
-      "riskFlags": [
-        "specialized_landfill_scope",
-        "liner_scope_may_require_specialty_capability",
-        "short_bid_runway"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prospective prime bidders must register as plan holders to obtain official documents/addenda."
-        },
-        {
-          "type": "classification",
-          "status": "verify",
-          "detail": "Verify Mississippi contractor classifications appropriate to excavation and landfill/liner scope."
-        }
-      ]
-    },
-    {
       "id": "pineview-parking",
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 16.7,
+      "daysToDeadline": 16.1,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -558,7 +515,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 14.5,
+      "daysToDeadline": 14.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -613,7 +570,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 14.7,
+      "daysToDeadline": 14.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -690,7 +647,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 22.5,
+      "daysToDeadline": 21.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -767,7 +724,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": 6.8,
+      "daysToDeadline": 6.2,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
@@ -813,7 +770,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 16.7,
+      "daysToDeadline": 16.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -845,6 +802,43 @@
           "type": "plans",
           "status": "required",
           "detail": "Civil/site sheets must be reviewed; current public notice does not prove the excavation/sitework package."
+        }
+      ]
+    },
+    {
+      "id": "msproc-46220",
+      "name": "Hancock / 342-20260728161540 HCBS",
+      "county": "Hancock",
+      "deadline": "2026-09-08T10:00:00-05:00",
+      "daysToDeadline": 21.1,
+      "distanceMiles": 71.7,
+      "decision": "low_priority",
+      "pursuitPath": "investigate",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 14,
+        "pursuitAccessibility": 7,
+        "runway": 13,
+        "geography": 10,
+        "evidenceQuality": 8,
+        "fitTotal": 52,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
         }
       ]
     }

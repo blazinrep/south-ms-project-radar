@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
   "projectCount": 93,
-  "matchedProjectCount": 67,
+  "matchedProjectCount": 66,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -16,12 +16,10 @@
           "trade": "Excavation / Sitework",
           "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
           "confidence": "possible",
-          "matchScore": 4,
+          "matchScore": 2,
           "matchedScope": [
             "excavation",
-            "grading",
-            "sitework",
-            "erosion control"
+            "grading"
           ],
           "strongSignals": [],
           "exclusionsFound": [],
@@ -35,9 +33,9 @@
             "specialist_project_context"
           ],
           "verifyFirst": true,
-          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, sitework, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
+          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, grading, but the package is not yet clear. This is a specialist project type, so the trade match may only represent supporting work rather than a normal standalone package.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: excavation, grading, sitework, erosion control"
+          "whyMatched": "Relevant scope detected: excavation, grading"
         }
       ]
     },
@@ -49,31 +47,6 @@
       "status": "Accepting bids",
       "source": "https://www.neel-schafferplans.com/projects/20677/details/19212-jcjc-central-avenue-walking-plaza-re-bid",
       "tradeMatches": [
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 3,
-          "matchedScope": [
-            "grading",
-            "sitework",
-            "drainage"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: grading, sitework, drainage.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: grading, sitework, drainage"
-        },
         {
           "tradeKey": "electrical",
           "trade": "Electrical",
@@ -97,29 +70,6 @@
           "opportunitySummary": "Possible electrical scope detected from lighting, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: lighting"
-        },
-        {
-          "tradeKey": "paving_asphalt",
-          "trade": "Paving / Asphalt",
-          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "paving"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "equipment_capacity",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
@@ -2050,40 +2000,6 @@
           "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: demo"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46173",
-      "projectName": "Lincoln / 3515-20260730090934 Brookhaven",
-      "owner": "MPTAP",
-      "county": "Lincoln",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46173?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 2,
-          "matchedScope": [
-            "excavation",
-            "sitework"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, sitework.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: excavation, sitework"
         }
       ]
     },

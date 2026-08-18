@@ -5,7 +5,7 @@
     {
       "projectId": "pine-belt-landfill-cell7",
       "projectName": "Pine Belt Landfill \u2014 Cell No. 7 Construction",
-      "evidenceCount": 43,
+      "evidenceCount": 31,
       "evidence": [
         {
           "source": "project.name",
@@ -29,54 +29,6 @@
         },
         {
           "source": "project.scope",
-          "text": "leachate collection"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "approximately 12-acre landfill cell"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "excavation explicitly listed"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "clay liner construction explicitly listed"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "leachate collection/management explicitly listed"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "The published work explicitly contains major dirt-work scope, but the liner/leachate package makes prime pursuit more specialized than ordinary excavation."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Immediately review the bid documents and planholder list. If prime readiness is not already in place, target planholders/prime bidders for excavation, hauling, grading, or liner-support pricing."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Kris Lightsey \u00b7 (601) 649-1840 \u00b7 kris.lightsey@neel-schaffer.com"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "12-acre landfill cell"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "excavation"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "clay liner construction"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "FML liner installation"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "leachate collection"
         },
         {
@@ -184,7 +136,7 @@
     {
       "projectId": "jcjc-walking-plaza",
       "projectName": "JCJC Central Avenue Walking Plaza (Re-Bid)",
-      "evidenceCount": 14,
+      "evidenceCount": 5,
       "evidence": [
         {
           "source": "project.name",
@@ -204,42 +156,6 @@
         },
         {
           "source": "project.scope",
-          "text": "federal-aid construction"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "site work"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "sitework"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Live re-bid with only days remaining. Published estimate is $700K\u2013$725K plus a $100K\u2013$125K add option. Sitework is not explicitly broken out in the notice, so drawings/specs should be checked before pursuing."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Open the source, confirm bid documents and scope, decide prime vs. subcontract path, then contact the listed owner/engineer before the deadline."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Dustin Gatlin \u00b7 (601) 545-1565 \u00b7 dustin.gatlin@neel-schaffer.com"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "pedestrian plaza"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "lighting"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "civil site work possible"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "federal-aid construction"
         }
       ]
@@ -2319,7 +2235,7 @@
         },
         {
           "source": "project.scope",
-          "text": "MS 42 from the Greene CL to the intersection of US 45"
+          "text": "MS 42 from the Greene County Line to the intersection of US 45 and MS 42 from US 45 to the Alabama State Line"
         },
         {
           "source": "intelligence.whyItMatters",
@@ -2343,7 +2259,7 @@
         },
         {
           "source": "opportunity.scope",
-          "text": "MS 42 from the Greene CL to the intersection of US 45"
+          "text": "MS 42 from the Greene County Line to the intersection of US 45 and MS 42 from US 45 to the Alabama State Line"
         }
       ]
     },
@@ -3585,53 +3501,6 @@
       ]
     },
     {
-      "projectId": "msproc-46173",
-      "projectName": "Lincoln / 3515-20260730090934 Brookhaven",
-      "evidenceCount": 10,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Lincoln / 3515-20260730090934 Brookhaven"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Mayor and Board of Alderman/ Alderwoman of Brookhaven, MS shall receive sealed bids until 1:00 p.m. on August 17, 2026 in City Clerk's Office located in City hall at 101 West Chickasaw St. Brookhaven, Mississippi 39601. The bids will then be publicly"
-        },
-        {
-          "source": "researchOverride.disposition",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "none"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "researched_false_positive"
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "false_positive_landscape_maintenance"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "Research identifies the underlying solicitation as flower-bed maintenance rather than excavation/sitework."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Exclude from contractor opportunity rankings."
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46179",
       "projectName": "Harrison / 43-20260728091408 Gulfport",
       "evidenceCount": 8,
@@ -4114,6 +3983,25 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids subject to the conditions and provisions presented herein will be received until 10:00 AM on Thursday, September 3, 2026, and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46297",
+      "projectName": "Harrison / 1557-20260806092908 SRHS",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 1557-20260806092908 SRHS"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date & Time: Description: A pre-bid meeting will be held on September 1, 2026 at 10:00 a.m., in the Board Room at Singing River Hospital - Gulfport. ------------------------------------------------------------------------------------"
         }
       ]
     },
