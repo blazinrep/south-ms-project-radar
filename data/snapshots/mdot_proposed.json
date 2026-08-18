@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-08-17T11:37:45.608596+00:00",
+  "retrieved_at": "2026-08-18T11:37:32.737031+00:00",
   "records": [
     {
       "month": "2026/08",
@@ -242,7 +242,7 @@
       "county": "Wayne",
       "route": "MS 42",
       "scope": "Overlay",
-      "termini": "MS 42 from the Greene CL to the intersection of US 45"
+      "termini": "MS 42 from the Greene County Line to the intersection of US 45 and MS 42 from US 45 to the Alabama State Line"
     },
     {
       "month": "2026/11",
