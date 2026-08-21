@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 93,
-  "matchedProjectCount": 66,
+  "projectCount": 92,
+  "matchedProjectCount": 65,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2000,39 +2000,6 @@
           "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: demo"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46194",
-      "projectName": "Lincoln / 3515-20260730085656 Brookhaven",
-      "owner": "MPTAP",
-      "county": "Lincoln",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46194?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "excavation"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible excavation / sitework scope detected from excavation, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: excavation"
         }
       ]
     },

@@ -1,104 +1,5 @@
 [
   {
-    "id": "msproc-46194",
-    "name": "Lincoln / 3515-20260730085656 Brookhaven",
-    "county": "Lincoln",
-    "city": "Lincoln County",
-    "lat": 31.5791,
-    "lon": -90.4407,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-08-20T10:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 63,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "EQUIPMENT - NON-TECHNOLOGY",
-      "The Mayor and Board of Alderman/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Hydraulic Excavator until 10:00 a.m. on August 17, 2026, by electronic bid submission. Submissions will be evaluated and vendors submitting accepta"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46194?AppId=1",
-    "verified": "2026-08-20",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [
-      "excavation"
-    ],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-20T07:01:54.016600-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46194",
-    "sourceSmartNumber": "3515-20260730085656 Brookhaven",
-    "sourceRFx": "3170036389",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-    "submissionDateRaw": "08/20/2026 10:00 AM",
-    "sourceFeed": "legacy_projects",
-    "geoPrecision": "project_coordinates",
-    "geoApproximate": false,
-    "displayName": "Lincoln / 3515-20260730085656 Brookhaven",
-    "intelligence": {
-      "version": "0.7.2",
-      "canonicalProjectKey": "msproc-46194",
-      "displayName": "Lincoln / 3515-20260730085656 Brookhaven",
-      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46194?AppId=1",
-      "decision": "reject",
-      "disposition": "reject",
-      "pursuitPath": "reject",
-      "tradeFit": "none",
-      "evidenceLevel": "official_explicit",
-      "fitEvidence": [],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 0,
-        "runway": 2,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 23,
-        "actionPriority": 0
-      },
-      "daysToDeadline": 0.1,
-      "distanceMiles": 42.3,
-      "riskFlags": [
-        "false_positive_equipment_purchase"
-      ],
-      "whyItMatters": "This is a procurement for a hydraulic excavator, not a contract to perform excavation.",
-      "nextAction": "Exclude from contractor opportunity rankings.",
-      "actionType": "research_and_verify",
-      "recommendedContact": "See official record and attachments",
-      "automaticRejectReason": "wrong_subcategory:EQUIPMENT - NON-TECHNOLOGY",
-      "sourceRecordIds": [
-        "msproc-46194"
-      ]
-    }
-  },
-  {
     "id": "msproc-46244",
     "name": "Forrest / 9280-27-R-IFBD-00006",
     "county": "Forrest",
@@ -123,7 +24,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46244?AppId=1",
-    "verified": "2026-08-20",
+    "verified": "2026-08-21",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -133,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-20T07:01:54.016600-05:00",
+      "lastSeen": "2026-08-21T07:01:52.917540-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -180,7 +81,7 @@
         "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 12.3,
+      "daysToDeadline": 11.3,
       "distanceMiles": 32.6,
       "riskFlags": [
         "false_positive_equipment_procurement"
@@ -220,7 +121,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46249?AppId=1",
-    "verified": "2026-08-20",
+    "verified": "2026-08-21",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -232,7 +133,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-20T07:01:54.016600-05:00",
+      "lastSeen": "2026-08-21T07:01:52.917540-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -279,7 +180,7 @@
         "fitTotal": 17,
         "actionPriority": 0
       },
-      "daysToDeadline": 4.1,
+      "daysToDeadline": 3.1,
       "distanceMiles": 75.3,
       "riskFlags": [
         "false_positive_professional_services",
@@ -320,7 +221,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46297?AppId=1",
-    "verified": "2026-08-20",
+    "verified": "2026-08-21",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -330,7 +231,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-20T07:01:54.016600-05:00",
+      "lastSeen": "2026-08-21T07:01:52.917540-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -377,7 +278,7 @@
         "fitTotal": 24,
         "actionPriority": 0
       },
-      "daysToDeadline": 19.7,
+      "daysToDeadline": 18.7,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"

@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 93,
+  "projectCount": 92,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3536,53 +3536,6 @@
         {
           "source": "opportunity.scope",
           "text": "Pre-Bid Conference: Date & Time: 8/17/2026 1:30 PM Description: A pre-bid conference for this project is scheduled for 1:30 p.m. on August 17, 2026, at the City of Gulfport Engineering Department located at 4050 Hewes Avenue, Gulfport, MS 39507. Attenda"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46194",
-      "projectName": "Lincoln / 3515-20260730085656 Brookhaven",
-      "evidenceCount": 10,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Lincoln / 3515-20260730085656 Brookhaven"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Mayor and Board of Alderman/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Hydraulic Excavator until 10:00 a.m. on August 17, 2026, by electronic bid submission. Submissions will be evaluated and vendors submitting accepta"
-        },
-        {
-          "source": "researchOverride.disposition",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "none"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "official_explicit"
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "false_positive_equipment_purchase"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "This is a procurement for a hydraulic excavator, not a contract to perform excavation."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Exclude from contractor opportunity rankings."
         }
       ]
     },

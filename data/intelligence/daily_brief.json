@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T12:02:13.796311+00:00",
+  "generatedAt": "2026-08-21T12:02:13.888762+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 93,
-  "canonicalProjectCount": 87,
+  "sourceRecordCount": 92,
+  "canonicalProjectCount": 86,
   "duplicateGroups": 6,
-  "rejectedCount": 4,
+  "rejectedCount": 3,
   "decisionCounts": {
     "act_today": 1,
     "specialist_only": 1,
@@ -19,7 +19,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 4.9,
+      "daysToDeadline": 3.9,
       "distanceMiles": 55,
       "decision": "act_today",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -60,11 +60,55 @@
       ]
     },
     {
+      "id": "pineview-parking",
+      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
+      "county": "Jones",
+      "deadline": "2026-09-03T14:00:00",
+      "daysToDeadline": 13.1,
+      "distanceMiles": 46,
+      "decision": "verify_then_pursue",
+      "pursuitPath": "prime_candidate_or_sitework_sub",
+      "tradeFit": "strong",
+      "evidenceLevel": "published_project_explicit_scope_partial",
+      "scores": {
+        "scopeFit": 27,
+        "pursuitAccessibility": 15,
+        "runway": 15,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 78,
+        "actionPriority": 82
+      },
+      "whyItMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
+      "nextAction": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision.",
+      "actionType": "obtain_plans_and_scope_quantities",
+      "riskFlags": [
+        "earthwork_quantities_not_yet_extracted"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify",
+          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        },
+        {
+          "type": "license",
+          "status": "verify",
+          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
+        },
+        {
+          "type": "documents",
+          "status": "required",
+          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
+        }
+      ]
+    },
+    {
       "id": "msproc-46147",
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -111,50 +155,6 @@
           "type": "state_aid_specifications",
           "status": "required_for_prime",
           "detail": "The work is governed by the Mississippi Standard Specifications for State Aid Road and Bridge Construction."
-        }
-      ]
-    },
-    {
-      "id": "pineview-parking",
-      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "county": "Jones",
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 14.1,
-      "distanceMiles": 46,
-      "decision": "verify_then_pursue",
-      "pursuitPath": "prime_candidate_or_sitework_sub",
-      "tradeFit": "strong",
-      "evidenceLevel": "published_project_explicit_scope_partial",
-      "scores": {
-        "scopeFit": 27,
-        "pursuitAccessibility": 15,
-        "runway": 13,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 76,
-        "actionPriority": 76
-      },
-      "whyItMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
-      "nextAction": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision.",
-      "actionType": "obtain_plans_and_scope_quantities",
-      "riskFlags": [
-        "earthwork_quantities_not_yet_extracted"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        },
-        {
-          "type": "license",
-          "status": "verify",
-          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "type": "documents",
-          "status": "required",
-          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
         }
       ]
     },
@@ -227,7 +227,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -236,11 +236,11 @@
       "scores": {
         "scopeFit": 12,
         "pursuitAccessibility": 14,
-        "runway": 13,
+        "runway": 15,
         "geography": 13,
         "evidenceQuality": 4,
-        "fitTotal": 56,
-        "actionPriority": 56
+        "fitTotal": 58,
+        "actionPriority": 62
       },
       "whyItMatters": "A contractor planroom shows Flagstar actively soliciting this project, which creates a concrete subcontract outreach path even though the exact civil package still needs to be verified.",
       "nextAction": "Contact Flagstar's listed bid contact, ask whether they are carrying the civil/sitework package, and obtain the relevant civil drawings/specs before pricing.",
@@ -295,7 +295,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -340,7 +340,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 19.9,
+      "daysToDeadline": 18.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -381,24 +381,24 @@
       ]
     },
     {
-      "id": "msproc-46179",
-      "name": "Harrison / 43-20260728091408 Gulfport",
-      "county": "Harrison",
-      "deadline": "2026-08-26T10:00:00-05:00",
-      "daysToDeadline": 6.1,
-      "distanceMiles": 75.3,
+      "id": "msproc-46285",
+      "name": "Jackson / 152-20260805081145 Pascagoula",
+      "county": "Jackson",
+      "deadline": "2026-09-03T14:00:00-05:00",
+      "daysToDeadline": 13.3,
+      "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
-      "tradeFit": "none",
+      "tradeFit": "weak",
       "evidenceLevel": "source_record",
       "scores": {
-        "scopeFit": 0,
+        "scopeFit": 11,
         "pursuitAccessibility": 7,
         "runway": 15,
-        "geography": 3,
+        "geography": 0,
         "evidenceQuality": 8,
-        "fitTotal": 33,
-        "actionPriority": 40
+        "fitTotal": 41,
+        "actionPriority": 45
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -426,7 +426,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 4.9,
+      "daysToDeadline": 3.9,
       "distanceMiles": 55,
       "decision": "act_today",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -467,11 +467,55 @@
       ]
     },
     {
+      "id": "pineview-parking",
+      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
+      "county": "Jones",
+      "deadline": "2026-09-03T14:00:00",
+      "daysToDeadline": 13.1,
+      "distanceMiles": 46,
+      "decision": "verify_then_pursue",
+      "pursuitPath": "prime_candidate_or_sitework_sub",
+      "tradeFit": "strong",
+      "evidenceLevel": "published_project_explicit_scope_partial",
+      "scores": {
+        "scopeFit": 27,
+        "pursuitAccessibility": 15,
+        "runway": 15,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 78,
+        "actionPriority": 82
+      },
+      "whyItMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
+      "nextAction": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision.",
+      "actionType": "obtain_plans_and_scope_quantities",
+      "riskFlags": [
+        "earthwork_quantities_not_yet_extracted"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify",
+          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        },
+        {
+          "type": "license",
+          "status": "verify",
+          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
+        },
+        {
+          "type": "documents",
+          "status": "required",
+          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
+        }
+      ]
+    },
+    {
       "id": "msproc-46147",
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -526,7 +570,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -567,50 +611,6 @@
       ]
     },
     {
-      "id": "pineview-parking",
-      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "county": "Jones",
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 14.1,
-      "distanceMiles": 46,
-      "decision": "verify_then_pursue",
-      "pursuitPath": "prime_candidate_or_sitework_sub",
-      "tradeFit": "strong",
-      "evidenceLevel": "published_project_explicit_scope_partial",
-      "scores": {
-        "scopeFit": 27,
-        "pursuitAccessibility": 15,
-        "runway": 13,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 76,
-        "actionPriority": 76
-      },
-      "whyItMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
-      "nextAction": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision.",
-      "actionType": "obtain_plans_and_scope_quantities",
-      "riskFlags": [
-        "earthwork_quantities_not_yet_extracted"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        },
-        {
-          "type": "license",
-          "status": "verify",
-          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "type": "documents",
-          "status": "required",
-          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        }
-      ]
-    },
-    {
       "id": "gulfport_planroom-20714",
       "name": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
       "county": "Harrison",
@@ -647,7 +647,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 19.9,
+      "daysToDeadline": 18.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -724,7 +724,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -733,11 +733,11 @@
       "scores": {
         "scopeFit": 12,
         "pursuitAccessibility": 14,
-        "runway": 13,
+        "runway": 15,
         "geography": 13,
         "evidenceQuality": 4,
-        "fitTotal": 56,
-        "actionPriority": 56
+        "fitTotal": 58,
+        "actionPriority": 62
       },
       "whyItMatters": "A contractor planroom shows Flagstar actively soliciting this project, which creates a concrete subcontract outreach path even though the exact civil package still needs to be verified.",
       "nextAction": "Contact Flagstar's listed bid contact, ask whether they are carrying the civil/sitework package, and obtain the relevant civil drawings/specs before pricing.",
@@ -764,7 +764,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": 4.2,
+      "daysToDeadline": 3.2,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
@@ -810,7 +810,7 @@
       "name": "Hancock / 342-20260728161540 HCBS",
       "county": "Hancock",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 19.1,
+      "daysToDeadline": 18.1,
       "distanceMiles": 71.7,
       "decision": "low_priority",
       "pursuitPath": "investigate",
