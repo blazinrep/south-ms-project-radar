@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-22T11:33:33.639890+00:00",
+  "generated_at": "2026-08-23T11:33:25.902540+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
-    "removed": 1
+    "removed": 0
   },
-  "events": [
-    {
-      "kind": "project_removed",
-      "project_id": "msproc-46194",
-      "before": {
-        "id": "msproc-46194",
-        "name": "Lincoln / 3515-20260730085656 Brookhaven",
-        "county": "Lincoln",
-        "city": "Lincoln County",
-        "lat": 31.5791,
-        "lon": -90.4407,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-08-20T10:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 63,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "EQUIPMENT - NON-TECHNOLOGY",
-          "The Mayor and Board of Alderman/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Hydraulic Excavator until 10:00 a.m. on August 17, 2026, by electronic bid submission. Submissions will be evaluated and vendors submitting accepta"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46194?AppId=1",
-        "verified": "2026-08-20",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [
-          "excavation"
-        ],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-08-20T07:01:54.016600-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46194",
-        "sourceSmartNumber": "3515-20260730085656 Brookhaven",
-        "sourceRFx": "3170036389",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-        "submissionDateRaw": "08/20/2026 10:00 AM"
-      }
-    }
-  ]
+  "events": []
 }
