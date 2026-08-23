@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T11:58:04.250191+00:00",
+  "generatedAt": "2026-08-23T11:57:58.972206+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 92,
   "canonicalProjectCount": 86,
@@ -19,7 +19,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 2.9,
+      "daysToDeadline": 1.9,
       "distanceMiles": 55,
       "decision": "act_today",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -28,11 +28,11 @@
       "scores": {
         "scopeFit": 35,
         "pursuitAccessibility": 15,
-        "runway": 6,
+        "runway": 2,
         "geography": 13,
         "evidenceQuality": 15,
-        "fitTotal": 84,
-        "actionPriority": 94
+        "fitTotal": 80,
+        "actionPriority": 92
       },
       "whyItMatters": "The $3.5M published project includes explicit water/sewer work, creating a credible utility/sitework subcontract opportunity even when the contractor is not an asphalt prime.",
       "nextAction": "Open the official planroom, register as a planholder if considering prime pursuit, and identify the utility/sitework bid items and active planholders to quote.",
@@ -64,7 +64,7 @@
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -108,7 +108,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 10.1,
+      "daysToDeadline": 9.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -227,7 +227,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -295,7 +295,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 10.1,
+      "daysToDeadline": 9.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -340,7 +340,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 17.9,
+      "daysToDeadline": 16.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -385,7 +385,7 @@
       "name": "Jackson / 152-20260805081145 Pascagoula",
       "county": "Jackson",
       "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 12.3,
+      "daysToDeadline": 11.3,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -426,7 +426,7 @@
       "name": "Laurel 2026 Citywide Paving Project",
       "county": "Jones",
       "deadline": "2026-08-25T09:00:00",
-      "daysToDeadline": 2.9,
+      "daysToDeadline": 1.9,
       "distanceMiles": 55,
       "decision": "act_today",
       "pursuitPath": "subcontract_target_or_prime_if_paving_capable",
@@ -435,11 +435,11 @@
       "scores": {
         "scopeFit": 35,
         "pursuitAccessibility": 15,
-        "runway": 6,
+        "runway": 2,
         "geography": 13,
         "evidenceQuality": 15,
-        "fitTotal": 84,
-        "actionPriority": 94
+        "fitTotal": 80,
+        "actionPriority": 92
       },
       "whyItMatters": "The $3.5M published project includes explicit water/sewer work, creating a credible utility/sitework subcontract opportunity even when the contractor is not an asphalt prime.",
       "nextAction": "Open the official planroom, register as a planholder if considering prime pursuit, and identify the utility/sitework bid items and active planholders to quote.",
@@ -471,7 +471,7 @@
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -515,7 +515,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 10.1,
+      "daysToDeadline": 9.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -570,7 +570,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 10.1,
+      "daysToDeadline": 9.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -647,7 +647,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 17.9,
+      "daysToDeadline": 16.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -724,7 +724,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 12.1,
+      "daysToDeadline": 11.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -760,57 +760,11 @@
       ]
     },
     {
-      "id": "walthall-orphan-wells",
-      "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
-      "county": "Walthall",
-      "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": 2.2,
-      "distanceMiles": 34,
-      "decision": "specialist_only",
-      "pursuitPath": "specialist_only",
-      "tradeFit": "weak",
-      "evidenceLevel": "official_explicit",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 7,
-        "runway": 6,
-        "geography": 13,
-        "evidenceQuality": 15,
-        "fitTotal": 53,
-        "actionPriority": 30
-      },
-      "whyItMatters": "The reclamation portion uses dirt-work skills, but the prime contract is fundamentally an oil-and-gas well-plugging package. A normal excavation contractor should not spend estimating time on it unless it already has the specialty capability or a qualified teaming partner.",
-      "nextAction": "Archive for the demo contractor unless it already performs regulated oil-and-gas well plugging or has a qualified teaming partner. If specialty capability exists, use the current MSOGB active-procurement page and IFB documents.",
-      "actionType": "specialist_gate_before_any_pursuit",
-      "riskFlags": [
-        "specialized_oil_and_gas_scope",
-        "outside_demo_company_capability_profile",
-        "legacy_source_record_points_to_archived_duplicate"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        },
-        {
-          "type": "specialty_experience",
-          "status": "required_before_pursuit",
-          "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
-        }
-      ]
-    },
-    {
       "id": "msproc-46220",
       "name": "Hancock / 342-20260728161540 HCBS",
       "county": "Hancock",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 17.1,
+      "daysToDeadline": 16.1,
       "distanceMiles": 71.7,
       "decision": "low_priority",
       "pursuitPath": "investigate",
@@ -841,6 +795,32 @@
           "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
         }
       ]
+    },
+    {
+      "id": "mdot-110227-301000",
+      "name": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 51,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
     }
   ]
 }
