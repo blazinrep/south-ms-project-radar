@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checked_at": "2026-08-22T06:57:45.950804-05:00",
+  "checked_at": "2026-08-23T06:57:38.976656-05:00",
   "known_active_checked": 13,
   "lightweight_discovery_count": 35,
-  "network_or_http_failures": 24,
+  "network_or_http_failures": 30,
   "current_records": 13,
   "stale_unverified": 0,
   "explicitly_removed": 0
