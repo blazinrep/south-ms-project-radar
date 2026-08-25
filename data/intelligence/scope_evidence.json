@@ -163,7 +163,7 @@
     {
       "projectId": "laurel-citywide-paving",
       "projectName": "Laurel 2026 Citywide Paving Project",
-      "evidenceCount": 43,
+      "evidenceCount": 32,
       "evidence": [
         {
           "source": "project.name",
@@ -187,50 +187,6 @@
         },
         {
           "source": "project.scope",
-          "text": "multiple city streets"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "water services explicitly listed"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "sewer services explicitly listed"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "milling and overlay explicitly listed"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "The $3.5M published project includes explicit water/sewer work, creating a credible utility/sitework subcontract opportunity even when the contractor is not an asphalt prime."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Open the official planroom, register as a planholder if considering prime pursuit, and identify the utility/sitework bid items and active planholders to quote."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Kyla James \u00b7 (601) 649-1840 \u00b7 kyla.james@neel-schaffer.com"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "water services"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "sewer services"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "milling"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "overlay"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "multiple city streets"
         },
         {
@@ -3708,53 +3664,6 @@
       ]
     },
     {
-      "projectId": "msproc-46249",
-      "projectName": "Harrison / 43-20260803165414 Gulfport",
-      "evidenceCount": 10,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 43-20260803165414 Gulfport"
-        },
-        {
-          "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "The City of Gulfport (Owner) will accept sealed statements of qualifications from qualified firms for professional engineering services in connection with the Citywide Sewer Interceptor Assessment and Implementation Project. To be considered, all rep"
-        },
-        {
-          "source": "researchOverride.disposition",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "none"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "official_explicit"
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "false_positive_professional_services"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "This is a professional engineering qualifications solicitation, not construction work for a site contractor."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Exclude from contractor opportunity rankings."
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46273",
       "projectName": "Greene / 45-20260804080102 BSGC",
       "evidenceCount": 24,
@@ -3955,6 +3864,45 @@
         {
           "source": "project.scope",
           "text": "Pre-Bid Conference: Date & Time: Description: A pre-bid meeting will be held on September 1, 2026 at 10:00 a.m., in the Board Room at Singing River Hospital - Gulfport. ------------------------------------------------------------------------------------"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46341",
+      "projectName": "Hancock / 342-20260813072435 BSHC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Hancock / 342-20260813072435 BSHC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
         }
       ]
     },

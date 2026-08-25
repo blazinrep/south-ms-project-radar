@@ -112,11 +112,9 @@
           "tradeKey": "excavation_sitework",
           "trade": "Excavation / Sitework",
           "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 3,
+          "confidence": "possible",
+          "matchScore": 1,
           "matchedScope": [
-            "excavation",
-            "grading",
             "sitework"
           ],
           "strongSignals": [],
@@ -129,9 +127,9 @@
           ],
           "riskFlags": [],
           "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, sitework.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: excavation, grading, sitework"
+          "opportunitySummary": "Possible excavation / sitework scope detected from sitework, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: sitework"
         }
       ]
     },

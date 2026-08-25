@@ -24,7 +24,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46244?AppId=1",
-    "verified": "2026-08-24",
+    "verified": "2026-08-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-24T07:01:38.994542-05:00",
+      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -81,7 +81,7 @@
         "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 8.3,
+      "daysToDeadline": 7.3,
       "distanceMiles": 32.6,
       "riskFlags": [
         "false_positive_equipment_procurement"
@@ -93,106 +93,6 @@
       "automaticRejectReason": "wrong_subcategory:EQUIPMENT - NON-TECHNOLOGY",
       "sourceRecordIds": [
         "msproc-46244"
-      ]
-    }
-  },
-  {
-    "id": "msproc-46249",
-    "name": "Harrison / 43-20260803165414 Gulfport",
-    "county": "Harrison",
-    "city": "Harrison County",
-    "lat": 30.3674,
-    "lon": -89.0928,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-08-24T10:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 63,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "The City of Gulfport (Owner) will accept sealed statements of qualifications from qualified firms for professional engineering services in connection with the Citywide Sewer Interceptor Assessment and Implementation Project. To be considered, all rep"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46249?AppId=1",
-    "verified": "2026-08-24",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [
-      "utilities"
-    ],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-24T07:01:38.994542-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46249",
-    "sourceSmartNumber": "43-20260803165414 Gulfport",
-    "sourceRFx": "3170036443",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
-    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-    "submissionDateRaw": "08/24/2026 10:00 AM",
-    "sourceFeed": "legacy_projects",
-    "geoPrecision": "project_coordinates",
-    "geoApproximate": false,
-    "displayName": "Harrison / 43-20260803165414 Gulfport",
-    "intelligence": {
-      "version": "0.7.2",
-      "canonicalProjectKey": "msproc-46249",
-      "displayName": "Harrison / 43-20260803165414 Gulfport",
-      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46249?AppId=1",
-      "decision": "reject",
-      "disposition": "reject",
-      "pursuitPath": "reject",
-      "tradeFit": "none",
-      "evidenceLevel": "official_explicit",
-      "fitEvidence": [],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 0,
-        "runway": 2,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 13,
-        "actionPriority": 0
-      },
-      "daysToDeadline": 0.1,
-      "distanceMiles": 75.3,
-      "riskFlags": [
-        "false_positive_professional_services",
-        "outside_preferred_radius"
-      ],
-      "whyItMatters": "This is a professional engineering qualifications solicitation, not construction work for a site contractor.",
-      "nextAction": "Exclude from contractor opportunity rankings.",
-      "actionType": "research_and_verify",
-      "recommendedContact": "See official record and attachments",
-      "automaticRejectReason": "wrong_major_category:PERSONNEL SERVICES NON-IT",
-      "sourceRecordIds": [
-        "msproc-46249"
       ]
     }
   },
@@ -221,7 +121,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46297?AppId=1",
-    "verified": "2026-08-24",
+    "verified": "2026-08-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -231,7 +131,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-24T07:01:38.994542-05:00",
+      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -278,7 +178,7 @@
         "fitTotal": 24,
         "actionPriority": 0
       },
-      "daysToDeadline": 15.7,
+      "daysToDeadline": 14.7,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
