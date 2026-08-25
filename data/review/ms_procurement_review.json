@@ -41,8 +41,21 @@
   },
   {
     "detail_id": 46249,
-    "decision": "publish",
-    "county": "Harrison"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "43-20260803165414 Gulfport",
+      "Advertised Date": "08/10/2026 12:00 PM",
+      "RFx #": "3170036443",
+      "Submission Date": "08/24/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "The City of Gulfport (Owner) will accept sealed statements of qualifications from qualified firms for professional engineering services in connection with the Citywide Sewer Interceptor Assessment and Implementation Project. To be considered, all rep"
+    }
   },
   {
     "detail_id": 46273,
@@ -97,6 +110,74 @@
   },
   {
     "detail_id": 46334,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46335,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46336,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46337,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46338,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46339,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46340,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46341,
+    "decision": "publish",
+    "county": "Hancock"
+  },
+  {
+    "detail_id": 46342,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46343,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
