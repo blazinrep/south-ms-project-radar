@@ -24,7 +24,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46244?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -81,7 +81,7 @@
         "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 7.3,
+      "daysToDeadline": 6.3,
       "distanceMiles": 32.6,
       "riskFlags": [
         "false_positive_equipment_procurement"
@@ -121,7 +121,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46297?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -131,7 +131,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -172,13 +172,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 13,
+        "runway": 15,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 24,
+        "fitTotal": 26,
         "actionPriority": 0
       },
-      "daysToDeadline": 14.7,
+      "daysToDeadline": 13.7,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"

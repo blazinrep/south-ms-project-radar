@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:03:21.194719+00:00",
+  "generatedAt": "2026-08-26T12:03:09.010151+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "profileReadiness": {
     "commercialLicense": {
@@ -23,84 +23,6 @@
   "count": 80,
   "topPursuitCards": [
     {
-      "id": "pineview-parking",
-      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "owner": "Mississippi Bureau of Building / Ellisville State School",
-      "county": "Jones",
-      "city": "Ellisville",
-      "lat": 31.6041,
-      "lon": -89.1956,
-      "value": 172500,
-      "status": "Accepting bids",
-      "verified": "2026-08-13",
-      "freshnessStatus": null,
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
-      "distanceMiles": 46,
-      "decision": "verify_then_pursue",
-      "recommendedLane": "verify_prime_or_sub",
-      "primeReadiness": "unknown",
-      "actionPriority": 82,
-      "fitScore": 78,
-      "tradeFit": "strong",
-      "evidenceLevel": "published_project_explicit_scope_partial",
-      "whyThisMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
-      "scope": [
-        "parking lot construction",
-        "grading likely",
-        "base preparation likely",
-        "drainage likely",
-        "paving"
-      ],
-      "fitEvidence": [
-        "parking lot construction",
-        "published estimate $160K\u2013$185K"
-      ],
-      "firstAction": "Obtain the project manual and civil drawings and quantify clearing, grading, drainage, aggregate base, curb/paving and hauling.",
-      "secondAction": "If prime readiness is verified, decide bid/no-bid. Otherwise identify planholders/GCs and quote the site package.",
-      "stopIf": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity.",
-      "contact": {
-        "name": "Geoffrey Crosby",
-        "organization": "Neel-Schaffer | Hattiesburg",
-        "phone": "601-545-1565",
-        "email": "geoffrey.crosby@neel-schaffer.com"
-      },
-      "source": "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        },
-        {
-          "type": "license",
-          "status": "verify",
-          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "type": "documents",
-          "status": "required",
-          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        }
-      ],
-      "riskFlags": [
-        "earthwork_quantities_not_yet_extracted"
-      ],
-      "sourceRecordIds": [
-        "pineview-parking"
-      ]
-    },
-    {
       "id": "msproc-46147",
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "owner": "MPTAP",
@@ -110,15 +32,15 @@
       "lon": -89.0367,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "recommendedLane": "subcontract_target",
       "primeReadiness": "not_ready",
-      "actionPriority": 81,
+      "actionPriority": 84,
       "fitScore": 77,
       "tradeFit": "conditional",
       "evidenceLevel": "published_scope_explicit",
@@ -188,6 +110,84 @@
       ],
       "sourceRecordIds": [
         "msproc-46147"
+      ]
+    },
+    {
+      "id": "pineview-parking",
+      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
+      "owner": "Mississippi Bureau of Building / Ellisville State School",
+      "county": "Jones",
+      "city": "Ellisville",
+      "lat": 31.6041,
+      "lon": -89.1956,
+      "value": 172500,
+      "status": "Accepting bids",
+      "verified": "2026-08-13",
+      "freshnessStatus": null,
+      "deadline": "2026-09-03T14:00:00",
+      "daysToDeadline": 8.1,
+      "distanceMiles": 46,
+      "decision": "verify_then_pursue",
+      "recommendedLane": "verify_prime_or_sub",
+      "primeReadiness": "unknown",
+      "actionPriority": 82,
+      "fitScore": 78,
+      "tradeFit": "strong",
+      "evidenceLevel": "published_project_explicit_scope_partial",
+      "whyThisMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
+      "scope": [
+        "parking lot construction",
+        "grading likely",
+        "base preparation likely",
+        "drainage likely",
+        "paving"
+      ],
+      "fitEvidence": [
+        "parking lot construction",
+        "published estimate $160K\u2013$185K"
+      ],
+      "firstAction": "Obtain the project manual and civil drawings and quantify clearing, grading, drainage, aggregate base, curb/paving and hauling.",
+      "secondAction": "If prime readiness is verified, decide bid/no-bid. Otherwise identify planholders/GCs and quote the site package.",
+      "stopIf": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity.",
+      "contact": {
+        "name": "Geoffrey Crosby",
+        "organization": "Neel-Schaffer | Hattiesburg",
+        "phone": "601-545-1565",
+        "email": "geoffrey.crosby@neel-schaffer.com"
+      },
+      "source": "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "commercial_license",
+          "status": "verify",
+          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        },
+        {
+          "type": "license",
+          "status": "verify",
+          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
+        },
+        {
+          "type": "documents",
+          "status": "required",
+          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
+        }
+      ],
+      "riskFlags": [
+        "earthwork_quantities_not_yet_extracted"
+      ],
+      "sourceRecordIds": [
+        "pineview-parking"
       ]
     },
     {
@@ -321,7 +321,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "recommendedLane": "verify_scope_before_outreach",
@@ -439,7 +439,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -513,13 +513,13 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 14.9,
+      "daysToDeadline": 13.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
       "primeReadiness": "unknown",
-      "actionPriority": 67,
-      "fitScore": 67,
+      "actionPriority": 68,
+      "fitScore": 69,
       "tradeFit": "conditional",
       "evidenceLevel": "published_scope_explicit",
       "whyThisMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
@@ -576,10 +576,10 @@
       "lon": -88.5561,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 9.3,
+      "daysToDeadline": 8.3,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -635,7 +635,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -682,84 +682,6 @@
   ],
   "allCards": [
     {
-      "id": "pineview-parking",
-      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "owner": "Mississippi Bureau of Building / Ellisville State School",
-      "county": "Jones",
-      "city": "Ellisville",
-      "lat": 31.6041,
-      "lon": -89.1956,
-      "value": 172500,
-      "status": "Accepting bids",
-      "verified": "2026-08-13",
-      "freshnessStatus": null,
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
-      "distanceMiles": 46,
-      "decision": "verify_then_pursue",
-      "recommendedLane": "verify_prime_or_sub",
-      "primeReadiness": "unknown",
-      "actionPriority": 82,
-      "fitScore": 78,
-      "tradeFit": "strong",
-      "evidenceLevel": "published_project_explicit_scope_partial",
-      "whyThisMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
-      "scope": [
-        "parking lot construction",
-        "grading likely",
-        "base preparation likely",
-        "drainage likely",
-        "paving"
-      ],
-      "fitEvidence": [
-        "parking lot construction",
-        "published estimate $160K\u2013$185K"
-      ],
-      "firstAction": "Obtain the project manual and civil drawings and quantify clearing, grading, drainage, aggregate base, curb/paving and hauling.",
-      "secondAction": "If prime readiness is verified, decide bid/no-bid. Otherwise identify planholders/GCs and quote the site package.",
-      "stopIf": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity.",
-      "contact": {
-        "name": "Geoffrey Crosby",
-        "organization": "Neel-Schaffer | Hattiesburg",
-        "phone": "601-545-1565",
-        "email": "geoffrey.crosby@neel-schaffer.com"
-      },
-      "source": "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        },
-        {
-          "type": "license",
-          "status": "verify",
-          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "type": "documents",
-          "status": "required",
-          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        }
-      ],
-      "riskFlags": [
-        "earthwork_quantities_not_yet_extracted"
-      ],
-      "sourceRecordIds": [
-        "pineview-parking"
-      ]
-    },
-    {
       "id": "msproc-46147",
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "owner": "MPTAP",
@@ -769,15 +691,15 @@
       "lon": -89.0367,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "recommendedLane": "subcontract_target",
       "primeReadiness": "not_ready",
-      "actionPriority": 81,
+      "actionPriority": 84,
       "fitScore": 77,
       "tradeFit": "conditional",
       "evidenceLevel": "published_scope_explicit",
@@ -847,6 +769,84 @@
       ],
       "sourceRecordIds": [
         "msproc-46147"
+      ]
+    },
+    {
+      "id": "pineview-parking",
+      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
+      "owner": "Mississippi Bureau of Building / Ellisville State School",
+      "county": "Jones",
+      "city": "Ellisville",
+      "lat": 31.6041,
+      "lon": -89.1956,
+      "value": 172500,
+      "status": "Accepting bids",
+      "verified": "2026-08-13",
+      "freshnessStatus": null,
+      "deadline": "2026-09-03T14:00:00",
+      "daysToDeadline": 8.1,
+      "distanceMiles": 46,
+      "decision": "verify_then_pursue",
+      "recommendedLane": "verify_prime_or_sub",
+      "primeReadiness": "unknown",
+      "actionPriority": 82,
+      "fitScore": 78,
+      "tradeFit": "strong",
+      "evidenceLevel": "published_project_explicit_scope_partial",
+      "whyThisMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
+      "scope": [
+        "parking lot construction",
+        "grading likely",
+        "base preparation likely",
+        "drainage likely",
+        "paving"
+      ],
+      "fitEvidence": [
+        "parking lot construction",
+        "published estimate $160K\u2013$185K"
+      ],
+      "firstAction": "Obtain the project manual and civil drawings and quantify clearing, grading, drainage, aggregate base, curb/paving and hauling.",
+      "secondAction": "If prime readiness is verified, decide bid/no-bid. Otherwise identify planholders/GCs and quote the site package.",
+      "stopIf": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity.",
+      "contact": {
+        "name": "Geoffrey Crosby",
+        "organization": "Neel-Schaffer | Hattiesburg",
+        "phone": "601-545-1565",
+        "email": "geoffrey.crosby@neel-schaffer.com"
+      },
+      "source": "https://www.neel-schafferplans.com/projects/20739/details/19907-pineview-parking-lot",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "commercial_license",
+          "status": "verify",
+          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        },
+        {
+          "type": "license",
+          "status": "verify",
+          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
+        },
+        {
+          "type": "documents",
+          "status": "required",
+          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
+        }
+      ],
+      "riskFlags": [
+        "earthwork_quantities_not_yet_extracted"
+      ],
+      "sourceRecordIds": [
+        "pineview-parking"
       ]
     },
     {
@@ -980,7 +980,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "recommendedLane": "verify_scope_before_outreach",
@@ -1098,7 +1098,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1172,13 +1172,13 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 14.9,
+      "daysToDeadline": 13.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
       "primeReadiness": "unknown",
-      "actionPriority": 67,
-      "fitScore": 67,
+      "actionPriority": 68,
+      "fitScore": 69,
       "tradeFit": "conditional",
       "evidenceLevel": "published_scope_explicit",
       "whyThisMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
@@ -1235,10 +1235,10 @@
       "lon": -88.5561,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 9.3,
+      "daysToDeadline": 8.3,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1294,7 +1294,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1348,10 +1348,10 @@
       "lon": -89.0928,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-08-26T10:00:00-05:00",
-      "daysToDeadline": 1.1,
+      "daysToDeadline": 0.1,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1405,10 +1405,10 @@
       "lon": -88.5578,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.1,
       "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1462,10 +1462,10 @@
       "lon": -89.0928,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 15.8,
+      "daysToDeadline": 14.8,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1510,63 +1510,6 @@
       ]
     },
     {
-      "id": "msproc-46248",
-      "name": "Jackson / 94-20260803133348 BSJC",
-      "owner": "MPTAP",
-      "county": "Jackson",
-      "city": "Jackson County",
-      "lat": 30.3674,
-      "lon": -88.5561,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-08-25",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-08-27T12:00:00-05:00",
-      "daysToDeadline": 2.2,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 31,
-      "fitScore": 21,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi, until 12:00 p.m. on August 27, 2026, and the said bids will be opened and read aloud at 1;00 p.m. in the Board of Supervisors' room, 2915"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46248?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46248"
-      ]
-    },
-    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "owner": "Mississippi Department of Transportation",
@@ -1576,7 +1519,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1620,6 +1563,63 @@
       ]
     },
     {
+      "id": "msproc-46248",
+      "name": "Jackson / 94-20260803133348 BSJC",
+      "owner": "MPTAP",
+      "county": "Jackson",
+      "city": "Jackson County",
+      "lat": 30.3674,
+      "lon": -88.5561,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-08-26",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-08-27T12:00:00-05:00",
+      "daysToDeadline": 1.2,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 29,
+      "fitScore": 17,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi, until 12:00 p.m. on August 27, 2026, and the said bids will be opened and read aloud at 1;00 p.m. in the Board of Supervisors' room, 2915"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46248?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "msproc-46248"
+      ]
+    },
+    {
       "id": "mdot-109253-301000",
       "name": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
       "owner": "Mississippi Department of Transportation",
@@ -1629,7 +1629,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1685,7 +1685,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -0.8,
+      "daysToDeadline": -1.8,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "recommendedLane": "specialist_only",
@@ -1752,16 +1752,16 @@
       "lon": -89.33,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 71.7,
       "decision": "low_priority",
       "recommendedLane": "investigate",
       "primeReadiness": "unknown",
       "actionPriority": 45,
-      "fitScore": 52,
+      "fitScore": 54,
       "tradeFit": "weak",
       "evidenceLevel": "source_record",
       "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -1809,7 +1809,7 @@
       "lon": -89.558,
       "value": null,
       "status": "Proposed 2026/09 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1860,7 +1860,7 @@
       "lon": -90.404,
       "value": null,
       "status": "Proposed 2026/08 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1911,7 +1911,7 @@
       "lon": -90.404,
       "value": null,
       "status": "Proposed 2026/08 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1962,7 +1962,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2013,7 +2013,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2064,7 +2064,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2115,7 +2115,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2166,7 +2166,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2218,7 +2218,7 @@
       "lon": -89.036,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2269,7 +2269,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2320,7 +2320,7 @@
       "lon": -90.897,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2371,7 +2371,7 @@
       "lon": -89.083,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2473,10 +2473,10 @@
       "lon": -90.4407,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-03T10:00:00-05:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 42.3,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2528,10 +2528,10 @@
       "lon": -89.1306,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 9.3,
+      "daysToDeadline": 8.3,
       "distanceMiles": 51.6,
       "decision": "low_priority",
       "recommendedLane": "verify_prime_or_sub",
@@ -2579,6 +2579,116 @@
       ]
     },
     {
+      "id": "msproc-46233",
+      "name": "Jasper / 169-20260731111926 BSJC",
+      "owner": "MPTAP",
+      "county": "Jasper",
+      "city": "Jasper County",
+      "lat": 31.979,
+      "lon": -89.2873,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-08-26",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-09-08T10:00:00-05:00",
+      "daysToDeadline": 13.1,
+      "distanceMiles": 59.7,
+      "decision": "low_priority",
+      "recommendedLane": "subcontract_target",
+      "primeReadiness": "unknown",
+      "actionPriority": 45,
+      "fitScore": 42,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Tuesday, September 8, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on t"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46233?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [],
+      "sourceRecordIds": [
+        "msproc-46233"
+      ]
+    },
+    {
+      "id": "msproc-46341",
+      "name": "Hancock / 342-20260813072435 BSHC",
+      "owner": "MPTAP",
+      "county": "Hancock",
+      "city": "Hancock County",
+      "lat": 30.3088,
+      "lon": -89.33,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-08-26",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-09-08T10:00:00-05:00",
+      "daysToDeadline": 13.1,
+      "distanceMiles": 71.7,
+      "decision": "low_priority",
+      "recommendedLane": "investigate",
+      "primeReadiness": "unknown",
+      "actionPriority": 44,
+      "fitScore": 40,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46341?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [],
+      "sourceRecordIds": [
+        "msproc-46341"
+      ]
+    },
+    {
       "id": "mdot-108781-306100",
       "name": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
       "owner": "Mississippi Department of Transportation",
@@ -2588,7 +2698,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2639,7 +2749,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2690,7 +2800,7 @@
       "lon": -89.826,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2741,7 +2851,7 @@
       "lon": -89.807,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2792,7 +2902,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2843,7 +2953,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2894,7 +3004,7 @@
       "lon": -90.107,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2933,61 +3043,6 @@
       "riskFlags": [],
       "sourceRecordIds": [
         "mdot-109471-301000"
-      ]
-    },
-    {
-      "id": "msproc-46233",
-      "name": "Jasper / 169-20260731111926 BSJC",
-      "owner": "MPTAP",
-      "county": "Jasper",
-      "city": "Jasper County",
-      "lat": 31.979,
-      "lon": -89.2873,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-08-25",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 14.1,
-      "distanceMiles": 59.7,
-      "decision": "low_priority",
-      "recommendedLane": "subcontract_target",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 40,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Tuesday, September 8, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on t"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46233?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [],
-      "sourceRecordIds": [
-        "msproc-46233"
       ]
     },
     {
@@ -3154,7 +3209,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3205,7 +3260,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3256,7 +3311,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3307,7 +3362,7 @@
       "lon": -90.404,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3358,7 +3413,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3409,7 +3464,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3461,7 +3516,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3512,7 +3567,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3563,7 +3618,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/04 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3614,7 +3669,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3656,61 +3711,6 @@
       ]
     },
     {
-      "id": "msproc-46341",
-      "name": "Hancock / 342-20260813072435 BSHC",
-      "owner": "MPTAP",
-      "county": "Hancock",
-      "city": "Hancock County",
-      "lat": 30.3088,
-      "lon": -89.33,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-08-25",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 14.1,
-      "distanceMiles": 71.7,
-      "decision": "low_priority",
-      "recommendedLane": "investigate",
-      "primeReadiness": "unknown",
-      "actionPriority": 38,
-      "fitScore": 38,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46341?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [],
-      "sourceRecordIds": [
-        "msproc-46341"
-      ]
-    },
-    {
       "id": "mdot-110070-301000",
       "name": "MDOT Proposed: I 59 \u2014 Jasper County Fog Seal",
       "owner": "Mississippi Department of Transportation",
@@ -3720,7 +3720,7 @@
       "lon": -89.119,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3771,7 +3771,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3823,7 +3823,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3875,7 +3875,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-08-25",
+      "verified": "2026-08-26",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,

@@ -85,7 +85,7 @@
         "fitTotal": 47,
         "actionPriority": 30
       },
-      "daysToDeadline": -0.8,
+      "daysToDeadline": -1.8,
       "distanceMiles": 34,
       "riskFlags": [
         "specialized_oil_and_gas_scope",
@@ -183,7 +183,7 @@
         "fitTotal": 58,
         "actionPriority": 62
       },
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 48,
       "riskFlags": [
         "sitework_scope_inferred",
@@ -285,7 +285,7 @@
         "fitTotal": 78,
         "actionPriority": 82
       },
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 46,
       "riskFlags": [
         "earthwork_quantities_not_yet_extracted"
@@ -378,13 +378,13 @@
       "scores": {
         "scopeFit": 24,
         "pursuitAccessibility": 12,
-        "runway": 13,
+        "runway": 15,
         "geography": 3,
         "evidenceQuality": 15,
-        "fitTotal": 67,
-        "actionPriority": 67
+        "fitTotal": 69,
+        "actionPriority": 68
       },
-      "daysToDeadline": 14.9,
+      "daysToDeadline": 13.9,
       "distanceMiles": 78,
       "riskFlags": [
         "outside_preferred_radius",
@@ -486,7 +486,7 @@
         "fitTotal": 76,
         "actionPriority": 68
       },
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 76,
       "riskFlags": [
         "outside_preferred_radius",
@@ -844,7 +844,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -859,7 +859,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266751+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439658+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110227/301000",
@@ -929,7 +929,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -941,7 +941,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266760+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439668+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108588/301000",
@@ -1011,7 +1011,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -1023,7 +1023,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266801+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439708+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110076/301000",
@@ -1093,7 +1093,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -1105,7 +1105,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266808+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439715+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110077/301000",
@@ -1175,7 +1175,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -1187,7 +1187,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266815+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439722+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110078/301000",
@@ -1257,7 +1257,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -1269,7 +1269,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266839+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439747+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108999/301000",
@@ -1339,7 +1339,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -1354,7 +1354,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266846+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439754+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109492/301000",
@@ -1424,7 +1424,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -1439,7 +1439,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266718+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439623+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "106972/301000",
@@ -1509,7 +1509,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -1524,7 +1524,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266736+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439643+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "106972/302000",
@@ -1593,7 +1593,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "drainage",
@@ -1605,7 +1605,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266776+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439683+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108781/306100",
@@ -1676,7 +1676,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -1688,7 +1688,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266786+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439693+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110070/301000",
@@ -1758,7 +1758,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -1770,7 +1770,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266794+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439701+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109253/301000",
@@ -1842,7 +1842,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -1857,7 +1857,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266822+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439729+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "100881/301000",
@@ -1927,7 +1927,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -1942,7 +1942,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266832+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439739+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "106971/301000",
@@ -2012,7 +2012,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -2027,7 +2027,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266933+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439847+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110044/301000",
@@ -2097,7 +2097,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -2109,7 +2109,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266944+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439859+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108949/301000",
@@ -2180,7 +2180,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -2192,7 +2192,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266963+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439878+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108949/303000",
@@ -2263,7 +2263,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -2275,7 +2275,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266977+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439892+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109987/301000",
@@ -2345,7 +2345,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -2357,7 +2357,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266986+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439901+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109988/301000",
@@ -2429,7 +2429,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -2441,7 +2441,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.266994+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439910+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109986/301000",
@@ -2511,7 +2511,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -2526,7 +2526,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267001+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439917+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109364/301000",
@@ -2596,7 +2596,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -2611,7 +2611,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267011+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439926+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109087/301000",
@@ -2682,7 +2682,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -2694,7 +2694,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267026+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439940+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109953/301000",
@@ -2764,7 +2764,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -2779,7 +2779,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267033+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439946+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108393/301000",
@@ -2849,7 +2849,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -2864,7 +2864,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267040+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439953+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108394/301000",
@@ -2934,7 +2934,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -2949,7 +2949,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267047+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439961+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109083/301000",
@@ -3022,7 +3022,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3034,7 +3034,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267063+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439975+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109798/301000",
@@ -3105,7 +3105,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3117,7 +3117,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267077+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439988+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109799/301000",
@@ -3187,7 +3187,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3199,7 +3199,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267087+00:00",
+      "lastSeen": "2026-08-26T11:42:22.439996+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110242/301000",
@@ -3269,7 +3269,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "hauling"
@@ -3280,7 +3280,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267095+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440003+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "307909/301000",
@@ -3350,7 +3350,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "hauling"
@@ -3361,7 +3361,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267101+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440010+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "309951/301000",
@@ -3431,7 +3431,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3443,7 +3443,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267110+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440019+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "310366/301000",
@@ -3513,7 +3513,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "excavation",
@@ -3528,7 +3528,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267117+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440026+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "108395/301000",
@@ -3598,7 +3598,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3610,7 +3610,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267124+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440032+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "310370/301000",
@@ -3680,7 +3680,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3692,7 +3692,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267130+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440039+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "110248/301000",
@@ -3762,7 +3762,7 @@
     "owner": "Mississippi Department of Transportation",
     "contact": "Monitor MDOT proposed letting / Bid Express",
     "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official MDOT proposed letting",
     "capabilityTags": [
       "paving_base",
@@ -3774,7 +3774,7 @@
     "changeStatus": "watch",
     "automation": {
       "sourceKey": "mdot_proposed",
-      "lastSeen": "2026-08-25T11:40:41.267139+00:00",
+      "lastSeen": "2026-08-26T11:42:22.440048+00:00",
       "needsHumanReview": false
     },
     "sourceProjectNo": "109471/301000",
@@ -3844,7 +3844,7 @@
     "owner": "MS DEPT FINANCE AND ADMINISTRATION",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46142?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3854,7 +3854,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -3901,7 +3901,7 @@
         "fitTotal": 43,
         "actionPriority": 45
       },
-      "daysToDeadline": 9.3,
+      "daysToDeadline": 8.3,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -3939,7 +3939,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46147?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3949,7 +3949,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4016,9 +4016,9 @@
         "geography": 13,
         "evidenceQuality": 8,
         "fitTotal": 77,
-        "actionPriority": 81
+        "actionPriority": 84
       },
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 47.3,
       "riskFlags": [
         "paving_dominant_prime_scope",
@@ -4059,7 +4059,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46148?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4069,7 +4069,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4116,7 +4116,7 @@
         "fitTotal": 31,
         "actionPriority": 31
       },
-      "daysToDeadline": 15.8,
+      "daysToDeadline": 14.8,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4156,7 +4156,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46179?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4166,7 +4166,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4213,7 +4213,7 @@
         "fitTotal": 20,
         "actionPriority": 32
       },
-      "daysToDeadline": 1.1,
+      "daysToDeadline": 0.1,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4253,7 +4253,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46220?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "drainage",
@@ -4266,7 +4266,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4309,13 +4309,13 @@
       "scores": {
         "scopeFit": 14,
         "pursuitAccessibility": 7,
-        "runway": 13,
+        "runway": 15,
         "geography": 10,
         "evidenceQuality": 8,
-        "fitTotal": 52,
+        "fitTotal": 54,
         "actionPriority": 45
       },
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 71.7,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -4353,7 +4353,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46233?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4363,7 +4363,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4404,13 +4404,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 9,
-        "runway": 13,
+        "runway": 15,
         "geography": 10,
         "evidenceQuality": 8,
-        "fitTotal": 40,
-        "actionPriority": 40
+        "fitTotal": 42,
+        "actionPriority": 45
       },
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 59.7,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -4448,7 +4448,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46248?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4458,7 +4458,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4499,13 +4499,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 0,
         "evidenceQuality": 8,
-        "fitTotal": 21,
-        "actionPriority": 31
+        "fitTotal": 17,
+        "actionPriority": 29
       },
-      "daysToDeadline": 2.2,
+      "daysToDeadline": 1.2,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4545,7 +4545,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4555,7 +4555,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4602,7 +4602,7 @@
         "fitTotal": 31,
         "actionPriority": 31
       },
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.1,
       "distanceMiles": 75.8,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4642,7 +4642,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46285?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -4654,7 +4654,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4703,7 +4703,7 @@
         "fitTotal": 41,
         "actionPriority": 45
       },
-      "daysToDeadline": 9.3,
+      "daysToDeadline": 8.3,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4743,7 +4743,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46286?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4753,7 +4753,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4800,7 +4800,7 @@
         "fitTotal": 43,
         "actionPriority": 45
       },
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 42.3,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -4838,7 +4838,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46341?AppId=1",
-    "verified": "2026-08-25",
+    "verified": "2026-08-26",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4848,7 +4848,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-08-25T07:03:00.135493-05:00",
+      "lastSeen": "2026-08-26T07:02:50.838716-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4889,13 +4889,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 13,
+        "runway": 15,
         "geography": 10,
         "evidenceQuality": 8,
-        "fitTotal": 38,
-        "actionPriority": 38
+        "fitTotal": 40,
+        "actionPriority": 44
       },
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 71.7,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:03:20.747542+00:00",
+  "generatedAt": "2026-08-26T12:03:08.567477+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 92,
   "canonicalProjectCount": 86,
@@ -14,11 +14,66 @@
   },
   "actionQueue": [
     {
+      "id": "msproc-46147",
+      "name": "Buck Creek Road \u2014 SAP-56(13)M",
+      "county": "Perry",
+      "deadline": "2026-09-01T10:00:00-05:00",
+      "daysToDeadline": 6.1,
+      "distanceMiles": 47.3,
+      "decision": "verify_then_pursue",
+      "pursuitPath": "subcontract_target",
+      "tradeFit": "conditional",
+      "evidenceLevel": "published_scope_explicit",
+      "scores": {
+        "scopeFit": 24,
+        "pursuitAccessibility": 17,
+        "runway": 15,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 77,
+        "actionPriority": 84
+      },
+      "whyItMatters": "This is a real heavy-highway job with excavation, stone and roadbed-reclamation quantities, but the published quantities are dominated by asphalt and striping. For the demo sitework contractor, it is more credible as a subcontract/partner lead than as a default prime pursuit.",
+      "nextAction": "Get the official plans/proposal and target planholders or paving primes with pricing for excavation, crushed stone, roadbed reclamation, granular material and hauling rather than treating the full job as a natural sitework prime.",
+      "actionType": "target_paving_primes_for_sitework_package",
+      "riskFlags": [
+        "paving_dominant_prime_scope",
+        "sitework_subpackage_real_but_secondary"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        },
+        {
+          "type": "planholder",
+          "status": "required_for_prime",
+          "detail": "Prime bids are accepted only in the name of a bidder on the official planholder list."
+        },
+        {
+          "type": "bid_security",
+          "status": "required_for_prime",
+          "detail": "The notice requires a certified check or bid bond equal to 5% of the total bid."
+        },
+        {
+          "type": "state_aid_specifications",
+          "status": "required_for_prime",
+          "detail": "The work is governed by the Mississippi Standard Specifications for State Aid Road and Bridge Construction."
+        }
+      ]
+    },
+    {
       "id": "pineview-parking",
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -54,61 +109,6 @@
           "type": "documents",
           "status": "required",
           "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        }
-      ]
-    },
-    {
-      "id": "msproc-46147",
-      "name": "Buck Creek Road \u2014 SAP-56(13)M",
-      "county": "Perry",
-      "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 7.1,
-      "distanceMiles": 47.3,
-      "decision": "verify_then_pursue",
-      "pursuitPath": "subcontract_target",
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 24,
-        "pursuitAccessibility": 17,
-        "runway": 15,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 77,
-        "actionPriority": 81
-      },
-      "whyItMatters": "This is a real heavy-highway job with excavation, stone and roadbed-reclamation quantities, but the published quantities are dominated by asphalt and striping. For the demo sitework contractor, it is more credible as a subcontract/partner lead than as a default prime pursuit.",
-      "nextAction": "Get the official plans/proposal and target planholders or paving primes with pricing for excavation, crushed stone, roadbed reclamation, granular material and hauling rather than treating the full job as a natural sitework prime.",
-      "actionType": "target_paving_primes_for_sitework_package",
-      "riskFlags": [
-        "paving_dominant_prime_scope",
-        "sitework_subpackage_real_but_secondary"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only in the name of a bidder on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "The notice requires a certified check or bid bond equal to 5% of the total bid."
-        },
-        {
-          "type": "state_aid_specifications",
-          "status": "required_for_prime",
-          "detail": "The work is governed by the Mississippi Standard Specifications for State Aid Road and Bridge Construction."
         }
       ]
     },
@@ -181,7 +181,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -249,7 +249,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -294,7 +294,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 14.9,
+      "daysToDeadline": 13.9,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -303,11 +303,11 @@
       "scores": {
         "scopeFit": 24,
         "pursuitAccessibility": 12,
-        "runway": 13,
+        "runway": 15,
         "geography": 3,
         "evidenceQuality": 15,
-        "fitTotal": 67,
-        "actionPriority": 67
+        "fitTotal": 69,
+        "actionPriority": 68
       },
       "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
       "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
@@ -339,7 +339,7 @@
       "name": "Jackson / 152-20260805081145 Pascagoula",
       "county": "Jackson",
       "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 9.3,
+      "daysToDeadline": 8.3,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -408,7 +408,7 @@
       "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
       "county": "Jones",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 46,
       "decision": "verify_then_pursue",
       "pursuitPath": "prime_candidate_or_sitework_sub",
@@ -452,7 +452,7 @@
       "name": "Buck Creek Road \u2014 SAP-56(13)M",
       "county": "Perry",
       "deadline": "2026-09-01T10:00:00-05:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 47.3,
       "decision": "verify_then_pursue",
       "pursuitPath": "subcontract_target",
@@ -465,7 +465,7 @@
         "geography": 13,
         "evidenceQuality": 8,
         "fitTotal": 77,
-        "actionPriority": 81
+        "actionPriority": 84
       },
       "whyItMatters": "This is a real heavy-highway job with excavation, stone and roadbed-reclamation quantities, but the published quantities are dominated by asphalt and striping. For the demo sitework contractor, it is more credible as a subcontract/partner lead than as a default prime pursuit.",
       "nextAction": "Get the official plans/proposal and target planholders or paving primes with pricing for excavation, crushed stone, roadbed reclamation, granular material and hauling rather than treating the full job as a natural sitework prime.",
@@ -507,7 +507,7 @@
       "name": "Clarkco State Park Recreational Trail",
       "county": "Clarke",
       "deadline": "2026-09-01T14:00:00",
-      "daysToDeadline": 7.1,
+      "daysToDeadline": 6.1,
       "distanceMiles": 76,
       "decision": "optional_outside_radius",
       "pursuitPath": "prime_candidate_or_subcontract",
@@ -548,6 +548,51 @@
       ]
     },
     {
+      "id": "greene-road-maintenance",
+      "name": "Greene County SAP-21(15)M Road Maintenance",
+      "county": "Greene",
+      "deadline": "2026-09-09T10:00:00",
+      "daysToDeadline": 13.9,
+      "distanceMiles": 78,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "conditional",
+      "evidenceLevel": "published_scope_explicit",
+      "scores": {
+        "scopeFit": 24,
+        "pursuitAccessibility": 12,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 15,
+        "fitTotal": 69,
+        "actionPriority": 68
+      },
+      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
+      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
+      "actionType": "optional_outside_radius_review",
+      "riskFlags": [
+        "outside_preferred_radius",
+        "road_project_may_be_paving_dominant"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "planholder",
+          "status": "required_for_prime",
+          "detail": "Prime bids are accepted only from bidders on the official planholder list."
+        },
+        {
+          "type": "bid_security",
+          "status": "required_for_prime",
+          "detail": "5% certified check or bid bond is required."
+        }
+      ]
+    },
+    {
       "id": "gulfport_planroom-20714",
       "name": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
       "county": "Harrison",
@@ -576,51 +621,6 @@
           "type": "commercial_license",
           "status": "verify",
           "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        }
-      ]
-    },
-    {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 14.9,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 24,
-        "pursuitAccessibility": 12,
-        "runway": 13,
-        "geography": 3,
-        "evidenceQuality": 15,
-        "fitTotal": 67,
-        "actionPriority": 67
-      },
-      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "actionType": "optional_outside_radius_review",
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
         }
       ]
     },
@@ -661,7 +661,7 @@
       "name": "AAA Ambulance Service Resource Center",
       "county": "Forrest",
       "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 9.1,
+      "daysToDeadline": 8.1,
       "distanceMiles": 48,
       "decision": "verify_scope",
       "pursuitPath": "subcontract_target",
@@ -701,7 +701,7 @@
       "name": "Hancock / 342-20260728161540 HCBS",
       "county": "Hancock",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 14.1,
+      "daysToDeadline": 13.1,
       "distanceMiles": 71.7,
       "decision": "low_priority",
       "pursuitPath": "investigate",
@@ -710,10 +710,10 @@
       "scores": {
         "scopeFit": 14,
         "pursuitAccessibility": 7,
-        "runway": 13,
+        "runway": 15,
         "geography": 10,
         "evidenceQuality": 8,
-        "fitTotal": 52,
+        "fitTotal": 54,
         "actionPriority": 45
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
