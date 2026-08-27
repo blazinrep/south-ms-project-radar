@@ -16,8 +16,21 @@
   },
   {
     "detail_id": 46179,
-    "decision": "publish",
-    "county": "Harrison"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "43-20260728091408 Gulfport",
+      "Advertised Date": "07/31/2026 12:00 PM",
+      "RFx #": "3170036383",
+      "Submission Date": "08/26/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Pre-Bid Conference: Date & Time: 8/17/2026 1:30 PM Description: A pre-bid conference for this project is scheduled for 1:30 p.m. on August 17, 2026, at the City of Gulfport Engineering Department located at 4050 Hewes Avenue, Gulfport, MS 39507. Attenda"
+    }
   },
   {
     "detail_id": 46220,
@@ -36,8 +49,21 @@
   },
   {
     "detail_id": 46248,
-    "decision": "publish",
-    "county": "Jackson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "94-20260803133348 BSJC",
+      "Advertised Date": "08/10/2026 2:00 PM",
+      "RFx #": "3170036442",
+      "Submission Date": "08/27/2026 12:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi, until 12:00 p.m. on August 27, 2026, and the said bids will be opened and read aloud at 1;00 p.m. in the Board of Supervisors' room, 2915"
+    }
   },
   {
     "detail_id": 46273,
@@ -60,110 +86,9 @@
     "county": "Harrison"
   },
   {
-    "detail_id": 46339,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46340,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46341,
     "decision": "publish",
     "county": "Hancock"
-  },
-  {
-    "detail_id": 46342,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46343,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46344,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46345,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46346,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46347,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46348,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46349,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46350,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46351,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46352,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46353,
@@ -196,6 +121,147 @@
   },
   {
     "detail_id": 46357,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46358,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46359,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46360,
+    "decision": "publish",
+    "county": "Hancock"
+  },
+  {
+    "detail_id": 46361,
+    "decision": "publish",
+    "county": "Clarke"
+  },
+  {
+    "detail_id": 46362,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46363,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46364,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46365,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46366,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46367,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46368,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46369,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46370,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46371,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46372,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46373,
+    "decision": "publish",
+    "county": "Wayne"
+  },
+  {
+    "detail_id": 46374,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46375,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46376,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46377,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
