@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 92,
+  "projectCount": 94,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3457,45 +3457,6 @@
       ]
     },
     {
-      "projectId": "msproc-46179",
-      "projectName": "Harrison / 43-20260728091408 Gulfport",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 43-20260728091408 Gulfport"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: 8/17/2026 1:30 PM Description: A pre-bid conference for this project is scheduled for 1:30 p.m. on August 17, 2026, at the City of Gulfport Engineering Department located at 4050 Hewes Avenue, Gulfport, MS 39507. Attenda"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date & Time: 8/17/2026 1:30 PM Description: A pre-bid conference for this project is scheduled for 1:30 p.m. on August 17, 2026, at the City of Gulfport Engineering Department located at 4050 Hewes Avenue, Gulfport, MS 39507. Attenda"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46220",
       "projectName": "Hancock / 342-20260728161540 HCBS",
       "evidenceCount": 9,
@@ -3621,45 +3582,6 @@
         {
           "source": "researchOverride.nextAction",
           "text": "Exclude from contractor opportunity rankings."
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46248",
-      "projectName": "Jackson / 94-20260803133348 BSJC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 94-20260803133348 BSJC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi, until 12:00 p.m. on August 27, 2026, and the said bids will be opened and read aloud at 1;00 p.m. in the Board of Supervisors' room, 2915"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi, until 12:00 p.m. on August 27, 2026, and the said bids will be opened and read aloud at 1;00 p.m. in the Board of Supervisors' room, 2915"
         }
       ]
     },
@@ -3903,6 +3825,122 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46360",
+      "projectName": "Hancock / 248-20260819150147 KUFD",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Hancock / 248-20260819150147 KUFD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed Statements of Qualifications will be received by the Kiln Utility & Fire District of Hancock County, Mississippi at 16154 Fire Department Rd. Kiln, MS 39556 until 4:00 PM, September 2, 2026, for: Kiln Utility Sewer Infrastructure Expansion along"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46361",
+      "projectName": "Clarke / 390-20260819155529 BSCC",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Clarke / 390-20260819155529 BSCC"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Clarke County, Mississippi, will receive Competitive sealed bids for the purchase of the following until Tuesday, September 8, 2026 at 10:00 a.m.: One or more 2026 Model Year Tandem Axle or Triaxle"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46373",
+      "projectName": "Wayne / 169-20260807113013 Waynesboro",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Wayne / 169-20260807113013 Waynesboro"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46374",
+      "projectName": "Forrest / 65-20260810151829 BSFC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 65-20260810151829 BSFC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
         }
       ]
     },
