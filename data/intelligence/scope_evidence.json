@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 94,
+  "projectCount": 95,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3941,6 +3941,45 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46385",
+      "projectName": "Covington / 156-20260817111614 BSCC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Covington / 156-20260817111614 BSCC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Covington County Mississippi at the Chancery Building in Collings, Mississippi, until 10:00 a.m. on September 15, 2026 and shortly thereafter publicly opened for the construction of 0.151 miles o"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Covington County Mississippi at the Chancery Building in Collings, Mississippi, until 10:00 a.m. on September 15, 2026 and shortly thereafter publicly opened for the construction of 0.151 miles o"
         }
       ]
     },
