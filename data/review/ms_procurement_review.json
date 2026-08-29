@@ -26,8 +26,21 @@
   },
   {
     "detail_id": 46244,
-    "decision": "publish",
-    "county": "Forrest"
+    "decision": "explicitly_remove",
+    "reason": "source_status_archived",
+    "fields": {
+      "Smart Number": "9280-27-R-IFBD-00006",
+      "Advertised Date": "08/12/2026 12:00 AM",
+      "RFx #": "3160008208",
+      "Submission Date": "09/01/2026 2:00 PM",
+      "RFx Status": "Archived",
+      "Major Procurement Category": "COMMODITIES",
+      "RFx Opening Date": "09/01/2026 2:00 PM",
+      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, September 1, 2026, 2"
+    }
   },
   {
     "detail_id": 46273,
@@ -75,67 +88,6 @@
     "county": "Forrest"
   },
   {
-    "detail_id": 46375,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46376,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46377,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46378,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46379,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46380,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46381,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46382,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46383,
     "decision": "skip_discovery_candidate",
     "reason": [
@@ -168,5 +120,15 @@
       "not_construction_relevant",
       "outside_or_unresolved_territory"
     ]
+  },
+  {
+    "detail_id": 46388,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46389,
+    "decision": "publish",
+    "county": "Forrest"
   }
 ]
