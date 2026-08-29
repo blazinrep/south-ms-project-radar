@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 95,
+  "projectCount": 96,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3539,53 +3539,6 @@
       ]
     },
     {
-      "projectId": "msproc-46244",
-      "projectName": "Forrest / 9280-27-R-IFBD-00006",
-      "evidenceCount": 10,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 9280-27-R-IFBD-00006"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, September 1, 2026, 2"
-        },
-        {
-          "source": "researchOverride.disposition",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "none"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "reject"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "official_explicit"
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "false_positive_equipment_procurement"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "This record is categorized as equipment/commodities, not sitework construction."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Exclude from contractor opportunity rankings."
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46273",
       "projectName": "Greene / 45-20260804080102 BSGC",
       "evidenceCount": 24,
@@ -3980,6 +3933,44 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Covington County Mississippi at the Chancery Building in Collings, Mississippi, until 10:00 a.m. on September 15, 2026 and shortly thereafter publicly opened for the construction of 0.151 miles o"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46388",
+      "projectName": "Forrest / 9280-27-R-IFBD-00007",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00007"
+        },
+        {
+          "source": "project.scope",
+          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46389",
+      "projectName": "Forrest / 9280-27-R-IFBD-00006",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00006"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, September 1, 2026, 2"
         }
       ]
     },
