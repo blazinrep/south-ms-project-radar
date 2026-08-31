@@ -98,5 +98,37 @@
     "detail_id": 46389,
     "decision": "publish",
     "county": "Forrest"
+  },
+  {
+    "detail_id": 46390,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46391,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46392,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46393,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
   }
 ]
