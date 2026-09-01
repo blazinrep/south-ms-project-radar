@@ -1,11 +1,63 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-08-31T18:08:44.933163+00:00",
+  "generated_at": "2026-09-01T15:33:03.490865+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
-    "no_longer_open": 0,
+    "no_longer_open": 1,
     "stale_unverified": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46147",
+      "before": {
+        "id": "msproc-46147",
+        "name": "Perry / 45-20260723131206 BSPC",
+        "county": "Perry",
+        "city": "Perry County",
+        "lat": 31.2021,
+        "lon": -89.0367,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-09-01T10:00:00-05:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "HIGHWAY CONSTRUCTION",
+          "Sealed bids will be received by the Board of Supervisors of Perry County Mississippi at the Perry County Board of Supervisors, New Augusta Mississippi, until 10:00 AM on the 1st day of September, 2026 and shortly thereafter publicly opened for the co"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46147?AppId=1",
+        "verified": "2026-08-31",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-08-31T13:08:38.454882-05:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46147",
+        "sourceSmartNumber": "45-20260723131206 BSPC",
+        "sourceRFx": "3170036362",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "HIGHWAY CONSTRUCTION",
+        "submissionDateRaw": "09/01/2026 10:00 AM"
+      }
+    }
+  ]
 }

@@ -6,8 +6,21 @@
   },
   {
     "detail_id": 46147,
-    "decision": "publish",
-    "county": "Perry"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "45-20260723131206 BSPC",
+      "Advertised Date": "07/28/2026 2:00 PM",
+      "RFx #": "3170036362",
+      "Submission Date": "09/01/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "HIGHWAY CONSTRUCTION",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Perry County Mississippi at the Perry County Board of Supervisors, New Augusta Mississippi, until 10:00 AM on the 1st day of September, 2026 and shortly thereafter publicly opened for the co"
+    }
   },
   {
     "detail_id": 46148,
@@ -75,21 +88,6 @@
     "county": "Covington"
   },
   {
-    "detail_id": 46386,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46387,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46388,
     "decision": "publish",
     "county": "Forrest"
@@ -125,6 +123,30 @@
   },
   {
     "detail_id": 46393,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46394,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46395,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46396,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
