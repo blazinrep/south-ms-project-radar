@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 96,
-  "matchedProjectCount": 64,
+  "projectCount": 95,
+  "matchedProjectCount": 63,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -433,15 +433,13 @@
           "trade": "Excavation / Sitework",
           "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
           "confidence": "moderate",
-          "matchScore": 7,
+          "matchScore": 5,
           "matchedScope": [
-            "earthwork",
             "grading",
             "sitework",
             "clearing",
             "grubbing",
-            "drainage",
-            "erosion control"
+            "drainage"
           ],
           "strongSignals": [],
           "exclusionsFound": [],
@@ -453,9 +451,9 @@
           ],
           "riskFlags": [],
           "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: grading, sitework, clearing, grubbing.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, grubbing, drainage, erosion control"
+          "whyMatched": "Relevant scope detected: grading, sitework, clearing, grubbing, drainage"
         },
         {
           "tradeKey": "demolition",
@@ -974,7 +972,7 @@
       "projectName": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
       "owner": "Mississippi Department of Transportation",
       "county": "Stone",
-      "status": "Proposed 2026/10 letting",
+      "status": "Proposed 2026/11 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
         {
@@ -1914,90 +1912,6 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46147",
-      "projectName": "Perry / 45-20260723131206 BSPC",
-      "owner": "MPTAP",
-      "county": "Perry",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46147?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "paving_asphalt",
-          "trade": "Paving / Asphalt",
-          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
-          "confidence": "strong",
-          "matchScore": 6,
-          "matchedScope": [
-            "asphalt",
-            "paving",
-            "striping"
-          ],
-          "strongSignals": [
-            "asphalt paving"
-          ],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "equipment_capacity",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": false,
-          "opportunitySummary": "Paving / Asphalt scope is clearly indicated by asphalt paving, asphalt, paving, striping.",
-          "recommendedAction": "Open the source documents and identify the exact bid package, plans/spec sections, bidder list, and prime/subcontract path.",
-          "whyMatched": "Strong scope signal detected: asphalt paving"
-        },
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 2,
-          "matchedScope": [
-            "excavation",
-            "sitework"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, sitework.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: excavation, sitework"
-        },
-        {
-          "tradeKey": "demolition",
-          "trade": "Demolition",
-          "opportunityLabel": "DEMOLITION OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "demo"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "insurance",
-            "hazardous_material_check",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: demo"
         }
       ]
     },

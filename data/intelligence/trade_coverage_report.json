@@ -1,14 +1,14 @@
 {
   "version": "0.10.0",
-  "projectsScanned": 96,
+  "projectsScanned": 95,
   "trades": {
     "excavation_sitework": {
       "trade": "Excavation / Sitework",
-      "total": 31,
+      "total": 30,
       "strong": 0,
-      "moderate": 14,
+      "moderate": 13,
       "possible": 17,
-      "verifyFirst": 31
+      "verifyFirst": 30
     },
     "roofing": {
       "trade": "Roofing",
@@ -84,19 +84,19 @@
     },
     "paving_asphalt": {
       "trade": "Paving / Asphalt",
-      "total": 31,
-      "strong": 3,
+      "total": 30,
+      "strong": 2,
       "moderate": 1,
       "possible": 27,
       "verifyFirst": 28
     },
     "demolition": {
       "trade": "Demolition",
-      "total": 5,
+      "total": 4,
       "strong": 0,
       "moderate": 0,
-      "possible": 5,
-      "verifyFirst": 5
+      "possible": 4,
+      "verifyFirst": 4
     }
   }
 }

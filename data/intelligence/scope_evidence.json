@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 96,
+  "projectCount": 95,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -858,7 +858,7 @@
     {
       "projectId": "clarkco-trail",
       "projectName": "Clarkco State Park Recreational Trail",
-      "evidenceCount": 40,
+      "evidenceCount": 30,
       "evidence": [
         {
           "source": "project.name",
@@ -874,46 +874,6 @@
         },
         {
           "source": "project.scope",
-          "text": "grading/sitework likely"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "recreational trail construction"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "clearing and grubbing reported in solicitation intelligence"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "grading reported in solicitation intelligence"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "drainage improvements reported in solicitation intelligence"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "The work appears to include legitimate clearing, grading and drainage, but Quitman is just outside the demo contractor's 75-mile preferred radius."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Treat as an optional regional pursuit: obtain the official plans, verify quantities, and only spend estimating time if travel/logistics fit the contractor's current workload."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Geoffrey Crosby \u00b7 (601) 545-1565 \u00b7 geoffrey.crosby@neel-schaffer.com"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "recreational trail"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "civil construction"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "grading/sitework likely"
         },
         {
@@ -3215,205 +3175,6 @@
         {
           "source": "researchOverride.stopIf",
           "text": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity."
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46147",
-      "projectName": "Perry / 45-20260723131206 BSPC",
-      "evidenceCount": 48,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Perry / 45-20260723131206 BSPC"
-        },
-        {
-          "source": "project.scope",
-          "text": "HIGHWAY CONSTRUCTION"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Perry County Mississippi at the Perry County Board of Supervisors, New Augusta Mississippi, until 10:00 AM on the 1st day of September, 2026 and shortly thereafter publicly opened for the co"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "668 CY unclassified excavation"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "668 tons crushed stone in base bid"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "37,311 SY roadbed reclamation"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "1,459 CY granular material in Add Option No. 1"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "3,435 tons crushed stone in Add Option No. 2"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "approximately 14,112 tons of asphalt items in the base bid"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "This is a real heavy-highway job with excavation, stone and roadbed-reclamation quantities, but the published quantities are dominated by asphalt and striping. For the demo sitework contractor, it is more credible as a subcontract/partner lead than as a default prime pursuit."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Get the official plans/proposal and target planholders or paving primes with pricing for excavation, crushed stone, roadbed reclamation, granular material and hauling rather than treating the full job as a natural sitework prime."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "HIGHWAY CONSTRUCTION"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Perry County Mississippi at the Perry County Board of Supervisors, New Augusta Mississippi, until 10:00 AM on the 1st day of September, 2026 and shortly thereafter publicly opened for the co"
-        },
-        {
-          "source": "researchOverride.canonicalProjectKey",
-          "text": "perry-sap-56-13m-buck-creek"
-        },
-        {
-          "source": "researchOverride.displayName",
-          "text": "Buck Creek Road \u2014 SAP-56(13)M"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "conditional"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "subcontract_target"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "published_scope_explicit"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "668 CY unclassified excavation"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "668 tons crushed stone in base bid"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "37,311 SY roadbed reclamation"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "1,459 CY granular material in Add Option No. 1"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "3,435 tons crushed stone in Add Option No. 2"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "approximately 14,112 tons of asphalt items in the base bid"
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "planholder"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "required_for_prime"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "Prime bids are accepted only in the name of a bidder on the official planholder list."
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "bid_security"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "required_for_prime"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "The notice requires a certified check or bid bond equal to 5% of the total bid."
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "state_aid_specifications"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "required_for_prime"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "The work is governed by the Mississippi Standard Specifications for State Aid Road and Bridge Construction."
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "paving_dominant_prime_scope"
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "sitework_subpackage_real_but_secondary"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "This is a real heavy-highway job with excavation, stone and roadbed-reclamation quantities, but the published quantities are dominated by asphalt and striping. For the demo sitework contractor, it is more credible as a subcontract/partner lead than as a default prime pursuit."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Get the official plans/proposal and target planholders or paving primes with pricing for excavation, crushed stone, roadbed reclamation, granular material and hauling rather than treating the full job as a natural sitework prime."
-        },
-        {
-          "source": "researchOverride.actionType",
-          "text": "target_paving_primes_for_sitework_package"
-        },
-        {
-          "source": "researchOverride.primeCapabilityRequirements",
-          "text": "asphalt_paving"
-        },
-        {
-          "source": "researchOverride.recommendedLane",
-          "text": "subcontract_target"
-        },
-        {
-          "source": "researchOverride.contact.name",
-          "text": "Jason Lamb"
-        },
-        {
-          "source": "researchOverride.contact.organization",
-          "text": "The Walker Associates"
-        },
-        {
-          "source": "researchOverride.contact.phone",
-          "text": "601-583-2127"
-        },
-        {
-          "source": "researchOverride.contact.email",
-          "text": "jtlamb@thewalkerassociates.com"
-        },
-        {
-          "source": "researchOverride.firstAction",
-          "text": "Download/order the official plans and proposal and isolate excavation, crushed stone, roadbed reclamation, granular material and hauling quantities."
-        },
-        {
-          "source": "researchOverride.secondAction",
-          "text": "Use the official planholder list to approach paving primes with a discrete sitework/base package."
-        },
-        {
-          "source": "researchOverride.stopIf",
-          "text": "The dirt/base package is too small relative to mobilization distance or planholders are already carrying the work internally."
         }
       ]
     },
