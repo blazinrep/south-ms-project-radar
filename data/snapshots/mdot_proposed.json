@@ -1,29 +1,7 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-08-31T17:59:16.223472+00:00",
+  "retrieved_at": "2026-09-01T15:27:30.828146+00:00",
   "records": [
-    {
-      "month": "2026/08",
-      "district": "District 7",
-      "project_no": "106972/301000",
-      "fed_project_no": "STP-2175-00(014)",
-      "parallel_to_project_no": "",
-      "county": "Pike",
-      "route": "US 51",
-      "scope": "Bridge Replacement",
-      "termini": "US 51 over Unnamed Streams [Bridge #s 11.7 & 12.1]"
-    },
-    {
-      "month": "2026/08",
-      "district": "District 7",
-      "project_no": "106972/302000",
-      "fed_project_no": "STP-2175-00(016)",
-      "parallel_to_project_no": "106972/301000",
-      "county": "Pike",
-      "route": "US 51",
-      "scope": "Bridge Replacement",
-      "termini": "US 51 two Northern Bridge Replacements between Magnolia and Fernwood (13.3 and 13.4)"
-    },
     {
       "month": "2026/09",
       "district": "District 7",
@@ -45,28 +23,6 @@
       "route": "I 59",
       "scope": "Mill & Overlay",
       "termini": "I-59 from 0.5 mile north of McNeil Exit to south of MS 26"
-    },
-    {
-      "month": "2026/10",
-      "district": "District 6",
-      "project_no": "108781/306000",
-      "fed_project_no": "STBG-9999-06(382)",
-      "parallel_to_project_no": "",
-      "county": "Harrison",
-      "route": "MS 15",
-      "scope": "Bridge Preventive Maintenance",
-      "termini": "MS 15 - 2 Bridges ( #10 & #16.5)"
-    },
-    {
-      "month": "2026/10",
-      "district": "District 6",
-      "project_no": "108781/306100",
-      "fed_project_no": "STBG-9999-06(382)",
-      "parallel_to_project_no": "108781/306000",
-      "county": "Stone",
-      "route": "",
-      "scope": "Bridge Preventive Maintenance",
-      "termini": "MS 26 - 3 Bridges (#35.8, #47.7, & # 53.3) & US 49 (#35.4A, #35.4B, #29.3A, #29.3B, #30.2A, & #30.2B)"
     },
     {
       "month": "2026/10",
@@ -177,6 +133,28 @@
       "route": "I 55",
       "scope": "Bridge Repair",
       "termini": "I-55 over CNIC Railroad (Br #s 40.3 A & B)"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 6",
+      "project_no": "108781/306000",
+      "fed_project_no": "STBG-9999-06(382)",
+      "parallel_to_project_no": "",
+      "county": "Harrison",
+      "route": "MS 15",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "MS 15 - 2 Bridges ( #10 & #16.5)"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 6",
+      "project_no": "108781/306100",
+      "fed_project_no": "STBG-9999-06(382)",
+      "parallel_to_project_no": "108781/306000",
+      "county": "Stone",
+      "route": "",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "MS 26 - 3 Bridges (#35.8, #47.7, & # 53.3) & US 49 (#35.4A, #35.4B, #29.3A, #29.3B, #30.2A, & #30.2B)"
     },
     {
       "month": "2026/11",

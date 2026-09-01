@@ -1,9 +1,196 @@
 {
-  "generated_at": "2026-08-31T17:59:16.313515+00:00",
+  "generated_at": "2026-09-01T15:27:31.194875+00:00",
   "summary": {
     "new": 0,
-    "changed": 0,
+    "changed": 2,
     "removed": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "project_changed",
+      "project_id": "mdot-108781-306000",
+      "before": {
+        "id": "mdot-108781-306000",
+        "name": "MDOT Proposed: MS 15 \u2014 Harrison County Bridge Preventive Maintenance",
+        "county": "Harrison",
+        "city": "Harrison County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2026/10 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 65,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Preventive Maintenance",
+          "MS 15",
+          "MS 15 - 2 Bridges ( #10 & #16.5)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-08-31",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "drainage",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-08-31T17:59:16.254830+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "108781/306000",
+        "sourceFedProjectNo": "STBG-9999-06(382)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2026-10-01"
+      },
+      "after": {
+        "id": "mdot-108781-306000",
+        "name": "MDOT Proposed: MS 15 \u2014 Harrison County Bridge Preventive Maintenance",
+        "county": "Harrison",
+        "city": "Harrison County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2026/11 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 65,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Preventive Maintenance",
+          "MS 15",
+          "MS 15 - 2 Bridges ( #10 & #16.5)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-09-01",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "drainage",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-09-01T15:27:30.965201+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "108781/306000",
+        "sourceFedProjectNo": "STBG-9999-06(382)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2026-11-01"
+      }
+    },
+    {
+      "kind": "project_changed",
+      "project_id": "mdot-108781-306100",
+      "before": {
+        "id": "mdot-108781-306100",
+        "name": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
+        "county": "Stone",
+        "city": "Stone County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2026/10 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 65,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Preventive Maintenance",
+          "MS 26 - 3 Bridges (#35.8, #47.7, & # 53.3) & US 49 (#35.4A, #35.4B, #29.3A, #29.3B, #30.2A, & #30.2B)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-08-31",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "drainage",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-08-31T17:59:16.254837+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "108781/306100",
+        "sourceFedProjectNo": "STBG-9999-06(382)",
+        "sourceParallelProjectNo": "108781/306000",
+        "proposedMonth": "2026-10-01"
+      },
+      "after": {
+        "id": "mdot-108781-306100",
+        "name": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
+        "county": "Stone",
+        "city": "Stone County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2026/11 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 65,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Preventive Maintenance",
+          "MS 26 - 3 Bridges (#35.8, #47.7, & # 53.3) & US 49 (#35.4A, #35.4B, #29.3A, #29.3B, #30.2A, & #30.2B)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-09-01",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "drainage",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-09-01T15:27:30.965207+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "108781/306100",
+        "sourceFedProjectNo": "STBG-9999-06(382)",
+        "sourceParallelProjectNo": "108781/306000",
+        "proposedMonth": "2026-11-01"
+      }
+    }
+  ]
 }
