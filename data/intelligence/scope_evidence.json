@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 95,
+  "projectCount": 94,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3713,25 +3713,6 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46389",
-      "projectName": "Forrest / 9280-27-R-IFBD-00006",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 9280-27-R-IFBD-00006"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, September 1, 2026, 2"
         }
       ]
     },
