@@ -5,24 +5,6 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46147,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "45-20260723131206 BSPC",
-      "Advertised Date": "07/28/2026 2:00 PM",
-      "RFx #": "3170036362",
-      "Submission Date": "09/01/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "HIGHWAY CONSTRUCTION",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Perry County Mississippi at the Perry County Board of Supervisors, New Augusta Mississippi, until 10:00 AM on the 1st day of September, 2026 and shortly thereafter publicly opened for the co"
-    }
-  },
-  {
     "detail_id": 46148,
     "decision": "publish",
     "county": "Harrison"
@@ -94,24 +76,21 @@
   },
   {
     "detail_id": 46389,
-    "decision": "publish",
-    "county": "Forrest"
-  },
-  {
-    "detail_id": 46390,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46391,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "9280-27-R-IFBD-00006",
+      "Advertised Date": "08/12/2026 12:00 AM",
+      "RFx #": "3160008208",
+      "Submission Date": "09/01/2026 2:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "COMMODITIES",
+      "RFx Opening Date": "09/01/2026 2:00 PM",
+      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, September 1, 2026, 2"
+    }
   },
   {
     "detail_id": 46392,
@@ -147,6 +126,53 @@
   },
   {
     "detail_id": 46396,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46397,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46398,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46399,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46400,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46401,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46402,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
