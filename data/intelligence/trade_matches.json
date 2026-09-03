@@ -1,6 +1,6 @@
 {
   "version": "0.10.0",
-  "projectCount": 94,
+  "projectCount": 93,
   "matchedProjectCount": 63,
   "projects": [
     {
@@ -209,13 +209,11 @@
           "trade": "Excavation / Sitework",
           "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
           "confidence": "moderate",
-          "matchScore": 5,
+          "matchScore": 3,
           "matchedScope": [
             "excavation",
             "grading",
-            "sitework",
-            "clearing",
-            "drainage"
+            "sitework"
           ],
           "strongSignals": [],
           "exclusionsFound": [],
@@ -227,9 +225,9 @@
           ],
           "riskFlags": [],
           "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, sitework, clearing.",
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, sitework.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: excavation, grading, sitework, clearing, drainage"
+          "whyMatched": "Relevant scope detected: excavation, grading, sitework"
         },
         {
           "tradeKey": "concrete",

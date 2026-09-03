@@ -1,62 +1,18 @@
 {
-  "generatedAt": "2026-09-02T15:18:20.811223+00:00",
+  "generatedAt": "2026-09-03T15:11:36.620904+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 94,
-  "canonicalProjectCount": 88,
+  "sourceRecordCount": 93,
+  "canonicalProjectCount": 87,
   "duplicateGroups": 6,
   "rejectedCount": 4,
   "decisionCounts": {
     "specialist_only": 1,
-    "verify_scope": 2,
-    "verify_then_pursue": 3,
     "optional_outside_radius": 8,
-    "low_priority": 65
+    "low_priority": 64,
+    "verify_then_pursue": 2,
+    "verify_scope": 1
   },
   "actionQueue": [
-    {
-      "id": "pineview-parking",
-      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "county": "Jones",
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 46,
-      "decision": "verify_then_pursue",
-      "pursuitPath": "prime_candidate_or_sitework_sub",
-      "tradeFit": "strong",
-      "evidenceLevel": "published_project_explicit_scope_partial",
-      "scores": {
-        "scopeFit": 27,
-        "pursuitAccessibility": 15,
-        "runway": 2,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 65,
-        "actionPriority": 77
-      },
-      "whyItMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
-      "nextAction": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision.",
-      "actionType": "obtain_plans_and_scope_quantities",
-      "riskFlags": [
-        "earthwork_quantities_not_yet_extracted"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        },
-        {
-          "type": "license",
-          "status": "verify",
-          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "type": "documents",
-          "status": "required",
-          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        }
-      ]
-    },
     {
       "id": "gulfport_planroom-20714",
       "name": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
@@ -122,46 +78,6 @@
       ]
     },
     {
-      "id": "aaa-resource-center",
-      "name": "AAA Ambulance Service Resource Center",
-      "county": "Forrest",
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 48,
-      "decision": "verify_scope",
-      "pursuitPath": "subcontract_target",
-      "tradeFit": "conditional",
-      "evidenceLevel": "sitework_inferred_not_explicit",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 14,
-        "runway": 2,
-        "geography": 13,
-        "evidenceQuality": 4,
-        "fitTotal": 45,
-        "actionPriority": 57
-      },
-      "whyItMatters": "A contractor planroom shows Flagstar actively soliciting this project, which creates a concrete subcontract outreach path even though the exact civil package still needs to be verified.",
-      "nextAction": "Contact Flagstar's listed bid contact, ask whether they are carrying the civil/sitework package, and obtain the relevant civil drawings/specs before pricing.",
-      "actionType": "call_gc_and_verify_sitework_package",
-      "riskFlags": [
-        "sitework_scope_inferred",
-        "do_not_treat_as_direct_prime_sitework_bid"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "plans",
-          "status": "required",
-          "detail": "Civil/site sheets must be reviewed; current public notice does not prove the excavation/sitework package."
-        }
-      ]
-    },
-    {
       "id": "gulfport_planroom-20166",
       "name": "Coffee Creek Sewer Rehabilitation",
       "county": "Harrison",
@@ -194,7 +110,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 6.8,
+      "daysToDeadline": 5.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -239,8 +155,47 @@
       "name": "Greene / 45-20260804080102 BSGC",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 7.0,
+      "daysToDeadline": 6.0,
       "distanceMiles": 75.8,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 33,
+        "actionPriority": 40
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
+      "id": "msproc-46148",
+      "name": "Harrison / 212-20260723160736 MHS",
+      "county": "Harrison",
+      "deadline": "2026-09-10T02:00:00-05:00",
+      "daysToDeadline": 6.7,
+      "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -278,7 +233,7 @@
       "name": "Jackson / 152-20260805081145 Pascagoula",
       "county": "Jackson",
       "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 1.2,
+      "daysToDeadline": 0.2,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -313,12 +268,12 @@
       ]
     },
     {
-      "id": "msproc-46148",
-      "name": "Harrison / 212-20260723160736 MHS",
-      "county": "Harrison",
-      "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 7.7,
-      "distanceMiles": 75.3,
+      "id": "msproc-46373",
+      "name": "Wayne / 169-20260807113013 Waynesboro",
+      "county": "Wayne",
+      "deadline": "2026-09-14T10:00:00-05:00",
+      "daysToDeadline": 11.0,
+      "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -352,43 +307,60 @@
       ]
     },
     {
-      "id": "msproc-46373",
-      "name": "Wayne / 169-20260807113013 Waynesboro",
-      "county": "Wayne",
-      "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 12.0,
-      "distanceMiles": 75.9,
+      "id": "mdot-109083-301000",
+      "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
+      "county": "Clarke",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
       "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
       "evidenceLevel": "source_record",
       "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 3,
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 0,
         "evidenceQuality": 8,
-        "fitTotal": 33,
-        "actionPriority": 37
+        "fitTotal": 36,
+        "actionPriority": 36
       },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [
         "outside_preferred_radius"
       ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-109988-301000",
+      "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
+      "county": "Wayne",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 76.3,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "watch",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 3,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 30,
+        "actionPriority": 30
+      },
+      "whyItMatters": "Official MDOT future-letting signal for overlay. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": []
     }
   ],
   "fitRanking": [
@@ -397,7 +369,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 6.8,
+      "daysToDeadline": 5.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -470,50 +442,6 @@
       ]
     },
     {
-      "id": "pineview-parking",
-      "name": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "county": "Jones",
-      "deadline": "2026-09-03T14:00:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 46,
-      "decision": "verify_then_pursue",
-      "pursuitPath": "prime_candidate_or_sitework_sub",
-      "tradeFit": "strong",
-      "evidenceLevel": "published_project_explicit_scope_partial",
-      "scores": {
-        "scopeFit": 27,
-        "pursuitAccessibility": 15,
-        "runway": 2,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 65,
-        "actionPriority": 77
-      },
-      "whyItMatters": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate.",
-      "nextAction": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision.",
-      "actionType": "obtain_plans_and_scope_quantities",
-      "riskFlags": [
-        "earthwork_quantities_not_yet_extracted"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify",
-          "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        },
-        {
-          "type": "license",
-          "status": "verify",
-          "detail": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "type": "documents",
-          "status": "required",
-          "detail": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        }
-      ]
-    },
-    {
       "id": "marion-us98-bridges",
       "name": "US 98 Pearl River Bridge Replacement",
       "county": "Marion",
@@ -542,43 +470,6 @@
           "type": "commercial_license",
           "status": "verify",
           "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        }
-      ]
-    },
-    {
-      "id": "msproc-46220",
-      "name": "Hancock / 342-20260728161540 HCBS",
-      "county": "Hancock",
-      "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 71.7,
-      "decision": "low_priority",
-      "pursuitPath": "investigate",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 14,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 10,
-        "evidenceQuality": 8,
-        "fitTotal": 54,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
         }
       ]
     },
@@ -707,6 +598,58 @@
         "actionPriority": 45
       },
       "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-110044-301000",
+      "name": "MDOT Proposed: I 55 \u2014 Lincoln County Bridge Repair",
+      "county": "Lincoln",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 41.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 49,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-109364-301000",
+      "name": "MDOT Proposed: US 49 \u2014 Simpson County Reconstruction",
+      "county": "Simpson",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 45.2,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 49,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for reconstruction. Early-stage watch item; not yet represented as an open bid.",
       "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [],

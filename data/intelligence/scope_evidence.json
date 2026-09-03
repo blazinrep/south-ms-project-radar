@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 94,
+  "projectCount": 93,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -441,7 +441,7 @@
     {
       "projectId": "aaa-resource-center",
       "projectName": "AAA Ambulance Service Resource Center",
-      "evidenceCount": 32,
+      "evidenceCount": 23,
       "evidence": [
         {
           "source": "project.name",
@@ -461,42 +461,6 @@
         },
         {
           "source": "project.scope",
-          "text": "grading likely"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "new building construction"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "a general contractor is publicly soliciting bids on its planroom"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "A contractor planroom shows Flagstar actively soliciting this project, which creates a concrete subcontract outreach path even though the exact civil package still needs to be verified."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Contact Flagstar's listed bid contact, ask whether they are carrying the civil/sitework package, and obtain the relevant civil drawings/specs before pricing."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Kim Reed \u2014 Flagstar Construction, Brandon Office"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "new construction"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "site preparation likely"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "utilities likely"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "grading likely"
         },
         {
@@ -576,7 +540,7 @@
     {
       "projectId": "pineview-parking",
       "projectName": "Ellisville State School \u2014 Pineview / Cotton Corner Parking Lot",
-      "evidenceCount": 40,
+      "evidenceCount": 30,
       "evidence": [
         {
           "source": "project.name",
@@ -600,46 +564,6 @@
         },
         {
           "source": "project.scope",
-          "text": "paving"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "parking lot construction"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "published estimate $160K\u2013$185K"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Geoffrey Crosby \u00b7 (601) 545-1565 \u00b7 geoffrey.crosby@neel-schaffer.com"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "parking lot construction"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "grading likely"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "base preparation likely"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "drainage likely"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "paving"
         },
         {
@@ -3446,45 +3370,6 @@
       ]
     },
     {
-      "projectId": "msproc-46286",
-      "projectName": "Lincoln / 21-20260805085032 Brookhaven",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Lincoln / 21-20260805085032 Brookhaven"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids subject to the conditions and provisions presented herein will be received until 10:00 AM on Thursday, September 3, 2026, and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids subject to the conditions and provisions presented herein will be received until 10:00 AM on Thursday, September 3, 2026, and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46297",
       "projectName": "Harrison / 1557-20260806092908 SRHS",
       "evidenceCount": 3,
@@ -3539,25 +3424,6 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46360",
-      "projectName": "Hancock / 248-20260819150147 KUFD",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Hancock / 248-20260819150147 KUFD"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed Statements of Qualifications will be received by the Kiln Utility & Fire District of Hancock County, Mississippi at 16154 Fire Department Rd. Kiln, MS 39556 until 4:00 PM, September 2, 2026, for: Kiln Utility Sewer Infrastructure Expansion along"
         }
       ]
     },
@@ -3713,6 +3579,25 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46416",
+      "projectName": "Forrest / 187-20260819084150 Hattiesburg",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 187-20260819084150 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
         }
       ]
     },
