@@ -1,27 +1,27 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-09-03T15:11:21.171900+00:00",
+  "generated_at": "2026-09-04T15:06:08.571487+00:00",
   "summary": {
-    "new": 1,
+    "new": 0,
     "changed": 0,
     "no_longer_open": 2,
     "stale_unverified": 0
   },
   "events": [
     {
-      "kind": "new_project",
-      "project_id": "msproc-46416",
-      "after": {
-        "id": "msproc-46416",
-        "name": "Forrest / 187-20260819084150 Hattiesburg",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46142",
+      "before": {
+        "id": "msproc-46142",
+        "name": "Jones / 1130-27-R-IFBD-00005",
+        "county": "Jones",
+        "city": "Jones County",
+        "lat": 31.6941,
+        "lon": -89.1306,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-09-17T10:00:00-05:00",
+        "deadline": "2026-09-03T14:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -29,13 +29,13 @@
         "confidence": 96,
         "distance": null,
         "scope": [
-          "EQUIPMENT - NON-TECHNOLOGY",
-          "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
+          "CONSTRUCTION - SERVICES",
+          "Bureau of Building GS# 422-180 Cotton Corner Parking Lot Ellisville State School"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
+        "owner": "MS DEPT FINANCE AND ADMINISTRATION",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46416?AppId=1",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46142?AppId=1",
         "verified": "2026-09-03",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
@@ -50,29 +50,29 @@
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46416",
-        "sourceSmartNumber": "187-20260819084150 Hattiesburg",
-        "sourceRFx": "3170036533",
+        "sourceDetailId": "46142",
+        "sourceSmartNumber": "1130-27-R-IFBD-00005",
+        "sourceRFx": "3160008192",
         "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "COMMODITIES",
-        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-        "submissionDateRaw": "09/17/2026 10:00 AM"
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "09/03/2026 2:00 PM"
       }
     },
     {
       "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46360",
+      "project_id": "msproc-46285",
       "before": {
-        "id": "msproc-46360",
-        "name": "Hancock / 248-20260819150147 KUFD",
-        "county": "Hancock",
-        "city": "Hancock County",
-        "lat": 30.3088,
-        "lon": -89.33,
+        "id": "msproc-46285",
+        "name": "Jackson / 152-20260805081145 Pascagoula",
+        "county": "Jackson",
+        "city": "Jackson County",
+        "lat": 30.3674,
+        "lon": -88.5561,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-09-02T17:00:00-05:00",
+        "deadline": "2026-09-03T14:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 63,
@@ -81,13 +81,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Sealed Statements of Qualifications will be received by the Kiln Utility & Fire District of Hancock County, Mississippi at 16154 Fire Department Rd. Kiln, MS 39556 until 4:00 PM, September 2, 2026, for: Kiln Utility Sewer Infrastructure Expansion along"
+          "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46360?AppId=1",
-        "verified": "2026-09-02",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46285?AppId=1",
+        "verified": "2026-09-03",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [
           "utilities"
@@ -99,68 +99,17 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-02T10:17:57.135776-05:00",
+          "lastSeen": "2026-09-03T10:11:14.969802-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46360",
-        "sourceSmartNumber": "248-20260819150147 KUFD",
-        "sourceRFx": "3170036517",
+        "sourceDetailId": "46285",
+        "sourceSmartNumber": "152-20260805081145 Pascagoula",
+        "sourceRFx": "3170036468",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "09/02/2026 5:00 PM"
-      }
-    },
-    {
-      "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46286",
-      "before": {
-        "id": "msproc-46286",
-        "name": "Lincoln / 21-20260805085032 Brookhaven",
-        "county": "Lincoln",
-        "city": "Lincoln County",
-        "lat": 31.5791,
-        "lon": -90.4407,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-09-03T10:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "CONSTRUCTION - SERVICES",
-          "Sealed bids subject to the conditions and provisions presented herein will be received until 10:00 AM on Thursday, September 3, 2026, and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46286?AppId=1",
-        "verified": "2026-09-02",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-02T10:17:57.135776-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46286",
-        "sourceSmartNumber": "21-20260805085032 Brookhaven",
-        "sourceRFx": "3170036469",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "09/03/2026 10:00 AM"
+        "submissionDateRaw": "09/03/2026 2:00 PM"
       }
     }
   ]

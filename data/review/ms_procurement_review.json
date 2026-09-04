@@ -1,8 +1,21 @@
 [
   {
     "detail_id": 46142,
-    "decision": "publish",
-    "county": "Jones"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "1130-27-R-IFBD-00005",
+      "Advertised Date": "08/04/2026 2:00 PM",
+      "RFx #": "3160008192",
+      "Submission Date": "09/03/2026 2:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "09/03/2026 2:00 PM",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "MS DEPT FINANCE AND ADMINISTRATION",
+      "RFx Description": "Bureau of Building GS# 422-180 Cotton Corner Parking Lot Ellisville State School"
+    }
   },
   {
     "detail_id": 46148,
@@ -26,25 +39,20 @@
   },
   {
     "detail_id": 46285,
-    "decision": "publish",
-    "county": "Jackson"
-  },
-  {
-    "detail_id": 46286,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "21-20260805085032 Brookhaven",
+      "Smart Number": "152-20260805081145 Pascagoula",
       "Advertised Date": "08/13/2026 5:00 PM",
-      "RFx #": "3170036469",
-      "Submission Date": "09/03/2026 10:00 AM",
+      "RFx #": "3170036468",
+      "Submission Date": "09/03/2026 2:00 PM",
       "RFx Status": "Closed",
       "Major Procurement Category": "CONSTRUCTION",
       "RFx Opening Date": "N/A",
       "Sub Procurement Category": "CONSTRUCTION - SERVICES",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "Sealed bids subject to the conditions and provisions presented herein will be received until 10:00 AM on Thursday, September 3, 2026, and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven"
+      "RFx Description": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
     }
   },
   {
@@ -56,24 +64,6 @@
     "detail_id": 46341,
     "decision": "publish",
     "county": "Hancock"
-  },
-  {
-    "detail_id": 46360,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "248-20260819150147 KUFD",
-      "Advertised Date": "08/26/2026 5:00 PM",
-      "RFx #": "3170036517",
-      "Submission Date": "09/02/2026 5:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed Statements of Qualifications will be received by the Kiln Utility & Fire District of Hancock County, Mississippi at 16154 Fire Department Rd. Kiln, MS 39556 until 4:00 PM, September 2, 2026, for: Kiln Utility Sewer Infrastructure Expansion along"
-    }
   },
   {
     "detail_id": 46361,
@@ -99,145 +89,6 @@
     "detail_id": 46388,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46398,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46399,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46400,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46401,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46402,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46403,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46404,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46405,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46406,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46407,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46408,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46409,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46410,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46411,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46412,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46413,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46414,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46415,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46416,
@@ -277,6 +128,29 @@
   },
   {
     "detail_id": 46421,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46422,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46423,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46424,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
