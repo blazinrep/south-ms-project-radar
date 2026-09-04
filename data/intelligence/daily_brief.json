@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T15:11:36.620904+00:00",
+  "generatedAt": "2026-09-04T15:06:27.259327+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 93,
-  "canonicalProjectCount": 87,
+  "sourceRecordCount": 91,
+  "canonicalProjectCount": 85,
   "duplicateGroups": 6,
   "rejectedCount": 4,
   "decisionCounts": {
     "specialist_only": 1,
-    "optional_outside_radius": 8,
-    "low_priority": 64,
+    "optional_outside_radius": 7,
+    "low_priority": 63,
     "verify_then_pursue": 2,
     "verify_scope": 1
   },
@@ -110,7 +110,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 5.8,
+      "daysToDeadline": 4.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -119,10 +119,10 @@
       "scores": {
         "scopeFit": 24,
         "pursuitAccessibility": 12,
-        "runway": 15,
+        "runway": 6,
         "geography": 3,
         "evidenceQuality": 15,
-        "fitTotal": 69,
+        "fitTotal": 60,
         "actionPriority": 68
       },
       "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
@@ -151,50 +151,11 @@
       ]
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 75.8,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 33,
-        "actionPriority": 40
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "msproc-46148",
       "name": "Harrison / 212-20260723160736 MHS",
       "county": "Harrison",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 6.7,
+      "daysToDeadline": 5.7,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -229,50 +190,11 @@
       ]
     },
     {
-      "id": "msproc-46285",
-      "name": "Jackson / 152-20260805081145 Pascagoula",
-      "county": "Jackson",
-      "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 0.2,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 11,
-        "pursuitAccessibility": 7,
-        "runway": 2,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 28,
-        "actionPriority": 40
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "msproc-46373",
       "name": "Wayne / 169-20260807113013 Waynesboro",
       "county": "Wayne",
       "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 11.0,
+      "daysToDeadline": 10.0,
       "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -335,6 +257,45 @@
       "qualificationGates": []
     },
     {
+      "id": "msproc-46273",
+      "name": "Greene / 45-20260804080102 BSGC",
+      "county": "Greene",
+      "deadline": "2026-09-09T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.8,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 6,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 24,
+        "actionPriority": 34
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "county": "Wayne",
@@ -361,54 +322,37 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
+    },
+    {
+      "id": "mdot-109253-301000",
+      "name": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
+      "county": "Clarke",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "watch",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 3,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 27,
+        "actionPriority": 27
+      },
+      "whyItMatters": "Official MDOT future-letting signal for ogfc lift. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": []
     }
   ],
   "fitRanking": [
-    {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 5.8,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 24,
-        "pursuitAccessibility": 12,
-        "runway": 15,
-        "geography": 3,
-        "evidenceQuality": 15,
-        "fitTotal": 69,
-        "actionPriority": 68
-      },
-      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "actionType": "optional_outside_radius_review",
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
-        }
-      ]
-    },
     {
       "id": "gulfport_planroom-20714",
       "name": "FBLF-9159-00(001) Interconnecting Gulfport - Airport Road Extension & Interstate 10 Overpass",
@@ -470,6 +414,51 @@
           "type": "commercial_license",
           "status": "verify",
           "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        }
+      ]
+    },
+    {
+      "id": "greene-road-maintenance",
+      "name": "Greene County SAP-21(15)M Road Maintenance",
+      "county": "Greene",
+      "deadline": "2026-09-09T10:00:00",
+      "daysToDeadline": 4.8,
+      "distanceMiles": 78,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "conditional",
+      "evidenceLevel": "published_scope_explicit",
+      "scores": {
+        "scopeFit": 24,
+        "pursuitAccessibility": 12,
+        "runway": 6,
+        "geography": 3,
+        "evidenceQuality": 15,
+        "fitTotal": 60,
+        "actionPriority": 68
+      },
+      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
+      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
+      "actionType": "optional_outside_radius_review",
+      "riskFlags": [
+        "outside_preferred_radius",
+        "road_project_may_be_paving_dominant"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "planholder",
+          "status": "required_for_prime",
+          "detail": "Prime bids are accepted only from bidders on the official planholder list."
+        },
+        {
+          "type": "bid_security",
+          "status": "required_for_prime",
+          "detail": "5% certified check or bid bond is required."
         }
       ]
     },

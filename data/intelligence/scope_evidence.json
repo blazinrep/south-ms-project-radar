@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 93,
+  "projectCount": 91,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2968,141 +2968,6 @@
       ]
     },
     {
-      "projectId": "msproc-46142",
-      "projectName": "Jones / 1130-27-R-IFBD-00005",
-      "evidenceCount": 32,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 1130-27-R-IFBD-00005"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Bureau of Building GS# 422-180 Cotton Corner Parking Lot Ellisville State School"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Bureau of Building GS# 422-180 Cotton Corner Parking Lot Ellisville State School"
-        },
-        {
-          "source": "researchOverride.canonicalProjectKey",
-          "text": "gs-422-180-cotton-corner-parking"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "strong"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "prime_candidate_or_sitework_sub"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "published_project_explicit_scope_partial"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "parking lot construction"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "published estimate $160K\u2013$185K"
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "license"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "verify"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "Project value exceeds Mississippi's commercial-license threshold; verify appropriate contractor classification."
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "documents"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "required"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "Review project manual/drawings for actual earthwork, drainage, base, and paving quantities before treating inferred sitework as confirmed."
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "earthwork_quantities_not_yet_extracted"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "This is a smaller public works package within the target geography and may be closer to the scale at which a local sitework contractor can realistically participate."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Obtain the project manual/drawings from Neel-Schaffer and quantify grading, drainage, aggregate base, hauling, and paving responsibilities before making the prime/sub decision."
-        },
-        {
-          "source": "researchOverride.actionType",
-          "text": "obtain_plans_and_scope_quantities"
-        },
-        {
-          "source": "researchOverride.recommendedLane",
-          "text": "verify_prime_or_sub"
-        },
-        {
-          "source": "researchOverride.contact.name",
-          "text": "Geoffrey Crosby"
-        },
-        {
-          "source": "researchOverride.contact.organization",
-          "text": "Neel-Schaffer | Hattiesburg"
-        },
-        {
-          "source": "researchOverride.contact.phone",
-          "text": "601-545-1565"
-        },
-        {
-          "source": "researchOverride.contact.email",
-          "text": "geoffrey.crosby@neel-schaffer.com"
-        },
-        {
-          "source": "researchOverride.firstAction",
-          "text": "Obtain the project manual and civil drawings and quantify clearing, grading, drainage, aggregate base, curb/paving and hauling."
-        },
-        {
-          "source": "researchOverride.secondAction",
-          "text": "If prime readiness is verified, decide bid/no-bid. Otherwise identify planholders/GCs and quote the site package."
-        },
-        {
-          "source": "researchOverride.stopIf",
-          "text": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity."
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46148",
       "projectName": "Harrison / 212-20260723160736 MHS",
       "evidenceCount": 8,
@@ -3323,49 +3188,6 @@
         {
           "source": "researchOverride.actionType",
           "text": "optional_outside_radius_review"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46285",
-      "projectName": "Jackson / 152-20260805081145 Pascagoula",
-      "evidenceCount": 9,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 152-20260805081145 Pascagoula"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "water main"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
         }
       ]
     },

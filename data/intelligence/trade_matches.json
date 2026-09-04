@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 93,
-  "matchedProjectCount": 63,
+  "projectCount": 91,
+  "matchedProjectCount": 62,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -894,7 +894,7 @@
       "projectName": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
       "county": "Pike",
-      "status": "Proposed 2026/08 letting",
+      "status": "Proposed 2026/09 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
         {
@@ -932,7 +932,7 @@
       "projectName": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
       "county": "Pike",
-      "status": "Proposed 2026/08 letting",
+      "status": "Proposed 2026/09 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
         {
@@ -1805,89 +1805,6 @@
       "status": "Proposed 2027/07 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
-        {
-          "tradeKey": "paving_asphalt",
-          "trade": "Paving / Asphalt",
-          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "paving"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "equipment_capacity",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: paving"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46142",
-      "projectName": "Jones / 1130-27-R-IFBD-00005",
-      "owner": "MS DEPT FINANCE AND ADMINISTRATION",
-      "county": "Jones",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46142?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 6,
-          "matchedScope": [
-            "earthwork",
-            "grading",
-            "sitework",
-            "clearing",
-            "drainage",
-            "aggregate"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, sitework, clearing.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: earthwork, grading, sitework, clearing, drainage, aggregate"
-        },
-        {
-          "tradeKey": "concrete",
-          "trade": "Concrete",
-          "opportunityLabel": "CONCRETE OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "curb"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible concrete scope detected from curb, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: curb"
-        },
         {
           "tradeKey": "paving_asphalt",
           "trade": "Paving / Asphalt",

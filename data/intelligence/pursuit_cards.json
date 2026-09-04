@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T15:11:36.937431+00:00",
+  "generatedAt": "2026-09-04T15:06:27.702558+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "profileReadiness": {
     "commercialLicense": {
@@ -20,7 +20,7 @@
       "status": "unknown"
     }
   },
-  "count": 76,
+  "count": 74,
   "topPursuitCards": [
     {
       "id": "gulfport_planroom-20714",
@@ -208,13 +208,13 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 5.8,
+      "daysToDeadline": 4.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
       "primeReadiness": "unknown",
       "actionPriority": 68,
-      "fitScore": 69,
+      "fitScore": 60,
       "tradeFit": "conditional",
       "evidenceLevel": "published_scope_explicit",
       "whyThisMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
@@ -262,63 +262,6 @@
       ]
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
-      "owner": "MPTAP",
-      "county": "Greene",
-      "city": "Greene County",
-      "lat": 31.1557,
-      "lon": -88.5578,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-03",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 75.8,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 33,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46273"
-      ]
-    },
-    {
       "id": "msproc-46148",
       "name": "Harrison / 212-20260723160736 MHS",
       "owner": "MPTAP",
@@ -328,10 +271,10 @@
       "lon": -89.0928,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 6.7,
+      "daysToDeadline": 5.7,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -376,65 +319,6 @@
       ]
     },
     {
-      "id": "msproc-46285",
-      "name": "Jackson / 152-20260805081145 Pascagoula",
-      "owner": "MPTAP",
-      "county": "Jackson",
-      "city": "Jackson County",
-      "lat": 30.3674,
-      "lon": -88.5561,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-03",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 0.2,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 28,
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
-      ],
-      "fitEvidence": [
-        "water main"
-      ],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46285?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46285"
-      ]
-    },
-    {
       "id": "msproc-46373",
       "name": "Wayne / 169-20260807113013 Waynesboro",
       "owner": "MPTAP",
@@ -444,10 +328,10 @@
       "lon": -88.6461,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 11.0,
+      "daysToDeadline": 10.0,
       "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -501,7 +385,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -546,6 +430,63 @@
       ]
     },
     {
+      "id": "msproc-46273",
+      "name": "Greene / 45-20260804080102 BSGC",
+      "owner": "MPTAP",
+      "county": "Greene",
+      "city": "Greene County",
+      "lat": 31.1557,
+      "lon": -88.5578,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-09-04",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-09-09T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.8,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 34,
+      "fitScore": 24,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "msproc-46273"
+      ]
+    },
+    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "owner": "Mississippi Department of Transportation",
@@ -555,7 +496,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -596,6 +537,59 @@
       ],
       "sourceRecordIds": [
         "mdot-109988-301000"
+      ]
+    },
+    {
+      "id": "mdot-109253-301000",
+      "name": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Clarke",
+      "city": "Clarke County corridor",
+      "lat": 32.045,
+      "lon": -88.687,
+      "value": null,
+      "status": "Proposed 2026/10 letting",
+      "verified": "2026-09-04",
+      "freshnessStatus": null,
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 27,
+      "fitScore": 27,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official MDOT future-letting signal for ogfc lift. Early-stage watch item; not yet represented as an open bid.",
+      "scope": [
+        "OGFC Lift",
+        "I 59",
+        "I-59 from the Jasper County Line to approximately 6.45 Miles north of the Jasper County Line"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Watch for the letting package and identify likely primes before bid release.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "Monitor MDOT proposed letting / Bid Express",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "mdot-109253-301000"
       ]
     }
   ],
@@ -786,13 +780,13 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 5.8,
+      "daysToDeadline": 4.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
       "primeReadiness": "unknown",
       "actionPriority": 68,
-      "fitScore": 69,
+      "fitScore": 60,
       "tradeFit": "conditional",
       "evidenceLevel": "published_scope_explicit",
       "whyThisMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
@@ -840,63 +834,6 @@
       ]
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
-      "owner": "MPTAP",
-      "county": "Greene",
-      "city": "Greene County",
-      "lat": 31.1557,
-      "lon": -88.5578,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-03",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 75.8,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 33,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46273"
-      ]
-    },
-    {
       "id": "msproc-46148",
       "name": "Harrison / 212-20260723160736 MHS",
       "owner": "MPTAP",
@@ -906,10 +843,10 @@
       "lon": -89.0928,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 6.7,
+      "daysToDeadline": 5.7,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -954,65 +891,6 @@
       ]
     },
     {
-      "id": "msproc-46285",
-      "name": "Jackson / 152-20260805081145 Pascagoula",
-      "owner": "MPTAP",
-      "county": "Jackson",
-      "city": "Jackson County",
-      "lat": 30.3674,
-      "lon": -88.5561,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-03",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 0.2,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 28,
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
-      ],
-      "fitEvidence": [
-        "water main"
-      ],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46285?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46285"
-      ]
-    },
-    {
       "id": "msproc-46373",
       "name": "Wayne / 169-20260807113013 Waynesboro",
       "owner": "MPTAP",
@@ -1022,10 +900,10 @@
       "lon": -88.6461,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 11.0,
+      "daysToDeadline": 10.0,
       "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1079,7 +957,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1124,6 +1002,63 @@
       ]
     },
     {
+      "id": "msproc-46273",
+      "name": "Greene / 45-20260804080102 BSGC",
+      "owner": "MPTAP",
+      "county": "Greene",
+      "city": "Greene County",
+      "lat": 31.1557,
+      "lon": -88.5578,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-09-04",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-09-09T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.8,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 34,
+      "fitScore": 24,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "msproc-46273"
+      ]
+    },
+    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "owner": "Mississippi Department of Transportation",
@@ -1133,7 +1068,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1186,7 +1121,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1242,7 +1177,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -10.0,
+      "daysToDeadline": -11.0,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "recommendedLane": "specialist_only",
@@ -1309,7 +1244,7 @@
       "lon": -89.558,
       "value": null,
       "status": "Proposed 2026/09 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1359,8 +1294,8 @@
       "lat": 31.174,
       "lon": -90.404,
       "value": null,
-      "status": "Proposed 2026/08 letting",
-      "verified": "2026-08-31",
+      "status": "Proposed 2026/09 letting",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1410,8 +1345,8 @@
       "lat": 31.174,
       "lon": -90.404,
       "value": null,
-      "status": "Proposed 2026/08 letting",
-      "verified": "2026-08-31",
+      "status": "Proposed 2026/09 letting",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1462,7 +1397,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1513,7 +1448,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1564,7 +1499,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1615,7 +1550,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1666,7 +1601,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1718,7 +1653,7 @@
       "lon": -89.036,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1769,7 +1704,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1820,7 +1755,7 @@
       "lon": -90.897,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1871,7 +1806,7 @@
       "lon": -89.083,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1922,10 +1857,10 @@
       "lon": -89.33,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 5.0,
+      "daysToDeadline": 4.0,
       "distanceMiles": 71.7,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -1979,10 +1914,10 @@
       "lon": -89.5553,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-15T10:00:00-05:00",
-      "daysToDeadline": 12.0,
+      "daysToDeadline": 11.0,
       "distanceMiles": 31.8,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2034,10 +1969,10 @@
       "lon": -89.2903,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-17T10:00:00-05:00",
-      "daysToDeadline": 14.0,
+      "daysToDeadline": 13.0,
       "distanceMiles": 32.6,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2140,7 +2075,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2191,10 +2126,10 @@
       "lon": -89.2873,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 5.0,
+      "daysToDeadline": 4.0,
       "distanceMiles": 59.7,
       "decision": "low_priority",
       "recommendedLane": "subcontract_target",
@@ -2246,7 +2181,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2297,7 +2232,7 @@
       "lon": -89.826,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2348,7 +2283,7 @@
       "lon": -89.807,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2399,7 +2334,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2450,7 +2385,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2501,7 +2436,7 @@
       "lon": -90.107,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2543,66 +2478,6 @@
       ]
     },
     {
-      "id": "msproc-46142",
-      "name": "Jones / 1130-27-R-IFBD-00005",
-      "owner": "MS DEPT FINANCE AND ADMINISTRATION",
-      "county": "Jones",
-      "city": "Jones County",
-      "lat": 31.6941,
-      "lon": -89.1306,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-03",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-03T14:00:00-05:00",
-      "daysToDeadline": 0.2,
-      "distanceMiles": 51.6,
-      "decision": "low_priority",
-      "recommendedLane": "verify_prime_or_sub",
-      "primeReadiness": "unknown",
-      "actionPriority": 42,
-      "fitScore": 30,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Bureau of Building GS# 422-180 Cotton Corner Parking Lot Ellisville State School"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Obtain the project manual and civil drawings and quantify clearing, grading, drainage, aggregate base, curb/paving and hauling.",
-      "secondAction": "If prime readiness is verified, decide bid/no-bid. Otherwise identify planholders/GCs and quote the site package.",
-      "stopIf": "Civil quantities are too small to justify mobilization or the prime requirements exceed the contractor's verified license/bonding capacity.",
-      "contact": {
-        "name": "Geoffrey Crosby",
-        "organization": "Neel-Schaffer | Hattiesburg",
-        "phone": "601-545-1565",
-        "email": "geoffrey.crosby@neel-schaffer.com"
-      },
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46142?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [],
-      "sourceRecordIds": [
-        "msproc-46142"
-      ]
-    },
-    {
       "id": "msproc-46341",
       "name": "Hancock / 342-20260813072435 BSHC",
       "owner": "MPTAP",
@@ -2612,10 +2487,10 @@
       "lon": -89.33,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-08T10:00:00-05:00",
-      "daysToDeadline": 5.0,
+      "daysToDeadline": 4.0,
       "distanceMiles": 71.7,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2821,7 +2696,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2872,7 +2747,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2923,7 +2798,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2974,7 +2849,7 @@
       "lon": -90.404,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3025,7 +2900,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3076,7 +2951,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3128,7 +3003,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3179,7 +3054,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3230,7 +3105,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/04 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3281,7 +3156,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3332,7 +3207,7 @@
       "lon": -89.119,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3383,7 +3258,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3435,7 +3310,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3487,7 +3362,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-03",
+      "verified": "2026-09-04",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
