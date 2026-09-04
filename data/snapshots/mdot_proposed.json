@@ -1,7 +1,29 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-09-03T14:58:26.303298+00:00",
+  "retrieved_at": "2026-09-04T14:55:49.727758+00:00",
   "records": [
+    {
+      "month": "2026/09",
+      "district": "District 7",
+      "project_no": "106972/301000",
+      "fed_project_no": "STP-2175-00(014)",
+      "parallel_to_project_no": "",
+      "county": "Pike",
+      "route": "US 51",
+      "scope": "Bridge Replacement",
+      "termini": "US 51 over Unnamed Streams [Bridge #s 11.7 & 12.1]"
+    },
+    {
+      "month": "2026/09",
+      "district": "District 7",
+      "project_no": "106972/302000",
+      "fed_project_no": "STP-2175-00(016)",
+      "parallel_to_project_no": "106972/301000",
+      "county": "Pike",
+      "route": "US 51",
+      "scope": "Bridge Replacement",
+      "termini": "US 51 two Northern Bridge Replacements between Magnolia and Fernwood (13.3 and 13.4)"
+    },
     {
       "month": "2026/09",
       "district": "District 7",
