@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T15:06:27.259327+00:00",
+  "generatedAt": "2026-09-05T14:00:31.488621+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 91,
   "canonicalProjectCount": 85,
@@ -110,7 +110,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 4.8,
+      "daysToDeadline": 3.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -151,50 +151,11 @@
       ]
     },
     {
-      "id": "msproc-46148",
-      "name": "Harrison / 212-20260723160736 MHS",
-      "county": "Harrison",
-      "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 5.7,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 33,
-        "actionPriority": 40
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "msproc-46373",
       "name": "Wayne / 169-20260807113013 Waynesboro",
       "county": "Wayne",
       "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 10.0,
+      "daysToDeadline": 9.0,
       "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -261,8 +222,47 @@
       "name": "Greene / 45-20260804080102 BSGC",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 5.0,
+      "daysToDeadline": 4.0,
       "distanceMiles": 75.8,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 6,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 24,
+        "actionPriority": 34
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
+      "id": "msproc-46148",
+      "name": "Harrison / 212-20260723160736 MHS",
+      "county": "Harrison",
+      "deadline": "2026-09-10T02:00:00-05:00",
+      "daysToDeadline": 4.7,
+      "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -422,7 +422,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 4.8,
+      "daysToDeadline": 3.8,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
