@@ -1,23 +1,5 @@
 [
   {
-    "detail_id": 46142,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "1130-27-R-IFBD-00005",
-      "Advertised Date": "08/04/2026 2:00 PM",
-      "RFx #": "3160008192",
-      "Submission Date": "09/03/2026 2:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "09/03/2026 2:00 PM",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "MS DEPT FINANCE AND ADMINISTRATION",
-      "RFx Description": "Bureau of Building GS# 422-180 Cotton Corner Parking Lot Ellisville State School"
-    }
-  },
-  {
     "detail_id": 46148,
     "decision": "publish",
     "county": "Harrison"
@@ -36,24 +18,6 @@
     "detail_id": 46273,
     "decision": "publish",
     "county": "Greene"
-  },
-  {
-    "detail_id": 46285,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "152-20260805081145 Pascagoula",
-      "Advertised Date": "08/13/2026 5:00 PM",
-      "RFx #": "3170036468",
-      "Submission Date": "09/03/2026 2:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: SINGING RIVER STREET WATER MAIN IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi loca"
-    }
   },
   {
     "detail_id": 46297,
@@ -94,29 +58,6 @@
     "detail_id": 46416,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46417,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46418,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46419,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46420,

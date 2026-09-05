@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "checked_at": "2026-09-04T10:06:01.539718-05:00",
-  "known_active_checked": 14,
+  "checked_at": "2026-09-05T09:00:14.947089-05:00",
+  "known_active_checked": 12,
   "lightweight_discovery_count": 35,
-  "network_or_http_failures": 27,
+  "network_or_http_failures": 30,
   "current_records": 12,
   "stale_unverified": 0,
-  "explicitly_removed": 2
+  "explicitly_removed": 0
 }
