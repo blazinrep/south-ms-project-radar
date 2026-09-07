@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T14:24:40.654282+00:00",
+  "generatedAt": "2026-09-07T16:39:48.410822+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 91,
   "canonicalProjectCount": 85,
@@ -110,7 +110,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 2.8,
+      "daysToDeadline": 1.7,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -119,10 +119,10 @@
       "scores": {
         "scopeFit": 24,
         "pursuitAccessibility": 12,
-        "runway": 6,
+        "runway": 2,
         "geography": 3,
         "evidenceQuality": 15,
-        "fitTotal": 60,
+        "fitTotal": 56,
         "actionPriority": 68
       },
       "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
@@ -155,7 +155,7 @@
       "name": "Wayne / 169-20260807113013 Waynesboro",
       "county": "Wayne",
       "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 8.0,
+      "daysToDeadline": 6.9,
       "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -168,7 +168,7 @@
         "geography": 3,
         "evidenceQuality": 8,
         "fitTotal": 33,
-        "actionPriority": 37
+        "actionPriority": 40
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -218,12 +218,12 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 3.0,
-      "distanceMiles": 75.8,
+      "id": "msproc-46148",
+      "name": "Harrison / 212-20260723160736 MHS",
+      "county": "Harrison",
+      "deadline": "2026-09-10T02:00:00-05:00",
+      "daysToDeadline": 2.6,
+      "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -257,12 +257,12 @@
       ]
     },
     {
-      "id": "msproc-46148",
-      "name": "Harrison / 212-20260723160736 MHS",
-      "county": "Harrison",
-      "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 3.7,
-      "distanceMiles": 75.3,
+      "id": "msproc-46273",
+      "name": "Greene / 45-20260804080102 BSGC",
+      "county": "Greene",
+      "deadline": "2026-09-09T10:00:00-05:00",
+      "daysToDeadline": 1.9,
+      "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -270,11 +270,11 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 24,
-        "actionPriority": 34
+        "fitTotal": 20,
+        "actionPriority": 32
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -422,7 +422,7 @@
       "name": "Greene County SAP-21(15)M Road Maintenance",
       "county": "Greene",
       "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 2.8,
+      "daysToDeadline": 1.7,
       "distanceMiles": 78,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
@@ -431,10 +431,10 @@
       "scores": {
         "scopeFit": 24,
         "pursuitAccessibility": 12,
-        "runway": 6,
+        "runway": 2,
         "geography": 3,
         "evidenceQuality": 15,
-        "fitTotal": 60,
+        "fitTotal": 56,
         "actionPriority": 68
       },
       "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
