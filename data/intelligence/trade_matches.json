@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 91,
-  "matchedProjectCount": 62,
+  "projectCount": 87,
+  "matchedProjectCount": 61,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -1827,40 +1827,6 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46220",
-      "projectName": "Hancock / 342-20260728161540 HCBS",
-      "owner": "MPTAP",
-      "county": "Hancock",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46220?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 2,
-          "matchedScope": [
-            "excavation",
-            "drainage"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, drainage.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: excavation, drainage"
         }
       ]
     },

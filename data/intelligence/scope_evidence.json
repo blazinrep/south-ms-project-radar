@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 91,
+  "projectCount": 87,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3007,88 +3007,6 @@
       ]
     },
     {
-      "projectId": "msproc-46220",
-      "projectName": "Hancock / 342-20260728161540 HCBS",
-      "evidenceCount": 9,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Hancock / 342-20260728161540 HCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Electronic or sealed Bids for construction of South Beach Boulevard Box Culvert Replacement will be received by the Hancock County Board of Supervisors, located at 854 Highway 90, Suite A, Bay St. Louis, 39520, until 10:00 A.M. Local Time, September 8th"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "culvert"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Electronic or sealed Bids for construction of South Beach Boulevard Box Culvert Replacement will be received by the Hancock County Board of Supervisors, located at 854 Highway 90, Suite A, Bay St. Louis, 39520, until 10:00 A.M. Local Time, September 8th"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46233",
-      "projectName": "Jasper / 169-20260731111926 BSJC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jasper / 169-20260731111926 BSJC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Tuesday, September 8, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on t"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Tuesday, September 8, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on t"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46273",
       "projectName": "Greene / 45-20260804080102 BSGC",
       "evidenceCount": 24,
@@ -3207,64 +3125,6 @@
         {
           "source": "project.scope",
           "text": "Pre-Bid Conference: Date & Time: Description: A pre-bid meeting will be held on September 1, 2026 at 10:00 a.m., in the Board Room at Singing River Hospital - Gulfport. ------------------------------------------------------------------------------------"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46341",
-      "projectName": "Hancock / 342-20260813072435 BSHC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Hancock / 342-20260813072435 BSHC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 8th day of September 2026 and shortly thereafter publicly opened for the construction of"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46361",
-      "projectName": "Clarke / 390-20260819155529 BSCC",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Clarke / 390-20260819155529 BSCC"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that the Board of Supervisors of Clarke County, Mississippi, will receive Competitive sealed bids for the purchase of the following until Tuesday, September 8, 2026 at 10:00 a.m.: One or more 2026 Model Year Tandem Axle or Triaxle"
         }
       ]
     },
