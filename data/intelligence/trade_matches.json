@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
   "projectCount": 87,
-  "matchedProjectCount": 61,
+  "matchedProjectCount": 60,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -345,32 +345,6 @@
       "source": "https://www.planhouseplanroom.com/projects/20770/details/185-24-sap-2115m-greene-county-ms",
       "tradeMatches": [
         {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 4,
-          "matchedScope": [
-            "earthwork",
-            "grading",
-            "drainage",
-            "erosion control"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: earthwork, grading, drainage, erosion control.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: earthwork, grading, drainage, erosion control"
-        },
-        {
           "tradeKey": "demolition",
           "trade": "Demolition",
           "opportunityLabel": "DEMOLITION OPPORTUNITY",
@@ -392,6 +366,29 @@
           "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: demo"
+        },
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "earthwork"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from earthwork, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: earthwork"
         },
         {
           "tradeKey": "paving_asphalt",
@@ -1805,85 +1802,6 @@
       "status": "Proposed 2027/07 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
-        {
-          "tradeKey": "paving_asphalt",
-          "trade": "Paving / Asphalt",
-          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "paving"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "equipment_capacity",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: paving"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46273",
-      "projectName": "Greene / 45-20260804080102 BSGC",
-      "owner": "MPTAP",
-      "county": "Greene",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "demolition",
-          "trade": "Demolition",
-          "opportunityLabel": "DEMOLITION OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "demo"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "insurance",
-            "hazardous_material_check",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible demolition scope detected from demo, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: demo"
-        },
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "earthwork"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible excavation / sitework scope detected from earthwork, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: earthwork"
-        },
         {
           "tradeKey": "paving_asphalt",
           "trade": "Paving / Asphalt",

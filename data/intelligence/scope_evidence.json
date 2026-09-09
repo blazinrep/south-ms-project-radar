@@ -667,7 +667,7 @@
     {
       "projectId": "greene-road-maintenance",
       "projectName": "Greene County SAP-21(15)M Road Maintenance",
-      "evidenceCount": 27,
+      "evidenceCount": 20,
       "evidence": [
         {
           "source": "project.name",
@@ -683,34 +683,6 @@
         },
         {
           "source": "project.scope",
-          "text": "roadway construction"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "59.933 miles of State Aid road maintenance"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "Jason Lamb \u00b7 (601) 583-2127 \u00b7 jtlamb@thewalkerassociates.com"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "59.933 miles road maintenance"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "state-aid road work"
-        },
-        {
-          "source": "opportunity.scope",
           "text": "roadway construction"
         },
         {
@@ -3007,128 +2979,6 @@
       ]
     },
     {
-      "projectId": "msproc-46273",
-      "projectName": "Greene / 45-20260804080102 BSGC",
-      "evidenceCount": 24,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Greene / 45-20260804080102 BSGC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
-        },
-        {
-          "source": "researchOverride.canonicalProjectKey",
-          "text": "greene-sap-21-15m"
-        },
-        {
-          "source": "researchOverride.tradeFit",
-          "text": "conditional"
-        },
-        {
-          "source": "researchOverride.pursuitPath",
-          "text": "subcontract_target_or_prime_if_qualified"
-        },
-        {
-          "source": "researchOverride.evidenceLevel",
-          "text": "published_scope_explicit"
-        },
-        {
-          "source": "researchOverride.fitEvidence",
-          "text": "59.933 miles of State Aid road maintenance"
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "planholder"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "required_for_prime"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "source": "researchOverride.requiredChecks.type",
-          "text": "bid_security"
-        },
-        {
-          "source": "researchOverride.requiredChecks.status",
-          "text": "required_for_prime"
-        },
-        {
-          "source": "researchOverride.requiredChecks.detail",
-          "text": "5% certified check or bid bond is required."
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "outside_preferred_radius"
-        },
-        {
-          "source": "researchOverride.riskFlags",
-          "text": "road_project_may_be_paving_dominant"
-        },
-        {
-          "source": "researchOverride.whyItMatters",
-          "text": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile."
-        },
-        {
-          "source": "researchOverride.nextAction",
-          "text": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package."
-        },
-        {
-          "source": "researchOverride.actionType",
-          "text": "optional_outside_radius_review"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46297",
-      "projectName": "Harrison / 1557-20260806092908 SRHS",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 1557-20260806092908 SRHS"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: Description: A pre-bid meeting will be held on September 1, 2026 at 10:00 a.m., in the Board Room at Singing River Hospital - Gulfport. ------------------------------------------------------------------------------------"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46373",
       "projectName": "Wayne / 169-20260807113013 Waynesboro",
       "evidenceCount": 8,
@@ -3280,6 +3130,64 @@
         {
           "source": "project.scope",
           "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46438",
+      "projectName": "Stone / 1404-20260814091906 BSSC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Stone / 1404-20260814091906 BSSC"
+        },
+        {
+          "source": "project.scope",
+          "text": "HIGHWAY CONSTRUCTION"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Stone County, Mississippi at the Stone County Courthouse, Wiggins, Mississippi, until 10:00 am on the 21st day of September 2026 and shortly thereafter publicly opened for the constructio"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "HIGHWAY CONSTRUCTION"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Stone County, Mississippi at the Stone County Courthouse, Wiggins, Mississippi, until 10:00 am on the 21st day of September 2026 and shortly thereafter publicly opened for the constructio"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46443",
+      "projectName": "Jones / 3373-27-R-IFBD-00002",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 3373-27-R-IFBD-00002"
+        },
+        {
+          "source": "project.scope",
+          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
         }
       ]
     },

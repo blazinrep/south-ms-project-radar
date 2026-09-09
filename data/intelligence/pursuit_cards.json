@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:19:54.756845+00:00",
+  "generatedAt": "2026-09-09T15:17:53.143268+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "profileReadiness": {
     "commercialLicense": {
@@ -20,7 +20,7 @@
       "status": "unknown"
     }
   },
-  "count": 71,
+  "count": 70,
   "topPursuitCards": [
     {
       "id": "gulfport_planroom-20714",
@@ -196,129 +196,6 @@
       ]
     },
     {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "owner": "Greene County Board of Supervisors",
-      "county": "Greene",
-      "city": "Leakesville / countywide",
-      "lat": 31.1557,
-      "lon": -88.5578,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-08-13",
-      "freshnessStatus": null,
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 0.8,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 68,
-      "fitScore": 56,
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "whyThisMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "scope": [
-        "59.933 miles road maintenance",
-        "state-aid road work",
-        "roadway construction"
-      ],
-      "fitEvidence": [
-        "59.933 miles of State Aid road maintenance"
-      ],
-      "firstAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "Jason Lamb \u00b7 (601) 583-2127 \u00b7 jtlamb@thewalkerassociates.com",
-      "source": "https://www.planhouseplanroom.com/projects/20770/details/185-24-sap-2115m-greene-county-ms",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "sourceRecordIds": [
-        "greene-road-maintenance"
-      ]
-    },
-    {
-      "id": "msproc-46373",
-      "name": "Wayne / 169-20260807113013 Waynesboro",
-      "owner": "MPTAP",
-      "county": "Wayne",
-      "city": "Wayne County",
-      "lat": 31.674,
-      "lon": -88.6461,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-08",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 75.9,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 33,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46373?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46373"
-      ]
-    },
-    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
@@ -328,7 +205,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -373,38 +250,38 @@
       ]
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
+      "id": "msproc-46373",
+      "name": "Wayne / 169-20260807113013 Waynesboro",
       "owner": "MPTAP",
-      "county": "Greene",
-      "city": "Greene County",
-      "lat": 31.1557,
-      "lon": -88.5578,
+      "county": "Wayne",
+      "city": "Wayne County",
+      "lat": 31.674,
+      "lon": -88.6461,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": "live_verified",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 1.0,
-      "distanceMiles": 75.8,
+      "deadline": "2026-09-14T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
       "primeReadiness": "unknown",
-      "actionPriority": 32,
-      "fitScore": 20,
+      "actionPriority": 34,
+      "fitScore": 24,
       "tradeFit": "none",
       "evidenceLevel": "source_record",
       "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "scope": [
         "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
+        "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
       ],
       "fitEvidence": [],
       "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
       "secondAction": null,
       "stopIf": null,
       "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46373?AppId=1",
       "blockersAndChecks": [
         {
           "type": "commercial_license",
@@ -426,7 +303,7 @@
         "outside_preferred_radius"
       ],
       "sourceRecordIds": [
-        "msproc-46273"
+        "msproc-46373"
       ]
     },
     {
@@ -439,10 +316,10 @@
       "lon": -89.0928,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 1.7,
+      "daysToDeadline": 0.7,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -496,7 +373,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -549,7 +426,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -590,6 +467,127 @@
       ],
       "sourceRecordIds": [
         "mdot-109253-301000"
+      ]
+    },
+    {
+      "id": "walthall-orphan-wells",
+      "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
+      "owner": "Mississippi Oil and Gas Board",
+      "county": "Walthall",
+      "city": "Walthall County",
+      "lat": 31.15,
+      "lon": -90.1,
+      "value": null,
+      "status": "Accepting bids \u2014 specialized",
+      "verified": "2026-08-13",
+      "freshnessStatus": null,
+      "deadline": "2026-08-24T16:00:00",
+      "daysToDeadline": -16.0,
+      "distanceMiles": 34,
+      "decision": "specialist_only",
+      "recommendedLane": "specialist_only",
+      "primeReadiness": "unknown",
+      "actionPriority": 30,
+      "fitScore": 47,
+      "tradeFit": "weak",
+      "evidenceLevel": "official_explicit",
+      "whyThisMatters": "The reclamation portion uses dirt-work skills, but the prime contract is fundamentally an oil-and-gas well-plugging package. A normal excavation contractor should not spend estimating time on it unless it already has the specialty capability or a qualified teaming partner.",
+      "scope": [
+        "site reclamation",
+        "remediation",
+        "earthwork support",
+        "well plugging",
+        "disposal"
+      ],
+      "fitEvidence": [
+        "current MSOGB IFB covers nine wells in Adams and Walthall Counties",
+        "primary scope is plugging, remediation and reclamation of orphaned oil and gas wells"
+      ],
+      "firstAction": "Archive for the demo contractor unless it already performs regulated oil-and-gas well plugging or has a qualified teaming partner. If specialty capability exists, use the current MSOGB active-procurement page and IFB documents.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "Morris Welch \u00b7 (601) 576-4925 \u00b7 mwelch@ogb.state.ms.us",
+      "source": "https://www.ogb.state.ms.us/default.php?open=procurmentactive",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        },
+        {
+          "type": "specialty_experience",
+          "status": "required_before_pursuit",
+          "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
+        }
+      ],
+      "riskFlags": [
+        "specialized_oil_and_gas_scope",
+        "outside_demo_company_capability_profile",
+        "legacy_source_record_points_to_archived_duplicate"
+      ],
+      "sourceRecordIds": [
+        "walthall-orphan-wells"
+      ]
+    },
+    {
+      "id": "mdot-110227-301000",
+      "name": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Covington",
+      "city": "Covington County corridor",
+      "lat": 31.64,
+      "lon": -89.558,
+      "value": null,
+      "status": "Proposed 2026/09 letting",
+      "verified": "2026-09-09",
+      "freshnessStatus": null,
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "recommendedLane": "watch",
+      "primeReadiness": "unknown",
+      "actionPriority": 45,
+      "fitScore": 51,
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "scope": [
+        "Bridge Repair",
+        "MS 532",
+        "SR 532 Over Stream (Bridge # 13.5)"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Watch for the letting package and identify likely primes before bid release.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "Monitor MDOT proposed letting / Bid Express",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        }
+      ],
+      "riskFlags": [],
+      "sourceRecordIds": [
+        "mdot-110227-301000"
       ]
     }
   ],
@@ -768,129 +766,6 @@
       ]
     },
     {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "owner": "Greene County Board of Supervisors",
-      "county": "Greene",
-      "city": "Leakesville / countywide",
-      "lat": 31.1557,
-      "lon": -88.5578,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-08-13",
-      "freshnessStatus": null,
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 0.8,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 68,
-      "fitScore": 56,
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "whyThisMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "scope": [
-        "59.933 miles road maintenance",
-        "state-aid road work",
-        "roadway construction"
-      ],
-      "fitEvidence": [
-        "59.933 miles of State Aid road maintenance"
-      ],
-      "firstAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "Jason Lamb \u00b7 (601) 583-2127 \u00b7 jtlamb@thewalkerassociates.com",
-      "source": "https://www.planhouseplanroom.com/projects/20770/details/185-24-sap-2115m-greene-county-ms",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "sourceRecordIds": [
-        "greene-road-maintenance"
-      ]
-    },
-    {
-      "id": "msproc-46373",
-      "name": "Wayne / 169-20260807113013 Waynesboro",
-      "owner": "MPTAP",
-      "county": "Wayne",
-      "city": "Wayne County",
-      "lat": 31.674,
-      "lon": -88.6461,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-09-08",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 75.9,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 40,
-      "fitScore": 33,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46373?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46373"
-      ]
-    },
-    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
@@ -900,7 +775,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -945,38 +820,38 @@
       ]
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
+      "id": "msproc-46373",
+      "name": "Wayne / 169-20260807113013 Waynesboro",
       "owner": "MPTAP",
-      "county": "Greene",
-      "city": "Greene County",
-      "lat": 31.1557,
-      "lon": -88.5578,
+      "county": "Wayne",
+      "city": "Wayne County",
+      "lat": 31.674,
+      "lon": -88.6461,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": "live_verified",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 1.0,
-      "distanceMiles": 75.8,
+      "deadline": "2026-09-14T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
       "primeReadiness": "unknown",
-      "actionPriority": 32,
-      "fitScore": 20,
+      "actionPriority": 34,
+      "fitScore": 24,
       "tradeFit": "none",
       "evidenceLevel": "source_record",
       "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "scope": [
         "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 9th day of September, 2026 and shortly thereafter publicly opened for the"
+        "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
       ],
       "fitEvidence": [],
       "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
       "secondAction": null,
       "stopIf": null,
       "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46273?AppId=1",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46373?AppId=1",
       "blockersAndChecks": [
         {
           "type": "commercial_license",
@@ -998,7 +873,7 @@
         "outside_preferred_radius"
       ],
       "sourceRecordIds": [
-        "msproc-46273"
+        "msproc-46373"
       ]
     },
     {
@@ -1011,10 +886,10 @@
       "lon": -89.0928,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 1.7,
+      "daysToDeadline": 0.7,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1068,7 +943,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1121,7 +996,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1177,7 +1052,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -15.0,
+      "daysToDeadline": -16.0,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "recommendedLane": "specialist_only",
@@ -1244,7 +1119,7 @@
       "lon": -89.558,
       "value": null,
       "status": "Proposed 2026/09 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1397,7 +1272,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1448,7 +1323,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1499,7 +1374,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1550,7 +1425,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1601,7 +1476,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1653,7 +1528,7 @@
       "lon": -89.036,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1704,7 +1579,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1755,7 +1630,7 @@
       "lon": -90.897,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1806,7 +1681,7 @@
       "lon": -89.083,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1857,10 +1732,10 @@
       "lon": -89.5553,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-15T10:00:00-05:00",
-      "daysToDeadline": 7.0,
+      "daysToDeadline": 6.0,
       "distanceMiles": 31.8,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -1912,10 +1787,10 @@
       "lon": -89.2903,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": "live_verified",
       "deadline": "2026-09-17T10:00:00-05:00",
-      "daysToDeadline": 9.0,
+      "daysToDeadline": 8.0,
       "distanceMiles": 32.6,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2009,6 +1884,61 @@
       ]
     },
     {
+      "id": "msproc-46438",
+      "name": "Stone / 1404-20260814091906 BSSC",
+      "owner": "MPTAP",
+      "county": "Stone",
+      "city": "Stone County",
+      "lat": 30.8582,
+      "lon": -89.1353,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-09-09",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-09-21T10:00:00-05:00",
+      "daysToDeadline": 12.0,
+      "distanceMiles": 49.6,
+      "decision": "low_priority",
+      "recommendedLane": "investigate",
+      "primeReadiness": "unknown",
+      "actionPriority": 45,
+      "fitScore": 43,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "HIGHWAY CONSTRUCTION",
+        "Sealed bids will be received by the Board of Supervisors of Stone County, Mississippi at the Stone County Courthouse, Wiggins, Mississippi, until 10:00 am on the 21st day of September 2026 and shortly thereafter publicly opened for the constructio"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46438?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [],
+      "sourceRecordIds": [
+        "msproc-46438"
+      ]
+    },
+    {
       "id": "mdot-108781-306100",
       "name": "MDOT Proposed: Project \u2014 Stone County Bridge Preventive Maintenance",
       "owner": "Mississippi Department of Transportation",
@@ -2018,7 +1948,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2069,7 +1999,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2120,7 +2050,7 @@
       "lon": -89.826,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2171,7 +2101,7 @@
       "lon": -89.807,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2222,7 +2152,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2273,7 +2203,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2324,7 +2254,7 @@
       "lon": -90.107,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2529,7 +2459,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2580,7 +2510,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2631,7 +2561,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2682,7 +2612,7 @@
       "lon": -90.404,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2733,7 +2663,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2784,7 +2714,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2836,7 +2766,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2887,7 +2817,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2938,7 +2868,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/04 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2989,7 +2919,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3040,7 +2970,7 @@
       "lon": -89.119,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3091,7 +3021,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3143,7 +3073,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3195,7 +3125,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-09-08",
+      "verified": "2026-09-09",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,

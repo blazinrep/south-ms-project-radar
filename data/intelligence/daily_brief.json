@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:19:54.327476+00:00",
+  "generatedAt": "2026-09-09T15:17:52.702684+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 87,
   "canonicalProjectCount": 81,
@@ -7,9 +7,9 @@
   "rejectedCount": 3,
   "decisionCounts": {
     "specialist_only": 1,
-    "optional_outside_radius": 7,
-    "low_priority": 60,
+    "low_priority": 61,
     "verify_then_pursue": 2,
+    "optional_outside_radius": 5,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -106,90 +106,6 @@
       "qualificationGates": []
     },
     {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 0.8,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 24,
-        "pursuitAccessibility": 12,
-        "runway": 2,
-        "geography": 3,
-        "evidenceQuality": 15,
-        "fitTotal": 56,
-        "actionPriority": 68
-      },
-      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "actionType": "optional_outside_radius_review",
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
-        }
-      ]
-    },
-    {
-      "id": "msproc-46373",
-      "name": "Wayne / 169-20260807113013 Waynesboro",
-      "county": "Wayne",
-      "deadline": "2026-09-14T10:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 75.9,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 33,
-        "actionPriority": 40
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "county": "Clarke",
@@ -218,12 +134,12 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-46273",
-      "name": "Greene / 45-20260804080102 BSGC",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00-05:00",
-      "daysToDeadline": 1.0,
-      "distanceMiles": 75.8,
+      "id": "msproc-46373",
+      "name": "Wayne / 169-20260807113013 Waynesboro",
+      "county": "Wayne",
+      "deadline": "2026-09-14T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -231,11 +147,11 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 2,
+        "runway": 6,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 20,
-        "actionPriority": 32
+        "fitTotal": 24,
+        "actionPriority": 34
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -261,7 +177,7 @@
       "name": "Harrison / 212-20260723160736 MHS",
       "county": "Harrison",
       "deadline": "2026-09-10T02:00:00-05:00",
-      "daysToDeadline": 1.7,
+      "daysToDeadline": 0.7,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -350,6 +266,78 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
+    },
+    {
+      "id": "walthall-orphan-wells",
+      "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
+      "county": "Walthall",
+      "deadline": "2026-08-24T16:00:00",
+      "daysToDeadline": -16.0,
+      "distanceMiles": 34,
+      "decision": "specialist_only",
+      "pursuitPath": "specialist_only",
+      "tradeFit": "weak",
+      "evidenceLevel": "official_explicit",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 7,
+        "runway": 0,
+        "geography": 13,
+        "evidenceQuality": 15,
+        "fitTotal": 47,
+        "actionPriority": 30
+      },
+      "whyItMatters": "The reclamation portion uses dirt-work skills, but the prime contract is fundamentally an oil-and-gas well-plugging package. A normal excavation contractor should not spend estimating time on it unless it already has the specialty capability or a qualified teaming partner.",
+      "nextAction": "Archive for the demo contractor unless it already performs regulated oil-and-gas well plugging or has a qualified teaming partner. If specialty capability exists, use the current MSOGB active-procurement page and IFB documents.",
+      "actionType": "specialist_gate_before_any_pursuit",
+      "riskFlags": [
+        "specialized_oil_and_gas_scope",
+        "outside_demo_company_capability_profile",
+        "legacy_source_record_points_to_archived_duplicate"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        },
+        {
+          "type": "specialty_experience",
+          "status": "required_before_pursuit",
+          "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
+        }
+      ]
+    },
+    {
+      "id": "mdot-110227-301000",
+      "name": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 51,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
     }
   ],
   "fitRanking": [
@@ -414,51 +402,6 @@
           "type": "commercial_license",
           "status": "verify",
           "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
-        }
-      ]
-    },
-    {
-      "id": "greene-road-maintenance",
-      "name": "Greene County SAP-21(15)M Road Maintenance",
-      "county": "Greene",
-      "deadline": "2026-09-09T10:00:00",
-      "daysToDeadline": 0.8,
-      "distanceMiles": 78,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "conditional",
-      "evidenceLevel": "published_scope_explicit",
-      "scores": {
-        "scopeFit": 24,
-        "pursuitAccessibility": 12,
-        "runway": 2,
-        "geography": 3,
-        "evidenceQuality": 15,
-        "fitTotal": 56,
-        "actionPriority": 68
-      },
-      "whyItMatters": "Legitimate heavy-civil work, but geography and likely paving-heavy quantities make it a lower-priority fit for the current demo contractor profile.",
-      "nextAction": "Review quantities only if the contractor is willing to travel beyond the preferred radius or can quote a discrete earthwork/hauling package.",
-      "actionType": "optional_outside_radius_review",
-      "riskFlags": [
-        "outside_preferred_radius",
-        "road_project_may_be_paving_dominant"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "planholder",
-          "status": "required_for_prime",
-          "detail": "Prime bids are accepted only from bidders on the official planholder list."
-        },
-        {
-          "type": "bid_security",
-          "status": "required_for_prime",
-          "detail": "5% certified check or bid bond is required."
         }
       ]
     },
@@ -639,6 +582,32 @@
         "actionPriority": 45
       },
       "whyItMatters": "Official MDOT future-letting signal for reconstruction. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-109087-301000",
+      "name": "MDOT Proposed: MS 13 \u2014 Pearl River County Bridge Replacement",
+      "county": "Pearl River",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 36.5,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 49,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
       "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [],
