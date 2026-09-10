@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 87,
+  "projectCount": 86,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2936,45 +2936,6 @@
         {
           "source": "opportunity.scope",
           "text": "MS 27 from Walthall CL to Dewey Ballard"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46148",
-      "projectName": "Harrison / 212-20260723160736 MHS",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 212-20260723160736 MHS"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: 8/18/2026 10:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, August 18, 2026 at 10:00 AM. The Pre-Bid Confere"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date & Time: 8/18/2026 10:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, August 18, 2026 at 10:00 AM. The Pre-Bid Confere"
         }
       ]
     },
