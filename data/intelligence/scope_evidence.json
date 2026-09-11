@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 86,
+  "projectCount": 87,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3149,6 +3149,25 @@
         {
           "source": "project.scope",
           "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46462",
+      "projectName": "Stone / 4598-20260819143255 SCSD",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Stone / 4598-20260819143255 SCSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Stone County School District (hereinafter referred to as \"the District\") is soliciting Statements of Qualifications (SOQs) from qualified architectural firms interested in providing comprehensive architectural and related professional services. The"
         }
       ]
     },
