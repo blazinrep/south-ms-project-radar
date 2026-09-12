@@ -24,7 +24,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46388?AppId=1",
-    "verified": "2026-09-11",
+    "verified": "2026-09-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-11T10:12:24.724414-05:00",
+      "lastSeen": "2026-09-12T09:22:41.675983-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -81,7 +81,7 @@
         "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 6.2,
+      "daysToDeadline": 5.2,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -119,7 +119,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46416?AppId=1",
-    "verified": "2026-09-11",
+    "verified": "2026-09-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -129,7 +129,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-11T10:12:24.724414-05:00",
+      "lastSeen": "2026-09-12T09:22:41.675983-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -176,7 +176,7 @@
         "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 6.0,
+      "daysToDeadline": 5.0,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -214,7 +214,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-09-11",
+    "verified": "2026-09-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -224,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-11T10:12:24.724414-05:00",
+      "lastSeen": "2026-09-12T09:22:41.675983-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -271,7 +271,7 @@
         "fitTotal": 31,
         "actionPriority": 0
       },
-      "daysToDeadline": 32.3,
+      "daysToDeadline": 31.3,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -309,7 +309,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1",
-    "verified": "2026-09-11",
+    "verified": "2026-09-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -319,7 +319,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-11T10:12:24.724414-05:00",
+      "lastSeen": "2026-09-12T09:22:41.675983-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -366,7 +366,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 10.2,
+      "daysToDeadline": 9.2,
       "distanceMiles": 49.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
