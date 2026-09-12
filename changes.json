@@ -1,25 +1,125 @@
 {
-  "generated_at": "2026-09-11T14:59:09.912194+00:00",
+  "generated_at": "2026-09-12T14:05:34.946908+00:00",
   "summary": {
-    "new": 0,
-    "changed": 0,
-    "removed": 1
+    "new": 1,
+    "changed": 1,
+    "removed": 0
   },
   "events": [
     {
-      "kind": "project_removed",
-      "project_id": "msproc-46148",
+      "kind": "project_changed",
+      "project_id": "mdot-110044-301000",
       "before": {
-        "id": "msproc-46148",
-        "name": "Harrison / 212-20260723160736 MHS",
-        "county": "Harrison",
-        "city": "Harrison County",
-        "lat": 30.3674,
-        "lon": -89.0928,
+        "id": "mdot-110044-301000",
+        "name": "MDOT Proposed: I 55 \u2014 Lincoln County Bridge Repair",
+        "county": "Lincoln",
+        "city": "Lincoln County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2026/10 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 82,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Repair",
+          "I 55",
+          "I-55 over CNIC Railroad (Br #s 40.3 A & B)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-09-11",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "excavation",
+          "grading",
+          "drainage",
+          "erosion_control",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-09-11T14:59:09.840690+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "110044/301000",
+        "sourceFedProjectNo": "NHPP-0055-01(153)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2026-10-01"
+      },
+      "after": {
+        "id": "mdot-110044-301000",
+        "name": "MDOT Proposed: I 55 \u2014 Lincoln County Bridge Repair",
+        "county": "Lincoln",
+        "city": "Lincoln County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2026/11 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 82,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Repair",
+          "I 55",
+          "I-55 over CNIC Railroad (Br #s 40.3 A & B)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-09-12",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "excavation",
+          "grading",
+          "drainage",
+          "erosion_control",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-09-12T14:05:34.903958+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "110044/301000",
+        "sourceFedProjectNo": "NHPP-0055-01(153)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2026-11-01"
+      }
+    },
+    {
+      "kind": "new_project",
+      "project_id": "msproc-46462",
+      "after": {
+        "id": "msproc-46462",
+        "name": "Stone / 4598-20260819143255 SCSD",
+        "county": "Stone",
+        "city": "Stone County",
+        "lat": 30.8582,
+        "lon": -89.1353,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-09-10T02:00:00-05:00",
+        "deadline": "2026-09-21T15:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -28,13 +128,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Pre-Bid Conference: Date & Time: 8/18/2026 10:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, August 18, 2026 at 10:00 AM. The Pre-Bid Confere"
+          "The Stone County School District (hereinafter referred to as \"the District\") is soliciting Statements of Qualifications (SOQs) from qualified architectural firms interested in providing comprehensive architectural and related professional services. The"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46148?AppId=1",
-        "verified": "2026-09-09",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1",
+        "verified": "2026-09-11",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -44,17 +144,17 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-09T10:17:32.727722-05:00",
+          "lastSeen": "2026-09-11T10:12:24.724414-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46148",
-        "sourceSmartNumber": "212-20260723160736 MHS",
-        "sourceRFx": "3170036363",
+        "sourceDetailId": "46462",
+        "sourceSmartNumber": "4598-20260819143255 SCSD",
+        "sourceRFx": "3170036548",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "09/10/2026 2:00 AM"
+        "submissionDateRaw": "09/21/2026 3:00 PM"
       }
     }
   ]

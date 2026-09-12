@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-09-11T14:59:09.803299+00:00",
+  "retrieved_at": "2026-09-12T14:05:34.879181+00:00",
   "records": [
     {
       "month": "2026/09",
@@ -124,17 +124,6 @@
       "termini": "US 84 from west of Fire Tower Rd to east of Providence Road/Clear Spring Road"
     },
     {
-      "month": "2026/10",
-      "district": "District 7",
-      "project_no": "110044/301000",
-      "fed_project_no": "NHPP-0055-01(153)",
-      "parallel_to_project_no": "",
-      "county": "Lincoln",
-      "route": "I 55",
-      "scope": "Bridge Repair",
-      "termini": "I-55 over CNIC Railroad (Br #s 40.3 A & B)"
-    },
-    {
       "month": "2026/11",
       "district": "District 6",
       "project_no": "108781/306000",
@@ -243,6 +232,17 @@
       "route": "US 49",
       "scope": "Reconstruction",
       "termini": "US 49 at MS 13"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 7",
+      "project_no": "110044/301000",
+      "fed_project_no": "NHPP-0055-01(153)",
+      "parallel_to_project_no": "",
+      "county": "Lincoln",
+      "route": "I 55",
+      "scope": "Bridge Repair",
+      "termini": "I-55 over CNIC Railroad (Br #s 40.3 A & B)"
     },
     {
       "month": "2027/01",
