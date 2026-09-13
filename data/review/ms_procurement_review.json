@@ -35,21 +35,6 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46460,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46461,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46462,
     "decision": "publish",
     "county": "Stone"
