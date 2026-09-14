@@ -1,8 +1,21 @@
 [
   {
     "detail_id": 46373,
-    "decision": "publish",
-    "county": "Wayne"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "169-20260807113013 Waynesboro",
+      "Advertised Date": "08/27/2026 12:00 PM",
+      "RFx #": "3170036528",
+      "Submission Date": "09/14/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
+    }
   },
   {
     "detail_id": 46374,
@@ -74,6 +87,14 @@
     "detail_id": 46467,
     "decision": "skip_discovery_candidate",
     "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46468,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
       "outside_or_unresolved_territory"
     ]
   }

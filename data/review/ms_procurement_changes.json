@@ -1,11 +1,63 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-09-13T15:03:16.897771+00:00",
+  "generated_at": "2026-09-14T17:03:04.206933+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
-    "no_longer_open": 0,
+    "no_longer_open": 1,
     "stale_unverified": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46373",
+      "before": {
+        "id": "msproc-46373",
+        "name": "Wayne / 169-20260807113013 Waynesboro",
+        "county": "Wayne",
+        "city": "Wayne County",
+        "lat": 31.674,
+        "lon": -88.6461,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-09-14T10:00:00-05:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46373?AppId=1",
+        "verified": "2026-09-13",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-09-13T10:03:10.594255-05:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46373",
+        "sourceSmartNumber": "169-20260807113013 Waynesboro",
+        "sourceRFx": "3170036528",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "09/14/2026 10:00 AM"
+      }
+    }
+  ]
 }
