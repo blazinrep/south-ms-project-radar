@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 87,
+  "projectCount": 86,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2936,45 +2936,6 @@
         {
           "source": "opportunity.scope",
           "text": "MS 27 from Walthall CL to Dewey Ballard"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46373",
-      "projectName": "Wayne / 169-20260807113013 Waynesboro",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Wayne / 169-20260807113013 Waynesboro"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
         }
       ]
     },
