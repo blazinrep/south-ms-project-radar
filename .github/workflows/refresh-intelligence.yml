@@ -45,6 +45,9 @@ jobs:
             data/intelligence/duplicates.json \
             data/intelligence/daily_brief.json \
             data/intelligence/pursuit_cards.json \
+            data/intelligence/trackwatch_attention.json \
+            data/intelligence/trackwatch_metrics.json \
+            state/trackwatch_attention_state.json \
             data/intelligence/scope_evidence.json \
             data/intelligence/trade_matches.json \
             data/intelligence/trade_coverage_report.json
