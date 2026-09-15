@@ -1,31 +1,26 @@
 [
   {
-    "detail_id": 46373,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "169-20260807113013 Waynesboro",
-      "Advertised Date": "08/27/2026 12:00 PM",
-      "RFx #": "3170036528",
-      "Submission Date": "09/14/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Board of Directors of Chickasawhay Natural Gas District will receive bids for the construction of a Gas Main Relocation Project in Waynesboro, Mississippi. Proposals shall be accepted until no later than 10:00 a.m. Local Time, Monday September 14,"
-    }
-  },
-  {
     "detail_id": 46374,
     "decision": "publish",
     "county": "Forrest"
   },
   {
     "detail_id": 46385,
-    "decision": "publish",
-    "county": "Covington"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "156-20260817111614 BSCC",
+      "Advertised Date": "08/28/2026 5:00 PM",
+      "RFx #": "3170036506",
+      "Submission Date": "09/15/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Covington County Mississippi at the Chancery Building in Collings, Mississippi, until 10:00 a.m. on September 15, 2026 and shortly thereafter publicly opened for the construction of 0.151 miles o"
+    }
   },
   {
     "detail_id": 46388,
@@ -51,13 +46,6 @@
     "detail_id": 46462,
     "decision": "publish",
     "county": "Stone"
-  },
-  {
-    "detail_id": 46463,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46464,
@@ -95,6 +83,65 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46469,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46470,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46471,
+    "decision": "publish",
+    "county": "Greene"
+  },
+  {
+    "detail_id": 46472,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46473,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46474,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46475,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46476,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46477,
+    "decision": "skip_discovery_candidate",
+    "reason": [
       "outside_or_unresolved_territory"
     ]
   }
