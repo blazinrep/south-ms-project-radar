@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T17:03:14.786695+00:00",
+  "generatedAt": "2026-09-15T15:42:15.800306+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 86,
-  "canonicalProjectCount": 80,
+  "sourceRecordCount": 88,
+  "canonicalProjectCount": 82,
   "duplicateGroups": 6,
   "rejectedCount": 4,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 61,
+    "low_priority": 62,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 3,
+    "optional_outside_radius": 4,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -106,6 +106,45 @@
       "qualificationGates": []
     },
     {
+      "id": "msproc-46471",
+      "name": "Greene / 45-20260820125837 BSGC",
+      "county": "Greene",
+      "deadline": "2026-09-21T10:00:00-05:00",
+      "daysToDeadline": 6.0,
+      "distanceMiles": 75.8,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 33,
+        "actionPriority": 40
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "county": "Clarke",
@@ -194,7 +233,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -21.0,
+      "daysToDeadline": -22.0,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
@@ -263,32 +302,6 @@
     },
     {
       "id": "mdot-106972-301000",
-      "name": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
-      "county": "Pike",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 34.0,
-      "decision": "low_priority",
-      "pursuitPath": "watch",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 49,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": []
-    },
-    {
-      "id": "mdot-106972-302000",
       "name": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
       "county": "Pike",
       "deadline": null,
