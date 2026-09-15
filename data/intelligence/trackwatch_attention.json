@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-15T01:46:42.670564+00:00",
+  "adapter": "TrackWatch Contractor Adapter V0.1.1",
+  "inputSource": "Mississippi procurement monitor",
+  "inputGeneratedAt": "2026-08-19T12:00:54.467750+00:00",
+  "profile": "Demo Excavation / Sitework Contractor",
+  "summary": {
+    "eventsSeen": 0,
+    "needsAttention": 0,
+    "filtered": 0,
+    "sourceHealthProblems": 0,
+    "staleUnverified": 0,
+    "rawFetchErrors": 19,
+    "byType": {}
+  },
+  "attention": [],
+  "filtered": [],
+  "sourceTelemetry": {
+    "monitorOk": true,
+    "checkedAt": "2026-08-19T07:00:48.668234-05:00",
+    "knownActiveChecked": 14,
+    "currentRecords": 14,
+    "staleUnverified": 0,
+    "rawNetworkOrHttpFailures": 19,
+    "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
+  }
+}
