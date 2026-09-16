@@ -24,7 +24,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46388?AppId=1",
-    "verified": "2026-09-15",
+    "verified": "2026-09-16",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-15T10:41:57.012705-05:00",
+      "lastSeen": "2026-09-16T10:32:55.069257-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -75,13 +75,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 6,
+        "runway": 2,
         "geography": 15,
         "evidenceQuality": 8,
-        "fitTotal": 29,
+        "fitTotal": 25,
         "actionPriority": 0
       },
-      "daysToDeadline": 2.1,
+      "daysToDeadline": 1.1,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -119,7 +119,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46416?AppId=1",
-    "verified": "2026-09-15",
+    "verified": "2026-09-16",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -129,7 +129,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-15T10:41:57.012705-05:00",
+      "lastSeen": "2026-09-16T10:32:55.069257-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -176,7 +176,7 @@
         "fitTotal": 25,
         "actionPriority": 0
       },
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 1.0,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -214,7 +214,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-09-15",
+    "verified": "2026-09-16",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -224,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-15T10:41:57.012705-05:00",
+      "lastSeen": "2026-09-16T10:32:55.069257-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -271,7 +271,7 @@
         "fitTotal": 34,
         "actionPriority": 0
       },
-      "daysToDeadline": 28.2,
+      "daysToDeadline": 27.2,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -309,7 +309,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1",
-    "verified": "2026-09-15",
+    "verified": "2026-09-16",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -319,7 +319,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-15T10:41:57.012705-05:00",
+      "lastSeen": "2026-09-16T10:32:55.069257-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -366,7 +366,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 6.2,
+      "daysToDeadline": 5.2,
       "distanceMiles": 49.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -376,6 +376,101 @@
       "automaticRejectReason": "non_sitework_procurement:statements of qualifications",
       "sourceRecordIds": [
         "msproc-46462"
+      ]
+    }
+  },
+  {
+    "id": "msproc-46500",
+    "name": "Jones / 3373-27-R-IFBD-00004",
+    "county": "Jones",
+    "city": "Jones County",
+    "lat": 31.6941,
+    "lon": -89.1306,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-10-19T16:30:00-05:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "ELLISVILLE STATE SCHOOL",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
+    "verified": "2026-09-16",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-09-16T10:32:55.069257-05:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "46500",
+    "sourceSmartNumber": "3373-27-R-IFBD-00004",
+    "sourceRFx": "3160008232",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
+    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+    "submissionDateRaw": "10/19/2026 4:30 PM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
+    "displayName": "Jones / 3373-27-R-IFBD-00004",
+    "intelligence": {
+      "version": "0.7.2",
+      "canonicalProjectKey": "msproc-46500",
+      "displayName": "Jones / 3373-27-R-IFBD-00004",
+      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
+      "decision": "reject",
+      "disposition": "reject",
+      "pursuitPath": "reject",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "fitEvidence": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 0,
+        "runway": 10,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 31,
+        "actionPriority": 0
+      },
+      "daysToDeadline": 33.2,
+      "distanceMiles": 51.6,
+      "riskFlags": [],
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "recommendedContact": "See official record and attachments",
+      "automaticRejectReason": "wrong_major_category:PERSONNEL SERVICES NON-IT",
+      "sourceRecordIds": [
+        "msproc-46500"
       ]
     }
   }

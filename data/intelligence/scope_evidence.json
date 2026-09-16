@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 88,
+  "projectCount": 92,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2940,6 +2940,45 @@
       ]
     },
     {
+      "projectId": "mdot-105005-392100",
+      "projectName": "MDOT Proposed: Project \u2014 Clarke County Not Assigned - Define Scope",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: Project \u2014 Clarke County Not Assigned - Define Scope"
+        },
+        {
+          "source": "project.scope",
+          "text": "Not Assigned - Define Scope"
+        },
+        {
+          "source": "project.scope",
+          "text": "FY 25 Mississippi Wildlife Fisheries - MDWFP/Clarkco State Park - Clarkco Back Country Trail Loop"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for not assigned - define scope. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Not Assigned - Define Scope"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "FY 25 Mississippi Wildlife Fisheries - MDWFP/Clarkco State Park - Clarkco Back Country Trail Loop"
+        }
+      ]
+    },
+    {
       "projectId": "msproc-46374",
       "projectName": "Forrest / 65-20260810151829 BSFC",
       "evidenceCount": 8,
@@ -3207,6 +3246,103 @@
         {
           "source": "opportunity.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46486",
+      "projectName": "Simpson / 231-20260825111028 SCSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Simpson / 231-20260825111028 SCSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46497",
+      "projectName": "Harrison / 2507-20260904084645 PWSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 2507-20260904084645 PWSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46500",
+      "projectName": "Jones / 3373-27-R-IFBD-00004",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 3373-27-R-IFBD-00004"
+        },
+        {
+          "source": "project.scope",
+          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
         }
       ]
     },

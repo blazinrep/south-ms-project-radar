@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-15T15:42:16.277275+00:00",
+  "generatedAt": "2026-09-16T15:33:13.407819+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-15T15:42:03.686569+00:00",
+  "inputGeneratedAt": "2026-09-16T15:32:59.968157+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 4,
+    "eventsSeen": 3,
     "needsAttention": 1,
-    "filtered": 3,
+    "filtered": 2,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 21,
+    "rawFetchErrors": 5,
     "byType": {
-      "opportunity_closed": 1
+      "new_opportunity": 1
     }
   },
   "attention": [
     {
-      "id": "d51224f317b45c4b560a",
-      "projectId": "msproc-46385",
-      "type": "opportunity_closed",
+      "id": "7c3510ec9d2f2375bfe5",
+      "projectId": "msproc-46500",
+      "type": "new_opportunity",
       "priority": "high",
-      "title": "Opportunity no longer open",
+      "title": "New contractor-relevant opportunity",
       "project": {
-        "name": "Covington / 156-20260817111614 BSCC",
-        "county": "Covington",
-        "city": "Covington County",
+        "name": "Jones / 3373-27-R-IFBD-00004",
+        "county": "Jones",
+        "city": "Jones County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-09-15T10:00:00-05:00",
+        "deadline": "2026-10-19T16:30:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46385?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,65 +47,60 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-09-15T10:00:00-05:00",
-          "after": null
+          "before": null,
+          "after": "2026-10-19T16:30:00-05:00"
         },
         {
           "field": "status",
-          "before": "Accepting bids",
-          "after": null
+          "before": null,
+          "after": "Accepting bids"
         },
         {
           "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
+          "before": null,
+          "after": "Open"
         },
         {
           "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
+          "before": null,
+          "after": "open_procurement"
         },
         {
           "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed bids will be received by the Board of Supervisors of Covington County Mississippi at the Chancery Building in Collings, Mississippi, until 10:00 a.m. on September 15, 2026 and shortly thereafter publicly opened for the construction of 0.151 miles o"
-          ],
-          "after": null
+          "before": null,
+          "after": [
+            "PERSONNEL SERVICE - NON-TECHNOLOGY",
+            "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+          ]
         },
         {
           "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
         }
       ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
     }
   ],
   "filtered": [
     {
-      "projectId": "msproc-46471",
+      "projectId": "msproc-46486",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-46497",
       "kind": "new_project",
       "reason": "current Project Radar decision is optional_outside_radius"
-    },
-    {
-      "projectId": "msproc-46474",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    },
-    {
-      "projectId": "msproc-46475",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
     }
   ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-15T10:41:57.012705-05:00",
-    "knownActiveChecked": 7,
-    "currentRecords": 9,
+    "checkedAt": "2026-09-16T10:32:55.069257-05:00",
+    "knownActiveChecked": 9,
+    "currentRecords": 12,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 21,
+    "rawNetworkOrHttpFailures": 5,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
