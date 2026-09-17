@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 92,
+  "projectCount": 90,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2979,45 +2979,6 @@
       ]
     },
     {
-      "projectId": "msproc-46374",
-      "projectName": "Forrest / 65-20260810151829 BSFC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 65-20260810151829 BSFC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46388",
       "projectName": "Forrest / 9280-27-R-IFBD-00007",
       "evidenceCount": 3,
@@ -3033,25 +2994,6 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46416",
-      "projectName": "Forrest / 187-20260819084150 Hattiesburg",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 187-20260819084150 Hattiesburg"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
         }
       ]
     },

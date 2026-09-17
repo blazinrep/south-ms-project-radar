@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-16T15:33:13.407819+00:00",
+  "generatedAt": "2026-09-17T15:39:38.128981+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-16T15:32:59.968157+00:00",
+  "inputGeneratedAt": "2026-09-17T15:39:23.225339+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 3,
-    "needsAttention": 1,
-    "filtered": 2,
+    "eventsSeen": 2,
+    "needsAttention": 2,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 5,
+    "rawFetchErrors": 28,
     "byType": {
-      "new_opportunity": 1
+      "opportunity_closed": 2
     }
   },
   "attention": [
     {
-      "id": "7c3510ec9d2f2375bfe5",
-      "projectId": "msproc-46500",
-      "type": "new_opportunity",
+      "id": "b7d2d4bd5f6a719ded9b",
+      "projectId": "msproc-46374",
+      "type": "opportunity_closed",
       "priority": "high",
-      "title": "New contractor-relevant opportunity",
+      "title": "Opportunity no longer open",
       "project": {
-        "name": "Jones / 3373-27-R-IFBD-00004",
-        "county": "Jones",
-        "city": "Jones County",
+        "name": "Forrest / 65-20260810151829 BSFC",
+        "county": "Forrest",
+        "city": "Forrest County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-10-19T16:30:00-05:00",
+        "deadline": "2026-09-17T10:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46374?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,60 +47,114 @@
       "changes": [
         {
           "field": "deadline",
-          "before": null,
-          "after": "2026-10-19T16:30:00-05:00"
+          "before": "2026-09-17T10:00:00-05:00",
+          "after": null
         },
         {
           "field": "status",
-          "before": null,
-          "after": "Accepting bids"
+          "before": "Accepting bids",
+          "after": null
         },
         {
           "field": "sourceRFxStatus",
-          "before": null,
-          "after": "Open"
+          "before": "Open",
+          "after": null
         },
         {
           "field": "lifecycleStage",
-          "before": null,
-          "after": "open_procurement"
+          "before": "open_procurement",
+          "after": null
         },
         {
           "field": "scope",
-          "before": null,
-          "after": [
-            "PERSONNEL SERVICE - NON-TECHNOLOGY",
-            "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-          ]
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
+          ],
+          "after": null
         },
         {
           "field": "nextMove",
-          "before": null,
-          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
         }
       ],
-      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-    }
-  ],
-  "filtered": [
-    {
-      "projectId": "msproc-46486",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     },
     {
-      "projectId": "msproc-46497",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
+      "id": "9dceba8d3878838c53a9",
+      "projectId": "msproc-46416",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Forrest / 187-20260819084150 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-09-17T10:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46416?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-09-17T10:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-16T10:32:55.069257-05:00",
-    "knownActiveChecked": 9,
-    "currentRecords": 12,
+    "checkedAt": "2026-09-17T10:39:16.645493-05:00",
+    "knownActiveChecked": 12,
+    "currentRecords": 10,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 5,
+    "rawNetworkOrHttpFailures": 28,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
