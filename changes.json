@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-17T15:31:42.580731+00:00",
+  "generated_at": "2026-09-18T14:57:49.491855+00:00",
   "summary": {
-    "new": 3,
+    "new": 0,
     "changed": 0,
-    "removed": 0
+    "removed": 2
   },
   "events": [
     {
-      "kind": "new_project",
-      "project_id": "msproc-46486",
-      "after": {
-        "id": "msproc-46486",
-        "name": "Simpson / 231-20260825111028 SCSD",
-        "county": "Simpson",
-        "city": "Simpson County",
-        "lat": 31.9618,
-        "lon": -89.8701,
+      "kind": "project_removed",
+      "project_id": "msproc-46374",
+      "before": {
+        "id": "msproc-46374",
+        "name": "Forrest / 65-20260810151829 BSFC",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-09-22T14:00:00-05:00",
+        "deadline": "2026-09-17T10:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -28,12 +28,12 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
+          "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46486?AppId=1",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46374?AppId=1",
         "verified": "2026-09-16",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
@@ -48,82 +48,29 @@
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46486",
-        "sourceSmartNumber": "231-20260825111028 SCSD",
-        "sourceRFx": "3170036571",
+        "sourceDetailId": "46374",
+        "sourceSmartNumber": "65-20260810151829 BSFC",
+        "sourceRFx": "3170036529",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "09/22/2026 2:00 PM"
+        "submissionDateRaw": "09/17/2026 10:00 AM"
       }
     },
     {
-      "kind": "new_project",
-      "project_id": "msproc-46497",
-      "after": {
-        "id": "msproc-46497",
-        "name": "Harrison / 2507-20260904084645 PWSD",
-        "county": "Harrison",
-        "city": "Harrison County",
-        "lat": 30.3674,
-        "lon": -89.0928,
+      "kind": "project_removed",
+      "project_id": "msproc-46416",
+      "before": {
+        "id": "msproc-46416",
+        "name": "Forrest / 187-20260819084150 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-14T10:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 63,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "CONSTRUCTION - SERVICES",
-          "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-        "verified": "2026-09-16",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [
-          "utilities"
-        ],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-16T10:32:55.069257-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46497",
-        "sourceSmartNumber": "2507-20260904084645 PWSD",
-        "sourceRFx": "3170036578",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/14/2026 10:00 AM"
-      }
-    },
-    {
-      "kind": "new_project",
-      "project_id": "msproc-46500",
-      "after": {
-        "id": "msproc-46500",
-        "name": "Jones / 3373-27-R-IFBD-00004",
-        "county": "Jones",
-        "city": "Jones County",
-        "lat": 31.6941,
-        "lon": -89.1306,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-10-19T16:30:00-05:00",
+        "deadline": "2026-09-17T10:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -131,13 +78,13 @@
         "confidence": 96,
         "distance": null,
         "scope": [
-          "PERSONNEL SERVICE - NON-TECHNOLOGY",
-          "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+          "EQUIPMENT - NON-TECHNOLOGY",
+          "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "ELLISVILLE STATE SCHOOL",
+        "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46416?AppId=1",
         "verified": "2026-09-16",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
@@ -152,13 +99,13 @@
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46500",
-        "sourceSmartNumber": "3373-27-R-IFBD-00004",
-        "sourceRFx": "3160008232",
+        "sourceDetailId": "46416",
+        "sourceSmartNumber": "187-20260819084150 Hattiesburg",
+        "sourceRFx": "3170036533",
         "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
-        "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-        "submissionDateRaw": "10/19/2026 4:30 PM"
+        "majorProcurementCategory": "COMMODITIES",
+        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+        "submissionDateRaw": "09/17/2026 10:00 AM"
       }
     }
   ]
