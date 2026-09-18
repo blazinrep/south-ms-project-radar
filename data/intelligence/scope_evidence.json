@@ -2979,25 +2979,6 @@
       ]
     },
     {
-      "projectId": "msproc-46388",
-      "projectName": "Forrest / 9280-27-R-IFBD-00007",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 9280-27-R-IFBD-00007"
-        },
-        {
-          "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46438",
       "projectName": "Stone / 1404-20260814091906 BSSC",
       "evidenceCount": 8,
@@ -3285,6 +3266,25 @@
         {
           "source": "project.scope",
           "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46510",
+      "projectName": "Forrest / 9280-27-R-IFBD-00011",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00011"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2:00 p."
         }
       ]
     },

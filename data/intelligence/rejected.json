@@ -1,100 +1,5 @@
 [
   {
-    "id": "msproc-46388",
-    "name": "Forrest / 9280-27-R-IFBD-00007",
-    "county": "Forrest",
-    "city": "Forrest County",
-    "lat": 31.3271,
-    "lon": -89.2903,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-09-17T14:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46388?AppId=1",
-    "verified": "2026-09-17",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46388",
-    "sourceSmartNumber": "9280-27-R-IFBD-00007",
-    "sourceRFx": "3160008217",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
-    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-    "submissionDateRaw": "09/17/2026 2:00 PM",
-    "sourceFeed": "legacy_projects",
-    "geoPrecision": "project_coordinates",
-    "geoApproximate": false,
-    "displayName": "Forrest / 9280-27-R-IFBD-00007",
-    "intelligence": {
-      "version": "0.7.2",
-      "canonicalProjectKey": "msproc-46388",
-      "displayName": "Forrest / 9280-27-R-IFBD-00007",
-      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46388?AppId=1",
-      "decision": "reject",
-      "disposition": "reject",
-      "pursuitPath": "reject",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "fitEvidence": [],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 0,
-        "runway": 2,
-        "geography": 15,
-        "evidenceQuality": 8,
-        "fitTotal": 25,
-        "actionPriority": 0
-      },
-      "daysToDeadline": 0.1,
-      "distanceMiles": 32.6,
-      "riskFlags": [],
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "recommendedContact": "See official record and attachments",
-      "automaticRejectReason": "wrong_major_category:PERSONNEL SERVICES NON-IT",
-      "sourceRecordIds": [
-        "msproc-46388"
-      ]
-    }
-  },
-  {
     "id": "msproc-46443",
     "name": "Jones / 3373-27-R-IFBD-00002",
     "county": "Jones",
@@ -119,7 +24,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -129,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -176,7 +81,7 @@
         "fitTotal": 34,
         "actionPriority": 0
       },
-      "daysToDeadline": 26.2,
+      "daysToDeadline": 25.3,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -214,7 +119,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -224,7 +129,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -271,7 +176,7 @@
         "fitTotal": 27,
         "actionPriority": 0
       },
-      "daysToDeadline": 4.2,
+      "daysToDeadline": 3.2,
       "distanceMiles": 49.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -309,7 +214,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -319,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -366,7 +271,7 @@
         "fitTotal": 31,
         "actionPriority": 0
       },
-      "daysToDeadline": 32.2,
+      "daysToDeadline": 31.3,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -376,6 +281,101 @@
       "automaticRejectReason": "wrong_major_category:PERSONNEL SERVICES NON-IT",
       "sourceRecordIds": [
         "msproc-46500"
+      ]
+    }
+  },
+  {
+    "id": "msproc-46510",
+    "name": "Forrest / 9280-27-R-IFBD-00011",
+    "county": "Forrest",
+    "city": "Forrest County",
+    "lat": 31.3271,
+    "lon": -89.2903,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-10-07T14:00:00-05:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "EQUIPMENT - NON-TECHNOLOGY",
+      "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2:00 p."
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46510?AppId=1",
+    "verified": "2026-09-18",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "46510",
+    "sourceSmartNumber": "9280-27-R-IFBD-00011",
+    "sourceRFx": "3160008273",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "INFORMATION TECHNOLOGY (IT)",
+    "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+    "submissionDateRaw": "10/07/2026 2:00 PM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
+    "displayName": "Forrest / 9280-27-R-IFBD-00011",
+    "intelligence": {
+      "version": "0.7.2",
+      "canonicalProjectKey": "msproc-46510",
+      "displayName": "Forrest / 9280-27-R-IFBD-00011",
+      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46510?AppId=1",
+      "decision": "reject",
+      "disposition": "reject",
+      "pursuitPath": "reject",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "fitEvidence": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 0,
+        "runway": 13,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 36,
+        "actionPriority": 0
+      },
+      "daysToDeadline": 19.2,
+      "distanceMiles": 32.6,
+      "riskFlags": [],
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "recommendedContact": "See official record and attachments",
+      "automaticRejectReason": "wrong_subcategory:EQUIPMENT - NON-TECHNOLOGY",
+      "sourceRecordIds": [
+        "msproc-46510"
       ]
     }
   }

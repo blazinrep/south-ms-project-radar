@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-17T15:39:38.128981+00:00",
+  "generatedAt": "2026-09-18T15:09:31.167303+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-17T15:39:23.225339+00:00",
+  "inputGeneratedAt": "2026-09-18T15:09:17.264856+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
     "eventsSeen": 2,
@@ -10,29 +10,30 @@
     "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 28,
+    "rawFetchErrors": 19,
     "byType": {
-      "opportunity_closed": 2
+      "new_opportunity": 1,
+      "opportunity_closed": 1
     }
   },
   "attention": [
     {
-      "id": "b7d2d4bd5f6a719ded9b",
-      "projectId": "msproc-46374",
-      "type": "opportunity_closed",
+      "id": "fcd89c3b0ce7c8667410",
+      "projectId": "msproc-46510",
+      "type": "new_opportunity",
       "priority": "high",
-      "title": "Opportunity no longer open",
+      "title": "New contractor-relevant opportunity",
       "project": {
-        "name": "Forrest / 65-20260810151829 BSFC",
+        "name": "Forrest / 9280-27-R-IFBD-00011",
         "county": "Forrest",
         "city": "Forrest County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-09-17T10:00:00-05:00",
+        "deadline": "2026-10-07T14:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46374?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46510?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,57 +48,57 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-09-17T10:00:00-05:00",
-          "after": null
+          "before": null,
+          "after": "2026-10-07T14:00:00-05:00"
         },
         {
           "field": "status",
-          "before": "Accepting bids",
-          "after": null
+          "before": null,
+          "after": "Accepting bids"
         },
         {
           "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
+          "before": null,
+          "after": "Open"
         },
         {
           "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
+          "before": null,
+          "after": "open_procurement"
         },
         {
           "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
-          ],
-          "after": null
+          "before": null,
+          "after": [
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2:00 p."
+          ]
         },
         {
           "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
         }
       ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
     },
     {
-      "id": "9dceba8d3878838c53a9",
-      "projectId": "msproc-46416",
+      "id": "b8d9821d92d39d53dfea",
+      "projectId": "msproc-46388",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Forrest / 187-20260819084150 Hattiesburg",
+        "name": "Forrest / 9280-27-R-IFBD-00007",
         "county": "Forrest",
         "city": "Forrest County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-09-17T10:00:00-05:00",
+        "deadline": "2026-09-17T14:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46416?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46388?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -112,7 +113,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-09-17T10:00:00-05:00",
+          "before": "2026-09-17T14:00:00-05:00",
           "after": null
         },
         {
@@ -133,8 +134,8 @@
         {
           "field": "scope",
           "before": [
-            "EQUIPMENT - NON-TECHNOLOGY",
-            "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
+            "PERSONNEL SERVICE - NON-TECHNOLOGY",
+            "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
           ],
           "after": null
         },
@@ -150,11 +151,11 @@
   "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-17T10:39:16.645493-05:00",
-    "knownActiveChecked": 12,
+    "checkedAt": "2026-09-18T10:09:12.269356-05:00",
+    "knownActiveChecked": 10,
     "currentRecords": 10,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 28,
+    "rawNetworkOrHttpFailures": 19,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
