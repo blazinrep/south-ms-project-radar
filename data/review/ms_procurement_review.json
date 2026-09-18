@@ -1,43 +1,20 @@
 [
   {
-    "detail_id": 46374,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "65-20260810151829 BSFC",
-      "Advertised Date": "08/27/2026 12:00 PM",
-      "RFx #": "3170036529",
-      "Submission Date": "09/17/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Forrest County Mississippi at the Chancery Building, 641 Main St., Hattiesburg, Mississippi, until 10:00 AM on the 17th day of September, 2026 and shortly thereafter publicly opened for the cons"
-    }
-  },
-  {
     "detail_id": 46388,
-    "decision": "publish",
-    "county": "Forrest"
-  },
-  {
-    "detail_id": 46416,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "187-20260819084150 Hattiesburg",
-      "Advertised Date": "09/02/2026 5:00 PM",
-      "RFx #": "3170036533",
-      "Submission Date": "09/17/2026 10:00 AM",
+      "Smart Number": "9280-27-R-IFBD-00007",
+      "Advertised Date": "08/30/2026 12:00 AM",
+      "RFx #": "3160008217",
+      "Submission Date": "09/17/2026 2:00 PM",
       "RFx Status": "Closed",
-      "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until 10:00 a.m., Thursday, September 17, 2026, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the City's re"
+      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
+      "RFx Opening Date": "09/17/2026 2:00 PM",
+      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
     }
   },
   {
@@ -81,21 +58,6 @@
     "county": "Harrison"
   },
   {
-    "detail_id": 46498,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46499,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46500,
     "decision": "publish",
     "county": "Jones"
@@ -129,6 +91,86 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46505,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46506,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46507,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46508,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46509,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46510,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46511,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46512,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46513,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46514,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46515,
+    "decision": "skip_discovery_candidate",
+    "reason": [
       "outside_or_unresolved_territory"
     ]
   }

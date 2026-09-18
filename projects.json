@@ -2522,53 +2522,6 @@
     "proposedMonth": "2026-09-01"
   },
   {
-    "id": "msproc-46388",
-    "name": "Forrest / 9280-27-R-IFBD-00007",
-    "county": "Forrest",
-    "city": "Forrest County",
-    "lat": 31.3271,
-    "lon": -89.2903,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-09-17T14:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, September 17, 2026,"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46388?AppId=1",
-    "verified": "2026-09-17",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46388",
-    "sourceSmartNumber": "9280-27-R-IFBD-00007",
-    "sourceRFx": "3160008217",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
-    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-    "submissionDateRaw": "09/17/2026 2:00 PM"
-  },
-  {
     "id": "msproc-46438",
     "name": "Stone / 1404-20260814091906 BSSC",
     "county": "Stone",
@@ -2593,7 +2546,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46438?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2603,7 +2556,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2640,7 +2593,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2650,7 +2603,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2687,7 +2640,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2697,7 +2650,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2734,7 +2687,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46471?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2744,7 +2697,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2781,7 +2734,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46474?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2791,7 +2744,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2828,7 +2781,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46475?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2838,7 +2791,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2875,7 +2828,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46486?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2885,7 +2838,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2922,7 +2875,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -2934,7 +2887,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2971,7 +2924,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
-    "verified": "2026-09-17",
+    "verified": "2026-09-18",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -2981,7 +2934,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-17T10:39:16.645493-05:00",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -2992,5 +2945,52 @@
     "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
     "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
     "submissionDateRaw": "10/19/2026 4:30 PM"
+  },
+  {
+    "id": "msproc-46510",
+    "name": "Forrest / 9280-27-R-IFBD-00011",
+    "county": "Forrest",
+    "city": "Forrest County",
+    "lat": 31.3271,
+    "lon": -89.2903,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-10-07T14:00:00-05:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "EQUIPMENT - NON-TECHNOLOGY",
+      "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2:00 p."
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46510?AppId=1",
+    "verified": "2026-09-18",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-09-18T10:09:12.269356-05:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "46510",
+    "sourceSmartNumber": "9280-27-R-IFBD-00011",
+    "sourceRFx": "3160008273",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "INFORMATION TECHNOLOGY (IT)",
+    "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+    "submissionDateRaw": "10/07/2026 2:00 PM"
   }
 ]
