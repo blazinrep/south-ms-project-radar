@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:48:34.897087+00:00",
+  "generatedAt": "2026-09-20T14:52:01.995735+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 90,
   "canonicalProjectCount": 84,
@@ -138,7 +138,7 @@
       "name": "Harrison / 2507-20260904084645 PWSD",
       "county": "Harrison",
       "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 25.0,
+      "daysToDeadline": 24.0,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -177,7 +177,7 @@
       "name": "Greene / 45-20260820125837 BSGC",
       "county": "Greene",
       "deadline": "2026-09-21T10:00:00-05:00",
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 1.0,
       "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -186,11 +186,11 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 24,
-        "actionPriority": 34
+        "fitTotal": 20,
+        "actionPriority": 32
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -300,7 +300,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -26.0,
+      "daysToDeadline": -27.0,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
