@@ -1,5 +1,5 @@
 {
-  "version": "0.11.0",
+  "version": "0.16.0",
   "sourceTypes": {
     "owner": {
       "label": "Owner / Public Agency",
@@ -187,6 +187,29 @@
       ],
       "enabledForPipeline": false,
       "purpose": "adapter_validation"
+    },
+    {
+      "id": "mda_business_news",
+      "name": "Mississippi Development Authority Business News",
+      "type": "economic_development",
+      "platform": "mda_news",
+      "baseUrl": "https://mississippi.org/news-media-library/",
+      "owner": "Mississippi Development Authority",
+      "country": "US",
+      "state": "MS",
+      "county": null,
+      "city": null,
+      "status": "active",
+      "geography": [
+        "Mississippi"
+      ],
+      "tradeBias": [
+        "all"
+      ],
+      "maxPages": 4,
+      "maxItems": 48,
+      "minimumExpectedRecords": 3,
+      "purpose": "early_industrial_and_business_expansion_signals"
     }
   ]
 }

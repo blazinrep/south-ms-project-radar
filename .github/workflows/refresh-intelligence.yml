@@ -2,6 +2,8 @@ name: Refresh Opportunity Intelligence
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "27 12 * * *"
   workflow_run:
     workflows:
       - Refresh Mississippi Procurement
@@ -17,7 +19,7 @@ concurrency:
 
 jobs:
   intelligence:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,6 +42,14 @@ jobs:
           git config user.email "project-radar-bot@users.noreply.github.com"
 
           git add \
+            data/raw/mda_business_news_candidates.json \
+            data/raw/mda_business_news_vertical_candidates.json \
+            data/review/mda_business_news_normalization_review.json \
+            data/intelligence/source_health.json \
+            data/intelligence/source_performance.json \
+            data/intelligence/source_records.json \
+            data/intelligence/source_records_geocoded.json \
+            data/intelligence/canonical_projects.json \
             data/intelligence/opportunities.json \
             data/intelligence/rejected.json \
             data/intelligence/duplicates.json \

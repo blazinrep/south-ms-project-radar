@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.16.0",
   "adapters": {
     "reproconnect_planhouse": {
       "label": "ReproConnect / Plan House",
@@ -46,6 +46,15 @@
       "supportsDetailFetch": true,
       "supportsDocumentDiscovery": true,
       "authentication": "not_required_for_public_metadata",
+      "status": "active"
+    },
+    "mda_news": {
+      "label": "Mississippi Development Authority News",
+      "collector": "scripts/collect_mda_news.py",
+      "normalizer": "scripts/normalize_mda_news.py",
+      "supportsDetailFetch": true,
+      "supportsDocumentDiscovery": false,
+      "authentication": "not_required",
       "status": "active"
     }
   }
