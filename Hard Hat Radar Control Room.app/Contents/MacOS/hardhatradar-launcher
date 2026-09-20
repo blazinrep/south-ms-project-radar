@@ -1,0 +1,38 @@
+#!/bin/bash
+set -u
+
+REPO="$HOME/Documents/GitHub/south-ms-project-radar"
+SERVER="$REPO/scripts/hardhatradar_control_room.py"
+PORT="8766"
+URL="http://127.0.0.1:$PORT"
+LOG="/tmp/hardhatradar-control-room.log"
+
+if curl -fsS "$URL/api/status" >/dev/null 2>&1; then
+  open "$URL"
+  exit 0
+fi
+
+for PID in $(lsof -tiTCP:$PORT -sTCP:LISTEN 2>/dev/null || true); do
+  CMD="$(ps -p "$PID" -o command= 2>/dev/null || true)"
+  if [[ "$CMD" == *"python3 -m http.server $PORT"* || "$CMD" == *"hardhatradar_control_room.py"* ]]; then
+    kill "$PID" >/dev/null 2>&1 || true
+    sleep 0.5
+  else
+    osascript -e 'display alert "Hard Hat Radar" message "Port 8766 is already being used by another application. Hard Hat Radar did not stop it." as critical' >/dev/null 2>&1 || true
+    exit 1
+  fi
+done
+
+nohup /opt/homebrew/bin/python3 "$SERVER" > "$LOG" 2>&1 < /dev/null &
+disown || true
+
+for _ in {1..32}; do
+  if curl -fsS "$URL/api/status" >/dev/null 2>&1; then
+    open "$URL"
+    exit 0
+  fi
+  sleep 0.25
+done
+
+osascript -e 'display alert "Hard Hat Radar" message "The local Control Room service did not start. See /tmp/hardhatradar-control-room.log for details." as critical' >/dev/null 2>&1 || true
+exit 1

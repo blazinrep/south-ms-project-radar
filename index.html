@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="assets/hardhatradar-mark.png">
 <meta name="robots" content="noindex,nofollow,noarchive">
-<title>Project Radar — Contractor Command Center</title>
+<title>Hard Hat Radar — Contractor Command Center</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
 :root{
@@ -17,12 +18,33 @@ body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-a
 button,input,select{font:inherit}
 header{padding:15px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
 h1{font-size:20px;margin:0}header p{margin:3px 0 0;color:var(--muted)}
+.brandLockup{display:flex;align-items:center;gap:12px}
+.brandMark{width:48px;height:48px;border-radius:12px;display:block;box-shadow:0 4px 14px #0005}
+.brandCopy h1{font-size:20px;margin:0}
+.brandCopy p{margin:3px 0 0;color:var(--muted)}
+
 .badge{display:inline-flex;align-items:center;border:1px solid #72511a;background:#2a2215;color:#ffd484;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800}
 .layout{display:grid;grid-template-columns:minmax(640px,56vw) 1fr;min-height:calc(100vh - 75px)}
 aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 75px)}
 #map{min-height:calc(100vh - 75px)}
 .profile{border:1px solid var(--line);background:linear-gradient(135deg,#131c26,#111820);border-radius:12px;padding:11px 12px;margin-bottom:10px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
 .profile b{font-size:13px}.profile small{color:var(--muted);display:block;margin-top:3px}
+.radarStatus{border:1px solid #35506a;background:linear-gradient(135deg,#101b26,#0f1720);border-radius:12px;padding:11px 12px;margin-bottom:10px;box-shadow:inset 0 1px 0 #ffffff08}
+.radarStatusTop{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:9px}
+.statusKicker{display:block;color:var(--orange);font-size:9px;font-weight:900;letter-spacing:1.2px;margin-bottom:2px}
+.radarStatusTop strong{font-size:12px;color:#eef5fa}
+.statusTime{color:var(--muted);font-size:9px;text-align:right;white-space:nowrap}
+.radarStatusGrid{display:grid;grid-template-columns:1.45fr 1fr 1fr 1.15fr 1fr;gap:6px}
+.statusItem{border:1px solid #2b3948;background:#131e29;border-radius:8px;padding:7px 8px;min-width:0}
+.statusItem b{display:block;font-size:15px;line-height:1.1;color:#f5f8fa}
+.statusItem span{display:block;margin-top:3px;font-size:7px;line-height:1.15;color:var(--muted);font-weight:800;letter-spacing:.25px}
+.statusGood{color:var(--green)!important}.statusWarn{color:var(--yellow)!important}.statusBad{color:var(--red)!important}
+.radarActions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.radarRunBtn{border:1px solid #8a621d;background:#2a2215;color:#ffd484;border-radius:8px;padding:7px 10px;font-size:9px;font-weight:900;letter-spacing:.35px;cursor:pointer}
+.radarRunBtn:hover{border-color:#c88a24;background:#342716}
+.radarRunBtn:disabled{opacity:.55;cursor:wait}
+.radarRunMsg{display:block;color:var(--muted);font-size:8px;margin-top:4px;text-align:right;max-width:260px}
+
 .readiness{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
 .pill{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:4px 7px;font-size:10px;white-space:nowrap}
 .unknown{color:var(--yellow)}.ready{color:var(--green)}.notready{color:var(--red)}
@@ -103,11 +125,19 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
  .tabs button{padding:6px 8px}
 }
 @media(max-width:520px){
+ .brandMark{width:40px;height:40px;border-radius:10px}
  header{padding:9px 12px}
  header p{margin-top:1px;font-size:11px}
  .badge{padding:4px 7px;margin-top:2px}
  .layout aside{padding:8px}
  .profile{display:block;padding:7px 8px;margin-bottom:6px}
+ .radarStatus{padding:8px;margin-bottom:7px}
+ .radarStatusTop{display:block;margin-bottom:7px}
+ .statusTime{display:block;text-align:left;margin-top:3px;white-space:normal}
+ .radarStatusGrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+ .statusItem{padding:5px 6px}
+ .statusItem b{font-size:13px}
+ .statusItem span{font-size:6px}
  .profile b{font-size:12px}
  .profile small{font-size:10px;margin-top:1px}
  .readiness{justify-content:flex-start;margin-top:5px;gap:3px}
@@ -130,7 +160,7 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
 </head>
 <body>
 <header>
-  <div><h1>Project Radar</h1><p>Opportunity intelligence for excavation & sitework contractors</p></div>
+  <div class="brandLockup"><img class="brandMark" src="assets/hardhatradar-mark.png" alt="Hard Hat Radar"><div class="brandCopy"><h1>Hard Hat Radar</h1><p>Opportunity intelligence for excavation & sitework contractors</p></div></div>
   <span class="badge">LIVE OPPORTUNITY INTELLIGENCE</span>
 </header>
 <div class="layout">
@@ -138,6 +168,23 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
   <div class="profile">
     <div><b>Your Company Profile · Excavation / Sitework</b><small>Columbia, MS · preferred radius 75 mi · subcontract + qualified prime opportunities</small></div>
     <div class="readiness" id="readiness"></div>
+  </div>
+
+  <div class="radarStatus">
+    <div class="radarStatusTop">
+      <div><span class="statusKicker">RADAR STATUS</span><strong id="radarHealth">Loading current intelligence…</strong></div>
+      <div class="radarActions">
+        <div><span class="statusTime" id="radarUpdated">Checking latest scan…</span><span class="radarRunMsg" id="radarRunMsg"></span></div>
+        <button class="radarRunBtn" id="runRadarScan" type="button">RUN RADAR SCAN</button>
+      </div>
+    </div>
+    <div class="radarStatusGrid">
+      <div class="statusItem"><b id="radarEvaluated">—</b><span>OPPORTUNITIES EVALUATED</span></div>
+      <div class="statusItem"><b id="radarAttention">—</b><span>NEED ATTENTION</span></div>
+      <div class="statusItem"><b id="radarFiltered">—</b><span>FILTERED</span></div>
+      <div class="statusItem"><b id="radarChanges">—</b><span>MEANINGFUL CHANGES</span></div>
+      <div class="statusItem"><b id="radarSourceHealth">—</b><span>SOURCE HEALTH</span></div>
+    </div>
   </div>
 
   <div class="metrics">
@@ -148,7 +195,7 @@ aside{border-right:1px solid var(--line);padding:14px;overflow:auto;max-height:c
     <div class="metric"><b id="hiddenN">0</b><span>FILTERED OUT</span></div>
   </div>
 
-  <div class="queueIntro"><strong>What should I do first?</strong> <span id="attentionText"></span><br><small>Ordered by the Project Radar intelligence engine. ACT TODAY outranks PURSUE NOW. Qualification gates override score.</small></div>
+  <div class="queueIntro"><strong>What should I do first?</strong> <span id="attentionText"></span><br><small>Ordered by the Hard Hat Radar intelligence engine. ACT TODAY outranks PURSUE NOW. Qualification gates override score.</small></div>
 
   <div class="tabs">
     <button class="on" data-filter="priority">Priority queue</button>
@@ -286,6 +333,65 @@ function counts(){
  document.getElementById('hiddenN').textContent=hidden;
  document.getElementById('attentionText').textContent=`${today+pursue+verify} opportunities need attention; ${hidden} weaker records are filtered out.`;
 }
+function formatRadarTime(v){
+ if(!v)return 'Scan time unavailable';
+ const d=new Date(v);
+ if(Number.isNaN(d.getTime()))return String(v);
+ return 'Last scan · '+d.toLocaleString([],{dateStyle:'medium',timeStyle:'short'});
+}
+function loadRadarStatus(){
+ const attention=cards.filter(c=>['act_today','pursue_now','verify_then_pursue','verify_scope'].includes(c.decision)).length;
+ const filtered=cards.filter(c=>c.decision==='low_priority').length;
+ document.getElementById('radarEvaluated').textContent=cards.length;
+ document.getElementById('radarAttention').textContent=attention;
+ document.getElementById('radarFiltered').textContent=filtered;
+ document.getElementById('radarUpdated').textContent=formatRadarTime(payload?.generatedAt);
+ fetch('data/intelligence/trackwatch_metrics.json',{cache:'no-store'})
+  .then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()})
+  .then(m=>{
+    const latest=m.latest||{};
+    const changes=Number(latest.needsAttention||0);
+    const problems=Number(latest.sourceHealthProblems||0);
+    const changeEl=document.getElementById('radarChanges');
+    const sourceEl=document.getElementById('radarSourceHealth');
+    changeEl.textContent=changes;
+    changeEl.className=changes?'statusWarn':'statusGood';
+    sourceEl.textContent=problems?`${problems} ISSUE${problems===1?'':'S'}`:'HEALTHY';
+    sourceEl.className=problems?'statusBad':'statusGood';
+    document.getElementById('radarUpdated').textContent=formatRadarTime(m.generatedAt||payload?.generatedAt);
+    document.getElementById('radarHealth').textContent=
+      problems?`${problems} source-health problem${problems===1?'':'s'} need review.`:
+      changes?`${changes} meaningful change${changes===1?'':'s'} need attention.`:
+      'Radar clear · current opportunity intelligence loaded.';
+  })
+  .catch(()=>{
+    document.getElementById('radarChanges').textContent='—';
+    document.getElementById('radarSourceHealth').textContent='CHECK';
+    document.getElementById('radarSourceHealth').className='statusWarn';
+    document.getElementById('radarHealth').textContent='Opportunity intelligence loaded · status metrics unavailable.';
+  });
+}
+async function runRadarScan(){
+ const btn=document.getElementById('runRadarScan');
+ const msg=document.getElementById('radarRunMsg');
+ if(!btn)return;
+ btn.disabled=true;
+ btn.textContent='SCANNING…';
+ msg.textContent='Running the full intelligence pipeline. Keep this window open.';
+ try{
+   const r=await fetch('/api/run-radar-scan',{method:'POST',cache:'no-store'});
+   const data=await r.json().catch(()=>({}));
+   if(!r.ok||!data.ok){
+     throw new Error(data.error||`Scan failed (HTTP ${r.status})`);
+   }
+   msg.textContent=`Scan complete in ${data.elapsedSeconds||'?'}s · refreshing intelligence…`;
+   setTimeout(()=>window.location.reload(),700);
+ }catch(err){
+   msg.textContent='Scan failed: '+err.message;
+   btn.disabled=false;
+   btn.textContent='RUN RADAR SCAN';
+ }
+}
 function isActiveProject(c){
  const status=String(c.status||'').toLowerCase();
  return !c.deadline && (
@@ -382,7 +488,7 @@ function show(c){
 }
 function init(data){
  payload=data;cards=data.allCards||[];
- buildReadiness();counts();
+ buildReadiness();counts();loadRadarStatus();
  [...new Set(cards.map(c=>c.county).filter(Boolean))].sort().forEach(c=>document.getElementById('county').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
  render();
 }
@@ -397,6 +503,7 @@ document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',
 }));
 ['q','county'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));
 document.getElementById('close').addEventListener('click',()=>document.getElementById('detail').style.display='none');
+const scanBtn=document.getElementById('runRadarScan'); if(scanBtn) scanBtn.addEventListener('click',runRadarScan);
 </script>
 </body>
 </html>
