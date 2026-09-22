@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-21T17:12:05.144590+00:00",
+  "generatedAt": "2026-09-22T15:43:09.338860+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-21T17:11:52.226853+00:00",
+  "inputGeneratedAt": "2026-09-22T15:42:56.705034+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 4,
-    "needsAttention": 2,
-    "filtered": 2,
+    "eventsSeen": 1,
+    "needsAttention": 1,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 24,
+    "rawFetchErrors": 23,
     "byType": {
-      "opportunity_closed": 2
+      "opportunity_closed": 1
     }
   },
   "attention": [
     {
-      "id": "6dcc3717827d9802b3fb",
-      "projectId": "msproc-46471",
+      "id": "bb72b5228321f7a9d46f",
+      "projectId": "msproc-46462",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Greene / 45-20260820125837 BSGC",
-        "county": "Greene",
-        "city": "Greene County",
+        "name": "Stone / 4598-20260819143255 SCSD",
+        "county": "Stone",
+        "city": "Stone County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-09-21T10:00:00-05:00",
+        "deadline": "2026-09-21T15:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46471?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +47,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-09-21T10:00:00-05:00",
+          "before": "2026-09-21T15:00:00-05:00",
           "after": null
         },
         {
@@ -69,72 +69,7 @@
           "field": "scope",
           "before": [
             "CONSTRUCTION - SERVICES",
-            "Sealed bids will be received by the Board of Supervisors of Greene County Mississippi at the Greene County Board of Supervisors, Leakesville, Mississippi, until 10:00 a.m. on the 21st day of September, 2026 and shortly thereafter publicly opened for the"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "881d3867ce4d01389fc5",
-      "projectId": "msproc-46438",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Stone / 1404-20260814091906 BSSC",
-        "county": "Stone",
-        "city": "Stone County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-09-21T10:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46438?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-09-21T10:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "HIGHWAY CONSTRUCTION",
-            "Sealed bids will be received by the Board of Supervisors of Stone County, Mississippi at the Stone County Courthouse, Wiggins, Mississippi, until 10:00 am on the 21st day of September 2026 and shortly thereafter publicly opened for the constructio"
+            "The Stone County School District (hereinafter referred to as \"the District\") is soliciting Statements of Qualifications (SOQs) from qualified architectural firms interested in providing comprehensive architectural and related professional services. The"
           ],
           "after": null
         },
@@ -147,25 +82,14 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
-  "filtered": [
-    {
-      "projectId": "msproc-46529",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
-    },
-    {
-      "projectId": "msproc-46530",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
-    }
-  ],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-21T12:11:46.391873-05:00",
+    "checkedAt": "2026-09-22T10:42:50.365184-05:00",
     "knownActiveChecked": 10,
-    "currentRecords": 10,
+    "currentRecords": 9,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 24,
+    "rawNetworkOrHttpFailures": 23,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
