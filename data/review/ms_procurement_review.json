@@ -5,24 +5,6 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46462,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "4598-20260819143255 SCSD",
-      "Advertised Date": "09/10/2026 5:00 PM",
-      "RFx #": "3170036548",
-      "Submission Date": "09/21/2026 3:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Stone County School District (hereinafter referred to as \"the District\") is soliciting Statements of Qualifications (SOQs) from qualified architectural firms interested in providing comprehensive architectural and related professional services. The"
-    }
-  },
-  {
     "detail_id": 46474,
     "decision": "publish",
     "county": "Forrest"
@@ -34,8 +16,21 @@
   },
   {
     "detail_id": 46486,
-    "decision": "publish",
-    "county": "Simpson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "231-20260825111028 SCSD",
+      "Advertised Date": "09/15/2026 12:00 PM",
+      "RFx #": "3170036571",
+      "Submission Date": "09/22/2026 2:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
+    }
   },
   {
     "detail_id": 46497,
@@ -53,50 +48,27 @@
     "county": "Forrest"
   },
   {
-    "detail_id": 46527,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46528,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46529,
-    "decision": "publish",
-    "county": "Jackson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "58-20260818083555 JCPA",
+      "Advertised Date": "09/21/2026 11:00 AM",
+      "RFx #": "3170036602",
+      "Submission Date": "09/22/2026 2:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed Bids will be received by the Jackson County Port Authority at 3033 Pascagoula Street, Pascagoula, Mississippi 39567 until 2:00 P.M., Tuesday, September 22, 2026, and shortly thereafter opened and read for: INTERCONNECTION OF 24-INCH AND 42-IN"
+    }
   },
   {
     "detail_id": 46530,
     "decision": "publish",
     "county": "Clarke"
-  },
-  {
-    "detail_id": 46531,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46532,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46533,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46534,
@@ -136,5 +108,56 @@
       "not_construction_relevant",
       "outside_or_unresolved_territory"
     ]
+  },
+  {
+    "detail_id": 46539,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46540,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46541,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46542,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46543,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46544,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46545,
+    "decision": "publish",
+    "county": "Jackson"
   }
 ]

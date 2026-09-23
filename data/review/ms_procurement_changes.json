@@ -1,27 +1,80 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-09-22T15:42:56.705034+00:00",
+  "generated_at": "2026-09-23T15:34:29.347880+00:00",
   "summary": {
-    "new": 0,
+    "new": 1,
     "changed": 0,
-    "no_longer_open": 1,
+    "no_longer_open": 2,
     "stale_unverified": 0
   },
   "events": [
     {
-      "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46462",
-      "before": {
-        "id": "msproc-46462",
-        "name": "Stone / 4598-20260819143255 SCSD",
-        "county": "Stone",
-        "city": "Stone County",
-        "lat": 30.8582,
-        "lon": -89.1353,
+      "kind": "new_project",
+      "project_id": "msproc-46545",
+      "after": {
+        "id": "msproc-46545",
+        "name": "Jackson / 35-20260812104938 JCUA",
+        "county": "Jackson",
+        "city": "Jackson County",
+        "lat": 30.3674,
+        "lon": -88.5561,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-09-21T15:00:00-05:00",
+        "deadline": "2026-10-06T10:00:00-05:00",
+        "prebid": null,
+        "value": null,
+        "match": 63,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "The Jackson County Utility Authority (Owner) is requesting Bids for the construction of the following Project: WJC POTW 1C PROCESS IMPROVEMENTS PHASE 1: HEADWORKS AND IRRIGATION SYSTEM Bids for the construction of the Project will be received at th"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46545?AppId=1",
+        "verified": "2026-09-23",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [
+          "utilities"
+        ],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-09-23T10:34:22.697876-05:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46545",
+        "sourceSmartNumber": "35-20260812104938 JCUA",
+        "sourceRFx": "3170036610",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "10/06/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46486",
+      "before": {
+        "id": "msproc-46486",
+        "name": "Simpson / 231-20260825111028 SCSD",
+        "county": "Simpson",
+        "city": "Simpson County",
+        "lat": 31.9618,
+        "lon": -89.8701,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-09-22T14:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -30,13 +83,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "The Stone County School District (hereinafter referred to as \"the District\") is soliciting Statements of Qualifications (SOQs) from qualified architectural firms interested in providing comprehensive architectural and related professional services. The"
+          "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1",
-        "verified": "2026-09-21",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46486?AppId=1",
+        "verified": "2026-09-22",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -46,17 +99,68 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-21T12:11:46.391873-05:00",
+          "lastSeen": "2026-09-22T10:42:50.365184-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46462",
-        "sourceSmartNumber": "4598-20260819143255 SCSD",
-        "sourceRFx": "3170036548",
+        "sourceDetailId": "46486",
+        "sourceSmartNumber": "231-20260825111028 SCSD",
+        "sourceRFx": "3170036571",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "09/21/2026 3:00 PM"
+        "submissionDateRaw": "09/22/2026 2:00 PM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46529",
+      "before": {
+        "id": "msproc-46529",
+        "name": "Jackson / 58-20260818083555 JCPA",
+        "county": "Jackson",
+        "city": "Jackson County",
+        "lat": 30.3674,
+        "lon": -88.5561,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-09-22T14:00:00-05:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Sealed Bids will be received by the Jackson County Port Authority at 3033 Pascagoula Street, Pascagoula, Mississippi 39567 until 2:00 P.M., Tuesday, September 22, 2026, and shortly thereafter opened and read for: INTERCONNECTION OF 24-INCH AND 42-IN"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46529?AppId=1",
+        "verified": "2026-09-22",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-09-22T10:42:50.365184-05:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46529",
+        "sourceSmartNumber": "58-20260818083555 JCPA",
+        "sourceRFx": "3170036602",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "09/22/2026 2:00 PM"
       }
     }
   ]
