@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 89,
+  "projectCount": 88,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3076,45 +3076,6 @@
       ]
     },
     {
-      "projectId": "msproc-46486",
-      "projectName": "Simpson / 231-20260825111028 SCSD",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Simpson / 231-20260825111028 SCSD"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46497",
       "projectName": "Harrison / 2507-20260904084645 PWSD",
       "evidenceCount": 8,
@@ -3192,45 +3153,6 @@
       ]
     },
     {
-      "projectId": "msproc-46529",
-      "projectName": "Jackson / 58-20260818083555 JCPA",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 58-20260818083555 JCPA"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed Bids will be received by the Jackson County Port Authority at 3033 Pascagoula Street, Pascagoula, Mississippi 39567 until 2:00 P.M., Tuesday, September 22, 2026, and shortly thereafter opened and read for: INTERCONNECTION OF 24-INCH AND 42-IN"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed Bids will be received by the Jackson County Port Authority at 3033 Pascagoula Street, Pascagoula, Mississippi 39567 until 2:00 P.M., Tuesday, September 22, 2026, and shortly thereafter opened and read for: INTERCONNECTION OF 24-INCH AND 42-IN"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46530",
       "projectName": "Clarke / 169-20260819140806 CCBS",
       "evidenceCount": 8,
@@ -3266,6 +3188,49 @@
         {
           "source": "opportunity.scope",
           "text": "The Clarke County Board of Supervisors will receive bids for a Surface Treatment Project of 12.522 miles of County Roads located in Districts 2, 3, & 4 to be contrasted under Engineers Project No. CCBS-101-26 no later than 10:00 a.m. Local Time, Friday"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46545",
+      "projectName": "Jackson / 35-20260812104938 JCUA",
+      "evidenceCount": 9,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 35-20260812104938 JCUA"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Jackson County Utility Authority (Owner) is requesting Bids for the construction of the following Project: WJC POTW 1C PROCESS IMPROVEMENTS PHASE 1: HEADWORKS AND IRRIGATION SYSTEM Bids for the construction of the Project will be received at th"
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "utility"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Jackson County Utility Authority (Owner) is requesting Bids for the construction of the following Project: WJC POTW 1C PROCESS IMPROVEMENTS PHASE 1: HEADWORKS AND IRRIGATION SYSTEM Bids for the construction of the Project will be received at th"
         }
       ]
     },

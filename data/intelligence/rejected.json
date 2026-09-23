@@ -24,7 +24,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-09-22",
+    "verified": "2026-09-23",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-22T10:42:50.365184-05:00",
+      "lastSeen": "2026-09-23T10:34:22.697876-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -81,7 +81,7 @@
         "fitTotal": 34,
         "actionPriority": 0
       },
-      "daysToDeadline": 21.2,
+      "daysToDeadline": 20.2,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -119,7 +119,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
-    "verified": "2026-09-22",
+    "verified": "2026-09-23",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -129,7 +129,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-22T10:42:50.365184-05:00",
+      "lastSeen": "2026-09-23T10:34:22.697876-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -176,7 +176,7 @@
         "fitTotal": 34,
         "actionPriority": 0
       },
-      "daysToDeadline": 27.2,
+      "daysToDeadline": 26.2,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -214,7 +214,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46510?AppId=1",
-    "verified": "2026-09-22",
+    "verified": "2026-09-23",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -224,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-22T10:42:50.365184-05:00",
+      "lastSeen": "2026-09-23T10:34:22.697876-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -271,7 +271,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 15.1,
+      "daysToDeadline": 14.1,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",

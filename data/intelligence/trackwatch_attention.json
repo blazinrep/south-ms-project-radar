@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-22T15:43:09.338860+00:00",
+  "generatedAt": "2026-09-23T15:34:44.408519+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-22T15:42:56.705034+00:00",
+  "inputGeneratedAt": "2026-09-23T15:34:29.347880+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 1,
-    "needsAttention": 1,
-    "filtered": 0,
+    "eventsSeen": 3,
+    "needsAttention": 2,
+    "filtered": 1,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
     "rawFetchErrors": 23,
     "byType": {
-      "opportunity_closed": 1
+      "opportunity_closed": 2
     }
   },
   "attention": [
     {
-      "id": "bb72b5228321f7a9d46f",
-      "projectId": "msproc-46462",
+      "id": "f48616e31debf8d71949",
+      "projectId": "msproc-46486",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Stone / 4598-20260819143255 SCSD",
-        "county": "Stone",
-        "city": "Stone County",
+        "name": "Simpson / 231-20260825111028 SCSD",
+        "county": "Simpson",
+        "city": "Simpson County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-09-21T15:00:00-05:00",
+        "deadline": "2026-09-22T14:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46462?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46486?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +47,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-09-21T15:00:00-05:00",
+          "before": "2026-09-22T14:00:00-05:00",
           "after": null
         },
         {
@@ -69,7 +69,72 @@
           "field": "scope",
           "before": [
             "CONSTRUCTION - SERVICES",
-            "The Stone County School District (hereinafter referred to as \"the District\") is soliciting Statements of Qualifications (SOQs) from qualified architectural firms interested in providing comprehensive architectural and related professional services. The"
+            "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "898e15cce9fbb8954f13",
+      "projectId": "msproc-46529",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Jackson / 58-20260818083555 JCPA",
+        "county": "Jackson",
+        "city": "Jackson County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-09-22T14:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46529?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-09-22T14:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "Sealed Bids will be received by the Jackson County Port Authority at 3033 Pascagoula Street, Pascagoula, Mississippi 39567 until 2:00 P.M., Tuesday, September 22, 2026, and shortly thereafter opened and read for: INTERCONNECTION OF 24-INCH AND 42-IN"
           ],
           "after": null
         },
@@ -82,12 +147,18 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
-  "filtered": [],
+  "filtered": [
+    {
+      "projectId": "msproc-46545",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is optional_outside_radius"
+    }
+  ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-22T10:42:50.365184-05:00",
-    "knownActiveChecked": 10,
-    "currentRecords": 9,
+    "checkedAt": "2026-09-23T10:34:22.697876-05:00",
+    "knownActiveChecked": 9,
+    "currentRecords": 8,
     "staleUnverified": 0,
     "rawNetworkOrHttpFailures": 23,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."

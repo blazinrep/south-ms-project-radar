@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-22T15:43:08.859789+00:00",
+  "generatedAt": "2026-09-23T15:34:43.937764+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 89,
-  "canonicalProjectCount": 83,
+  "sourceRecordCount": 88,
+  "canonicalProjectCount": 82,
   "duplicateGroups": 6,
   "rejectedCount": 3,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 61,
+    "low_priority": 60,
     "verify_then_pursue": 2,
     "optional_outside_radius": 7,
     "verify_scope": 1
@@ -106,6 +106,45 @@
       "qualificationGates": []
     },
     {
+      "id": "msproc-46545",
+      "name": "Jackson / 35-20260812104938 JCUA",
+      "county": "Jackson",
+      "deadline": "2026-10-06T10:00:00-05:00",
+      "daysToDeadline": 13.0,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 8,
+        "pursuitAccessibility": 7,
+        "runway": 15,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 38,
+        "actionPriority": 42
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "county": "Clarke",
@@ -138,7 +177,7 @@
       "name": "Harrison / 2507-20260904084645 PWSD",
       "county": "Harrison",
       "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 22.0,
+      "daysToDeadline": 21.0,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -177,7 +216,7 @@
       "name": "Clarke / 169-20260819140806 CCBS",
       "county": "Clarke",
       "deadline": "2026-09-25T10:00:00-05:00",
-      "daysToDeadline": 3.0,
+      "daysToDeadline": 2.0,
       "distanceMiles": 84.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -186,11 +225,11 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 24,
-        "actionPriority": 34
+        "fitTotal": 20,
+        "actionPriority": 32
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -238,45 +277,6 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
-    },
-    {
-      "id": "msproc-46529",
-      "name": "Jackson / 58-20260818083555 JCPA",
-      "county": "Jackson",
-      "deadline": "2026-09-22T14:00:00-05:00",
-      "daysToDeadline": 0.1,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 2,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 17,
-        "actionPriority": 29
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
     },
     {
       "id": "mdot-109253-301000",
