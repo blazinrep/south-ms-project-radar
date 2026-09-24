@@ -1,18 +1,7 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-09-23T15:26:18.980661+00:00",
+  "retrieved_at": "2026-09-24T15:48:18.306194+00:00",
   "records": [
-    {
-      "month": "2026/09",
-      "district": "District 6",
-      "project_no": "105005/392100",
-      "fed_project_no": "NRTMS25(392)",
-      "parallel_to_project_no": "",
-      "county": "Clarke",
-      "route": "",
-      "scope": "Not Assigned - Define Scope",
-      "termini": "FY 25 Mississippi Wildlife Fisheries - MDWFP/Clarkco State Park - Clarkco Back Country Trail Loop"
-    },
     {
       "month": "2026/09",
       "district": "District 7",
