@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-23T15:34:44.408519+00:00",
+  "generatedAt": "2026-09-24T15:55:45.514244+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-23T15:34:29.347880+00:00",
+  "inputGeneratedAt": "2026-09-24T15:55:33.047228+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
     "eventsSeen": 3,
-    "needsAttention": 2,
-    "filtered": 1,
+    "needsAttention": 1,
+    "filtered": 2,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 23,
+    "rawFetchErrors": 0,
     "byType": {
-      "opportunity_closed": 2
+      "new_opportunity": 1
     }
   },
   "attention": [
     {
-      "id": "f48616e31debf8d71949",
-      "projectId": "msproc-46486",
-      "type": "opportunity_closed",
+      "id": "4c1b9aaba4f5a276a2ee",
+      "projectId": "msproc-46552",
+      "type": "new_opportunity",
       "priority": "high",
-      "title": "Opportunity no longer open",
+      "title": "New contractor-relevant opportunity",
       "project": {
-        "name": "Simpson / 231-20260825111028 SCSD",
-        "county": "Simpson",
-        "city": "Simpson County",
+        "name": "Pearl River / 134-20260827134431 PRCC",
+        "county": "Pearl River",
+        "city": "Pearl River County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-09-22T14:00:00-05:00",
+        "deadline": "2026-10-01T14:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46486?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46552?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,120 +47,60 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-09-22T14:00:00-05:00",
-          "after": null
+          "before": null,
+          "after": "2026-10-01T14:00:00-05:00"
         },
         {
           "field": "status",
-          "before": "Accepting bids",
-          "after": null
+          "before": null,
+          "after": "Accepting bids"
         },
         {
           "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
+          "before": null,
+          "after": "Open"
         },
         {
           "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
+          "before": null,
+          "after": "open_procurement"
         },
         {
           "field": "scope",
-          "before": [
+          "before": null,
+          "after": [
             "CONSTRUCTION - SERVICES",
-            "Pre-Bid Conference: Date &Time: 9/3/2026 10:00:00 AM Description: Prebid Meeting: A Prebid meeting for all bidders will be held at the Central Office, Simpson County School District, 111 Education Ln, Mendenhall, MS 39114 on Thursday, September 3, 2026, a"
-          ],
-          "after": null
+            "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
+          ]
         },
         {
           "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
         }
       ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "898e15cce9fbb8954f13",
-      "projectId": "msproc-46529",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Jackson / 58-20260818083555 JCPA",
-        "county": "Jackson",
-        "city": "Jackson County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-09-22T14:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46529?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-09-22T14:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed Bids will be received by the Jackson County Port Authority at 3033 Pascagoula Street, Pascagoula, Mississippi 39567 until 2:00 P.M., Tuesday, September 22, 2026, and shortly thereafter opened and read for: INTERCONNECTION OF 24-INCH AND 42-IN"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
     }
   ],
   "filtered": [
     {
-      "projectId": "msproc-46545",
+      "projectId": "msproc-46548",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-46556",
       "kind": "new_project",
       "reason": "current Project Radar decision is optional_outside_radius"
     }
   ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-23T10:34:22.697876-05:00",
-    "knownActiveChecked": 9,
-    "currentRecords": 8,
+    "checkedAt": "2026-09-24T10:55:26.831112-05:00",
+    "knownActiveChecked": 8,
+    "currentRecords": 11,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 23,
+    "rawNetworkOrHttpFailures": 0,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

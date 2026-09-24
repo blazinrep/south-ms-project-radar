@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 88,
+  "projectCount": 91,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3231,6 +3231,103 @@
         {
           "source": "opportunity.scope",
           "text": "The Jackson County Utility Authority (Owner) is requesting Bids for the construction of the following Project: WJC POTW 1C PROCESS IMPROVEMENTS PHASE 1: HEADWORKS AND IRRIGATION SYSTEM Bids for the construction of the Project will be received at th"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46548",
+      "projectName": "Jasper / 169-20260824091510 BSJC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jasper / 169-20260824091510 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Monday, October 5, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on the"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Monday, October 5, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on the"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46552",
+      "projectName": "Pearl River / 134-20260827134431 PRCC",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Pearl River / 134-20260827134431 PRCC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46556",
+      "projectName": "Harrison / 212-20260831142527 MH",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 212-20260831142527 MH"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
         }
       ]
     },
