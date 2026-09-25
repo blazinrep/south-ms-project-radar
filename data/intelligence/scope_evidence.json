@@ -3115,25 +3115,6 @@
       ]
     },
     {
-      "projectId": "msproc-46500",
-      "projectName": "Jones / 3373-27-R-IFBD-00004",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 3373-27-R-IFBD-00004"
-        },
-        {
-          "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46510",
       "projectName": "Forrest / 9280-27-R-IFBD-00011",
       "evidenceCount": 3,
@@ -3149,45 +3130,6 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2:00 p."
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46530",
-      "projectName": "Clarke / 169-20260819140806 CCBS",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Clarke / 169-20260819140806 CCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Clarke County Board of Supervisors will receive bids for a Surface Treatment Project of 12.522 miles of County Roads located in Districts 2, 3, & 4 to be contrasted under Engineers Project No. CCBS-101-26 no later than 10:00 a.m. Local Time, Friday"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Clarke County Board of Supervisors will receive bids for a Surface Treatment Project of 12.522 miles of County Roads located in Districts 2, 3, & 4 to be contrasted under Engineers Project No. CCBS-101-26 no later than 10:00 a.m. Local Time, Friday"
         }
       ]
     },
@@ -3328,6 +3270,64 @@
         {
           "source": "opportunity.scope",
           "text": "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46582",
+      "projectName": "Pike / 4600-20260909135734 BSPC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Pike / 4600-20260909135734 BSPC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until 10:00 a.m. on the 18th day of October , 2026 and shortly thereafter publicly opened for con"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until 10:00 a.m. on the 18th day of October , 2026 and shortly thereafter publicly opened for con"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46596",
+      "projectName": "Jones / 3373-27-R-IFBD-00004-V01",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 3373-27-R-IFBD-00004-V01"
+        },
+        {
+          "source": "project.scope",
+          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
         }
       ]
     },

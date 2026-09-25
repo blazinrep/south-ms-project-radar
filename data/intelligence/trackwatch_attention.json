@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-24T15:55:45.514244+00:00",
+  "generatedAt": "2026-09-25T15:55:37.723036+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-24T15:55:33.047228+00:00",
+  "inputGeneratedAt": "2026-09-25T15:55:23.262211+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 3,
-    "needsAttention": 1,
-    "filtered": 2,
+    "eventsSeen": 4,
+    "needsAttention": 3,
+    "filtered": 1,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 0,
+    "rawFetchErrors": 7,
     "byType": {
-      "new_opportunity": 1
+      "new_opportunity": 1,
+      "opportunity_closed": 2
     }
   },
   "attention": [
     {
-      "id": "4c1b9aaba4f5a276a2ee",
-      "projectId": "msproc-46552",
+      "id": "90d3f4ed4fbddb3b7b41",
+      "projectId": "msproc-46596",
       "type": "new_opportunity",
       "priority": "high",
       "title": "New contractor-relevant opportunity",
       "project": {
-        "name": "Pearl River / 134-20260827134431 PRCC",
-        "county": "Pearl River",
-        "city": "Pearl River County",
+        "name": "Jones / 3373-27-R-IFBD-00004-V01",
+        "county": "Jones",
+        "city": "Jones County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-10-01T14:00:00-05:00",
+        "deadline": "2026-10-19T16:30:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46552?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46596?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -48,7 +49,7 @@
         {
           "field": "deadline",
           "before": null,
-          "after": "2026-10-01T14:00:00-05:00"
+          "after": "2026-10-19T16:30:00-05:00"
         },
         {
           "field": "status",
@@ -69,8 +70,8 @@
           "field": "scope",
           "before": null,
           "after": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
+            "PERSONNEL SERVICE - NON-TECHNOLOGY",
+            "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
           ]
         },
         {
@@ -80,27 +81,152 @@
         }
       ],
       "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+    },
+    {
+      "id": "9f703d2fbf8cbd85aa0c",
+      "projectId": "msproc-46500",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Jones / 3373-27-R-IFBD-00004",
+        "county": "Jones",
+        "city": "Jones County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-19T16:30:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-10-19T16:30:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "PERSONNEL SERVICE - NON-TECHNOLOGY",
+            "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "50c201469003ce69d1e2",
+      "projectId": "msproc-46530",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Clarke / 169-20260819140806 CCBS",
+        "county": "Clarke",
+        "city": "Clarke County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-09-25T10:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46530?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-09-25T10:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "The Clarke County Board of Supervisors will receive bids for a Surface Treatment Project of 12.522 miles of County Roads located in Districts 2, 3, & 4 to be contrasted under Engineers Project No. CCBS-101-26 no later than 10:00 a.m. Local Time, Friday"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
   "filtered": [
     {
-      "projectId": "msproc-46548",
+      "projectId": "msproc-46582",
       "kind": "new_project",
       "reason": "current Project Radar decision is low_priority"
-    },
-    {
-      "projectId": "msproc-46556",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
     }
   ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-24T10:55:26.831112-05:00",
-    "knownActiveChecked": 8,
+    "checkedAt": "2026-09-25T10:55:16.810902-05:00",
+    "knownActiveChecked": 11,
     "currentRecords": 11,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 0,
+    "rawNetworkOrHttpFailures": 7,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

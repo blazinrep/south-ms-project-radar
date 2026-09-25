@@ -1,26 +1,27 @@
 {
-  "generatedAt": "2026-09-24T15:55:45.514673+00:00",
+  "generatedAt": "2026-09-25T15:55:37.723457+00:00",
   "purpose": "TrackWatch proof-case metrics for contractor monitoring",
   "profile": "Demo Excavation / Sitework Contractor",
   "latest": {
-    "eventsSeen": 3,
-    "needsAttention": 1,
-    "filtered": 2,
+    "eventsSeen": 4,
+    "needsAttention": 3,
+    "filtered": 1,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 0,
+    "rawFetchErrors": 7,
     "byType": {
-      "new_opportunity": 1
+      "new_opportunity": 1,
+      "opportunity_closed": 2
     }
   },
   "cumulative": {
-    "inputsProcessed": 11,
-    "eventsSeen": 22,
-    "needsAttention": 12,
-    "filtered": 10,
+    "inputsProcessed": 12,
+    "eventsSeen": 26,
+    "needsAttention": 15,
+    "filtered": 11,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 212
+    "rawFetchErrors": 219
   },
   "note": "Cumulative counts advance once per unique Mississippi procurement change-file generated_at value. Raw discovery fetch errors are tracked separately from human-facing source-health problems."
 }
