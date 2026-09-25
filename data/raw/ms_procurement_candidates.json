@@ -24,7 +24,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -71,7 +71,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46474?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -81,7 +81,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -118,7 +118,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46475?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -128,7 +128,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -165,7 +165,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -177,7 +177,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -188,53 +188,6 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "CONSTRUCTION - SERVICES",
     "submissionDateRaw": "10/14/2026 10:00 AM"
-  },
-  {
-    "id": "msproc-46500",
-    "name": "Jones / 3373-27-R-IFBD-00004",
-    "county": "Jones",
-    "city": "Jones County",
-    "lat": 31.6941,
-    "lon": -89.1306,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-10-19T16:30:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "ELLISVILLE STATE SCHOOL",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46500?AppId=1",
-    "verified": "2026-09-24",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46500",
-    "sourceSmartNumber": "3373-27-R-IFBD-00004",
-    "sourceRFx": "3160008232",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
-    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-    "submissionDateRaw": "10/19/2026 4:30 PM"
   },
   {
     "id": "msproc-46510",
@@ -261,7 +214,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46510?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -271,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -282,53 +235,6 @@
     "majorProcurementCategory": "INFORMATION TECHNOLOGY (IT)",
     "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
     "submissionDateRaw": "10/07/2026 2:00 PM"
-  },
-  {
-    "id": "msproc-46530",
-    "name": "Clarke / 169-20260819140806 CCBS",
-    "county": "Clarke",
-    "city": "Clarke County",
-    "lat": 32.0404,
-    "lon": -88.7281,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-09-25T10:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "CONSTRUCTION - SERVICES",
-      "The Clarke County Board of Supervisors will receive bids for a Surface Treatment Project of 12.522 miles of County Roads located in Districts 2, 3, & 4 to be contrasted under Engineers Project No. CCBS-101-26 no later than 10:00 a.m. Local Time, Friday"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46530?AppId=1",
-    "verified": "2026-09-24",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46530",
-    "sourceSmartNumber": "169-20260819140806 CCBS",
-    "sourceRFx": "3170036603",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "CONSTRUCTION - SERVICES",
-    "submissionDateRaw": "09/25/2026 10:00 AM"
   },
   {
     "id": "msproc-46545",
@@ -355,7 +261,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46545?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -367,7 +273,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -404,7 +310,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46548?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -414,7 +320,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -451,7 +357,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46552?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -461,7 +367,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -498,7 +404,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46556?AppId=1",
-    "verified": "2026-09-24",
+    "verified": "2026-09-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -508,7 +414,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-09-24T10:55:26.831112-05:00",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -519,5 +425,99 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "CONSTRUCTION - SERVICES",
     "submissionDateRaw": "10/08/2026 2:00 PM"
+  },
+  {
+    "id": "msproc-46582",
+    "name": "Pike / 4600-20260909135734 BSPC",
+    "county": "Pike",
+    "city": "Pike County",
+    "lat": 31.1432,
+    "lon": -90.4587,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-10-08T10:00:00-05:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "CONSTRUCTION - SERVICES",
+      "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until 10:00 a.m. on the 18th day of October , 2026 and shortly thereafter publicly opened for con"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46582?AppId=1",
+    "verified": "2026-09-25",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "46582",
+    "sourceSmartNumber": "4600-20260909135734 BSPC",
+    "sourceRFx": "3170036643",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "CONSTRUCTION",
+    "subProcurementCategory": "CONSTRUCTION - SERVICES",
+    "submissionDateRaw": "10/08/2026 10:00 AM"
+  },
+  {
+    "id": "msproc-46596",
+    "name": "Jones / 3373-27-R-IFBD-00004-V01",
+    "county": "Jones",
+    "city": "Jones County",
+    "lat": 31.6941,
+    "lon": -89.1306,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-10-19T16:30:00-05:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "ELLISVILLE STATE SCHOOL",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46596?AppId=1",
+    "verified": "2026-09-25",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-09-25T10:55:16.810902-05:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "46596",
+    "sourceSmartNumber": "3373-27-R-IFBD-00004-V01",
+    "sourceRFx": "3160008232",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
+    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+    "submissionDateRaw": "10/19/2026 4:30 PM"
   }
 ]
