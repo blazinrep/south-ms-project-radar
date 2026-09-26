@@ -20,45 +20,9 @@
     "county": "Harrison"
   },
   {
-    "detail_id": 46500,
-    "decision": "explicitly_remove",
-    "reason": "source_status_archived",
-    "fields": {
-      "Smart Number": "3373-27-R-IFBD-00004",
-      "Advertised Date": "09/16/2026 9:00 AM",
-      "RFx #": "3160008232",
-      "Submission Date": "10/19/2026 4:30 PM",
-      "RFx Status": "Archived",
-      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
-      "RFx Opening Date": "10/20/2026 10:00 AM",
-      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "ELLISVILLE STATE SCHOOL",
-      "RFx Description": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-    }
-  },
-  {
     "detail_id": 46510,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46530,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "169-20260819140806 CCBS",
-      "Advertised Date": "09/21/2026 12:00 PM",
-      "RFx #": "3170036603",
-      "Submission Date": "09/25/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Clarke County Board of Supervisors will receive bids for a Surface Treatment Project of 12.522 miles of County Roads located in Districts 2, 3, & 4 to be contrasted under Engineers Project No. CCBS-101-26 no later than 10:00 a.m. Local Time, Friday"
-    }
   },
   {
     "detail_id": 46545,
@@ -81,170 +45,9 @@
     "county": "Harrison"
   },
   {
-    "detail_id": 46571,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46572,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46573,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46574,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46575,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46576,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46577,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46578,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46579,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46580,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46581,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46582,
     "decision": "publish",
     "county": "Pike"
-  },
-  {
-    "detail_id": 46583,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46584,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46585,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46586,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46587,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46588,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46589,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46590,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46591,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46592,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46593,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46594,
@@ -278,6 +81,84 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46599,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46600,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46601,
+    "decision": "publish",
+    "county": "Jackson"
+  },
+  {
+    "detail_id": 46602,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46603,
+    "decision": "publish",
+    "county": "Harrison"
+  },
+  {
+    "detail_id": 46604,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46605,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46606,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46607,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46608,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46609,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46610,
+    "decision": "skip_discovery_candidate",
+    "reason": [
       "outside_or_unresolved_territory"
     ]
   }
