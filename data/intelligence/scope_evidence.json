@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 91,
+  "projectCount": 95,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3328,6 +3328,166 @@
         {
           "source": "project.scope",
           "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46601",
+      "projectName": "Jackson / 336-20260908091426 Moss Point",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 336-20260908091426 Moss Point"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46602",
+      "projectName": "Forrest / 82-20260909121553 Hattiesburg",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 82-20260909121553 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "PreBid Conference: Date & Time: 9/17/2026 9:00 AM Description: A pre-bid Conference will be held Thursday, September 17, 2026 @ 9:00a.m. @ City Hall, 200 Forrest Street, Hattiesburg, MS 39401. All interested Contractors & Subcontractors are encouraged to"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "PreBid Conference: Date & Time: 9/17/2026 9:00 AM Description: A pre-bid Conference will be held Thursday, September 17, 2026 @ 9:00a.m. @ City Hall, 200 Forrest Street, Hattiesburg, MS 39401. All interested Contractors & Subcontractors are encouraged to"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46603",
+      "projectName": "Harrison / 4602-20260909133153 MGCCC",
+      "evidenceCount": 9,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 4602-20260909133153 MGCCC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Underground Utility Location - Phase 2 located at the Harrison County and Jackson County Campuses and West Harrison County, George County, Tra"
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "utility"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Underground Utility Location - Phase 2 located at the Harrison County and Jackson County Campuses and West Harrison County, George County, Tra"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46609",
+      "projectName": "Forrest / 82-20260825124805 Hattiesburg",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 82-20260825124805 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
         }
       ]
     },
