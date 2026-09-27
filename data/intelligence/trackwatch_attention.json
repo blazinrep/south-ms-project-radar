@@ -1,48 +1,27 @@
 {
-  "generatedAt": "2026-09-26T15:06:34.056200+00:00",
+  "generatedAt": "2026-09-27T15:47:59.012464+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-26T15:06:21.502339+00:00",
+  "inputGeneratedAt": "2026-09-27T15:47:47.016309+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 4,
+    "eventsSeen": 0,
     "needsAttention": 0,
-    "filtered": 4,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 18,
+    "rawFetchErrors": 30,
     "byType": {}
   },
   "attention": [],
-  "filtered": [
-    {
-      "projectId": "msproc-46601",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
-    },
-    {
-      "projectId": "msproc-46602",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    },
-    {
-      "projectId": "msproc-46603",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
-    },
-    {
-      "projectId": "msproc-46609",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-26T10:06:15.158167-05:00",
-    "knownActiveChecked": 11,
+    "checkedAt": "2026-09-27T10:47:40.880290-05:00",
+    "knownActiveChecked": 15,
     "currentRecords": 15,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 18,
+    "rawNetworkOrHttpFailures": 30,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
