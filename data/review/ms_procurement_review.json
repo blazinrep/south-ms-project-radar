@@ -102,5 +102,48 @@
     "reason": [
       "outside_or_unresolved_territory"
     ]
+  },
+  {
+    "detail_id": 46611,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46612,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46613,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46614,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46615,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46616,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
   }
 ]
