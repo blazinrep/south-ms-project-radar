@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-28T18:43:44.998616+00:00",
+  "generatedAt": "2026-09-29T17:01:41.511261+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-09-28T18:43:28.871867+00:00",
+  "inputGeneratedAt": "2026-09-29T17:01:27.704275+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
     "eventsSeen": 0,
@@ -17,7 +17,7 @@
   "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-09-28T13:43:22.270368-05:00",
+    "checkedAt": "2026-09-29T12:01:21.050594-05:00",
     "knownActiveChecked": 15,
     "currentRecords": 15,
     "staleUnverified": 0,
