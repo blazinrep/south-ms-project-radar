@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 95,
+  "projectCount": 102,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3488,6 +3488,199 @@
         {
           "source": "opportunity.scope",
           "text": "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46633",
+      "projectName": "Forrest / 187-20260925134716 Hattiesburg",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 187-20260925134716 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi will receive sealed bids until 10:00 A.M., Thursday, October 8, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the Ciws requirements o"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46641",
+      "projectName": "Jasper / 65-20260908093502 Bay Springs",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jasper / 65-20260908093502 Bay Springs"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46642",
+      "projectName": "Harrison / 93-20260908142032 HCBS",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 93-20260908142032 HCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Small Crawler Dozer Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46643",
+      "projectName": "Harrison / 93-20260908142324 HCBS",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 93-20260908142324 HCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Hydraulic Excavator Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46644",
+      "projectName": "Jackson / 94-20260908145945 BSJC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 94-20260908145945 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46645",
+      "projectName": "Jackson / 94-20260908155817 JCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 94-20260908155817 JCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that sealed bids or electronic will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CT) on Wednesday, october 14, 2026, and said bids are to be opened and read aloud at 1:00 p.m. in the Board"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Notice is hereby given that sealed bids or electronic will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CT) on Wednesday, october 14, 2026, and said bids are to be opened and read aloud at 1:00 p.m. in the Board"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46647",
+      "projectName": "Forrest / 9280-27-R-IFBD-00015",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00015"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, October 22, 2026, 2:"
         }
       ]
     },
