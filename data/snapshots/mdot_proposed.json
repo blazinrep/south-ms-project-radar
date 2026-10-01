@@ -1,18 +1,7 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-09-30T16:48:29.476166+00:00",
+  "retrieved_at": "2026-10-01T17:21:25.644521+00:00",
   "records": [
-    {
-      "month": "2026/09",
-      "district": "District 7",
-      "project_no": "110227/301000",
-      "fed_project_no": "STBG-0209-00(007)",
-      "parallel_to_project_no": "",
-      "county": "Covington",
-      "route": "MS 532",
-      "scope": "Bridge Repair",
-      "termini": "SR 532 Over Stream (Bridge # 13.5)"
-    },
     {
       "month": "2026/10",
       "district": "District 6",
@@ -366,6 +355,28 @@
       "termini": "US 84 from Auburn Drive to US 51"
     },
     {
+      "month": "2027/03",
+      "district": "District 7",
+      "project_no": "110373/301000",
+      "fed_project_no": "STBG-0055-01(158)",
+      "parallel_to_project_no": "",
+      "county": "Lincoln",
+      "route": "",
+      "scope": "Bridge Repair",
+      "termini": "Calvary Drive over I-55 (Bridge # 31.2)"
+    },
+    {
+      "month": "2027/04",
+      "district": "District 6",
+      "project_no": "110369/301000",
+      "fed_project_no": "STBG-0065-02(015)",
+      "parallel_to_project_no": "",
+      "county": "Clarke",
+      "route": "",
+      "scope": "Bridge Repair",
+      "termini": "SR 145 & SR 18/SR 145 (Bridge #s 34.2 & 46.5)"
+    },
+    {
       "month": "2027/04",
       "district": "District 7",
       "project_no": "307909/301000",
@@ -375,6 +386,17 @@
       "route": "MS 540",
       "scope": "Seal",
       "termini": "MS 540 From Harrisville to Dlo"
+    },
+    {
+      "month": "2027/05",
+      "district": "District 6",
+      "project_no": "110370/301000",
+      "fed_project_no": "NHPP-0059-01(147)",
+      "parallel_to_project_no": "",
+      "county": "Forrest",
+      "route": "I 59",
+      "scope": "Bridge Repair",
+      "termini": "I-59 over Norfolk Southern RR (Bridge #s 61.2A & 61.2B)"
     },
     {
       "month": "2027/05",
@@ -412,6 +434,17 @@
     {
       "month": "2027/06",
       "district": "District 6",
+      "project_no": "110368/301000",
+      "fed_project_no": "NHPP-0014-03(082)",
+      "parallel_to_project_no": "",
+      "county": "Perry",
+      "route": "US 98",
+      "scope": "Bridge Repair",
+      "termini": "US 98 over Denham Creek (Bridge # 170.6B)"
+    },
+    {
+      "month": "2027/06",
+      "district": "District 6",
       "project_no": "310370/301000",
       "fed_project_no": "MP-6011-37(007)",
       "parallel_to_project_no": "",
@@ -441,6 +474,94 @@
       "route": "MS 27",
       "scope": "Overlay",
       "termini": "MS 27 from Walthall CL to Dewey Ballard"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "110074/301000",
+      "fed_project_no": "IM-0059-02(122)",
+      "parallel_to_project_no": "",
+      "county": "Jasper",
+      "route": "I 59",
+      "scope": "OGFC Lift",
+      "termini": "I-59 from Jones CL to 1 Mi N of Exit 118 (12.615 Mi)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "110089/301000",
+      "fed_project_no": "IM-0059-01(138)",
+      "parallel_to_project_no": "110085/301000",
+      "county": "Pearl River",
+      "route": "I 59",
+      "scope": "Fog Seal",
+      "termini": "I-59 from S Of Hillsdale Interchange NB Exit Ramp to Lamar CL (4.767 Mi) (35.21 - 39.977 NB)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "110087/301000",
+      "fed_project_no": "IM-0059-01(140)",
+      "parallel_to_project_no": "110086/301000",
+      "county": "Pearl River",
+      "route": "I 59",
+      "scope": "Fog Seal",
+      "termini": "I-59 from Lamar CL to Lamar CL (1.656 Mi) (39.977 - 41.633 NB)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "110088/301000",
+      "fed_project_no": "IM-0059-01(139)",
+      "parallel_to_project_no": "110086/301000",
+      "county": "Lamar",
+      "route": "I 59",
+      "scope": "Fog Seal",
+      "termini": "I-59 from Pearl River CL to Pearl River CL (0.417 Mi) (0.0 - 0.417 NB)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "110335/301000",
+      "fed_project_no": "IM-0059-01(146)",
+      "parallel_to_project_no": "",
+      "county": "Pearl River",
+      "route": "I 59",
+      "scope": "Fog Seal",
+      "termini": "I-59 from 0.6 Mi N of LA SL to 0.484 Mi N of McNeil Exit (15.074 Mi)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 7",
+      "project_no": "108781/307000",
+      "fed_project_no": "STBG-9999-07(381)",
+      "parallel_to_project_no": "",
+      "county": "Covington",
+      "route": "",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "MS 590 (#0.4) & MS 35 (#63.8)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 7",
+      "project_no": "109808/301000",
+      "fed_project_no": "SP-0054-01(070)",
+      "parallel_to_project_no": "",
+      "county": "Walthall",
+      "route": "MS 27",
+      "scope": "Overlay",
+      "termini": "MS 27 from Beulah Ave to Kelly Ginn Rd"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 7",
+      "project_no": "110374/301000",
+      "fed_project_no": "STBG-0015-02(134)",
+      "parallel_to_project_no": "",
+      "county": "Covington",
+      "route": "",
+      "scope": "Bridge Repair",
+      "termini": "US 84 & MS 590 (Bridge #S 132.4A, 132.4B & 0.4)"
     }
   ]
 }
