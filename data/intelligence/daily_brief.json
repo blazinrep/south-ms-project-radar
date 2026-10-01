@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-30T17:00:27.880297+00:00",
+  "generatedAt": "2026-10-01T17:29:48.416496+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 102,
-  "canonicalProjectCount": 96,
+  "sourceRecordCount": 115,
+  "canonicalProjectCount": 109,
   "duplicateGroups": 6,
   "rejectedCount": 8,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 65,
+    "low_priority": 77,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 11,
+    "optional_outside_radius": 12,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -110,7 +110,7 @@
       "name": "Harrison / 4602-20260909133153 MGCCC",
       "county": "Harrison",
       "deadline": "2026-10-06T14:00:00-05:00",
-      "daysToDeadline": 6.1,
+      "daysToDeadline": 5.1,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -145,50 +145,11 @@
       ]
     },
     {
-      "id": "msproc-46545",
-      "name": "Jackson / 35-20260812104938 JCUA",
-      "county": "Jackson",
-      "deadline": "2026-10-06T10:00:00-05:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 8,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 38,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "msproc-46497",
       "name": "Harrison / 2507-20260904084645 PWSD",
       "county": "Harrison",
       "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 13.9,
+      "daysToDeadline": 12.9,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -223,11 +184,50 @@
       ]
     },
     {
+      "id": "msproc-46545",
+      "name": "Jackson / 35-20260812104938 JCUA",
+      "county": "Jackson",
+      "deadline": "2026-10-06T10:00:00-05:00",
+      "daysToDeadline": 4.9,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 8,
+        "pursuitAccessibility": 7,
+        "runway": 6,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 29,
+        "actionPriority": 39
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
       "id": "msproc-46556",
       "name": "Harrison / 212-20260831142527 MH",
       "county": "Harrison",
       "deadline": "2026-10-08T14:00:00-05:00",
-      "daysToDeadline": 8.1,
+      "daysToDeadline": 7.1,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -290,50 +290,39 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-46601",
-      "name": "Jackson / 336-20260908091426 Moss Point",
-      "county": "Jackson",
-      "deadline": "2026-10-08T14:00:00-05:00",
-      "daysToDeadline": 8.1,
-      "distanceMiles": 97.5,
+      "id": "mdot-110369-301000",
+      "name": "MDOT Proposed: Project \u2014 Clarke County Bridge Repair",
+      "county": "Clarke",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
       "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
       "evidenceLevel": "source_record",
       "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
         "geography": 0,
         "evidenceQuality": 8,
-        "fitTotal": 30,
-        "actionPriority": 34
+        "fitTotal": 36,
+        "actionPriority": 36
       },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [
         "outside_preferred_radius"
       ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
+      "qualificationGates": []
     },
     {
-      "id": "msproc-46644",
-      "name": "Jackson / 94-20260908145945 BSJC",
+      "id": "msproc-46601",
+      "name": "Jackson / 336-20260908091426 Moss Point",
       "county": "Jackson",
-      "deadline": "2026-10-13T12:00:00-05:00",
-      "daysToDeadline": 13.0,
+      "deadline": "2026-10-08T14:00:00-05:00",
+      "daysToDeadline": 7.1,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -436,6 +425,32 @@
     {
       "id": "mdot-110227-301000",
       "name": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 51,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-110374-301000",
+      "name": "MDOT Proposed: Project \u2014 Covington County Bridge Repair",
       "county": "Covington",
       "deadline": null,
       "daysToDeadline": null,
@@ -610,32 +625,6 @@
         "actionPriority": 45
       },
       "whyItMatters": "Official MDOT future-letting signal for reconstruction. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": []
-    },
-    {
-      "id": "mdot-109087-301000",
-      "name": "MDOT Proposed: MS 13 \u2014 Pearl River County Bridge Replacement",
-      "county": "Pearl River",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 36.5,
-      "decision": "low_priority",
-      "pursuitPath": "watch",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 49,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
       "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [],

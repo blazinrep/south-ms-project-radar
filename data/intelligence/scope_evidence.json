@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 102,
+  "projectCount": 115,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2979,6 +2979,538 @@
       ]
     },
     {
+      "projectId": "mdot-110373-301000",
+      "projectName": "MDOT Proposed: Project \u2014 Lincoln County Bridge Repair",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: Project \u2014 Lincoln County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Calvary Drive over I-55 (Bridge # 31.2)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Calvary Drive over I-55 (Bridge # 31.2)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110369-301000",
+      "projectName": "MDOT Proposed: Project \u2014 Clarke County Bridge Repair",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: Project \u2014 Clarke County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "SR 145 & SR 18/SR 145 (Bridge #s 34.2 & 46.5)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SR 145 & SR 18/SR 145 (Bridge #s 34.2 & 46.5)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110370-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Forrest County Bridge Repair",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: I 59 \u2014 Forrest County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-59 over Norfolk Southern RR (Bridge #s 61.2A & 61.2B)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-59 over Norfolk Southern RR (Bridge #s 61.2A & 61.2B)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110368-301000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Perry County Bridge Repair",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 98 \u2014 Perry County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 98"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 98 over Denham Creek (Bridge # 170.6B)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 98"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 98 over Denham Creek (Bridge # 170.6B)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110074-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Jasper County OGFC Lift",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: I 59 \u2014 Jasper County OGFC Lift"
+        },
+        {
+          "source": "project.scope",
+          "text": "OGFC Lift"
+        },
+        {
+          "source": "project.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-59 from Jones CL to 1 Mi N of Exit 118 (12.615 Mi)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for ogfc lift. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "OGFC Lift"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-59 from Jones CL to 1 Mi N of Exit 118 (12.615 Mi)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110089-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Pearl River County Fog Seal",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: I 59 \u2014 Pearl River County Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-59 from S Of Hillsdale Interchange NB Exit Ramp to Lamar CL (4.767 Mi) (35.21 - 39.977 NB)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for fog seal. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-59 from S Of Hillsdale Interchange NB Exit Ramp to Lamar CL (4.767 Mi) (35.21 - 39.977 NB)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110087-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Pearl River County Fog Seal",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: I 59 \u2014 Pearl River County Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-59 from Lamar CL to Lamar CL (1.656 Mi) (39.977 - 41.633 NB)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for fog seal. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-59 from Lamar CL to Lamar CL (1.656 Mi) (39.977 - 41.633 NB)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110088-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Lamar County Fog Seal",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: I 59 \u2014 Lamar County Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-59 from Pearl River CL to Pearl River CL (0.417 Mi) (0.0 - 0.417 NB)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for fog seal. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-59 from Pearl River CL to Pearl River CL (0.417 Mi) (0.0 - 0.417 NB)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110335-301000",
+      "projectName": "MDOT Proposed: I 59 \u2014 Pearl River County Fog Seal",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: I 59 \u2014 Pearl River County Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "project.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-59 from 0.6 Mi N of LA SL to 0.484 Mi N of McNeil Exit (15.074 Mi)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for fog seal. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Fog Seal"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I 59"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-59 from 0.6 Mi N of LA SL to 0.484 Mi N of McNeil Exit (15.074 Mi)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108781-307000",
+      "projectName": "MDOT Proposed: Project \u2014 Covington County Bridge Preventive Maintenance",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: Project \u2014 Covington County Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 590 (#0.4) & MS 35 (#63.8)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 590 (#0.4) & MS 35 (#63.8)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109808-301000",
+      "projectName": "MDOT Proposed: MS 27 \u2014 Walthall County Overlay",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: MS 27 \u2014 Walthall County Overlay"
+        },
+        {
+          "source": "project.scope",
+          "text": "Overlay"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 27"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 27 from Beulah Ave to Kelly Ginn Rd"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for overlay. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Overlay"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 27"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 27 from Beulah Ave to Kelly Ginn Rd"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110374-301000",
+      "projectName": "MDOT Proposed: Project \u2014 Covington County Bridge Repair",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: Project \u2014 Covington County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 84 & MS 590 (Bridge #S 132.4A, 132.4B & 0.4)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 84 & MS 590 (Bridge #S 132.4A, 132.4B & 0.4)"
+        }
+      ]
+    },
+    {
       "projectId": "msproc-46443",
       "projectName": "Jones / 3373-27-R-IFBD-00002",
       "evidenceCount": 3,
@@ -3371,45 +3903,6 @@
       ]
     },
     {
-      "projectId": "msproc-46602",
-      "projectName": "Forrest / 82-20260909121553 Hattiesburg",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 82-20260909121553 Hattiesburg"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "PreBid Conference: Date & Time: 9/17/2026 9:00 AM Description: A pre-bid Conference will be held Thursday, September 17, 2026 @ 9:00a.m. @ City Hall, 200 Forrest Street, Hattiesburg, MS 39401. All interested Contractors & Subcontractors are encouraged to"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "PreBid Conference: Date & Time: 9/17/2026 9:00 AM Description: A pre-bid Conference will be held Thursday, September 17, 2026 @ 9:00a.m. @ City Hall, 200 Forrest Street, Hattiesburg, MS 39401. All interested Contractors & Subcontractors are encouraged to"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46603",
       "projectName": "Harrison / 4602-20260909133153 MGCCC",
       "evidenceCount": 9,
@@ -3449,45 +3942,6 @@
         {
           "source": "opportunity.scope",
           "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Underground Utility Location - Phase 2 located at the Harrison County and Jackson County Campuses and West Harrison County, George County, Tra"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46609",
-      "projectName": "Forrest / 82-20260825124805 Hattiesburg",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 82-20260825124805 Hattiesburg"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
         }
       ]
     },
@@ -3681,6 +4135,123 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, October 22, 2026, 2:"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46660",
+      "projectName": "Jones / 333-20260915092611 JCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 333-20260915092611 JCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date & Time: 9/28/2026 10:00:00 AM Description: There will be a Non-Mandatory Pre-Bid Meeting at the project site on September 28, 2026 at 10:00 a.m., at the Laurel Courthouse Jones County Board Room, 415 N 5th Avenue, Laurel, MS 394"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Pre-Bid Conference: Date & Time: 9/28/2026 10:00:00 AM Description: There will be a Non-Mandatory Pre-Bid Meeting at the project site on September 28, 2026 at 10:00 a.m., at the Laurel Courthouse Jones County Board Room, 415 N 5th Avenue, Laurel, MS 394"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46662",
+      "projectName": "Hancock / 342-20260915132840 BSHC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Hancock / 342-20260915132840 BSHC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46664",
+      "projectName": "Pike / 4600-20260916194826 BSPC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Pike / 4600-20260916194826 BSPC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
         }
       ]
     },
