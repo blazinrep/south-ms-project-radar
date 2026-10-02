@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 115,
-  "matchedProjectCount": 72,
+  "projectCount": 116,
+  "matchedProjectCount": 73,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2235,6 +2235,39 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46670",
+      "projectName": "Harrison / 4608-20260918085601 HCSDBE",
+      "owner": "MPTAP",
+      "county": "Harrison",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: drainage"
         }
       ]
     },

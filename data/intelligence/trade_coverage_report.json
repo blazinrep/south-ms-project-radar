@@ -1,14 +1,14 @@
 {
   "version": "0.10.0",
-  "projectsScanned": 115,
+  "projectsScanned": 116,
   "trades": {
     "excavation_sitework": {
       "trade": "Excavation / Sitework",
-      "total": 33,
+      "total": 34,
       "strong": 0,
       "moderate": 15,
-      "possible": 18,
-      "verifyFirst": 33
+      "possible": 19,
+      "verifyFirst": 34
     },
     "roofing": {
       "trade": "Roofing",

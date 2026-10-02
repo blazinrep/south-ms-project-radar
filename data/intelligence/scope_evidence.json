@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 115,
+  "projectCount": 116,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -1930,7 +1930,7 @@
         },
         {
           "source": "project.scope",
-          "text": "US 45 from Greene County Line to Alabama State Line"
+          "text": "US 45 from Alabama State Line to the Wayne County Line"
         },
         {
           "source": "intelligence.whyItMatters",
@@ -1954,7 +1954,7 @@
         },
         {
           "source": "opportunity.scope",
-          "text": "US 45 from Greene County Line to Alabama State Line"
+          "text": "US 45 from Alabama State Line to the Wayne County Line"
         }
       ]
     },
@@ -3748,25 +3748,6 @@
       ]
     },
     {
-      "projectId": "msproc-46552",
-      "projectName": "Pearl River / 134-20260827134431 PRCC",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Pearl River / 134-20260827134431 PRCC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46556",
       "projectName": "Harrison / 212-20260831142527 MH",
       "evidenceCount": 8,
@@ -4252,6 +4233,88 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46670",
+      "projectName": "Harrison / 4608-20260918085601 HCSDBE",
+      "evidenceCount": 9,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 4608-20260918085601 HCSDBE"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "drainage"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46678",
+      "projectName": "Lawrence / 56-20260924123344 BSLC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lawrence / 56-20260924123344 BSLC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Lawrence County, Mississippi, until 10:00 AM local time on _______________, at the Lawrence County Courthouse located at 517 E Broad Street, Monticello, MS 39654, and shortly thereafter will be"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Lawrence County, Mississippi, until 10:00 AM local time on _______________, at the Lawrence County Courthouse located at 517 E Broad Street, Monticello, MS 39654, and shortly thereafter will be"
         }
       ]
     },

@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-01T17:29:48.947876+00:00",
+  "generatedAt": "2026-10-02T16:49:58.799351+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-01T17:29:35.455271+00:00",
+  "inputGeneratedAt": "2026-10-02T16:49:45.219125+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 5,
-    "needsAttention": 2,
-    "filtered": 3,
+    "eventsSeen": 3,
+    "needsAttention": 1,
+    "filtered": 2,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 17,
+    "rawFetchErrors": 13,
     "byType": {
-      "opportunity_closed": 2
+      "opportunity_closed": 1
     }
   },
   "attention": [
     {
-      "id": "7a3b60c303c33d1fafcd",
-      "projectId": "msproc-46609",
+      "id": "702d3fffb528a0132882",
+      "projectId": "msproc-46552",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Forrest / 82-20260825124805 Hattiesburg",
-        "county": "Forrest",
-        "city": "Forrest County",
+        "name": "Pearl River / 134-20260827134431 PRCC",
+        "county": "Pearl River",
+        "city": "Pearl River County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-10-01T10:00:00-05:00",
+        "deadline": "2026-10-01T14:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46609?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46552?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +47,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-10-01T10:00:00-05:00",
+          "before": "2026-10-01T14:00:00-05:00",
           "after": null
         },
         {
@@ -69,72 +69,7 @@
           "field": "scope",
           "before": [
             "CONSTRUCTION - SERVICES",
-            "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "6f8d02e991cf6ff0848c",
-      "projectId": "msproc-46602",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Forrest / 82-20260909121553 Hattiesburg",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-01T10:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46602?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-01T10:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "PreBid Conference: Date & Time: 9/17/2026 9:00 AM Description: A pre-bid Conference will be held Thursday, September 17, 2026 @ 9:00a.m. @ City Hall, 200 Forrest Street, Hattiesburg, MS 39401. All interested Contractors & Subcontractors are encouraged to"
+            "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
           ],
           "after": null
         },
@@ -149,28 +84,23 @@
   ],
   "filtered": [
     {
-      "projectId": "msproc-46660",
+      "projectId": "msproc-46670",
       "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
+      "reason": "current Project Radar decision is optional_outside_radius"
     },
     {
-      "projectId": "msproc-46662",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    },
-    {
-      "projectId": "msproc-46664",
+      "projectId": "msproc-46678",
       "kind": "new_project",
       "reason": "current Project Radar decision is low_priority"
     }
   ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-01T12:29:26.031799-05:00",
-    "knownActiveChecked": 22,
-    "currentRecords": 23,
+    "checkedAt": "2026-10-02T11:49:37.866784-05:00",
+    "knownActiveChecked": 23,
+    "currentRecords": 24,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 17,
+    "rawNetworkOrHttpFailures": 13,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
