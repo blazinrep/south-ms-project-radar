@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-10-01T17:21:25.644521+00:00",
+  "retrieved_at": "2026-10-02T16:36:57.118509+00:00",
   "records": [
     {
       "month": "2026/10",
@@ -165,7 +165,7 @@
       "county": "Greene",
       "route": "US 45",
       "scope": "Overlay",
-      "termini": "US 45 from Greene County Line to Alabama State Line"
+      "termini": "US 45 from Alabama State Line to the Wayne County Line"
     },
     {
       "month": "2026/11",
