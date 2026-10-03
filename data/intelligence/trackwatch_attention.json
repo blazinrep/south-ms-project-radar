@@ -1,106 +1,27 @@
 {
-  "generatedAt": "2026-10-02T16:49:58.799351+00:00",
+  "generatedAt": "2026-10-03T15:14:33.966960+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-02T16:49:45.219125+00:00",
+  "inputGeneratedAt": "2026-10-03T15:14:21.823185+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 3,
-    "needsAttention": 1,
-    "filtered": 2,
+    "eventsSeen": 0,
+    "needsAttention": 0,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 13,
-    "byType": {
-      "opportunity_closed": 1
-    }
+    "rawFetchErrors": 25,
+    "byType": {}
   },
-  "attention": [
-    {
-      "id": "702d3fffb528a0132882",
-      "projectId": "msproc-46552",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Pearl River / 134-20260827134431 PRCC",
-        "county": "Pearl River",
-        "city": "Pearl River County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-01T14:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46552?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-01T14:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    }
-  ],
-  "filtered": [
-    {
-      "projectId": "msproc-46670",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is optional_outside_radius"
-    },
-    {
-      "projectId": "msproc-46678",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "attention": [],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-02T11:49:37.866784-05:00",
-    "knownActiveChecked": 23,
+    "checkedAt": "2026-10-03T10:14:14.982351-05:00",
+    "knownActiveChecked": 24,
     "currentRecords": 24,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 13,
+    "rawNetworkOrHttpFailures": 25,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
