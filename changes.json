@@ -1,42 +1,44 @@
 {
-  "generated_at": "2026-10-02T16:36:57.218169+00:00",
+  "generated_at": "2026-10-03T15:08:01.519497+00:00",
   "summary": {
-    "new": 3,
+    "new": 2,
     "changed": 0,
-    "removed": 2
+    "removed": 1
   },
   "events": [
     {
       "kind": "new_project",
-      "project_id": "msproc-46660",
+      "project_id": "msproc-46670",
       "after": {
-        "id": "msproc-46660",
-        "name": "Jones / 333-20260915092611 JCBS",
-        "county": "Jones",
-        "city": "Jones County",
-        "lat": 31.6941,
-        "lon": -89.1306,
+        "id": "msproc-46670",
+        "name": "Harrison / 4608-20260918085601 HCSDBE",
+        "county": "Harrison",
+        "city": "Harrison County",
+        "lat": 30.3674,
+        "lon": -89.0928,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-15T09:30:00-05:00",
+        "deadline": "2026-10-19T10:00:00-05:00",
         "prebid": null,
         "value": null,
-        "match": 55,
+        "match": 63,
         "timing": 96,
         "confidence": 96,
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Pre-Bid Conference: Date & Time: 9/28/2026 10:00:00 AM Description: There will be a Non-Mandatory Pre-Bid Meeting at the project site on September 28, 2026 at 10:00 a.m., at the Laurel Courthouse Jones County Board Room, 415 N 5th Avenue, Laurel, MS 394"
+          "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46660?AppId=1",
-        "verified": "2026-10-01",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
+        "verified": "2026-10-02",
         "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
+        "capabilityTags": [
+          "drainage"
+        ],
         "lifecycleStage": "open_procurement",
         "signalType": "public_bid",
         "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -44,29 +46,29 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-01T12:29:26.031799-05:00",
+          "lastSeen": "2026-10-02T11:49:37.866784-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46660",
-        "sourceSmartNumber": "333-20260915092611 JCBS",
-        "sourceRFx": "3170036703",
+        "sourceDetailId": "46670",
+        "sourceSmartNumber": "4608-20260918085601 HCSDBE",
+        "sourceRFx": "3170036713",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/15/2026 9:30 AM"
+        "submissionDateRaw": "10/19/2026 10:00 AM"
       }
     },
     {
       "kind": "new_project",
-      "project_id": "msproc-46662",
+      "project_id": "msproc-46678",
       "after": {
-        "id": "msproc-46662",
-        "name": "Hancock / 342-20260915132840 BSHC",
-        "county": "Hancock",
-        "city": "Hancock County",
-        "lat": 30.3088,
-        "lon": -89.33,
+        "id": "msproc-46678",
+        "name": "Lawrence / 56-20260924123344 BSLC",
+        "county": "Lawrence",
+        "city": "Lawrence County",
+        "lat": 31.5538,
+        "lon": -90.107,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
@@ -79,13 +81,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
+          "Sealed bids will be received by the Board of Supervisors of Lawrence County, Mississippi, until 10:00 AM local time on _______________, at the Lawrence County Courthouse located at 517 E Broad Street, Monticello, MS 39654, and shortly thereafter will be"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46662?AppId=1",
-        "verified": "2026-10-01",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46678?AppId=1",
+        "verified": "2026-10-02",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -95,13 +97,13 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-01T12:29:26.031799-05:00",
+          "lastSeen": "2026-10-02T11:49:37.866784-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46662",
-        "sourceSmartNumber": "342-20260915132840 BSHC",
-        "sourceRFx": "3170036705",
+        "sourceDetailId": "46678",
+        "sourceSmartNumber": "56-20260924123344 BSLC",
+        "sourceRFx": "3170036721",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
@@ -109,19 +111,19 @@
       }
     },
     {
-      "kind": "new_project",
-      "project_id": "msproc-46664",
-      "after": {
-        "id": "msproc-46664",
-        "name": "Pike / 4600-20260916194826 BSPC",
-        "county": "Pike",
-        "city": "Pike County",
-        "lat": 31.1432,
-        "lon": -90.4587,
+      "kind": "project_removed",
+      "project_id": "msproc-46552",
+      "before": {
+        "id": "msproc-46552",
+        "name": "Pearl River / 134-20260827134431 PRCC",
+        "county": "Pearl River",
+        "city": "Pearl River County",
+        "lat": 30.8407,
+        "lon": -89.5342,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-15T11:00:00-05:00",
+        "deadline": "2026-10-01T14:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -130,12 +132,12 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
+          "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 1, 2026 for professional archi"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46664?AppId=1",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46552?AppId=1",
         "verified": "2026-10-01",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
@@ -150,115 +152,13 @@
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46664",
-        "sourceSmartNumber": "4600-20260916194826 BSPC",
-        "sourceRFx": "3170036707",
+        "sourceDetailId": "46552",
+        "sourceSmartNumber": "134-20260827134431 PRCC",
+        "sourceRFx": "3170036616",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/15/2026 11:00 AM"
-      }
-    },
-    {
-      "kind": "project_removed",
-      "project_id": "msproc-46602",
-      "before": {
-        "id": "msproc-46602",
-        "name": "Forrest / 82-20260909121553 Hattiesburg",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-10-01T10:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "CONSTRUCTION - SERVICES",
-          "PreBid Conference: Date & Time: 9/17/2026 9:00 AM Description: A pre-bid Conference will be held Thursday, September 17, 2026 @ 9:00a.m. @ City Hall, 200 Forrest Street, Hattiesburg, MS 39401. All interested Contractors & Subcontractors are encouraged to"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46602?AppId=1",
-        "verified": "2026-09-30",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-30T12:00:09.240963-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46602",
-        "sourceSmartNumber": "82-20260909121553 Hattiesburg",
-        "sourceRFx": "3170036662",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/01/2026 10:00 AM"
-      }
-    },
-    {
-      "kind": "project_removed",
-      "project_id": "msproc-46609",
-      "before": {
-        "id": "msproc-46609",
-        "name": "Forrest / 82-20260825124805 Hattiesburg",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-10-01T10:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "CONSTRUCTION - SERVICES",
-          "Pre-Bid Conference: Date & Time: 9/17/2026 9:00 AM Description: Pre-Bid location @ City Hall, 200 Forrest St., Hattiesburg, MS, 39401. ALL interested Contractors & Subcontractors are encouraged to attend. -------------------------------------------------"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46609?AppId=1",
-        "verified": "2026-09-30",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-09-30T12:00:09.240963-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46609",
-        "sourceSmartNumber": "82-20260825124805 Hattiesburg",
-        "sourceRFx": "3170036668",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/01/2026 10:00 AM"
+        "submissionDateRaw": "10/01/2026 2:00 PM"
       }
     }
   ]
