@@ -31,8 +31,21 @@
   },
   {
     "detail_id": 46548,
-    "decision": "publish",
-    "county": "Jasper"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "169-20260824091510 BSJC",
+      "Advertised Date": "09/23/2026 12:00 PM",
+      "RFx #": "3170036612",
+      "Submission Date": "10/05/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Monday, October 5, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on the"
+    }
   },
   {
     "detail_id": 46556,
@@ -154,6 +167,113 @@
     "detail_id": 46687,
     "decision": "skip_discovery_candidate",
     "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46688,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46689,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46690,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46691,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46692,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46693,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46694,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46695,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46696,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46697,
+    "decision": "publish",
+    "county": "Lincoln"
+  },
+  {
+    "detail_id": 46698,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46699,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46700,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46701,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
       "outside_or_unresolved_territory"
     ]
   }
