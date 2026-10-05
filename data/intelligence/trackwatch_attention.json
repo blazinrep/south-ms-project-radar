@@ -1,27 +1,161 @@
 {
-  "generatedAt": "2026-10-04T15:59:38.253130+00:00",
+  "generatedAt": "2026-10-05T19:54:49.924019+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-04T15:59:27.857982+00:00",
+  "inputGeneratedAt": "2026-10-05T19:44:34.205042+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 0,
-    "needsAttention": 0,
+    "eventsSeen": 2,
+    "needsAttention": 2,
     "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 30,
-    "byType": {}
+    "rawFetchErrors": 16,
+    "byType": {
+      "new_opportunity": 1,
+      "opportunity_closed": 1
+    }
   },
-  "attention": [],
+  "attention": [
+    {
+      "id": "a8caa1e8a7b54bda320a",
+      "projectId": "msproc-46697",
+      "type": "new_opportunity",
+      "priority": "high",
+      "title": "New contractor-relevant opportunity",
+      "project": {
+        "name": "Lincoln / 3515-20260928110109 Brookhaven",
+        "county": "Lincoln",
+        "city": "Lincoln County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-15T10:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46697?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": null,
+          "after": "2026-10-15T10:00:00-05:00"
+        },
+        {
+          "field": "status",
+          "before": null,
+          "after": "Accepting bids"
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": null,
+          "after": "Open"
+        },
+        {
+          "field": "lifecycleStage",
+          "before": null,
+          "after": "open_procurement"
+        },
+        {
+          "field": "scope",
+          "before": null,
+          "after": [
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "The Mayor and Board of Aldermen/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Truck Mounted Knuckle Boom Loader with Dump/Trash Body until 10:00 A.M. on October 12, 2026, by electronic bid Submission. Submissions will be eval"
+          ]
+        },
+        {
+          "field": "nextMove",
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        }
+      ],
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+    },
+    {
+      "id": "805e6db6ed304889d953",
+      "projectId": "msproc-46548",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Jasper / 169-20260824091510 BSJC",
+        "county": "Jasper",
+        "city": "Jasper County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-05T10:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46548?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-10-05T10:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Monday, October 5, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on the"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    }
+  ],
   "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-04T10:59:21.251968-05:00",
+    "checkedAt": "2026-10-05T14:44:25.940303-05:00",
     "knownActiveChecked": 24,
     "currentRecords": 24,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 30,
+    "rawNetworkOrHttpFailures": 16,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

@@ -85,7 +85,7 @@
         "fitTotal": 47,
         "actionPriority": 30
       },
-      "daysToDeadline": -41.0,
+      "daysToDeadline": -42.2,
       "distanceMiles": 34,
       "riskFlags": [
         "specialized_oil_and_gas_scope",
@@ -4523,7 +4523,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46474?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4533,7 +4533,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4574,13 +4574,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 15,
         "evidenceQuality": 8,
-        "fitTotal": 36,
-        "actionPriority": 45
+        "fitTotal": 32,
+        "actionPriority": 44
       },
-      "daysToDeadline": 3.1,
+      "daysToDeadline": 2.0,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -4618,7 +4618,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46475?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4628,7 +4628,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4669,13 +4669,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 15,
         "evidenceQuality": 8,
-        "fitTotal": 36,
-        "actionPriority": 45
+        "fitTotal": 32,
+        "actionPriority": 44
       },
-      "daysToDeadline": 3.1,
+      "daysToDeadline": 2.0,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -4713,7 +4713,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -4725,7 +4725,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4772,7 +4772,7 @@
         "fitTotal": 36,
         "actionPriority": 40
       },
-      "daysToDeadline": 10.0,
+      "daysToDeadline": 8.8,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4812,7 +4812,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46545?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -4824,7 +4824,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4873,7 +4873,7 @@
         "fitTotal": 25,
         "actionPriority": 37
       },
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 0.8,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -4885,101 +4885,6 @@
       "automaticRejectReason": null,
       "sourceRecordIds": [
         "msproc-46545"
-      ]
-    }
-  },
-  {
-    "id": "msproc-46548",
-    "name": "Jasper / 169-20260824091510 BSJC",
-    "county": "Jasper",
-    "city": "Jasper County",
-    "lat": 31.979,
-    "lon": -89.2873,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-10-05T10:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "CONSTRUCTION - SERVICES",
-      "Sealed bids will be received by the Board of Supervisors of Jasper County in Bay Springs, Mississippi until 10:00 A.M., on Monday, October 5, 2026, and shortly thereafter publicly opened for the construction of 0.089 miles of BRIDGE & APPROACHES on the"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46548?AppId=1",
-    "verified": "2026-10-04",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46548",
-    "sourceSmartNumber": "169-20260824091510 BSJC",
-    "sourceRFx": "3170036612",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "CONSTRUCTION - SERVICES",
-    "submissionDateRaw": "10/05/2026 10:00 AM",
-    "sourceFeed": "legacy_projects",
-    "geoPrecision": "project_coordinates",
-    "geoApproximate": false,
-    "displayName": "Jasper / 169-20260824091510 BSJC",
-    "intelligence": {
-      "version": "0.7.2",
-      "canonicalProjectKey": "msproc-46548",
-      "displayName": "Jasper / 169-20260824091510 BSJC",
-      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46548?AppId=1",
-      "decision": "low_priority",
-      "disposition": "low_priority",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "fitEvidence": [],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 9,
-        "runway": 2,
-        "geography": 10,
-        "evidenceQuality": 8,
-        "fitTotal": 29,
-        "actionPriority": 41
-      },
-      "daysToDeadline": 1.0,
-      "distanceMiles": 59.7,
-      "riskFlags": [],
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "recommendedContact": "See official record and attachments",
-      "automaticRejectReason": null,
-      "sourceRecordIds": [
-        "msproc-46548"
       ]
     }
   },
@@ -5008,7 +4913,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46556?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5018,7 +4923,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5065,7 +4970,7 @@
         "fitTotal": 24,
         "actionPriority": 34
       },
-      "daysToDeadline": 4.1,
+      "daysToDeadline": 3.0,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -5105,7 +5010,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46582?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5115,7 +5020,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5162,7 +5067,7 @@
         "fitTotal": 34,
         "actionPriority": 44
       },
-      "daysToDeadline": 4.0,
+      "daysToDeadline": 2.8,
       "distanceMiles": 37.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -5200,7 +5105,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46601?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5210,7 +5115,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5257,7 +5162,7 @@
         "fitTotal": 21,
         "actionPriority": 31
       },
-      "daysToDeadline": 4.1,
+      "daysToDeadline": 3.0,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -5297,7 +5202,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46603?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -5309,7 +5214,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5352,13 +5257,13 @@
       "scores": {
         "scopeFit": 8,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 32,
-        "actionPriority": 42
+        "fitTotal": 28,
+        "actionPriority": 40
       },
-      "daysToDeadline": 2.1,
+      "daysToDeadline": 1.0,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -5398,7 +5303,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46641?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5408,7 +5313,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5455,7 +5360,7 @@
         "fitTotal": 40,
         "actionPriority": 44
       },
-      "daysToDeadline": 11.2,
+      "daysToDeadline": 10.0,
       "distanceMiles": 59.7,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -5493,7 +5398,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46644?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5503,7 +5408,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5550,7 +5455,7 @@
         "fitTotal": 30,
         "actionPriority": 34
       },
-      "daysToDeadline": 9.0,
+      "daysToDeadline": 7.9,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -5590,7 +5495,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46645?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5600,7 +5505,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5647,7 +5552,7 @@
         "fitTotal": 30,
         "actionPriority": 34
       },
-      "daysToDeadline": 10.0,
+      "daysToDeadline": 8.9,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -5687,7 +5592,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46660?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5697,7 +5602,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5744,7 +5649,7 @@
         "fitTotal": 43,
         "actionPriority": 45
       },
-      "daysToDeadline": 10.9,
+      "daysToDeadline": 9.8,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -5782,7 +5687,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46662?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5792,7 +5697,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5833,13 +5738,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 13,
+        "runway": 15,
         "geography": 10,
         "evidenceQuality": 8,
-        "fitTotal": 38,
-        "actionPriority": 38
+        "fitTotal": 40,
+        "actionPriority": 44
       },
-      "daysToDeadline": 15.0,
+      "daysToDeadline": 13.8,
       "distanceMiles": 71.7,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -5877,7 +5782,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46664?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -5887,7 +5792,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -5934,7 +5839,7 @@
         "fitTotal": 43,
         "actionPriority": 45
       },
-      "daysToDeadline": 11.0,
+      "daysToDeadline": 9.8,
       "distanceMiles": 37.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -5972,7 +5877,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "drainage"
@@ -5984,7 +5889,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -6027,13 +5932,13 @@
       "scores": {
         "scopeFit": 11,
         "pursuitAccessibility": 7,
-        "runway": 13,
+        "runway": 15,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 42,
-        "actionPriority": 42
+        "fitTotal": 44,
+        "actionPriority": 48
       },
-      "daysToDeadline": 15.0,
+      "daysToDeadline": 13.8,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -6073,7 +5978,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46678?AppId=1",
-    "verified": "2026-10-04",
+    "verified": "2026-10-05",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -6083,7 +5988,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-04T10:59:21.251968-05:00",
+      "lastSeen": "2026-10-05T14:44:25.940303-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -6124,13 +6029,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 13,
+        "runway": 15,
         "geography": 15,
         "evidenceQuality": 8,
-        "fitTotal": 43,
-        "actionPriority": 43
+        "fitTotal": 45,
+        "actionPriority": 45
       },
-      "daysToDeadline": 15.0,
+      "daysToDeadline": 13.8,
       "distanceMiles": 26.3,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
