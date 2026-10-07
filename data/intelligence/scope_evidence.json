@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 118,
+  "projectCount": 117,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3798,49 +3798,6 @@
         {
           "source": "opportunity.scope",
           "text": "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46603",
-      "projectName": "Harrison / 4602-20260909133153 MGCCC",
-      "evidenceCount": 9,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 4602-20260909133153 MGCCC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Underground Utility Location - Phase 2 located at the Harrison County and Jackson County Campuses and West Harrison County, George County, Tra"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "utility"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Underground Utility Location - Phase 2 located at the Harrison County and Jackson County Campuses and West Harrison County, George County, Tra"
         }
       ]
     },
