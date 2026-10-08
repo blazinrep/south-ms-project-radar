@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-10-07T17:48:01.558719+00:00",
+  "retrieved_at": "2026-10-08T17:51:22.111657+00:00",
   "records": [
     {
       "month": "2026/10",
@@ -257,6 +257,17 @@
     },
     {
       "month": "2027/01",
+      "district": "District 6",
+      "project_no": "310370/301000",
+      "fed_project_no": "MP-6011-37(007)",
+      "parallel_to_project_no": "",
+      "county": "Lamar",
+      "route": "US 11",
+      "scope": "Mill & Overlay",
+      "termini": "US 11 from MS 589 in Purvis to the Forrest County Line"
+    },
+    {
+      "month": "2027/01",
       "district": "District 7",
       "project_no": "109953/301000",
       "fed_project_no": "STBG-0037-01(074)",
@@ -445,13 +456,13 @@
     {
       "month": "2027/06",
       "district": "District 6",
-      "project_no": "310370/301000",
-      "fed_project_no": "MP-6011-37(007)",
+      "project_no": "310375/301000",
+      "fed_project_no": "MP-6057-21(011)",
       "parallel_to_project_no": "",
-      "county": "Lamar",
-      "route": "US 11",
+      "county": "Greene",
+      "route": "MS 57",
       "scope": "Mill & Overlay",
-      "termini": "US 11 from MS 589 in Purvis to the Forrest County Line"
+      "termini": "MS 57 from George County Line to US 98"
     },
     {
       "month": "2027/07",
