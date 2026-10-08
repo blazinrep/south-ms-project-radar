@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 117,
-  "matchedProjectCount": 73,
+  "projectCount": 114,
+  "matchedProjectCount": 74,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -1733,7 +1733,7 @@
       "projectName": "MDOT Proposed: US 11 \u2014 Lamar County Mill & Overlay",
       "owner": "Mississippi Department of Transportation",
       "county": "Lamar",
-      "status": "Proposed 2027/06 letting",
+      "status": "Proposed 2027/01 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
         {
@@ -2235,6 +2235,39 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-310375-301000",
+      "projectName": "MDOT Proposed: MS 57 \u2014 Greene County Mill & Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Greene",
+      "status": "Proposed 2027/06 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
