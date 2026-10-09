@@ -5,85 +5,26 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46474,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "9280-27-R-IFBD-00009",
-      "Advertised Date": "09/18/2026 8:00 AM",
-      "RFx #": "3160008271",
-      "Submission Date": "10/07/2026 2:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "INFORMATION TECHNOLOGY (IT)",
-      "RFx Opening Date": "10/07/2026 2:00 PM",
-      "Sub Procurement Category": "SUPPLIES - TECHNOLOGY",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2"
-    }
-  },
-  {
-    "detail_id": 46475,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "9280-27-R-IFBD-00010",
-      "Advertised Date": "09/18/2026 8:00 AM",
-      "RFx #": "3160008272",
-      "Submission Date": "10/07/2026 2:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "INFORMATION TECHNOLOGY (IT)",
-      "RFx Opening Date": "10/07/2026 2:00 PM",
-      "Sub Procurement Category": "PERSONNEL SERVICE - TECHNOLOGY",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2"
-    }
-  },
-  {
     "detail_id": 46497,
     "decision": "publish",
     "county": "Harrison"
   },
   {
-    "detail_id": 46510,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "9280-27-R-IFBD-00011",
-      "Advertised Date": "09/18/2026 9:02 AM",
-      "RFx #": "3160008273",
-      "Submission Date": "10/07/2026 2:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "INFORMATION TECHNOLOGY (IT)",
-      "RFx Opening Date": "10/07/2026 2:00 PM",
-      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, October 7, 2026, 2:00 p."
-    }
-  },
-  {
     "detail_id": 46556,
-    "decision": "publish",
-    "county": "Harrison"
-  },
-  {
-    "detail_id": 46582,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "4600-20260909135734 BSPC",
-      "Advertised Date": "09/23/2026 5:00 PM",
-      "RFx #": "3170036643",
-      "Submission Date": "10/08/2026 10:00 AM",
+      "Smart Number": "212-20260831142527 MH",
+      "Advertised Date": "09/23/2026 12:00 PM",
+      "RFx #": "3170036620",
+      "Submission Date": "10/08/2026 2:00 PM",
       "RFx Status": "Closed",
       "Major Procurement Category": "CONSTRUCTION",
       "RFx Opening Date": "N/A",
       "Sub Procurement Category": "CONSTRUCTION - SERVICES",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until 10:00 a.m. on the 18th day of October , 2026 and shortly thereafter publicly opened for con"
+      "RFx Description": "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
     }
   },
   {
@@ -93,25 +34,20 @@
   },
   {
     "detail_id": 46601,
-    "decision": "publish",
-    "county": "Jackson"
-  },
-  {
-    "detail_id": 46633,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "187-20260925134716 Hattiesburg",
-      "Advertised Date": "09/30/2026 5:00 PM",
-      "RFx #": "3170036681",
-      "Submission Date": "10/08/2026 10:00 AM",
+      "Smart Number": "336-20260908091426 Moss Point",
+      "Advertised Date": "09/25/2026 2:00 PM",
+      "RFx #": "3170036661",
+      "Submission Date": "10/08/2026 2:00 PM",
       "RFx Status": "Closed",
-      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
+      "Major Procurement Category": "CONSTRUCTION",
       "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "SUPPLIES - NON-TECHNOLOGY",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi will receive sealed bids until 10:00 A.M., Thursday, October 8, 2026, in the City Clerk's Office in the City Hall of said City for furnishing the Ciws requirements o"
+      "RFx Description": "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
     }
   },
   {
@@ -190,68 +126,6 @@
     "county": "Jackson"
   },
   {
-    "detail_id": 46716,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46717,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46718,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46719,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46720,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46721,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46722,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46723,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46724,
     "decision": "skip_discovery_candidate",
     "reason": [
@@ -284,6 +158,59 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46729,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46730,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46731,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46732,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46733,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46734,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46735,
+    "decision": "skip_discovery_candidate",
+    "reason": [
       "outside_or_unresolved_territory"
     ]
   }
