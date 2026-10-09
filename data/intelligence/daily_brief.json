@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-08T18:00:52.147716+00:00",
+  "generatedAt": "2026-10-09T17:33:11.007283+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 114,
-  "canonicalProjectCount": 108,
+  "sourceRecordCount": 112,
+  "canonicalProjectCount": 106,
   "duplicateGroups": 6,
   "rejectedCount": 6,
   "decisionCounts": {
     "specialist_only": 1,
     "low_priority": 77,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 13,
+    "optional_outside_radius": 11,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -110,7 +110,7 @@
       "name": "Harrison / 4608-20260918085601 HCSDBE",
       "county": "Harrison",
       "deadline": "2026-10-19T10:00:00-05:00",
-      "daysToDeadline": 10.9,
+      "daysToDeadline": 9.9,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -145,50 +145,11 @@
       ]
     },
     {
-      "id": "msproc-46497",
-      "name": "Harrison / 2507-20260904084645 PWSD",
-      "county": "Harrison",
-      "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 3,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 36,
-        "actionPriority": 43
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "msproc-46708",
       "name": "Jackson / 35-20260918095915 JCUA",
       "county": "Jackson",
       "deadline": "2026-10-20T10:00:00-05:00",
-      "daysToDeadline": 11.9,
+      "daysToDeadline": 10.9,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -223,62 +184,23 @@
       ]
     },
     {
-      "id": "msproc-46706",
-      "name": "Harrison / 43-20260918073807 Gulfport",
+      "id": "msproc-46497",
+      "name": "Harrison / 2507-20260904084645 PWSD",
       "county": "Harrison",
       "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 5.9,
+      "daysToDeadline": 4.9,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
       "evidenceLevel": "source_record",
       "scores": {
-        "scopeFit": 0,
+        "scopeFit": 3,
         "pursuitAccessibility": 7,
-        "runway": 15,
+        "runway": 6,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 33,
-        "actionPriority": 40
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
-      "id": "msproc-46645",
-      "name": "Jackson / 94-20260908155817 JCBS",
-      "county": "Jackson",
-      "deadline": "2026-10-14T12:00:00-05:00",
-      "daysToDeadline": 6.0,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 30,
+        "fitTotal": 27,
         "actionPriority": 37
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -355,6 +277,84 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
+    },
+    {
+      "id": "msproc-46706",
+      "name": "Harrison / 43-20260918073807 Gulfport",
+      "county": "Harrison",
+      "deadline": "2026-10-14T10:00:00-05:00",
+      "daysToDeadline": 4.9,
+      "distanceMiles": 75.3,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 6,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 24,
+        "actionPriority": 34
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
+      "id": "msproc-46644",
+      "name": "Jackson / 94-20260908145945 BSJC",
+      "county": "Jackson",
+      "deadline": "2026-10-13T12:00:00-05:00",
+      "daysToDeadline": 4.0,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 6,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 21,
+        "actionPriority": 31
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
     }
   ],
   "fitRanking": [

@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 114,
+  "projectCount": 112,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3616,45 +3616,6 @@
       ]
     },
     {
-      "projectId": "msproc-46556",
-      "projectName": "Harrison / 212-20260831142527 MH",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 212-20260831142527 MH"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46596",
       "projectName": "Jones / 3373-27-R-IFBD-00004-V01",
       "evidenceCount": 3,
@@ -3670,45 +3631,6 @@
         {
           "source": "project.scope",
           "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46601",
-      "projectName": "Jackson / 336-20260908091426 Moss Point",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 336-20260908091426 Moss Point"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
         }
       ]
     },

@@ -24,7 +24,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-10-08",
+    "verified": "2026-10-09",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-08T12:59:53.552842-05:00",
+      "lastSeen": "2026-10-09T12:32:51.660539-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -75,13 +75,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 15,
+        "runway": 6,
         "geography": 13,
         "evidenceQuality": 8,
-        "fitTotal": 36,
+        "fitTotal": 27,
         "actionPriority": 0
       },
-      "daysToDeadline": 5.1,
+      "daysToDeadline": 4.2,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -119,7 +119,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46596?AppId=1",
-    "verified": "2026-10-08",
+    "verified": "2026-10-09",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -129,7 +129,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-08T12:59:53.552842-05:00",
+      "lastSeen": "2026-10-09T12:32:51.660539-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -176,7 +176,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 11.1,
+      "daysToDeadline": 10.2,
       "distanceMiles": 51.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -214,7 +214,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46642?AppId=1",
-    "verified": "2026-10-08",
+    "verified": "2026-10-09",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -224,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-08T12:59:53.552842-05:00",
+      "lastSeen": "2026-10-09T12:32:51.660539-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -271,7 +271,7 @@
         "fitTotal": 17,
         "actionPriority": 0
       },
-      "daysToDeadline": 4.9,
+      "daysToDeadline": 3.9,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -311,7 +311,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46643?AppId=1",
-    "verified": "2026-10-08",
+    "verified": "2026-10-09",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "excavation"
@@ -323,7 +323,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-08T12:59:53.552842-05:00",
+      "lastSeen": "2026-10-09T12:32:51.660539-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -370,7 +370,7 @@
         "fitTotal": 17,
         "actionPriority": 0
       },
-      "daysToDeadline": 4.9,
+      "daysToDeadline": 3.9,
       "distanceMiles": 75.3,
       "riskFlags": [
         "outside_preferred_radius"
@@ -410,7 +410,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46647?AppId=1",
-    "verified": "2026-10-08",
+    "verified": "2026-10-09",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -420,7 +420,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-08T12:59:53.552842-05:00",
+      "lastSeen": "2026-10-09T12:32:51.660539-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -461,13 +461,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 13,
+        "runway": 15,
         "geography": 15,
         "evidenceQuality": 8,
-        "fitTotal": 36,
+        "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 14.0,
+      "daysToDeadline": 13.1,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -505,7 +505,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46697?AppId=1",
-    "verified": "2026-10-08",
+    "verified": "2026-10-09",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -515,7 +515,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-08T12:59:53.552842-05:00",
+      "lastSeen": "2026-10-09T12:32:51.660539-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -562,7 +562,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 6.9,
+      "daysToDeadline": 5.9,
       "distanceMiles": 42.3,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
