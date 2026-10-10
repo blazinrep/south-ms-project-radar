@@ -1,160 +1,27 @@
 {
-  "generatedAt": "2026-10-09T17:33:11.503686+00:00",
+  "generatedAt": "2026-10-10T16:23:28.565748+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-09T17:32:58.751540+00:00",
+  "inputGeneratedAt": "2026-10-10T16:23:14.344293+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 2,
-    "needsAttention": 2,
+    "eventsSeen": 0,
+    "needsAttention": 0,
     "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 23,
-    "byType": {
-      "opportunity_closed": 2
-    }
+    "rawFetchErrors": 29,
+    "byType": {}
   },
-  "attention": [
-    {
-      "id": "51ddd4078265e81b2055",
-      "projectId": "msproc-46601",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Jackson / 336-20260908091426 Moss Point",
-        "county": "Jackson",
-        "city": "Jackson County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-08T14:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46601?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-08T14:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Notice is hereby given that the City of Moss Point, Mississippi, will receive sealed at the City Clerks Office, City Hall, located at 4320 McInnis Ave., Moss Point, Mississippi, 39563, until 2:00 p.m., Local Time, on Thursday, October 8th 2026, for the"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "fc5be9d7f3964a589d6f",
-      "projectId": "msproc-46556",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Harrison / 212-20260831142527 MH",
-        "county": "Harrison",
-        "city": "Harrison County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-08T14:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46556?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-08T14:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "PreBid Conference: Date & Time: 9/22/2026 10:00:00 AM Description: To assist Bidders during the bid period, one (1) Pre-Bid Conference and Site Visit will be held at Memorial Hospital at Gulfport on Tuesday, September 22, 2026 at 10:00 AM, with a site vis"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    }
-  ],
+  "attention": [],
   "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-09T12:32:51.660539-05:00",
-    "knownActiveChecked": 21,
+    "checkedAt": "2026-10-10T11:23:06.439074-05:00",
+    "knownActiveChecked": 19,
     "currentRecords": 19,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 23,
+    "rawNetworkOrHttpFailures": 29,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
