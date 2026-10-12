@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 112,
+  "projectCount": 111,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4023,45 +4023,6 @@
         {
           "source": "project.scope",
           "text": "The Mayor and Board of Aldermen/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Truck Mounted Knuckle Boom Loader with Dump/Trash Body until 10:00 A.M. on October 12, 2026, by electronic bid Submission. Submissions will be eval"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46704",
-      "projectName": "Hancock / 53-20260916113100 HCSD",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Hancock / 53-20260916113100 HCSD"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that Hancock County School District shall receive responses from qualified Energy Service Providers (ESPs) to provide energy conservation equipment and services under an Energy Services Contract for a two (2) year term. Said resp"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Notice is hereby given that Hancock County School District shall receive responses from qualified Energy Service Providers (ESPs) to provide energy conservation equipment and services under an Energy Services Contract for a two (2) year term. Said resp"
         }
       ]
     },
