@@ -76,8 +76,21 @@
   },
   {
     "detail_id": 46704,
-    "decision": "publish",
-    "county": "Hancock"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "53-20260916113100 HCSD",
+      "Advertised Date": "10/05/2026 5:00 PM",
+      "RFx #": "3170036725",
+      "Submission Date": "10/12/2026 3:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Notice is hereby given that Hancock County School District shall receive responses from qualified Energy Service Providers (ESPs) to provide energy conservation equipment and services under an Energy Services Contract for a two (2) year term. Said resp"
+    }
   },
   {
     "detail_id": 46706,
@@ -129,6 +142,38 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46737,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46738,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46739,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46740,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
     ]
   }
 ]

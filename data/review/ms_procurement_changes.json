@@ -1,11 +1,63 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-10-11T16:46:33.552744+00:00",
+  "generated_at": "2026-10-12T20:25:31.436799+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
-    "no_longer_open": 0,
+    "no_longer_open": 1,
     "stale_unverified": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46704",
+      "before": {
+        "id": "msproc-46704",
+        "name": "Hancock / 53-20260916113100 HCSD",
+        "county": "Hancock",
+        "city": "Hancock County",
+        "lat": 30.3088,
+        "lon": -89.33,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-10-12T15:00:00-05:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Notice is hereby given that Hancock County School District shall receive responses from qualified Energy Service Providers (ESPs) to provide energy conservation equipment and services under an Energy Services Contract for a two (2) year term. Said resp"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46704?AppId=1",
+        "verified": "2026-10-11",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-10-11T11:46:26.098345-05:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46704",
+        "sourceSmartNumber": "53-20260916113100 HCSD",
+        "sourceRFx": "3170036725",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "10/12/2026 3:00 PM"
+      }
+    }
+  ]
 }
