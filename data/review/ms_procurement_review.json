@@ -21,18 +21,57 @@
   },
   {
     "detail_id": 46642,
-    "decision": "publish",
-    "county": "Harrison"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "93-20260908142032 HCBS",
+      "Advertised Date": "09/30/2026 12:00 PM",
+      "RFx #": "3170036688",
+      "Submission Date": "10/13/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "COMMODITIES",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Small Crawler Dozer Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
+    }
   },
   {
     "detail_id": 46643,
-    "decision": "publish",
-    "county": "Harrison"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "93-20260908142324 HCBS",
+      "Advertised Date": "09/30/2026 12:00 PM",
+      "RFx #": "3170036689",
+      "Submission Date": "10/13/2026 10:15 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "COMMODITIES",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Hydraulic Excavator Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
+    }
   },
   {
     "detail_id": 46644,
-    "decision": "publish",
-    "county": "Jackson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "94-20260908145945 BSJC",
+      "Advertised Date": "09/30/2026 12:00 PM",
+      "RFx #": "3170036690",
+      "Submission Date": "10/13/2026 12:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
+    }
   },
   {
     "detail_id": 46645,
@@ -75,24 +114,6 @@
     "county": "Lincoln"
   },
   {
-    "detail_id": 46704,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "53-20260916113100 HCSD",
-      "Advertised Date": "10/05/2026 5:00 PM",
-      "RFx #": "3170036725",
-      "Submission Date": "10/12/2026 3:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Notice is hereby given that Hancock County School District shall receive responses from qualified Energy Service Providers (ESPs) to provide energy conservation equipment and services under an Energy Services Contract for a two (2) year term. Said resp"
-    }
-  },
-  {
     "detail_id": 46706,
     "decision": "publish",
     "county": "Harrison"
@@ -106,36 +127,6 @@
     "detail_id": 46726,
     "decision": "publish",
     "county": "Simpson"
-  },
-  {
-    "detail_id": 46732,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46733,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46734,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46735,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46736,
@@ -170,6 +161,54 @@
   },
   {
     "detail_id": 46740,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46741,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46742,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46743,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46744,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46745,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46746,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
