@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 111,
+  "projectCount": 108,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3670,83 +3670,6 @@
         {
           "source": "opportunity.scope",
           "text": "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46642",
-      "projectName": "Harrison / 93-20260908142032 HCBS",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 93-20260908142032 HCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Small Crawler Dozer Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46643",
-      "projectName": "Harrison / 93-20260908142324 HCBS",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 93-20260908142324 HCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Hydraulic Excavator Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46644",
-      "projectName": "Jackson / 94-20260908145945 BSJC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 94-20260908145945 BSJC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
         }
       ]
     },
