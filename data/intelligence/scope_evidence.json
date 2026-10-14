@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 108,
+  "projectCount": 105,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3558,64 +3558,6 @@
       ]
     },
     {
-      "projectId": "msproc-46443",
-      "projectName": "Jones / 3373-27-R-IFBD-00002",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 3373-27-R-IFBD-00002"
-        },
-        {
-          "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46497",
-      "projectName": "Harrison / 2507-20260904084645 PWSD",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 2507-20260904084645 PWSD"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46596",
       "projectName": "Jones / 3373-27-R-IFBD-00004-V01",
       "evidenceCount": 3,
@@ -3946,45 +3888,6 @@
         {
           "source": "project.scope",
           "text": "The Mayor and Board of Aldermen/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Truck Mounted Knuckle Boom Loader with Dump/Trash Body until 10:00 A.M. on October 12, 2026, by electronic bid Submission. Submissions will be eval"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46706",
-      "projectName": "Harrison / 43-20260918073807 Gulfport",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 43-20260918073807 Gulfport"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
         }
       ]
     },

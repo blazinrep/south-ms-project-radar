@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:30:59.159990+00:00",
+  "generatedAt": "2026-10-14T15:58:03.596072+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "profileReadiness": {
     "commercialLicense": {
@@ -20,7 +20,7 @@
       "status": "unknown"
     }
   },
-  "count": 90,
+  "count": 88,
   "topPursuitCards": [
     {
       "id": "gulfport_planroom-20714",
@@ -196,65 +196,6 @@
       ]
     },
     {
-      "id": "msproc-46670",
-      "name": "Harrison / 4608-20260918085601 HCSDBE",
-      "owner": "MPTAP",
-      "county": "Harrison",
-      "city": "Harrison County",
-      "lat": 30.3674,
-      "lon": -89.0928,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-19T10:00:00-05:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 51,
-      "fitScore": 44,
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
-      ],
-      "fitEvidence": [
-        "drainage"
-      ],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46670"
-      ]
-    },
-    {
       "id": "msproc-46708",
       "name": "Jackson / 35-20260918095915 JCUA",
       "owner": "MPTAP",
@@ -264,10 +205,10 @@
       "lon": -88.5561,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
       "deadline": "2026-10-20T10:00:00-05:00",
-      "daysToDeadline": 6.9,
+      "daysToDeadline": 6.0,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -314,6 +255,65 @@
       ]
     },
     {
+      "id": "msproc-46670",
+      "name": "Harrison / 4608-20260918085601 HCSDBE",
+      "owner": "MPTAP",
+      "county": "Harrison",
+      "city": "Harrison County",
+      "lat": 30.3674,
+      "lon": -89.0928,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-10-14",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-10-19T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.3,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 45,
+      "fitScore": 35,
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
+      ],
+      "fitEvidence": [
+        "drainage"
+      ],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "msproc-46670"
+      ]
+    },
+    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
@@ -323,7 +323,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -377,7 +377,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/04 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -420,120 +420,6 @@
       ]
     },
     {
-      "id": "msproc-46497",
-      "name": "Harrison / 2507-20260904084645 PWSD",
-      "owner": "MPTAP",
-      "county": "Harrison",
-      "city": "Harrison County",
-      "lat": 30.3674,
-      "lon": -89.0928,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 35,
-      "fitScore": 23,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46497"
-      ]
-    },
-    {
-      "id": "msproc-46706",
-      "name": "Harrison / 43-20260918073807 Gulfport",
-      "owner": "MPTAP",
-      "county": "Harrison",
-      "city": "Harrison County",
-      "lat": 30.3674,
-      "lon": -89.0928,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 32,
-      "fitScore": 20,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46706?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46706"
-      ]
-    },
-    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "owner": "Mississippi Department of Transportation",
@@ -543,7 +429,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -584,6 +470,116 @@
       ],
       "sourceRecordIds": [
         "mdot-109988-301000"
+      ]
+    },
+    {
+      "id": "msproc-46645",
+      "name": "Jackson / 94-20260908155817 JCBS",
+      "owner": "MPTAP",
+      "county": "Jackson",
+      "city": "Jackson County",
+      "lat": 30.3674,
+      "lon": -88.5561,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-10-14",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-10-14T12:00:00-05:00",
+      "daysToDeadline": 0.0,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 29,
+      "fitScore": 17,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Notice is hereby given that sealed bids or electronic will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CT) on Wednesday, october 14, 2026, and said bids are to be opened and read aloud at 1:00 p.m. in the Board"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46645?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "msproc-46645"
+      ]
+    },
+    {
+      "id": "mdot-109253-301000",
+      "name": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Clarke",
+      "city": "Clarke County corridor",
+      "lat": 32.045,
+      "lon": -88.687,
+      "value": null,
+      "status": "Proposed 2026/10 letting",
+      "verified": "2026-10-14",
+      "freshnessStatus": null,
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 27,
+      "fitScore": 27,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official MDOT future-letting signal for ogfc lift. Early-stage watch item; not yet represented as an open bid.",
+      "scope": [
+        "OGFC Lift",
+        "I 59",
+        "I-59 from the Jasper County Line to approximately 6.45 Miles north of the Jasper County Line"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Watch for the letting package and identify likely primes before bid release.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "Monitor MDOT proposed letting / Bid Express",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "mdot-109253-301000"
       ]
     }
   ],
@@ -762,65 +758,6 @@
       ]
     },
     {
-      "id": "msproc-46670",
-      "name": "Harrison / 4608-20260918085601 HCSDBE",
-      "owner": "MPTAP",
-      "county": "Harrison",
-      "city": "Harrison County",
-      "lat": 30.3674,
-      "lon": -89.0928,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-19T10:00:00-05:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 51,
-      "fitScore": 44,
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
-      ],
-      "fitEvidence": [
-        "drainage"
-      ],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46670"
-      ]
-    },
-    {
       "id": "msproc-46708",
       "name": "Jackson / 35-20260918095915 JCUA",
       "owner": "MPTAP",
@@ -830,10 +767,10 @@
       "lon": -88.5561,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
       "deadline": "2026-10-20T10:00:00-05:00",
-      "daysToDeadline": 6.9,
+      "daysToDeadline": 6.0,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -880,6 +817,65 @@
       ]
     },
     {
+      "id": "msproc-46670",
+      "name": "Harrison / 4608-20260918085601 HCSDBE",
+      "owner": "MPTAP",
+      "county": "Harrison",
+      "city": "Harrison County",
+      "lat": 30.3674,
+      "lon": -89.0928,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-10-14",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-10-19T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 75.3,
+      "decision": "optional_outside_radius",
+      "recommendedLane": "optional_outside_radius",
+      "primeReadiness": "unknown",
+      "actionPriority": 45,
+      "fitScore": 35,
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
+      ],
+      "fitEvidence": [
+        "drainage"
+      ],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "sourceRecordIds": [
+        "msproc-46670"
+      ]
+    },
+    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "owner": "Mississippi Department of Transportation",
@@ -889,7 +885,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -943,7 +939,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2027/04 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -986,120 +982,6 @@
       ]
     },
     {
-      "id": "msproc-46497",
-      "name": "Harrison / 2507-20260904084645 PWSD",
-      "owner": "MPTAP",
-      "county": "Harrison",
-      "city": "Harrison County",
-      "lat": 30.3674,
-      "lon": -89.0928,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 35,
-      "fitScore": 23,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46497"
-      ]
-    },
-    {
-      "id": "msproc-46706",
-      "name": "Harrison / 43-20260918073807 Gulfport",
-      "owner": "MPTAP",
-      "county": "Harrison",
-      "city": "Harrison County",
-      "lat": 30.3674,
-      "lon": -89.0928,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-14T10:00:00-05:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "recommendedLane": "optional_outside_radius",
-      "primeReadiness": "unknown",
-      "actionPriority": 32,
-      "fitScore": 20,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46706?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "sourceRecordIds": [
-        "msproc-46706"
-      ]
-    },
-    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "owner": "Mississippi Department of Transportation",
@@ -1109,7 +991,7 @@
       "lon": -88.641,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1162,10 +1044,10 @@
       "lon": -88.5561,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
       "deadline": "2026-10-14T12:00:00-05:00",
-      "daysToDeadline": 0.9,
+      "daysToDeadline": 0.0,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "recommendedLane": "optional_outside_radius",
@@ -1219,7 +1101,7 @@
       "lon": -88.687,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1327,7 +1209,7 @@
       "verified": "2026-08-13",
       "freshnessStatus": null,
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -50.1,
+      "daysToDeadline": -51.0,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "recommendedLane": "specialist_only",
@@ -1445,7 +1327,7 @@
       "lon": -89.558,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1597,7 +1479,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1648,7 +1530,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1699,7 +1581,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1750,7 +1632,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1801,7 +1683,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1853,7 +1735,7 @@
       "lon": -89.036,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1904,7 +1786,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -1955,7 +1837,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2005,7 +1887,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2056,7 +1938,7 @@
       "lon": -89.036,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2107,7 +1989,7 @@
       "lon": -90.897,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2158,7 +2040,7 @@
       "lon": -89.083,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2200,61 +2082,6 @@
       ]
     },
     {
-      "id": "msproc-46678",
-      "name": "Lawrence / 56-20260924123344 BSLC",
-      "owner": "MPTAP",
-      "county": "Lawrence",
-      "city": "Lawrence County",
-      "lat": 31.5538,
-      "lon": -90.107,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-19T10:00:00-05:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 26.3,
-      "decision": "low_priority",
-      "recommendedLane": "investigate",
-      "primeReadiness": "unknown",
-      "actionPriority": 45,
-      "fitScore": 45,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Lawrence County, Mississippi, until 10:00 AM local time on _______________, at the Lawrence County Courthouse located at 517 E Broad Street, Monticello, MS 39654, and shortly thereafter will be"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46678?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [],
-      "sourceRecordIds": [
-        "msproc-46678"
-      ]
-    },
-    {
       "id": "mdot-108781-307000",
       "name": "MDOT Proposed: Project \u2014 Covington County Bridge Preventive Maintenance",
       "owner": "Mississippi Department of Transportation",
@@ -2264,7 +2091,7 @@
       "lon": -89.558,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2356,38 +2183,38 @@
       ]
     },
     {
-      "id": "msproc-46662",
-      "name": "Hancock / 342-20260915132840 BSHC",
+      "id": "msproc-46678",
+      "name": "Lawrence / 56-20260924123344 BSLC",
       "owner": "MPTAP",
-      "county": "Hancock",
-      "city": "Hancock County",
-      "lat": 30.3088,
-      "lon": -89.33,
+      "county": "Lawrence",
+      "city": "Lawrence County",
+      "lat": 31.5538,
+      "lon": -90.107,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
       "deadline": "2026-10-19T10:00:00-05:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 71.7,
+      "daysToDeadline": 5.0,
+      "distanceMiles": 26.3,
       "decision": "low_priority",
       "recommendedLane": "investigate",
       "primeReadiness": "unknown",
       "actionPriority": 45,
-      "fitScore": 40,
+      "fitScore": 36,
       "tradeFit": "none",
       "evidenceLevel": "source_record",
       "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "scope": [
         "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
+        "Sealed bids will be received by the Board of Supervisors of Lawrence County, Mississippi, until 10:00 AM local time on _______________, at the Lawrence County Courthouse located at 517 E Broad Street, Monticello, MS 39654, and shortly thereafter will be"
       ],
       "fitEvidence": [],
       "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
       "secondAction": null,
       "stopIf": null,
       "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46662?AppId=1",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46678?AppId=1",
       "blockersAndChecks": [
         {
           "type": "commercial_license",
@@ -2407,62 +2234,7 @@
       ],
       "riskFlags": [],
       "sourceRecordIds": [
-        "msproc-46662"
-      ]
-    },
-    {
-      "id": "msproc-46726",
-      "name": "Simpson / 4605-20260914143933 BSSC",
-      "owner": "MPTAP",
-      "county": "Simpson",
-      "city": "Simpson County",
-      "lat": 31.9618,
-      "lon": -89.8701,
-      "value": null,
-      "status": "Accepting bids",
-      "verified": "2026-10-13",
-      "freshnessStatus": "live_verified",
-      "deadline": "2026-10-16T10:30:00-05:00",
-      "daysToDeadline": 2.9,
-      "distanceMiles": 49.1,
-      "decision": "low_priority",
-      "recommendedLane": "investigate",
-      "primeReadiness": "unknown",
-      "actionPriority": 44,
-      "fitScore": 34,
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "scope": [
-        "CONSTRUCTION - SERVICES",
-        "Sealed bids will be received by the Board of Supervisors of Simpson County Mississippi at the Chancery Clerk Building, 111 West Pine Avenue, Mendenhall, Mississippi, until 10:30 AM on the 16th day of October, 2026, and shortly thereafter publicly opened"
-      ],
-      "fitEvidence": [],
-      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "secondAction": null,
-      "stopIf": null,
-      "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46726?AppId=1",
-      "blockersAndChecks": [
-        {
-          "type": "commercial_license",
-          "status": "unknown",
-          "detail": "Commercial license/classification is not verified in the demo company profile."
-        },
-        {
-          "type": "bonding",
-          "status": "unknown",
-          "detail": "Bonding capacity is not verified in the demo company profile."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ],
-      "riskFlags": [],
-      "sourceRecordIds": [
-        "msproc-46726"
+        "msproc-46678"
       ]
     },
     {
@@ -2475,7 +2247,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2526,7 +2298,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2577,7 +2349,7 @@
       "lon": -89.826,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2628,7 +2400,7 @@
       "lon": -89.807,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2679,7 +2451,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/01 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2730,7 +2502,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2781,7 +2553,7 @@
       "lon": -90.107,
       "value": null,
       "status": "Proposed 2027/07 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2832,7 +2604,7 @@
       "lon": -89.502,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -2883,10 +2655,10 @@
       "lon": -89.1306,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
       "deadline": "2026-10-15T09:30:00-05:00",
-      "daysToDeadline": 1.8,
+      "daysToDeadline": 0.9,
       "distanceMiles": 51.6,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2938,10 +2710,10 @@
       "lon": -90.4587,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
       "deadline": "2026-10-15T11:00:00-05:00",
-      "daysToDeadline": 1.9,
+      "daysToDeadline": 1.0,
       "distanceMiles": 37.6,
       "decision": "low_priority",
       "recommendedLane": "investigate",
@@ -2984,38 +2756,38 @@
       ]
     },
     {
-      "id": "msproc-46641",
-      "name": "Jasper / 65-20260908093502 Bay Springs",
+      "id": "msproc-46726",
+      "name": "Simpson / 4605-20260914143933 BSSC",
       "owner": "MPTAP",
-      "county": "Jasper",
-      "city": "Jasper County",
-      "lat": 31.979,
-      "lon": -89.2873,
+      "county": "Simpson",
+      "city": "Simpson County",
+      "lat": 31.9618,
+      "lon": -89.8701,
       "value": null,
       "status": "Accepting bids",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": "live_verified",
-      "deadline": "2026-10-15T15:00:00-05:00",
-      "daysToDeadline": 2.1,
-      "distanceMiles": 59.7,
+      "deadline": "2026-10-16T10:30:00-05:00",
+      "daysToDeadline": 2.0,
+      "distanceMiles": 49.1,
       "decision": "low_priority",
       "recommendedLane": "investigate",
       "primeReadiness": "unknown",
-      "actionPriority": 41,
-      "fitScore": 31,
+      "actionPriority": 42,
+      "fitScore": 30,
       "tradeFit": "none",
       "evidenceLevel": "source_record",
       "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "scope": [
         "CONSTRUCTION - SERVICES",
-        "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
+        "Sealed bids will be received by the Board of Supervisors of Simpson County Mississippi at the Chancery Clerk Building, 111 West Pine Avenue, Mendenhall, Mississippi, until 10:30 AM on the 16th day of October, 2026, and shortly thereafter publicly opened"
       ],
       "fitEvidence": [],
       "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
       "secondAction": null,
       "stopIf": null,
       "contact": "See official record and attachments",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46641?AppId=1",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46726?AppId=1",
       "blockersAndChecks": [
         {
           "type": "commercial_license",
@@ -3035,7 +2807,62 @@
       ],
       "riskFlags": [],
       "sourceRecordIds": [
-        "msproc-46641"
+        "msproc-46726"
+      ]
+    },
+    {
+      "id": "msproc-46662",
+      "name": "Hancock / 342-20260915132840 BSHC",
+      "owner": "MPTAP",
+      "county": "Hancock",
+      "city": "Hancock County",
+      "lat": 30.3088,
+      "lon": -89.33,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-10-14",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-10-19T10:00:00-05:00",
+      "daysToDeadline": 5.0,
+      "distanceMiles": 71.7,
+      "decision": "low_priority",
+      "recommendedLane": "investigate",
+      "primeReadiness": "unknown",
+      "actionPriority": 41,
+      "fitScore": 31,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46662?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [],
+      "sourceRecordIds": [
+        "msproc-46662"
       ]
     },
     {
@@ -3202,7 +3029,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3253,7 +3080,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3304,7 +3131,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3355,7 +3182,7 @@
       "lon": -90.404,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3406,7 +3233,7 @@
       "lon": -89.258,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3457,7 +3284,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/02 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3509,7 +3336,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3560,7 +3387,7 @@
       "lon": -90.454,
       "value": null,
       "status": "Proposed 2027/03 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3611,7 +3438,7 @@
       "lon": -89.919,
       "value": null,
       "status": "Proposed 2027/04 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3662,7 +3489,7 @@
       "lon": -89.12,
       "value": null,
       "status": "Proposed 2027/05 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3713,7 +3540,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3764,7 +3591,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3815,7 +3642,7 @@
       "lon": -89.588,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3857,6 +3684,61 @@
       ]
     },
     {
+      "id": "msproc-46641",
+      "name": "Jasper / 65-20260908093502 Bay Springs",
+      "owner": "MPTAP",
+      "county": "Jasper",
+      "city": "Jasper County",
+      "lat": 31.979,
+      "lon": -89.2873,
+      "value": null,
+      "status": "Accepting bids",
+      "verified": "2026-10-14",
+      "freshnessStatus": "live_verified",
+      "deadline": "2026-10-15T15:00:00-05:00",
+      "daysToDeadline": 1.2,
+      "distanceMiles": 59.7,
+      "decision": "low_priority",
+      "recommendedLane": "investigate",
+      "primeReadiness": "unknown",
+      "actionPriority": 39,
+      "fitScore": 27,
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "whyThisMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "scope": [
+        "CONSTRUCTION - SERVICES",
+        "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
+      ],
+      "fitEvidence": [],
+      "firstAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "secondAction": null,
+      "stopIf": null,
+      "contact": "See official record and attachments",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46641?AppId=1",
+      "blockersAndChecks": [
+        {
+          "type": "commercial_license",
+          "status": "unknown",
+          "detail": "Commercial license/classification is not verified in the demo company profile."
+        },
+        {
+          "type": "bonding",
+          "status": "unknown",
+          "detail": "Bonding capacity is not verified in the demo company profile."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "riskFlags": [],
+      "sourceRecordIds": [
+        "msproc-46641"
+      ]
+    },
+    {
       "id": "mdot-110070-301000",
       "name": "MDOT Proposed: I 59 \u2014 Jasper County Fog Seal",
       "owner": "Mississippi Department of Transportation",
@@ -3866,7 +3748,7 @@
       "lon": -89.119,
       "value": null,
       "status": "Proposed 2026/10 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3917,7 +3799,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -3969,7 +3851,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -4021,7 +3903,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2026/11 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -4072,7 +3954,7 @@
       "lon": -89.119,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -4123,7 +4005,7 @@
       "lon": -88.647,
       "value": null,
       "status": "Proposed 2027/06 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
@@ -4676,7 +4558,7 @@
       "lon": null,
       "value": null,
       "status": "Proposed 2027/09 letting",
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "freshnessStatus": null,
       "deadline": null,
       "daysToDeadline": null,
