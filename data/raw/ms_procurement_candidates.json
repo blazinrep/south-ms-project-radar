@@ -1,101 +1,5 @@
 [
   {
-    "id": "msproc-46443",
-    "name": "Jones / 3373-27-R-IFBD-00002",
-    "county": "Jones",
-    "city": "Jones County",
-    "lat": 31.6941,
-    "lon": -89.1306,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-10-13T16:30:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "ELLISVILLE STATE SCHOOL",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
-    "verified": "2026-10-13",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46443",
-    "sourceSmartNumber": "3373-27-R-IFBD-00002",
-    "sourceRFx": "3160008228",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
-    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-    "submissionDateRaw": "10/13/2026 4:30 PM"
-  },
-  {
-    "id": "msproc-46497",
-    "name": "Harrison / 2507-20260904084645 PWSD",
-    "county": "Harrison",
-    "city": "Harrison County",
-    "lat": 30.3674,
-    "lon": -89.0928,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-10-14T10:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 63,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "CONSTRUCTION - SERVICES",
-      "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
-    "verified": "2026-10-13",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [
-      "utilities"
-    ],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46497",
-    "sourceSmartNumber": "2507-20260904084645 PWSD",
-    "sourceRFx": "3170036578",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "CONSTRUCTION - SERVICES",
-    "submissionDateRaw": "10/14/2026 10:00 AM"
-  },
-  {
     "id": "msproc-46596",
     "name": "Jones / 3373-27-R-IFBD-00004-V01",
     "county": "Jones",
@@ -120,7 +24,7 @@
     "owner": "ELLISVILLE STATE SCHOOL",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46596?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -130,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -167,7 +71,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46641?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -177,7 +81,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -214,7 +118,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46645?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -224,7 +128,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -261,7 +165,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46647?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -271,7 +175,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -308,7 +212,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46660?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -318,7 +222,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -355,7 +259,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46662?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -365,7 +269,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -402,7 +306,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46664?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -412,7 +316,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -449,7 +353,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46670?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "drainage"
@@ -461,7 +365,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -498,7 +402,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46678?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -508,7 +412,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -545,7 +449,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46697?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -555,7 +459,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -566,53 +470,6 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
     "submissionDateRaw": "10/15/2026 10:00 AM"
-  },
-  {
-    "id": "msproc-46706",
-    "name": "Harrison / 43-20260918073807 Gulfport",
-    "county": "Harrison",
-    "city": "Harrison County",
-    "lat": 30.3674,
-    "lon": -89.0928,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-10-14T10:00:00-05:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "CONSTRUCTION - SERVICES",
-      "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46706?AppId=1",
-    "verified": "2026-10-13",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46706",
-    "sourceSmartNumber": "43-20260918073807 Gulfport",
-    "sourceRFx": "3170036727",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "CONSTRUCTION - SERVICES",
-    "submissionDateRaw": "10/14/2026 10:00 AM"
   },
   {
     "id": "msproc-46708",
@@ -639,7 +496,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46708?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -651,7 +508,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -688,7 +545,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46726?AppId=1",
-    "verified": "2026-10-13",
+    "verified": "2026-10-14",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -698,7 +555,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-13T13:30:37.521577-05:00",
+      "lastSeen": "2026-10-14T10:57:41.577134-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },

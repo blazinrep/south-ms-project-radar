@@ -1,13 +1,39 @@
 [
   {
     "detail_id": 46443,
-    "decision": "publish",
-    "county": "Jones"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "3373-27-R-IFBD-00002",
+      "Advertised Date": "09/09/2026 9:00 AM",
+      "RFx #": "3160008228",
+      "Submission Date": "10/13/2026 4:30 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
+      "RFx Opening Date": "10/14/2026 10:00 AM",
+      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "ELLISVILLE STATE SCHOOL",
+      "RFx Description": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
+    }
   },
   {
     "detail_id": 46497,
-    "decision": "publish",
-    "county": "Harrison"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "2507-20260904084645 PWSD",
+      "Advertised Date": "09/15/2026 5:00 PM",
+      "RFx #": "3170036578",
+      "Submission Date": "10/14/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
+    }
   },
   {
     "detail_id": 46596,
@@ -18,60 +44,6 @@
     "detail_id": 46641,
     "decision": "publish",
     "county": "Jasper"
-  },
-  {
-    "detail_id": 46642,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "93-20260908142032 HCBS",
-      "Advertised Date": "09/30/2026 12:00 PM",
-      "RFx #": "3170036688",
-      "Submission Date": "10/13/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Small Crawler Dozer Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
-    }
-  },
-  {
-    "detail_id": 46643,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "93-20260908142324 HCBS",
-      "Advertised Date": "09/30/2026 12:00 PM",
-      "RFx #": "3170036689",
-      "Submission Date": "10/13/2026 10:15 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Hydraulic Excavator Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
-    }
-  },
-  {
-    "detail_id": 46644,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "94-20260908145945 BSJC",
-      "Advertised Date": "09/30/2026 12:00 PM",
-      "RFx #": "3170036690",
-      "Submission Date": "10/13/2026 12:00 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
-    }
   },
   {
     "detail_id": 46645,
@@ -115,8 +87,21 @@
   },
   {
     "detail_id": 46706,
-    "decision": "publish",
-    "county": "Harrison"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "43-20260918073807 Gulfport",
+      "Advertised Date": "10/05/2026 5:00 PM",
+      "RFx #": "3170036727",
+      "Submission Date": "10/14/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
+    }
   },
   {
     "detail_id": 46708,
@@ -127,53 +112,6 @@
     "detail_id": 46726,
     "decision": "publish",
     "county": "Simpson"
-  },
-  {
-    "detail_id": 46736,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46737,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46738,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46739,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46740,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46741,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46742,
@@ -209,6 +147,29 @@
   },
   {
     "detail_id": 46746,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46747,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46748,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46749,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",

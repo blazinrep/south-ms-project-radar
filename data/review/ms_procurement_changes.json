@@ -1,6 +1,6 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-10-13T18:30:45.612718+00:00",
+  "generated_at": "2026-10-14T15:57:49.812803+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
@@ -10,18 +10,18 @@
   "events": [
     {
       "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46642",
+      "project_id": "msproc-46443",
       "before": {
-        "id": "msproc-46642",
-        "name": "Harrison / 93-20260908142032 HCBS",
-        "county": "Harrison",
-        "city": "Harrison County",
-        "lat": 30.3674,
-        "lon": -89.0928,
+        "id": "msproc-46443",
+        "name": "Jones / 3373-27-R-IFBD-00002",
+        "county": "Jones",
+        "city": "Jones County",
+        "lat": 31.6941,
+        "lon": -89.1306,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-13T10:00:00-05:00",
+        "deadline": "2026-10-13T16:30:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -29,14 +29,14 @@
         "confidence": 96,
         "distance": null,
         "scope": [
-          "EQUIPMENT - NON-TECHNOLOGY",
-          "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Small Crawler Dozer Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
+          "PERSONNEL SERVICE - NON-TECHNOLOGY",
+          "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
+        "owner": "ELLISVILLE STATE SCHOOL",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46642?AppId=1",
-        "verified": "2026-10-12",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46443?AppId=1",
+        "verified": "2026-10-13",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -46,33 +46,33 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-12T15:25:24.891258-05:00",
+          "lastSeen": "2026-10-13T13:30:37.521577-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46642",
-        "sourceSmartNumber": "93-20260908142032 HCBS",
-        "sourceRFx": "3170036688",
+        "sourceDetailId": "46443",
+        "sourceSmartNumber": "3373-27-R-IFBD-00002",
+        "sourceRFx": "3160008228",
         "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "COMMODITIES",
-        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-        "submissionDateRaw": "10/13/2026 10:00 AM"
+        "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
+        "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+        "submissionDateRaw": "10/13/2026 4:30 PM"
       }
     },
     {
       "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46644",
+      "project_id": "msproc-46706",
       "before": {
-        "id": "msproc-46644",
-        "name": "Jackson / 94-20260908145945 BSJC",
-        "county": "Jackson",
-        "city": "Jackson County",
+        "id": "msproc-46706",
+        "name": "Harrison / 43-20260918073807 Gulfport",
+        "county": "Harrison",
+        "city": "Harrison County",
         "lat": 30.3674,
-        "lon": -88.5561,
+        "lon": -89.0928,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-13T12:00:00-05:00",
+        "deadline": "2026-10-14T10:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -81,13 +81,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Tuesday, October 13th and said bids are to be opened and read aloud at 1:00 p.m. in the Board of Supervisors M"
+          "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46644?AppId=1",
-        "verified": "2026-10-12",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46706?AppId=1",
+        "verified": "2026-10-13",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -97,25 +97,25 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-12T15:25:24.891258-05:00",
+          "lastSeen": "2026-10-13T13:30:37.521577-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46644",
-        "sourceSmartNumber": "94-20260908145945 BSJC",
-        "sourceRFx": "3170036690",
+        "sourceDetailId": "46706",
+        "sourceSmartNumber": "43-20260918073807 Gulfport",
+        "sourceRFx": "3170036727",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/13/2026 12:00 PM"
+        "submissionDateRaw": "10/14/2026 10:00 AM"
       }
     },
     {
       "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46643",
+      "project_id": "msproc-46497",
       "before": {
-        "id": "msproc-46643",
-        "name": "Harrison / 93-20260908142324 HCBS",
+        "id": "msproc-46497",
+        "name": "Harrison / 2507-20260904084645 PWSD",
         "county": "Harrison",
         "city": "Harrison County",
         "lat": 30.3674,
@@ -123,7 +123,7 @@
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-13T10:15:00-05:00",
+        "deadline": "2026-10-14T10:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 63,
@@ -131,17 +131,17 @@
         "confidence": 96,
         "distance": null,
         "scope": [
-          "EQUIPMENT - NON-TECHNOLOGY",
-          "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: One (1) New Hydraulic Excavator Bids will be received at the Board Conference Room in the First Judicial District Courthouse located at 18"
+          "CONSTRUCTION - SERVICES",
+          "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46643?AppId=1",
-        "verified": "2026-10-12",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46497?AppId=1",
+        "verified": "2026-10-13",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [
-          "excavation"
+          "utilities"
         ],
         "lifecycleStage": "open_procurement",
         "signalType": "public_bid",
@@ -150,17 +150,17 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-12T15:25:24.891258-05:00",
+          "lastSeen": "2026-10-13T13:30:37.521577-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46643",
-        "sourceSmartNumber": "93-20260908142324 HCBS",
-        "sourceRFx": "3170036689",
+        "sourceDetailId": "46497",
+        "sourceSmartNumber": "2507-20260904084645 PWSD",
+        "sourceRFx": "3170036578",
         "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "COMMODITIES",
-        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-        "submissionDateRaw": "10/13/2026 10:15 AM"
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "10/14/2026 10:00 AM"
       }
     }
   ]
