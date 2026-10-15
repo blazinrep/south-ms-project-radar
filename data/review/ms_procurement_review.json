@@ -1,41 +1,5 @@
 [
   {
-    "detail_id": 46443,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "3373-27-R-IFBD-00002",
-      "Advertised Date": "09/09/2026 9:00 AM",
-      "RFx #": "3160008228",
-      "Submission Date": "10/13/2026 4:30 PM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
-      "RFx Opening Date": "10/14/2026 10:00 AM",
-      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "ELLISVILLE STATE SCHOOL",
-      "RFx Description": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
-    }
-  },
-  {
-    "detail_id": 46497,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "2507-20260904084645 PWSD",
-      "Advertised Date": "09/15/2026 5:00 PM",
-      "RFx #": "3170036578",
-      "Submission Date": "10/14/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed or Electronic bids for Pearlington Water and Sewer District Unit Repair and Replacement Project will be received by Pearlington Water and Sewer District, at the office of Brown, Mitchell & Alexander, Inc., 401 Cowan Road, Suite A, Gulfport, MS 3"
-    }
-  },
-  {
     "detail_id": 46596,
     "decision": "publish",
     "county": "Jones"
@@ -47,8 +11,21 @@
   },
   {
     "detail_id": 46645,
-    "decision": "publish",
-    "county": "Jackson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "94-20260908155817 JCBS",
+      "Advertised Date": "09/30/2026 12:00 PM",
+      "RFx #": "3170036691",
+      "Submission Date": "10/14/2026 12:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Notice is hereby given that sealed bids or electronic will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CT) on Wednesday, october 14, 2026, and said bids are to be opened and read aloud at 1:00 p.m. in the Board"
+    }
   },
   {
     "detail_id": 46647,
@@ -57,8 +34,21 @@
   },
   {
     "detail_id": 46660,
-    "decision": "publish",
-    "county": "Jones"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "333-20260915092611 JCBS",
+      "Advertised Date": "09/30/2026 5:00 PM",
+      "RFx #": "3170036703",
+      "Submission Date": "10/15/2026 9:30 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Pre-Bid Conference: Date & Time: 9/28/2026 10:00:00 AM Description: There will be a Non-Mandatory Pre-Bid Meeting at the project site on September 28, 2026 at 10:00 a.m., at the Laurel Courthouse Jones County Board Room, 415 N 5th Avenue, Laurel, MS 394"
+    }
   },
   {
     "detail_id": 46662,
@@ -82,25 +72,20 @@
   },
   {
     "detail_id": 46697,
-    "decision": "publish",
-    "county": "Lincoln"
-  },
-  {
-    "detail_id": 46706,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "43-20260918073807 Gulfport",
-      "Advertised Date": "10/05/2026 5:00 PM",
-      "RFx #": "3170036727",
-      "Submission Date": "10/14/2026 10:00 AM",
+      "Smart Number": "3515-20260928110109 Brookhaven",
+      "Advertised Date": "10/05/2026 12:00 PM",
+      "RFx #": "3170036736",
+      "Submission Date": "10/15/2026 10:00 AM",
       "RFx Status": "Closed",
       "Major Procurement Category": "CONSTRUCTION",
       "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "Pre-Bid Conference: Date & Time: 10/14/2026 10:00:00 AM Description: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 -----------------------------------------------------------------------------------------------------------------"
+      "RFx Description": "The Mayor and Board of Aldermen/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Truck Mounted Knuckle Boom Loader with Dump/Trash Body until 10:00 A.M. on October 12, 2026, by electronic bid Submission. Submissions will be eval"
     }
   },
   {
@@ -112,30 +97,6 @@
     "detail_id": 46726,
     "decision": "publish",
     "county": "Simpson"
-  },
-  {
-    "detail_id": 46742,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46743,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46744,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46745,
@@ -173,6 +134,126 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46750,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46751,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46752,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46755,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46756,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46757,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46758,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46759,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46760,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46761,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46762,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46763,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46764,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46765,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46766,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46767,
+    "decision": "skip_discovery_candidate",
+    "reason": [
       "outside_or_unresolved_territory"
     ]
   }
