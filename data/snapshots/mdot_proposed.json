@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-10-15T15:34:37.853924+00:00",
+  "retrieved_at": "2026-10-16T15:21:25.380627+00:00",
   "records": [
     {
       "month": "2026/10",
@@ -214,17 +214,6 @@
     {
       "month": "2026/11",
       "district": "District 7",
-      "project_no": "109364/301000",
-      "fed_project_no": "STBG-0008-02(136)",
-      "parallel_to_project_no": "",
-      "county": "Simpson",
-      "route": "US 49",
-      "scope": "Reconstruction",
-      "termini": "US 49 at MS 13"
-    },
-    {
-      "month": "2026/11",
-      "district": "District 7",
       "project_no": "110044/301000",
       "fed_project_no": "NHPP-0055-01(153)",
       "parallel_to_project_no": "",
@@ -276,6 +265,17 @@
       "route": "MS 13",
       "scope": "Overlay",
       "termini": "MS 13 from the Marion County Line to MS 184"
+    },
+    {
+      "month": "2027/01",
+      "district": "District 7",
+      "project_no": "110244/301000",
+      "fed_project_no": "SP-1246-00(003)",
+      "parallel_to_project_no": "",
+      "county": "Covington",
+      "route": "MS 184",
+      "scope": "Scrub Seal & Overlay",
+      "termini": "MS 184 From US 84 to US 49 and the frontage roads along US 49 in Collins between Walter's Road and Sylvia Street"
     },
     {
       "month": "2027/02",
@@ -478,6 +478,39 @@
     {
       "month": "2027/07",
       "district": "District 7",
+      "project_no": "108782/307000",
+      "fed_project_no": "STBG-9999-07(382)",
+      "parallel_to_project_no": "",
+      "county": "Covington",
+      "route": "MS 35",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "MS 35 over Okatoma Creek (Bridge # 63.8) - Seal joints, bearing replacements"
+    },
+    {
+      "month": "2027/07",
+      "district": "District 7",
+      "project_no": "108782/307100",
+      "fed_project_no": "STBG-9999-07(382)",
+      "parallel_to_project_no": "108782/307000",
+      "county": "Franklin",
+      "route": "US 84",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "US 84 over Wells Creek (Bridge # 24.5B) - Repair deteriorated steel risers - Bent 3 and Bent 4"
+    },
+    {
+      "month": "2027/07",
+      "district": "District 7",
+      "project_no": "108782/307200",
+      "fed_project_no": "STBG-9999-07(382)",
+      "parallel_to_project_no": "108782/307000",
+      "county": "Lincoln",
+      "route": "US 84",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "I-55 over Bogue Chitto Road (Bridge #29.4B) - Bearing replacements, clean caps, prestressed beam repair"
+    },
+    {
+      "month": "2027/07",
+      "district": "District 7",
       "project_no": "109471/301000",
       "fed_project_no": "SP-0054-01(064)",
       "parallel_to_project_no": "",
@@ -485,6 +518,28 @@
       "route": "MS 27",
       "scope": "Overlay",
       "termini": "MS 27 from Walthall CL to Dewey Ballard"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "108782/306000",
+      "fed_project_no": "STBG-9999-06(383)",
+      "parallel_to_project_no": "",
+      "county": "Greene",
+      "route": "US 98",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "US 98 over Chickasawhay River (Bridge # 199.2A) - Replace bearings, cap cleaning"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "108782/306100",
+      "fed_project_no": "STBG-9999-06(383)",
+      "parallel_to_project_no": "108782/306000",
+      "county": "Perry",
+      "route": "US 98",
+      "scope": "Bridge Preventive Maintenance",
+      "termini": "US 98 over Caraway Creek (Bridge # 167.9B) - Undersealing at approaches/end bents, joint sealing, bearing replacements, epoxy repair, cap cleaning"
     },
     {
       "month": "2027/09",
