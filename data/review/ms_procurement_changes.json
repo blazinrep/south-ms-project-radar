@@ -1,27 +1,27 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-10-15T15:44:00.679592+00:00",
+  "generated_at": "2026-10-16T15:33:14.414326+00:00",
   "summary": {
-    "new": 1,
+    "new": 0,
     "changed": 0,
     "no_longer_open": 3,
     "stale_unverified": 0
   },
   "events": [
     {
-      "kind": "new_project",
-      "project_id": "msproc-46765",
-      "after": {
-        "id": "msproc-46765",
-        "name": "Forrest / 65-20260914111403 Hattiesburg",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46641",
+      "before": {
+        "id": "msproc-46641",
+        "name": "Jasper / 65-20260908093502 Bay Springs",
+        "county": "Jasper",
+        "city": "Jasper County",
+        "lat": 31.979,
+        "lon": -89.2873,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-22T10:00:00-05:00",
+        "deadline": "2026-10-15T15:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -30,12 +30,12 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00 A.M. on October 22, 2026 in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said l"
+          "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46765?AppId=1",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46641?AppId=1",
         "verified": "2026-10-15",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
@@ -50,29 +50,29 @@
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46765",
-        "sourceSmartNumber": "65-20260914111403 Hattiesburg",
-        "sourceRFx": "3170036757",
+        "sourceDetailId": "46641",
+        "sourceSmartNumber": "65-20260908093502 Bay Springs",
+        "sourceRFx": "3170036687",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/22/2026 10:00 AM"
+        "submissionDateRaw": "10/15/2026 3:00 PM"
       }
     },
     {
       "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46645",
+      "project_id": "msproc-46664",
       "before": {
-        "id": "msproc-46645",
-        "name": "Jackson / 94-20260908155817 JCBS",
-        "county": "Jackson",
-        "city": "Jackson County",
-        "lat": 30.3674,
-        "lon": -88.5561,
+        "id": "msproc-46664",
+        "name": "Pike / 4600-20260916194826 BSPC",
+        "county": "Pike",
+        "city": "Pike County",
+        "lat": 31.1432,
+        "lon": -90.4587,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-14T12:00:00-05:00",
+        "deadline": "2026-10-15T11:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -81,13 +81,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Notice is hereby given that sealed bids or electronic will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CT) on Wednesday, october 14, 2026, and said bids are to be opened and read aloud at 1:00 p.m. in the Board"
+          "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46645?AppId=1",
-        "verified": "2026-10-14",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46664?AppId=1",
+        "verified": "2026-10-15",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -97,84 +97,33 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-14T10:57:41.577134-05:00",
+          "lastSeen": "2026-10-15T10:43:51.946847-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46645",
-        "sourceSmartNumber": "94-20260908155817 JCBS",
-        "sourceRFx": "3170036691",
+        "sourceDetailId": "46664",
+        "sourceSmartNumber": "4600-20260916194826 BSPC",
+        "sourceRFx": "3170036707",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/14/2026 12:00 PM"
+        "submissionDateRaw": "10/15/2026 11:00 AM"
       }
     },
     {
       "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46697",
+      "project_id": "msproc-46726",
       "before": {
-        "id": "msproc-46697",
-        "name": "Lincoln / 3515-20260928110109 Brookhaven",
-        "county": "Lincoln",
-        "city": "Lincoln County",
-        "lat": 31.5791,
-        "lon": -90.4407,
+        "id": "msproc-46726",
+        "name": "Simpson / 4605-20260914143933 BSSC",
+        "county": "Simpson",
+        "city": "Simpson County",
+        "lat": 31.9618,
+        "lon": -89.8701,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-15T10:00:00-05:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "EQUIPMENT - NON-TECHNOLOGY",
-          "The Mayor and Board of Aldermen/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Truck Mounted Knuckle Boom Loader with Dump/Trash Body until 10:00 A.M. on October 12, 2026, by electronic bid Submission. Submissions will be eval"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46697?AppId=1",
-        "verified": "2026-10-14",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-14T10:57:41.577134-05:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46697",
-        "sourceSmartNumber": "3515-20260928110109 Brookhaven",
-        "sourceRFx": "3170036736",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-        "submissionDateRaw": "10/15/2026 10:00 AM"
-      }
-    },
-    {
-      "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46660",
-      "before": {
-        "id": "msproc-46660",
-        "name": "Jones / 333-20260915092611 JCBS",
-        "county": "Jones",
-        "city": "Jones County",
-        "lat": 31.6941,
-        "lon": -89.1306,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-10-15T09:30:00-05:00",
+        "deadline": "2026-10-16T10:30:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -183,13 +132,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Pre-Bid Conference: Date & Time: 9/28/2026 10:00:00 AM Description: There will be a Non-Mandatory Pre-Bid Meeting at the project site on September 28, 2026 at 10:00 a.m., at the Laurel Courthouse Jones County Board Room, 415 N 5th Avenue, Laurel, MS 394"
+          "Sealed bids will be received by the Board of Supervisors of Simpson County Mississippi at the Chancery Clerk Building, 111 West Pine Avenue, Mendenhall, Mississippi, until 10:30 AM on the 16th day of October, 2026, and shortly thereafter publicly opened"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46660?AppId=1",
-        "verified": "2026-10-14",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46726?AppId=1",
+        "verified": "2026-10-15",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -199,17 +148,17 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-14T10:57:41.577134-05:00",
+          "lastSeen": "2026-10-15T10:43:51.946847-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46660",
-        "sourceSmartNumber": "333-20260915092611 JCBS",
-        "sourceRFx": "3170036703",
+        "sourceDetailId": "46726",
+        "sourceSmartNumber": "4605-20260914143933 BSSC",
+        "sourceRFx": "3170036742",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "10/15/2026 9:30 AM"
+        "submissionDateRaw": "10/16/2026 10:30 AM"
       }
     }
   ]
