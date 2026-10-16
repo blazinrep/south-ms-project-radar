@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-15T15:44:17.122447+00:00",
+  "generatedAt": "2026-10-16T15:33:26.646089+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-15T15:44:00.679592+00:00",
+  "inputGeneratedAt": "2026-10-16T15:33:14.414326+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 4,
+    "eventsSeen": 3,
     "needsAttention": 3,
-    "filtered": 1,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 14,
+    "rawFetchErrors": 11,
     "byType": {
       "opportunity_closed": 3
     }
   },
   "attention": [
     {
-      "id": "6870f191e6910c7ebce3",
-      "projectId": "msproc-46645",
+      "id": "956f43cd0a71d5305e00",
+      "projectId": "msproc-46641",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Jackson / 94-20260908155817 JCBS",
-        "county": "Jackson",
-        "city": "Jackson County",
+        "name": "Jasper / 65-20260908093502 Bay Springs",
+        "county": "Jasper",
+        "city": "Jasper County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-10-14T12:00:00-05:00",
+        "deadline": "2026-10-15T15:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46645?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46641?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +47,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-10-14T12:00:00-05:00",
+          "before": "2026-10-15T15:00:00-05:00",
           "after": null
         },
         {
@@ -69,7 +69,7 @@
           "field": "scope",
           "before": [
             "CONSTRUCTION - SERVICES",
-            "Notice is hereby given that sealed bids or electronic will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CT) on Wednesday, october 14, 2026, and said bids are to be opened and read aloud at 1:00 p.m. in the Board"
+            "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
           ],
           "after": null
         },
@@ -82,22 +82,22 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     },
     {
-      "id": "8369e25527f7eb1255b6",
-      "projectId": "msproc-46697",
+      "id": "6a8efffa41cf68ac2d5e",
+      "projectId": "msproc-46664",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Lincoln / 3515-20260928110109 Brookhaven",
-        "county": "Lincoln",
-        "city": "Lincoln County",
+        "name": "Pike / 4600-20260916194826 BSPC",
+        "county": "Pike",
+        "city": "Pike County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-10-15T10:00:00-05:00",
+        "deadline": "2026-10-15T11:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46697?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46664?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -112,72 +112,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-10-15T10:00:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "EQUIPMENT - NON-TECHNOLOGY",
-            "The Mayor and Board of Aldermen/Alderwoman of Brookhaven, MS shall receive unpriced bid proposals for (one) Truck Mounted Knuckle Boom Loader with Dump/Trash Body until 10:00 A.M. on October 12, 2026, by electronic bid Submission. Submissions will be eval"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "947069be9b197a71e931",
-      "projectId": "msproc-46660",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Jones / 333-20260915092611 JCBS",
-        "county": "Jones",
-        "city": "Jones County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-15T09:30:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46660?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-15T09:30:00-05:00",
+          "before": "2026-10-15T11:00:00-05:00",
           "after": null
         },
         {
@@ -199,7 +134,72 @@
           "field": "scope",
           "before": [
             "CONSTRUCTION - SERVICES",
-            "Pre-Bid Conference: Date & Time: 9/28/2026 10:00:00 AM Description: There will be a Non-Mandatory Pre-Bid Meeting at the project site on September 28, 2026 at 10:00 a.m., at the Laurel Courthouse Jones County Board Room, 415 N 5th Avenue, Laurel, MS 394"
+            "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "bad0efc74dae0d498202",
+      "projectId": "msproc-46726",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Simpson / 4605-20260914143933 BSSC",
+        "county": "Simpson",
+        "city": "Simpson County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-16T10:30:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46726?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-10-16T10:30:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "Sealed bids will be received by the Board of Supervisors of Simpson County Mississippi at the Chancery Clerk Building, 111 West Pine Avenue, Mendenhall, Mississippi, until 10:30 AM on the 16th day of October, 2026, and shortly thereafter publicly opened"
           ],
           "after": null
         },
@@ -212,20 +212,14 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
-  "filtered": [
-    {
-      "projectId": "msproc-46765",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-15T10:43:51.946847-05:00",
-    "knownActiveChecked": 12,
-    "currentRecords": 10,
+    "checkedAt": "2026-10-16T10:33:08.577077-05:00",
+    "knownActiveChecked": 10,
+    "currentRecords": 7,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 14,
+    "rawNetworkOrHttpFailures": 11,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

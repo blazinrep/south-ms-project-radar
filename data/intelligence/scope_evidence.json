@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 103,
+  "projectCount": 106,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3558,6 +3558,216 @@
       ]
     },
     {
+      "projectId": "mdot-110244-301000",
+      "projectName": "MDOT Proposed: MS 184 \u2014 Covington County Scrub Seal & Overlay",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: MS 184 \u2014 Covington County Scrub Seal & Overlay"
+        },
+        {
+          "source": "project.scope",
+          "text": "Scrub Seal & Overlay"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 184"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 184 From US 84 to US 49 and the frontage roads along US 49 in Collins between Walter's Road and Sylvia Street"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for scrub seal & overlay. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Scrub Seal & Overlay"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 184"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 184 From US 84 to US 49 and the frontage roads along US 49 in Collins between Walter's Road and Sylvia Street"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-307000",
+      "projectName": "MDOT Proposed: MS 35 \u2014 Covington County Bridge Preventive Maintenance",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: MS 35 \u2014 Covington County Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 35"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 35 over Okatoma Creek (Bridge # 63.8) - Seal joints, bearing replacements"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 35"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 35 over Okatoma Creek (Bridge # 63.8) - Seal joints, bearing replacements"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-307100",
+      "projectName": "MDOT Proposed: US 84 \u2014 Franklin County Bridge Preventive Maintenance",
+      "evidenceCount": 4,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 84 \u2014 Franklin County Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 84"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 84 over Wells Creek (Bridge # 24.5B) - Repair deteriorated steel risers - Bent 3 and Bent 4"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-307200",
+      "projectName": "MDOT Proposed: US 84 \u2014 Lincoln County Bridge Preventive Maintenance",
+      "evidenceCount": 4,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 84 \u2014 Lincoln County Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 84"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-55 over Bogue Chitto Road (Bridge #29.4B) - Bearing replacements, clean caps, prestressed beam repair"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-306000",
+      "projectName": "MDOT Proposed: US 98 \u2014 Greene County Bridge Preventive Maintenance",
+      "evidenceCount": 4,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 98 \u2014 Greene County Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 98"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 98 over Chickasawhay River (Bridge # 199.2A) - Replace bearings, cap cleaning"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-306100",
+      "projectName": "MDOT Proposed: US 98 \u2014 Perry County Bridge Preventive Maintenance",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 98 \u2014 Perry County Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 98"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 98 over Caraway Creek (Bridge # 167.9B) - Undersealing at approaches/end bents, joint sealing, bearing replacements, epoxy repair, cap cleaning"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge preventive maintenance. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Preventive Maintenance"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 98"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 98 over Caraway Creek (Bridge # 167.9B) - Undersealing at approaches/end bents, joint sealing, bearing replacements, epoxy repair, cap cleaning"
+        }
+      ]
+    },
+    {
       "projectId": "msproc-46596",
       "projectName": "Jones / 3373-27-R-IFBD-00004-V01",
       "evidenceCount": 3,
@@ -3573,45 +3783,6 @@
         {
           "source": "project.scope",
           "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46641",
-      "projectName": "Jasper / 65-20260908093502 Bay Springs",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jasper / 65-20260908093502 Bay Springs"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "NOTICE is hereby given that the City Clerk of the City of Bay Springs, MISSISSIPPI, will receive sealed bids until 3:00 PM on October 15, 2026 in the City Clerks Office at City Hall, 39 South 6th Street, and then at said location opened and read aloud"
         }
       ]
     },
@@ -3670,45 +3841,6 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46664",
-      "projectName": "Pike / 4600-20260916194826 BSPC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Pike / 4600-20260916194826 BSPC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Pike County, Mississippi at the Pike County Courthouse, Magnolia, Mississippi, until ____ a.m. on the __ day of ________ , 2026 and shortly thereafter publicly opened for con"
         }
       ]
     },
@@ -3834,45 +3966,6 @@
         {
           "source": "opportunity.scope",
           "text": "Notice is hereby given that sealed or electronic bids will be received by the Jackson County Utility Authority, Jackson County, Mississippi until 10:00 a.m. (local time), on the 20th day of October, 2026. All bids will be publicly opened and read aloud"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46726",
-      "projectName": "Simpson / 4605-20260914143933 BSSC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Simpson / 4605-20260914143933 BSSC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Simpson County Mississippi at the Chancery Clerk Building, 111 West Pine Avenue, Mendenhall, Mississippi, until 10:30 AM on the 16th day of October, 2026, and shortly thereafter publicly opened"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Simpson County Mississippi at the Chancery Clerk Building, 111 West Pine Avenue, Mendenhall, Mississippi, until 10:30 AM on the 16th day of October, 2026, and shortly thereafter publicly opened"
         }
       ]
     },

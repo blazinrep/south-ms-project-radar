@@ -40,5 +40,20 @@
     "duplicateRecordIds": [
       "mdot-109798-303000"
     ]
+  },
+  {
+    "canonicalProjectKey": "stbg-9999-07-382",
+    "selectedRecordId": "mdot-108782-307000",
+    "duplicateRecordIds": [
+      "mdot-108782-307100",
+      "mdot-108782-307200"
+    ]
+  },
+  {
+    "canonicalProjectKey": "stbg-9999-06-383",
+    "selectedRecordId": "mdot-108782-306100",
+    "duplicateRecordIds": [
+      "mdot-108782-306000"
+    ]
   }
 ]

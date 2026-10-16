@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 103,
-  "matchedProjectCount": 74,
+  "projectCount": 106,
+  "matchedProjectCount": 76,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2268,6 +2268,72 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-307000",
+      "projectName": "MDOT Proposed: MS 35 \u2014 Covington County Bridge Preventive Maintenance",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Covington",
+      "status": "Proposed 2027/07 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: drainage"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-108782-306100",
+      "projectName": "MDOT Proposed: US 98 \u2014 Perry County Bridge Preventive Maintenance",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Perry",
+      "status": "Proposed 2027/09 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: drainage"
         }
       ]
     },
