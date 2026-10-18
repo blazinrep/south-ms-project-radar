@@ -35,21 +35,6 @@
     "county": "Forrest"
   },
   {
-    "detail_id": 46782,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46783,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46784,
     "decision": "skip_discovery_candidate",
     "reason": [
