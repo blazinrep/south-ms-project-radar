@@ -1,8 +1,21 @@
 [
   {
     "detail_id": 46596,
-    "decision": "publish",
-    "county": "Jones"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "3373-27-R-IFBD-00004-V01",
+      "Advertised Date": "09/16/2026 9:00 AM",
+      "RFx #": "3160008232",
+      "Submission Date": "10/19/2026 4:30 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
+      "RFx Opening Date": "10/20/2026 10:00 AM",
+      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "ELLISVILLE STATE SCHOOL",
+      "RFx Description": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+    }
   },
   {
     "detail_id": 46647,
@@ -10,63 +23,22 @@
     "county": "Forrest"
   },
   {
-    "detail_id": 46662,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "342-20260915132840 BSHC",
-      "Advertised Date": "09/30/2026 5:00 PM",
-      "RFx #": "3170036705",
-      "Submission Date": "10/19/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Hancock County Mississippi at the Hancock County Annex, Bay St. Louis, Mississippi, until 10:00AM on the 19th day of October 2026 and shortly thereafter publicly opened for the construction of"
-    }
-  },
-  {
-    "detail_id": 46670,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "4608-20260918085601 HCSDBE",
-      "Advertised Date": "10/01/2026 5:00 PM",
-      "RFx #": "3170036713",
-      "Submission Date": "10/19/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Harrison County School District (HCSD) Board of Education will accept sealed bid proposals for the installation of artificial turf and drainage system in the courtyard at Harrison Central High School, 15600 School Road, Gulfport, Mississippi 39503."
-    }
-  },
-  {
-    "detail_id": 46678,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "56-20260924123344 BSLC",
-      "Advertised Date": "10/01/2026 5:00 PM",
-      "RFx #": "3170036721",
-      "Submission Date": "10/19/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Lawrence County, Mississippi, until 10:00 AM local time on _______________, at the Lawrence County Courthouse located at 517 E Broad Street, Monticello, MS 39654, and shortly thereafter will be"
-    }
-  },
-  {
     "detail_id": 46708,
-    "decision": "publish",
-    "county": "Jackson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "35-20260918095915 JCUA",
+      "Advertised Date": "10/05/2026 5:00 PM",
+      "RFx #": "3170036728",
+      "Submission Date": "10/20/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Notice is hereby given that sealed or electronic bids will be received by the Jackson County Utility Authority, Jackson County, Mississippi until 10:00 a.m. (local time), on the 20th day of October, 2026. All bids will be publicly opened and read aloud"
+    }
   },
   {
     "detail_id": 46765,
@@ -104,6 +76,34 @@
   },
   {
     "detail_id": 46788,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46789,
+    "decision": "publish",
+    "county": "Jones"
+  },
+  {
+    "detail_id": 46790,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46791,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46792,
     "decision": "skip_discovery_candidate",
     "reason": [
       "outside_or_unresolved_territory"
