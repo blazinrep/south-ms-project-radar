@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 103,
+  "projectCount": 102,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3768,25 +3768,6 @@
       ]
     },
     {
-      "projectId": "msproc-46596",
-      "projectName": "Jones / 3373-27-R-IFBD-00004-V01",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 3373-27-R-IFBD-00004-V01"
-        },
-        {
-          "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46647",
       "projectName": "Forrest / 9280-27-R-IFBD-00015",
       "evidenceCount": 3,
@@ -3802,49 +3783,6 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, October 22, 2026, 2:"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46708",
-      "projectName": "Jackson / 35-20260918095915 JCUA",
-      "evidenceCount": 9,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 35-20260918095915 JCUA"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that sealed or electronic bids will be received by the Jackson County Utility Authority, Jackson County, Mississippi until 10:00 a.m. (local time), on the 20th day of October, 2026. All bids will be publicly opened and read aloud"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "utility"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Notice is hereby given that sealed or electronic bids will be received by the Jackson County Utility Authority, Jackson County, Mississippi until 10:00 a.m. (local time), on the 20th day of October, 2026. All bids will be publicly opened and read aloud"
         }
       ]
     },
@@ -3884,6 +3822,25 @@
         {
           "source": "opportunity.scope",
           "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00 A.M. on October 22, 2026 in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said l"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46789",
+      "projectName": "Jones / 3373-27-R-IFBD-00002-V01",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 3373-27-R-IFBD-00002-V01"
+        },
+        {
+          "source": "project.scope",
+          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
         }
       ]
     },

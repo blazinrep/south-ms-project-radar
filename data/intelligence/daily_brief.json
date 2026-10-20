@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-19T17:46:41.616936+00:00",
+  "generatedAt": "2026-10-20T15:50:22.727312+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 103,
-  "canonicalProjectCount": 94,
+  "sourceRecordCount": 102,
+  "canonicalProjectCount": 93,
   "duplicateGroups": 8,
   "rejectedCount": 2,
   "decisionCounts": {
     "specialist_only": 1,
     "low_priority": 74,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 6,
+    "optional_outside_radius": 5,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -104,45 +104,6 @@
         "sitework_scope_inferred"
       ],
       "qualificationGates": []
-    },
-    {
-      "id": "msproc-46708",
-      "name": "Jackson / 35-20260918095915 JCUA",
-      "county": "Jackson",
-      "deadline": "2026-10-20T10:00:00-05:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 8,
-        "pursuitAccessibility": 7,
-        "runway": 2,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 25,
-        "actionPriority": 37
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
     },
     {
       "id": "mdot-109083-301000",
@@ -289,7 +250,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -56.1,
+      "daysToDeadline": -57.0,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
@@ -329,6 +290,32 @@
           "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
         }
       ]
+    },
+    {
+      "id": "mdot-110227-301000",
+      "name": "MDOT Proposed: MS 532 \u2014 Covington County Bridge Repair",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 51,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
     }
   ],
   "fitRanking": [
