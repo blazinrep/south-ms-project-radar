@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 102,
+  "projectCount": 103,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3826,21 +3826,80 @@
       ]
     },
     {
-      "projectId": "msproc-46789",
-      "projectName": "Jones / 3373-27-R-IFBD-00002-V01",
-      "evidenceCount": 3,
+      "projectId": "msproc-46798",
+      "projectName": "Forrest / 65-20260914111806 Hattiesburg",
+      "evidenceCount": 8,
       "evidence": [
         {
           "source": "project.name",
-          "text": "Jones / 3373-27-R-IFBD-00002-V01"
+          "text": "Forrest / 65-20260914111806 Hattiesburg"
         },
         {
           "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+          "text": "CONSTRUCTION - SERVICES"
         },
         {
           "source": "project.scope",
-          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
+          "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on October 22, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on October 22, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46799",
+      "projectName": "Forrest / 65-20260914113919 Hattiesburg",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 65-20260914113919 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on October 22, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on October 22, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
         }
       ]
     },
