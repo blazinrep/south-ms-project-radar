@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-21T16:07:03.723552+00:00",
+  "generatedAt": "2026-10-22T16:01:55.920352+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-21T16:06:48.415268+00:00",
+  "inputGeneratedAt": "2026-10-22T16:01:41.568562+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
     "eventsSeen": 3,
-    "needsAttention": 1,
-    "filtered": 2,
+    "needsAttention": 3,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 7,
+    "rawFetchErrors": 18,
     "byType": {
-      "opportunity_closed": 1
+      "opportunity_closed": 3
     }
   },
   "attention": [
     {
-      "id": "873144d3f6cd99ba2356",
-      "projectId": "msproc-46789",
+      "id": "182133167584968c3b9c",
+      "projectId": "msproc-46798",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Jones / 3373-27-R-IFBD-00002-V01",
-        "county": "Jones",
-        "city": "Jones County",
+        "name": "Forrest / 65-20260914111806 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-10-13T16:30:00-05:00",
+        "deadline": "2026-10-22T10:00:00-05:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46789?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46798?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +47,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-10-13T16:30:00-05:00",
+          "before": "2026-10-22T10:00:00-05:00",
           "after": null
         },
         {
@@ -57,7 +57,7 @@
         },
         {
           "field": "sourceRFxStatus",
-          "before": "Closed",
+          "before": "Open",
           "after": null
         },
         {
@@ -68,8 +68,138 @@
         {
           "field": "scope",
           "before": [
-            "PERSONNEL SERVICE - NON-TECHNOLOGY",
-            "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bid for the purpose of receiving sealed bids from qualified vendors to provide Psychiatry Services to the Persons-served of the Agency."
+            "CONSTRUCTION - SERVICES",
+            "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on October 22, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "404d1879ec6752749bed",
+      "projectId": "msproc-46799",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Forrest / 65-20260914113919 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-22T10:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46799?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-10-22T10:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on October 22, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "3c94dbefb166236c6f74",
+      "projectId": "msproc-46765",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Forrest / 65-20260914111403 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-22T10:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46765?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-10-22T10:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00 A.M. on October 22, 2026 in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said l"
           ],
           "after": null
         },
@@ -82,25 +212,14 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
-  "filtered": [
-    {
-      "projectId": "msproc-46798",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    },
-    {
-      "projectId": "msproc-46799",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-21T11:06:43.176795-05:00",
-    "knownActiveChecked": 3,
-    "currentRecords": 4,
+    "checkedAt": "2026-10-22T11:01:35.121714-05:00",
+    "knownActiveChecked": 4,
+    "currentRecords": 1,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 7,
+    "rawNetworkOrHttpFailures": 18,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
