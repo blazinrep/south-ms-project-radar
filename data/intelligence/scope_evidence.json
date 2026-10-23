@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 100,
+  "projectCount": 99,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3764,25 +3764,6 @@
         {
           "source": "opportunity.scope",
           "text": "US 98 over Caraway Creek (Bridge # 167.9B) - Undersealing at approaches/end bents, joint sealing, bearing replacements, epoxy repair, cap cleaning"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46647",
-      "projectName": "Forrest / 9280-27-R-IFBD-00015",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 9280-27-R-IFBD-00015"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, October 22, 2026, 2:"
         }
       ]
     },
