@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 99,
+  "projectCount": 101,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3764,6 +3764,88 @@
         {
           "source": "opportunity.scope",
           "text": "US 98 over Caraway Creek (Bridge # 167.9B) - Undersealing at approaches/end bents, joint sealing, bearing replacements, epoxy repair, cap cleaning"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46837",
+      "projectName": "Simpson / 29-20261008125556 SCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Simpson / 29-20261008125556 SCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - FURNITURE AND EQUIPMENT"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - FURNITURE AND EQUIPMENT"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46845",
+      "projectName": "Jackson / 152-20260928075332 Pascagoula",
+      "evidenceCount": 9,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 152-20260928075332 Pascagoula"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "drainage"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
         }
       ]
     },
