@@ -1,27 +1,27 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-10-23T15:55:10.680862+00:00",
+  "generated_at": "2026-10-24T14:54:11.481065+00:00",
   "summary": {
-    "new": 0,
+    "new": 2,
     "changed": 0,
-    "no_longer_open": 1,
+    "no_longer_open": 0,
     "stale_unverified": 0
   },
   "events": [
     {
-      "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46647",
-      "before": {
-        "id": "msproc-46647",
-        "name": "Forrest / 9280-27-R-IFBD-00015",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
+      "kind": "new_project",
+      "project_id": "msproc-46837",
+      "after": {
+        "id": "msproc-46837",
+        "name": "Simpson / 29-20261008125556 SCBS",
+        "county": "Simpson",
+        "city": "Simpson County",
+        "lat": 31.9618,
+        "lon": -89.8701,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-10-22T14:00:00-05:00",
+        "deadline": "2026-10-27T10:00:00-05:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -29,14 +29,14 @@
         "confidence": 96,
         "distance": null,
         "scope": [
-          "EQUIPMENT - NON-TECHNOLOGY",
-          "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, October 22, 2026, 2:"
+          "CONSTRUCTION - FURNITURE AND EQUIPMENT",
+          "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+        "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46647?AppId=1",
-        "verified": "2026-10-22",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46837?AppId=1",
+        "verified": "2026-10-24",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -46,17 +46,70 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-10-22T11:01:35.121714-05:00",
+          "lastSeen": "2026-10-24T09:54:05.871119-05:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46647",
-        "sourceSmartNumber": "9280-27-R-IFBD-00015",
-        "sourceRFx": "3160008296",
+        "sourceDetailId": "46837",
+        "sourceSmartNumber": "29-20261008125556 SCBS",
+        "sourceRFx": "3170036809",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "COMMODITIES",
-        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
-        "submissionDateRaw": "10/22/2026 2:00 PM"
+        "subProcurementCategory": "CONSTRUCTION - FURNITURE AND EQUIPMENT",
+        "submissionDateRaw": "10/27/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "new_project",
+      "project_id": "msproc-46845",
+      "after": {
+        "id": "msproc-46845",
+        "name": "Jackson / 152-20260928075332 Pascagoula",
+        "county": "Jackson",
+        "city": "Jackson County",
+        "lat": 30.3674,
+        "lon": -88.5561,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-10-27T14:00:00-05:00",
+        "prebid": null,
+        "value": null,
+        "match": 63,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46845?AppId=1",
+        "verified": "2026-10-24",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [
+          "drainage"
+        ],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-10-24T09:54:05.871119-05:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46845",
+        "sourceSmartNumber": "152-20260928075332 Pascagoula",
+        "sourceRFx": "3170036825",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "10/27/2026 2:00 PM"
       }
     }
   ]
