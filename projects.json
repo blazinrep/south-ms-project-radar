@@ -3411,7 +3411,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46837?AppId=1",
-    "verified": "2026-10-24",
+    "verified": "2026-10-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3421,7 +3421,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-24T09:54:05.871119-05:00",
+      "lastSeen": "2026-10-25T10:03:10.382601-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -3458,7 +3458,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46845?AppId=1",
-    "verified": "2026-10-24",
+    "verified": "2026-10-25",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "drainage"
@@ -3470,7 +3470,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-24T09:54:05.871119-05:00",
+      "lastSeen": "2026-10-25T10:03:10.382601-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
