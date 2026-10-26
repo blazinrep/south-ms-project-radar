@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:03:29.280284+00:00",
+  "generatedAt": "2026-10-26T17:39:07.223695+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 101,
   "canonicalProjectCount": 92,
@@ -110,7 +110,7 @@
       "name": "Jackson / 152-20260928075332 Pascagoula",
       "county": "Jackson",
       "deadline": "2026-10-27T14:00:00-05:00",
-      "daysToDeadline": 2.2,
+      "daysToDeadline": 1.1,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -119,11 +119,11 @@
       "scores": {
         "scopeFit": 11,
         "pursuitAccessibility": 7,
-        "runway": 6,
+        "runway": 2,
         "geography": 0,
         "evidenceQuality": 8,
-        "fitTotal": 32,
-        "actionPriority": 42
+        "fitTotal": 28,
+        "actionPriority": 40
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -289,7 +289,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -62.0,
+      "daysToDeadline": -63.1,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
