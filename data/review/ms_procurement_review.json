@@ -36,5 +36,21 @@
     "reason": [
       "outside_or_unresolved_territory"
     ]
+  },
+  {
+    "detail_id": 46848,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46849,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
   }
 ]
