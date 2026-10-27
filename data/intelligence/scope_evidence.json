@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 101,
+  "projectCount": 103,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3768,41 +3768,49 @@
       ]
     },
     {
-      "projectId": "msproc-46837",
-      "projectName": "Simpson / 29-20261008125556 SCBS",
-      "evidenceCount": 8,
+      "projectId": "mdot-110393-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Lamar County Mill & Overlay",
+      "evidenceCount": 10,
       "evidence": [
         {
           "source": "project.name",
-          "text": "Simpson / 29-20261008125556 SCBS"
+          "text": "MDOT Proposed: US 11 \u2014 Lamar County Mill & Overlay"
         },
         {
           "source": "project.scope",
-          "text": "CONSTRUCTION - FURNITURE AND EQUIPMENT"
+          "text": "Mill & Overlay"
         },
         {
           "source": "project.scope",
-          "text": "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
+          "text": "US 11"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 11 from MS 589 in Purvis to the Forrest County Line"
         },
         {
           "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
+          "text": "Official MDOT future-letting signal for mill & overlay. Early-stage watch item; not yet represented as an open bid."
         },
         {
           "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+          "text": "Watch for the letting package and identify likely primes before bid release."
         },
         {
           "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
+          "text": "Monitor MDOT proposed letting / Bid Express"
         },
         {
           "source": "opportunity.scope",
-          "text": "CONSTRUCTION - FURNITURE AND EQUIPMENT"
+          "text": "Mill & Overlay"
         },
         {
           "source": "opportunity.scope",
-          "text": "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
+          "text": "US 11"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 11 from MS 589 in Purvis to the Forrest County Line"
         }
       ]
     },
@@ -3846,6 +3854,64 @@
         {
           "source": "opportunity.scope",
           "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46854",
+      "projectName": "Pearl River / 134-20260928093340 PRCC",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Pearl River / 134-20260928093340 PRCC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 27, 2026 for professional arch"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46856",
+      "projectName": "Jones / 1130-27-R-IFBD-00026",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 1130-27-R-IFBD-00026"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "422-180 Parking Lot Improvements Ellisville State School"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "422-180 Parking Lot Improvements Ellisville State School"
         }
       ]
     },
