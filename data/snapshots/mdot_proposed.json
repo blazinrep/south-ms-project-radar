@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-10-26T17:20:05.255314+00:00",
+  "retrieved_at": "2026-10-27T16:34:47.090859+00:00",
   "records": [
     {
       "month": "2026/10",
@@ -247,8 +247,8 @@
     {
       "month": "2027/01",
       "district": "District 6",
-      "project_no": "310370/301000",
-      "fed_project_no": "MP-6011-37(007)",
+      "project_no": "110393/301000",
+      "fed_project_no": "SP-2171-00(032)",
       "parallel_to_project_no": "",
       "county": "Lamar",
       "route": "US 11",
@@ -298,17 +298,6 @@
       "route": "MS 42",
       "scope": "Bridge Replacement",
       "termini": "SR 42 over Bogue Homa Creek (#76.2)"
-    },
-    {
-      "month": "2027/02",
-      "district": "District 6",
-      "project_no": "109083/301000",
-      "fed_project_no": "STBG-2902-00(016)",
-      "parallel_to_project_no": "",
-      "county": "Clarke",
-      "route": "US 11",
-      "scope": "Bridge Replacement",
-      "termini": "US 11 Bridge Replacements (#145.2 & 143.3)"
     },
     {
       "month": "2027/02",
@@ -375,6 +364,17 @@
       "route": "",
       "scope": "Bridge Repair",
       "termini": "Calvary Drive over I-55 (Bridge # 31.2)"
+    },
+    {
+      "month": "2027/04",
+      "district": "District 6",
+      "project_no": "109083/301000",
+      "fed_project_no": "STBG-2902-00(016)",
+      "parallel_to_project_no": "",
+      "county": "Clarke",
+      "route": "US 11",
+      "scope": "Bridge Replacement",
+      "termini": "US 11 Bridge Replacements (#145.2 & 143.3)"
     },
     {
       "month": "2027/04",

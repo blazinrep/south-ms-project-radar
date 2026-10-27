@@ -1,9 +1,159 @@
 {
-  "generated_at": "2026-10-26T17:20:05.348216+00:00",
+  "generated_at": "2026-10-27T16:34:47.189319+00:00",
   "summary": {
-    "new": 0,
-    "changed": 0,
+    "new": 1,
+    "changed": 1,
     "removed": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "project_changed",
+      "project_id": "mdot-109083-301000",
+      "before": {
+        "id": "mdot-109083-301000",
+        "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
+        "county": "Clarke",
+        "city": "Clarke County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2027/02 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 90,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Replacement",
+          "US 11",
+          "US 11 Bridge Replacements (#145.2 & 143.3)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-10-26",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "excavation",
+          "grading",
+          "drainage",
+          "erosion_control",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-10-26T17:20:05.288750+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "109083/301000",
+        "sourceFedProjectNo": "STBG-2902-00(016)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2027-02-01"
+      },
+      "after": {
+        "id": "mdot-109083-301000",
+        "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
+        "county": "Clarke",
+        "city": "Clarke County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2027/04 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 90,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Bridge Replacement",
+          "US 11",
+          "US 11 Bridge Replacements (#145.2 & 143.3)"
+        ],
+        "why": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-10-27",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "excavation",
+          "grading",
+          "drainage",
+          "erosion_control",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-10-27T16:34:47.125852+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "109083/301000",
+        "sourceFedProjectNo": "STBG-2902-00(016)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2027-04-01"
+      }
+    },
+    {
+      "kind": "new_project",
+      "project_id": "mdot-110393-301000",
+      "after": {
+        "id": "mdot-110393-301000",
+        "name": "MDOT Proposed: US 11 \u2014 Lamar County Mill & Overlay",
+        "county": "Lamar",
+        "city": "Lamar County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2027/01 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 68,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Mill & Overlay",
+          "US 11",
+          "US 11 from MS 589 in Purvis to the Forrest County Line"
+        ],
+        "why": "Official MDOT future-letting signal for mill & overlay. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-10-27",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "paving_base",
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-10-27T16:34:47.125777+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "110393/301000",
+        "sourceFedProjectNo": "SP-2171-00(032)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2027-01-01"
+      }
+    }
+  ]
 }
