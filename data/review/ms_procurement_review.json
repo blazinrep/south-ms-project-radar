@@ -1,22 +1,21 @@
 [
   {
     "detail_id": 46837,
-    "decision": "publish",
-    "county": "Simpson"
-  },
-  {
-    "detail_id": 46843,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46844,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "29-20261008125556 SCBS",
+      "Advertised Date": "10/23/2026 2:00 PM",
+      "RFx #": "3170036809",
+      "Submission Date": "10/27/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "COMMODITIES",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - FURNITURE AND EQUIPMENT",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
+    }
   },
   {
     "detail_id": 46845,
@@ -52,5 +51,52 @@
       "not_construction_relevant",
       "outside_or_unresolved_territory"
     ]
+  },
+  {
+    "detail_id": 46850,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46851,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46852,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46853,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46854,
+    "decision": "publish",
+    "county": "Pearl River"
+  },
+  {
+    "detail_id": 46855,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46856,
+    "decision": "publish",
+    "county": "Jones"
   }
 ]
