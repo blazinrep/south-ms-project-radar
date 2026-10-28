@@ -1,28 +1,94 @@
 {
-  "generatedAt": "2026-10-27T16:51:51.512159+00:00",
+  "generatedAt": "2026-10-28T17:23:56.860494+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-10-27T16:51:36.719628+00:00",
+  "inputGeneratedAt": "2026-10-28T17:23:44.078983+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 3,
+    "eventsSeen": 2,
     "needsAttention": 2,
-    "filtered": 1,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 23,
+    "rawFetchErrors": 17,
     "byType": {
-      "new_opportunity": 1,
-      "opportunity_closed": 1
+      "opportunity_closed": 2
     }
   },
   "attention": [
     {
-      "id": "5e43c1f6d31b76a47e08",
-      "projectId": "msproc-46854",
-      "type": "new_opportunity",
+      "id": "a272e6052a5c6610aac0",
+      "projectId": "msproc-46845",
+      "type": "opportunity_closed",
       "priority": "high",
-      "title": "New contractor-relevant opportunity",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Jackson / 152-20260928075332 Pascagoula",
+        "county": "Jackson",
+        "city": "Jackson County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-10-27T14:00:00-05:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46845?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [
+        "drainage"
+      ],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-10-27T14:00:00-05:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "21b85575f528b66a4cd9",
+      "projectId": "msproc-46854",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
       "project": {
         "name": "Pearl River / 134-20260928093340 PRCC",
         "county": "Pearl River",
@@ -48,72 +114,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": null,
-          "after": "2026-10-27T14:00:00-05:00"
-        },
-        {
-          "field": "status",
-          "before": null,
-          "after": "Accepting bids"
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": null,
-          "after": "Open"
-        },
-        {
-          "field": "lifecycleStage",
-          "before": null,
-          "after": "open_procurement"
-        },
-        {
-          "field": "scope",
-          "before": null,
-          "after": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 27, 2026 for professional arch"
-          ]
-        },
-        {
-          "field": "nextMove",
-          "before": null,
-          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        }
-      ],
-      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-    },
-    {
-      "id": "5f4b90d1fd23e17364e1",
-      "projectId": "msproc-46837",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Simpson / 29-20261008125556 SCBS",
-        "county": "Simpson",
-        "city": "Simpson County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-27T10:00:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46837?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-27T10:00:00-05:00",
+          "before": "2026-10-27T14:00:00-05:00",
           "after": null
         },
         {
@@ -134,8 +135,8 @@
         {
           "field": "scope",
           "before": [
-            "CONSTRUCTION - FURNITURE AND EQUIPMENT",
-            "Sealed Bid Due Date: Tuesday, October 27, 2026 at 10:00 a.m. Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be s"
+            "CONSTRUCTION - SERVICES",
+            "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 27, 2026 for professional arch"
           ],
           "after": null
         },
@@ -148,20 +149,14 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     }
   ],
-  "filtered": [
-    {
-      "projectId": "msproc-46856",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-10-27T11:51:32.124485-05:00",
-    "knownActiveChecked": 2,
-    "currentRecords": 3,
+    "checkedAt": "2026-10-28T12:23:39.511870-05:00",
+    "knownActiveChecked": 3,
+    "currentRecords": 1,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 23,
+    "rawNetworkOrHttpFailures": 17,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

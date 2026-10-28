@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 103,
+  "projectCount": 101,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3811,68 +3811,6 @@
         {
           "source": "opportunity.scope",
           "text": "US 11 from MS 589 in Purvis to the Forrest County Line"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46845",
-      "projectName": "Jackson / 152-20260928075332 Pascagoula",
-      "evidenceCount": 9,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 152-20260928075332 Pascagoula"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
-        },
-        {
-          "source": "intelligence.fitEvidence",
-          "text": "drainage"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The City of Pascagoula (Owner) is requesting Bids for the construction of the following Project: LIVE OAK AVENUE DRAINAGE IMPROVEMENTS Bids for the construction of the Project will be received at the City Clerk of Pascagoula, Mississippi located at 535"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46854",
-      "projectName": "Pearl River / 134-20260928093340 PRCC",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Pearl River / 134-20260928093340 PRCC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed Statements of Qualifications will be received by Pearl River Community College at The Office of the President, Alexander Administration Building, 101 Hwy. 11 North, Poplarville, MS 39470 until 2:00 PM CDT on October 27, 2026 for professional arch"
         }
       ]
     },

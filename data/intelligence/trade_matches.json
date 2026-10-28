@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 103,
-  "matchedProjectCount": 77,
+  "projectCount": 101,
+  "matchedProjectCount": 76,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2367,39 +2367,6 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46845",
-      "projectName": "Jackson / 152-20260928075332 Pascagoula",
-      "owner": "MPTAP",
-      "county": "Jackson",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46845?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "excavation_sitework",
-          "trade": "Excavation / Sitework",
-          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "drainage"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "bonding",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible excavation / sitework scope detected from drainage, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: drainage"
         }
       ]
     },
