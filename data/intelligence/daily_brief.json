@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T17:23:56.347535+00:00",
+  "generatedAt": "2026-10-29T17:32:18.548452+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 101,
   "canonicalProjectCount": 92,
@@ -250,7 +250,7 @@
       "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
       "county": "Walthall",
       "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -65.1,
+      "daysToDeadline": -66.1,
       "distanceMiles": 34,
       "decision": "specialist_only",
       "pursuitPath": "specialist_only",
