@@ -5,30 +5,6 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46865,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46866,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46867,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46868,
     "decision": "skip_discovery_candidate",
     "reason": [
@@ -64,6 +40,51 @@
     "reason": [
       "not_construction_relevant",
       "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46873,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46874,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46875,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46876,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46877,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46878,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
     ]
   }
 ]

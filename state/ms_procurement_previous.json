@@ -24,7 +24,7 @@
     "owner": "MS DEPT FINANCE AND ADMINISTRATION",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46856?AppId=1",
-    "verified": "2026-10-29",
+    "verified": "2026-10-30",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-29T12:31:58.575711-05:00",
+      "lastSeen": "2026-10-30T12:12:03.856571-05:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
