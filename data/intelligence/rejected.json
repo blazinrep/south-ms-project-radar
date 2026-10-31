@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "id": "msproc-46892",
+    "name": "Clarke / 390-20261001091708 BSCC",
+    "county": "Clarke",
+    "city": "Clarke County",
+    "lat": 32.0404,
+    "lon": -88.7281,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-11-02T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "EQUIPMENT - NON-TECHNOLOGY",
+      "Notice is hereby given that the BOARD OF SUPERVISORS of CLARKE COUNTY, MISSISSIPPI, will receive written sealed bids at the Clarke County Purchasing Department until 10:00 oclock a.m. on NOVEMBER 2, 2026 for the sale of the following: 1989 CHEVROLET R"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46892?AppId=1",
+    "verified": "2026-10-31",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-10-31T11:18:56.927849-05:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "46892",
+    "sourceSmartNumber": "390-20261001091708 BSCC",
+    "sourceRFx": "3170036840",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "COMMODITIES",
+    "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+    "submissionDateRaw": "11/02/2026 10:00 AM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
+    "displayName": "Clarke / 390-20261001091708 BSCC",
+    "intelligence": {
+      "version": "0.7.2",
+      "canonicalProjectKey": "msproc-46892",
+      "displayName": "Clarke / 390-20261001091708 BSCC",
+      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46892?AppId=1",
+      "decision": "reject",
+      "disposition": "reject",
+      "pursuitPath": "reject",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "fitEvidence": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 0,
+        "runway": 2,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 13,
+        "actionPriority": 0
+      },
+      "daysToDeadline": 2.0,
+      "distanceMiles": 84.9,
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "recommendedContact": "See official record and attachments",
+      "automaticRejectReason": "wrong_subcategory:EQUIPMENT - NON-TECHNOLOGY",
+      "sourceRecordIds": [
+        "msproc-46892"
+      ]
+    }
+  }
+]

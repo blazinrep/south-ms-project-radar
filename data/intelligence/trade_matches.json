@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 101,
-  "matchedProjectCount": 76,
+  "projectCount": 105,
+  "matchedProjectCount": 77,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2367,6 +2367,42 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46894",
+      "projectName": "Jasper / 169-20261001161119 JCBS",
+      "owner": "MPTAP",
+      "county": "Jasper",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46894?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "strong",
+          "matchScore": 5,
+          "matchedScope": [
+            "asphalt",
+            "paving"
+          ],
+          "strongSignals": [
+            "asphalt paving"
+          ],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": false,
+          "opportunitySummary": "Paving / Asphalt scope is clearly indicated by asphalt paving, asphalt, paving.",
+          "recommendedAction": "Open the source documents and identify the exact bid package, plans/spec sections, bidder list, and prime/subcontract path.",
+          "whyMatched": "Strong scope signal detected: asphalt paving"
         }
       ]
     },
