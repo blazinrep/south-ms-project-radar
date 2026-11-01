@@ -1,6 +1,6 @@
 {
   "version": "0.10.0",
-  "projectsScanned": 105,
+  "projectsScanned": 108,
   "trades": {
     "excavation_sitework": {
       "trade": "Excavation / Sitework",
@@ -84,11 +84,11 @@
     },
     "paving_asphalt": {
       "trade": "Paving / Asphalt",
-      "total": 37,
+      "total": 38,
       "strong": 3,
       "moderate": 1,
-      "possible": 33,
-      "verifyFirst": 34
+      "possible": 34,
+      "verifyFirst": 35
     },
     "demolition": {
       "trade": "Demolition",

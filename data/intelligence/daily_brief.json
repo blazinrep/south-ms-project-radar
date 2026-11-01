@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-31T16:19:13.531046+00:00",
+  "generatedAt": "2026-11-01T17:14:40.804164+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 105,
-  "canonicalProjectCount": 96,
+  "sourceRecordCount": 108,
+  "canonicalProjectCount": 99,
   "duplicateGroups": 8,
   "rejectedCount": 1,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 77,
+    "low_priority": 79,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 6,
+    "optional_outside_radius": 7,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -166,7 +166,7 @@
       "name": "Clarke / 390-20261001092438 BSCC",
       "county": "Clarke",
       "deadline": "2026-11-02T10:00:00-06:00",
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 0.9,
       "distanceMiles": 84.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -285,50 +285,32 @@
       "qualificationGates": []
     },
     {
-      "id": "walthall-orphan-wells",
-      "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
-      "county": "Walthall",
-      "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -68.0,
-      "distanceMiles": 34,
-      "decision": "specialist_only",
-      "pursuitPath": "specialist_only",
-      "tradeFit": "weak",
-      "evidenceLevel": "official_explicit",
+      "id": "mdot-109994-301000",
+      "name": "MDOT Proposed: US 11 \u2014 Clarke County Overlay",
+      "county": "Clarke",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "watch",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
       "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 7,
-        "runway": 0,
-        "geography": 13,
-        "evidenceQuality": 15,
-        "fitTotal": 47,
-        "actionPriority": 30
+        "scopeFit": 3,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 27,
+        "actionPriority": 27
       },
-      "whyItMatters": "The reclamation portion uses dirt-work skills, but the prime contract is fundamentally an oil-and-gas well-plugging package. A normal excavation contractor should not spend estimating time on it unless it already has the specialty capability or a qualified teaming partner.",
-      "nextAction": "Archive for the demo contractor unless it already performs regulated oil-and-gas well plugging or has a qualified teaming partner. If specialty capability exists, use the current MSOGB active-procurement page and IFB documents.",
-      "actionType": "specialist_gate_before_any_pursuit",
+      "whyItMatters": "Official MDOT future-letting signal for overlay. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
       "riskFlags": [
-        "specialized_oil_and_gas_scope",
-        "outside_demo_company_capability_profile",
-        "legacy_source_record_points_to_archived_duplicate"
+        "outside_preferred_radius"
       ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        },
-        {
-          "type": "specialty_experience",
-          "status": "required_before_pursuit",
-          "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
-        }
-      ]
+      "qualificationGates": []
     }
   ],
   "fitRanking": [

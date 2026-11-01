@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 105,
+  "projectCount": 108,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3811,6 +3811,139 @@
         {
           "source": "opportunity.scope",
           "text": "US 11 from MS 589 in Purvis to the Forrest County Line"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109980-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Stone County Restricted Crossing U-Turn (RCUT)",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 49 \u2014 Stone County Restricted Crossing U-Turn (RCUT)"
+        },
+        {
+          "source": "project.scope",
+          "text": "Restricted Crossing U-Turn (RCUT)"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49 at North McHenry/Beaver Dam Rd and East McHenry/ City Bridge Road"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for restricted crossing u-turn (rcut). Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Restricted Crossing U-Turn (RCUT)"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49 at North McHenry/Beaver Dam Rd and East McHenry/ City Bridge Road"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109994-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Clarke County Overlay",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 11 \u2014 Clarke County Overlay"
+        },
+        {
+          "source": "project.scope",
+          "text": "Overlay"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 11"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 11 from the intersection of SR 18 (Pachuta) to the Lauderdale County Line"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for overlay. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Overlay"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 11"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 11 from the intersection of SR 18 (Pachuta) to the Lauderdale County Line"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110116-302000",
+      "projectName": "MDOT Proposed: Project \u2014 Harrison County ITS - Intelligent Transportation Systems",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: Project \u2014 Harrison County ITS - Intelligent Transportation Systems"
+        },
+        {
+          "source": "project.scope",
+          "text": "ITS - Intelligent Transportation Systems"
+        },
+        {
+          "source": "project.scope",
+          "text": "I-10 AND US 49 - Truck Parking Availability System (TPAS) and Intelligent Transportation Systems (ITS) -Various other routes as needed to provide connectivity."
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for its - intelligent transportation systems. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "ITS - Intelligent Transportation Systems"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "I-10 AND US 49 - Truck Parking Availability System (TPAS) and Intelligent Transportation Systems (ITS) -Various other routes as needed to provide connectivity."
         }
       ]
     },

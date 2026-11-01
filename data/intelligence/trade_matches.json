@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 105,
-  "matchedProjectCount": 77,
+  "projectCount": 108,
+  "matchedProjectCount": 78,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2343,6 +2343,39 @@
       "owner": "Mississippi Department of Transportation",
       "county": "Lamar",
       "status": "Proposed 2027/01 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-109994-301000",
+      "projectName": "MDOT Proposed: US 11 \u2014 Clarke County Overlay",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Clarke",
+      "status": "Proposed 2027/10 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
         {
