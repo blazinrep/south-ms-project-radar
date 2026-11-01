@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-10-31T16:03:25.216728+00:00",
+  "retrieved_at": "2026-11-01T17:05:43.887596+00:00",
   "records": [
     {
       "month": "2026/11",
@@ -518,6 +518,39 @@
       "route": "",
       "scope": "Bridge Repair",
       "termini": "US 84 & MS 590 (Bridge #S 132.4A, 132.4B & 0.4)"
+    },
+    {
+      "month": "2027/10",
+      "district": "District 6",
+      "project_no": "109980/301000",
+      "fed_project_no": "HSIP-0008-01(158)",
+      "parallel_to_project_no": "",
+      "county": "Stone",
+      "route": "US 49",
+      "scope": "Restricted Crossing U-Turn (RCUT)",
+      "termini": "US 49 at North McHenry/Beaver Dam Rd and East McHenry/ City Bridge Road"
+    },
+    {
+      "month": "2027/10",
+      "district": "District 6",
+      "project_no": "109994/301000",
+      "fed_project_no": "STBG-2902-00(019)",
+      "parallel_to_project_no": "",
+      "county": "Clarke",
+      "route": "US 11",
+      "scope": "Overlay",
+      "termini": "US 11 from the intersection of SR 18 (Pachuta) to the Lauderdale County Line"
+    },
+    {
+      "month": "2027/10",
+      "district": "District 6",
+      "project_no": "110116/302000",
+      "fed_project_no": "STBG-9999-06(410)",
+      "parallel_to_project_no": "",
+      "county": "Harrison",
+      "route": "",
+      "scope": "ITS - Intelligent Transportation Systems",
+      "termini": "I-10 AND US 49 - Truck Parking Availability System (TPAS) and Intelligent Transportation Systems (ITS) -Various other routes as needed to provide connectivity."
     }
   ]
 }
