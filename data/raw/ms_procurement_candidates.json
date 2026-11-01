@@ -24,7 +24,7 @@
     "owner": "MS DEPT FINANCE AND ADMINISTRATION",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46856?AppId=1",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-31T11:18:56.927849-05:00",
+      "lastSeen": "2026-11-01T11:14:27.195124-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -71,7 +71,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46882?AppId=1",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -81,7 +81,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-31T11:18:56.927849-05:00",
+      "lastSeen": "2026-11-01T11:14:27.195124-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -118,7 +118,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46892?AppId=1",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -128,7 +128,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-31T11:18:56.927849-05:00",
+      "lastSeen": "2026-11-01T11:14:27.195124-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -165,7 +165,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46893?AppId=1",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -175,7 +175,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-31T11:18:56.927849-05:00",
+      "lastSeen": "2026-11-01T11:14:27.195124-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -212,7 +212,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46894?AppId=1",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "paving_base"
@@ -224,7 +224,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-10-31T11:18:56.927849-05:00",
+      "lastSeen": "2026-11-01T11:14:27.195124-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
