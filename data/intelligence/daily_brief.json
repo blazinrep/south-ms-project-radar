@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-01T17:14:40.804164+00:00",
+  "generatedAt": "2026-11-02T20:52:48.853233+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 108,
-  "canonicalProjectCount": 99,
+  "sourceRecordCount": 107,
+  "canonicalProjectCount": 98,
   "duplicateGroups": 8,
   "rejectedCount": 1,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 79,
+    "low_priority": 78,
     "verify_then_pursue": 2,
     "optional_outside_radius": 7,
     "verify_scope": 1
@@ -162,12 +162,12 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-46893",
-      "name": "Clarke / 390-20261001092438 BSCC",
-      "county": "Clarke",
-      "deadline": "2026-11-02T10:00:00-06:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 84.9,
+      "id": "msproc-46906",
+      "name": "Wayne / 169-20261001161536 WCBS",
+      "county": "Wayne",
+      "deadline": "2026-11-06T10:00:00-06:00",
+      "daysToDeadline": 3.8,
+      "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
       "tradeFit": "none",
@@ -175,11 +175,11 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 7,
-        "runway": 2,
+        "runway": 6,
         "geography": 3,
         "evidenceQuality": 8,
-        "fitTotal": 20,
-        "actionPriority": 32
+        "fitTotal": 24,
+        "actionPriority": 34
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
