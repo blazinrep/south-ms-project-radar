@@ -5,159 +5,27 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46882,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "169-20260924145032 BSJC",
-      "Advertised Date": "10/30/2026 2:00 PM",
-      "RFx #": "3170036817",
-      "Submission Date": "11/02/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed bids will be received by the Board of Supervisors of Jasper County Mississippi at the Jasper County Courthouse, Bay Springs, Mississippi, until 10:00 A.M. on Monday November 2, 2026 and shortly thereafter publicly opened for the construction of 0."
-    }
-  },
-  {
-    "detail_id": 46892,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "390-20261001091708 BSCC",
-      "Advertised Date": "10/30/2026 5:00 PM",
-      "RFx #": "3170036840",
-      "Submission Date": "11/02/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Notice is hereby given that the BOARD OF SUPERVISORS of CLARKE COUNTY, MISSISSIPPI, will receive written sealed bids at the Clarke County Purchasing Department until 10:00 oclock a.m. on NOVEMBER 2, 2026 for the sale of the following: 1989 CHEVROLET R"
-    }
-  },
-  {
-    "detail_id": 46893,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "390-20261001092438 BSCC",
-      "Advertised Date": "10/30/2026 5:00 PM",
-      "RFx #": "3170036841",
-      "Submission Date": "11/02/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "SURPLUS",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Notice is hereby given that the BOARD OF SUPERVISORS of CLARKE COUNTY, MISSISSIPPI, will receive written sealed bids at the Clarke County Purchasing Department until 10:00 oclock a.m. on Monday, November 2, 2026 for the following: Sale of Scrap Meta"
-    }
-  },
-  {
-    "detail_id": 46894,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "169-20261001161119 JCBS",
-      "Advertised Date": "10/30/2026 5:00 PM",
-      "RFx #": "3170036842",
-      "Submission Date": "11/02/2026 10:30 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Jasper County Board of Supervisors will receive bids for an Asphalt Paving and Road Improvements Project of various county roads named A through I for a total of 6.685 miles. Proposals shall be accepted until no later than 10:30 a.m. Local Time"
-    }
-  },
-  {
-    "detail_id": 46898,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46899,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46900,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
-  },
-  {
-    "detail_id": 46901,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46902,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46903,
-    "decision": "publish",
-    "county": "Jones"
-  },
-  {
-    "detail_id": 46904,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46905,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "3373-27-R-IFBD-00004-V04",
+      "Advertised Date": "09/16/2026 9:00 AM",
+      "RFx #": "3160008232",
+      "Submission Date": "10/19/2026 4:30 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "PERSONNEL SERVICES NON-IT",
+      "RFx Opening Date": "10/30/2026 2:00 PM",
+      "Sub Procurement Category": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "ELLISVILLE STATE SCHOOL",
+      "RFx Description": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
+    }
   },
   {
     "detail_id": 46906,
     "decision": "publish",
     "county": "Wayne"
-  },
-  {
-    "detail_id": 46907,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46908,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46909,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46910,
@@ -199,6 +67,87 @@
     "reason": [
       "not_construction_relevant",
       "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46916,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46917,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46918,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46919,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46920,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46921,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46922,
+    "decision": "publish",
+    "county": "Covington"
+  },
+  {
+    "detail_id": 46923,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46924,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46925,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46926,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46927,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
     ]
   }
 ]
