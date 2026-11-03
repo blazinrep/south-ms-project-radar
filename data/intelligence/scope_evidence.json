@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 107,
+  "projectCount": 108,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3987,25 +3987,6 @@
       ]
     },
     {
-      "projectId": "msproc-46903",
-      "projectName": "Jones / 3373-27-R-IFBD-00004-V04",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 3373-27-R-IFBD-00004-V04"
-        },
-        {
-          "source": "project.scope",
-          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46906",
       "projectName": "Wayne / 169-20261001161536 WCBS",
       "evidenceCount": 8,
@@ -4080,6 +4061,84 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by Jones County Junior College, located at the Hutcheson Hubbard Administration Building, 900 South Court Street, Ellisville, Mississippi 39437, until 10:00 a.m. local time, on November 5, 2026 for supplying all labor, equip"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46922",
+      "projectName": "Covington / 279-20261008104952 CCSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Covington / 279-20261008104952 CCSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date & Time: 10/22/2026 10:00:00 AM Description: 10/22/2026 @ 10:00am at 108 Main Street, Collins, Mississippi 39428 --------------------------------------------------------------------------------------------------------------------"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Pre-Bid Conference: Date & Time: 10/22/2026 10:00:00 AM Description: 10/22/2026 @ 10:00am at 108 Main Street, Collins, Mississippi 39428 --------------------------------------------------------------------------------------------------------------------"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46926",
+      "projectName": "Forrest / 9280-27-R-IFBD-00021",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00021"
+        },
+        {
+          "source": "project.scope",
+          "text": "SUPPLIES - TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SUPPLIES - TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
         }
       ]
     },
