@@ -1,106 +1,27 @@
 {
-  "generatedAt": "2026-11-03T18:39:59.199107+00:00",
+  "generatedAt": "2026-11-04T18:52:32.373656+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-11-03T18:39:25.607672+00:00",
+  "inputGeneratedAt": "2026-11-04T18:52:18.266184+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 3,
-    "needsAttention": 1,
-    "filtered": 2,
+    "eventsSeen": 0,
+    "needsAttention": 0,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 18,
-    "byType": {
-      "opportunity_closed": 1
-    }
+    "rawFetchErrors": 25,
+    "byType": {}
   },
-  "attention": [
-    {
-      "id": "6787895bc9b54c4ff0b2",
-      "projectId": "msproc-46903",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Jones / 3373-27-R-IFBD-00004-V04",
-        "county": "Jones",
-        "city": "Jones County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-10-19T16:30:00-05:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46903?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-10-19T16:30:00-05:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Closed",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "PERSONNEL SERVICE - NON-TECHNOLOGY",
-            "Ellisville State School at South Mississippi Regional Center (hereinafter Agency) has issued this Invitation for Bids for the purpose of receiving sealed bids from qualified vendors to provide Professional Nursing and CNA Services to the Persons-served"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    }
-  ],
-  "filtered": [
-    {
-      "projectId": "msproc-46922",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    },
-    {
-      "projectId": "msproc-46926",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "attention": [],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-11-03T12:39:24.546509-06:00",
-    "knownActiveChecked": 4,
+    "checkedAt": "2026-11-04T12:52:14.971395-06:00",
+    "knownActiveChecked": 5,
     "currentRecords": 5,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 18,
+    "rawNetworkOrHttpFailures": 25,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
