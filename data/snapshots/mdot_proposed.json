@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-11-04T18:36:23.952910+00:00",
+  "retrieved_at": "2026-11-05T18:41:43.900640+00:00",
   "records": [
     {
       "month": "2026/11",
@@ -115,28 +115,6 @@
     {
       "month": "2027/01",
       "district": "District 6",
-      "project_no": "109087/301000",
-      "fed_project_no": "STBG-0023-01(097)",
-      "parallel_to_project_no": "",
-      "county": "Pearl River",
-      "route": "MS 13",
-      "scope": "Bridge Replacement",
-      "termini": "SR 13 Bridge Replacement (#10.8)"
-    },
-    {
-      "month": "2027/01",
-      "district": "District 6",
-      "project_no": "109087/302000",
-      "fed_project_no": "STBG-0023-01(097)",
-      "parallel_to_project_no": "109087/301000",
-      "county": "Forrest",
-      "route": "",
-      "scope": "Bridge Replacement",
-      "termini": "SR 13 Bridge Replacement (#10.8)"
-    },
-    {
-      "month": "2027/01",
-      "district": "District 6",
       "project_no": "110393/301000",
       "fed_project_no": "SP-2171-00(032)",
       "parallel_to_project_no": "",
@@ -176,18 +154,7 @@
       "county": "Harrison",
       "route": "MS 53",
       "scope": "Bridge Replacement",
-      "termini": "SR 53 over Wolf River Relief (#16.4 and 16.6)"
-    },
-    {
-      "month": "2027/02",
-      "district": "District 6",
-      "project_no": "108394/301000",
-      "fed_project_no": "STP-0063-03(012)",
-      "parallel_to_project_no": "",
-      "county": "Perry",
-      "route": "MS 42",
-      "scope": "Bridge Replacement",
-      "termini": "SR 42 over Bogue Homa Creek (#76.2)"
+      "termini": "SR 53 over Wolf River Relief (#16.4 and 16.6) - applied for grant"
     },
     {
       "month": "2027/02",
@@ -224,6 +191,28 @@
     },
     {
       "month": "2027/03",
+      "district": "District 6",
+      "project_no": "109087/301000",
+      "fed_project_no": "STBG-0023-01(097)",
+      "parallel_to_project_no": "",
+      "county": "Pearl River",
+      "route": "MS 13",
+      "scope": "Bridge Replacement",
+      "termini": "SR 13 Bridge Replacement (#10.8)"
+    },
+    {
+      "month": "2027/03",
+      "district": "District 6",
+      "project_no": "109087/302000",
+      "fed_project_no": "STBG-0023-01(097)",
+      "parallel_to_project_no": "109087/301000",
+      "county": "Forrest",
+      "route": "",
+      "scope": "Bridge Replacement",
+      "termini": "SR 13 Bridge Replacement (#10.8)"
+    },
+    {
+      "month": "2027/03",
       "district": "District 7",
       "project_no": "109799/301000",
       "fed_project_no": "NH-0008-02(129)",
@@ -254,6 +243,17 @@
       "route": "",
       "scope": "Bridge Repair",
       "termini": "Calvary Drive over I-55 (Bridge # 31.2)"
+    },
+    {
+      "month": "2027/04",
+      "district": "District 6",
+      "project_no": "108394/301000",
+      "fed_project_no": "STP-0063-03(012)",
+      "parallel_to_project_no": "",
+      "county": "Perry",
+      "route": "MS 42",
+      "scope": "Bridge Replacement",
+      "termini": "SR 42 over Bogue Homa Creek (#76.2) - applied for grant"
     },
     {
       "month": "2027/04",
@@ -330,7 +330,7 @@
       "county": "Stone",
       "route": "MS 29",
       "scope": "Bridge Replacement",
-      "termini": "SR 29 over Flint Creek (#1.2)"
+      "termini": "SR 29 over Flint Creek (#1.2) - applied for grant"
     },
     {
       "month": "2027/06",
@@ -445,20 +445,9 @@
     {
       "month": "2027/09",
       "district": "District 6",
-      "project_no": "110089/301000",
-      "fed_project_no": "IM-0059-01(138)",
-      "parallel_to_project_no": "110085/301000",
-      "county": "Pearl River",
-      "route": "I 59",
-      "scope": "Fog Seal",
-      "termini": "I-59 from S Of Hillsdale Interchange NB Exit Ramp to Lamar CL (4.767 Mi) (35.21 - 39.977 NB)"
-    },
-    {
-      "month": "2027/09",
-      "district": "District 6",
       "project_no": "110087/301000",
       "fed_project_no": "IM-0059-01(140)",
-      "parallel_to_project_no": "110086/301000",
+      "parallel_to_project_no": "",
       "county": "Pearl River",
       "route": "I 59",
       "scope": "Fog Seal",
@@ -469,11 +458,22 @@
       "district": "District 6",
       "project_no": "110088/301000",
       "fed_project_no": "IM-0059-01(139)",
-      "parallel_to_project_no": "110086/301000",
+      "parallel_to_project_no": "110087/301000",
       "county": "Lamar",
       "route": "I 59",
       "scope": "Fog Seal",
       "termini": "I-59 from Pearl River CL to Pearl River CL (0.417 Mi) (0.0 - 0.417 NB)"
+    },
+    {
+      "month": "2027/09",
+      "district": "District 6",
+      "project_no": "110089/301000",
+      "fed_project_no": "IM-0059-01(138)",
+      "parallel_to_project_no": "110087/301000",
+      "county": "Pearl River",
+      "route": "I 59",
+      "scope": "Fog Seal",
+      "termini": "I-59 from S Of Hillsdale Interchange NB Exit Ramp to Lamar CL (4.767 Mi) (35.21 - 39.977 NB)"
     },
     {
       "month": "2027/09",
