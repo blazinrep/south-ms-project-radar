@@ -2301,7 +2301,7 @@
         },
         {
           "source": "project.scope",
-          "text": "SR 53 over Wolf River Relief (#16.4 and 16.6)"
+          "text": "SR 53 over Wolf River Relief (#16.4 and 16.6) - applied for grant"
         },
         {
           "source": "intelligence.whyItMatters",
@@ -2325,7 +2325,7 @@
         },
         {
           "source": "opportunity.scope",
-          "text": "SR 53 over Wolf River Relief (#16.4 and 16.6)"
+          "text": "SR 53 over Wolf River Relief (#16.4 and 16.6) - applied for grant"
         }
       ]
     },
@@ -2348,7 +2348,7 @@
         },
         {
           "source": "project.scope",
-          "text": "SR 42 over Bogue Homa Creek (#76.2)"
+          "text": "SR 42 over Bogue Homa Creek (#76.2) - applied for grant"
         },
         {
           "source": "intelligence.whyItMatters",
@@ -2372,7 +2372,7 @@
         },
         {
           "source": "opportunity.scope",
-          "text": "SR 42 over Bogue Homa Creek (#76.2)"
+          "text": "SR 42 over Bogue Homa Creek (#76.2) - applied for grant"
         }
       ]
     },
@@ -2770,7 +2770,7 @@
         },
         {
           "source": "project.scope",
-          "text": "SR 29 over Flint Creek (#1.2)"
+          "text": "SR 29 over Flint Creek (#1.2) - applied for grant"
         },
         {
           "source": "intelligence.whyItMatters",
@@ -2794,7 +2794,7 @@
         },
         {
           "source": "opportunity.scope",
-          "text": "SR 29 over Flint Creek (#1.2)"
+          "text": "SR 29 over Flint Creek (#1.2) - applied for grant"
         }
       ]
     },
@@ -4026,45 +4026,6 @@
       ]
     },
     {
-      "projectId": "msproc-46910",
-      "projectName": "Jones / 82-20261006093107 JCJC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 82-20261006093107 JCJC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by Jones County Junior College, located at the Hutcheson Hubbard Administration Building, 900 South Court Street, Ellisville, Mississippi 39437, until 10:00 a.m. local time, on November 5, 2026 for supplying all labor, equip"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by Jones County Junior College, located at the Hutcheson Hubbard Administration Building, 900 South Court Street, Ellisville, Mississippi 39437, until 10:00 a.m. local time, on November 5, 2026 for supplying all labor, equip"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46922",
       "projectName": "Covington / 279-20261008104952 CCSD",
       "evidenceCount": 8,
@@ -4139,6 +4100,45 @@
         {
           "source": "opportunity.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46940",
+      "projectName": "Pike / 361-20261002085447 Magnolia",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Pike / 361-20261002085447 Magnolia"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
         }
       ]
     },

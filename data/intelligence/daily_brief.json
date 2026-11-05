@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T18:52:31.949541+00:00",
+  "generatedAt": "2026-11-05T18:58:45.162003+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 108,
   "canonicalProjectCount": 99,
@@ -166,7 +166,7 @@
       "name": "Wayne / 169-20261001161536 WCBS",
       "county": "Wayne",
       "deadline": "2026-11-06T10:00:00-06:00",
-      "daysToDeadline": 1.9,
+      "daysToDeadline": 0.9,
       "distanceMiles": 75.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
