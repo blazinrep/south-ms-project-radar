@@ -11,8 +11,21 @@
   },
   {
     "detail_id": 46910,
-    "decision": "publish",
-    "county": "Jones"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "82-20261006093107 JCJC",
+      "Advertised Date": "11/02/2026 2:00 PM",
+      "RFx #": "3170036866",
+      "Submission Date": "11/05/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids will be received by Jones County Junior College, located at the Hutcheson Hubbard Administration Building, 900 South Court Street, Ellisville, Mississippi 39437, until 10:00 a.m. local time, on November 5, 2026 for supplying all labor, equip"
+    }
   },
   {
     "detail_id": 46922,
@@ -20,38 +33,9 @@
     "county": "Covington"
   },
   {
-    "detail_id": 46923,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46924,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46925,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46926,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46927,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
   },
   {
     "detail_id": 46928,
@@ -86,6 +70,109 @@
   },
   {
     "detail_id": 46932,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46933,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46934,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46935,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46936,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46937,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46938,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46939,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46940,
+    "decision": "publish",
+    "county": "Pike"
+  },
+  {
+    "detail_id": 46941,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46942,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46943,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46944,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46945,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46946,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",

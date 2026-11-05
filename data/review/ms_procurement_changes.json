@@ -1,11 +1,114 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-11-04T18:52:18.266184+00:00",
+  "generated_at": "2026-11-05T18:58:31.464186+00:00",
   "summary": {
-    "new": 0,
+    "new": 1,
     "changed": 0,
-    "no_longer_open": 0,
+    "no_longer_open": 1,
     "stale_unverified": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "new_project",
+      "project_id": "msproc-46940",
+      "after": {
+        "id": "msproc-46940",
+        "name": "Pike / 361-20261002085447 Magnolia",
+        "county": "Pike",
+        "city": "Pike County",
+        "lat": 31.1432,
+        "lon": -90.4587,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-09T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46940?AppId=1",
+        "verified": "2026-11-05",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-05T12:58:28.873340-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46940",
+        "sourceSmartNumber": "361-20261002085447 Magnolia",
+        "sourceRFx": "3170036895",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/09/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46910",
+      "before": {
+        "id": "msproc-46910",
+        "name": "Jones / 82-20261006093107 JCJC",
+        "county": "Jones",
+        "city": "Jones County",
+        "lat": 31.6941,
+        "lon": -89.1306,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-05T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Sealed bids will be received by Jones County Junior College, located at the Hutcheson Hubbard Administration Building, 900 South Court Street, Ellisville, Mississippi 39437, until 10:00 a.m. local time, on November 5, 2026 for supplying all labor, equip"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46910?AppId=1",
+        "verified": "2026-11-04",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-04T12:52:14.971395-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46910",
+        "sourceSmartNumber": "82-20261006093107 JCJC",
+        "sourceRFx": "3170036866",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/05/2026 10:00 AM"
+      }
+    }
+  ]
 }
