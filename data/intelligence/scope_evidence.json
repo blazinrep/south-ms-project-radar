@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 108,
+  "projectCount": 110,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3987,84 +3987,6 @@
       ]
     },
     {
-      "projectId": "msproc-46906",
-      "projectName": "Wayne / 169-20261001161536 WCBS",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Wayne / 169-20261001161536 WCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Wayne County Board of Supervisors will receive bids for a Road Widening and Turn Lane Addition Project on 0.184 miles of Mississippi Drive / State Hwy 145, no later than 10:00 a.m. Local Time, Friday November 6, 2026, at the Board Room of the Wayne"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Wayne County Board of Supervisors will receive bids for a Road Widening and Turn Lane Addition Project on 0.184 miles of Mississippi Drive / State Hwy 145, no later than 10:00 a.m. Local Time, Friday November 6, 2026, at the Board Room of the Wayne"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46922",
-      "projectName": "Covington / 279-20261008104952 CCSD",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Covington / 279-20261008104952 CCSD"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: 10/22/2026 10:00:00 AM Description: 10/22/2026 @ 10:00am at 108 Main Street, Collins, Mississippi 39428 --------------------------------------------------------------------------------------------------------------------"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date & Time: 10/22/2026 10:00:00 AM Description: 10/22/2026 @ 10:00am at 108 Main Street, Collins, Mississippi 39428 --------------------------------------------------------------------------------------------------------------------"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46926",
       "projectName": "Forrest / 9280-27-R-IFBD-00021",
       "evidenceCount": 8,
@@ -4139,6 +4061,142 @@
         {
           "source": "opportunity.scope",
           "text": "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46950",
+      "projectName": "Perry / 45-20261006103519 PCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Perry / 45-20261006103519 PCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "HIGHWAY CONSTRUCTION"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "HIGHWAY CONSTRUCTION"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46953",
+      "projectName": "Greene / 212-20261007144742 GCSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Greene / 212-20261007144742 GCSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Re-Roof for Jr. High and Maintenance Building (Rebid) for the Greene County School District. Bids will be received from contractors at the Gr"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Re-Roof for Jr. High and Maintenance Building (Rebid) for the Greene County School District. Bids will be received from contractors at the Gr"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46954",
+      "projectName": "Simpson / 29-20261015095643 SCBS",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Simpson / 29-20261015095643 SCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be sealed and the outside envelope shall be clearly marked (2) B"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46962",
+      "projectName": "Greene / 212-20261015151521 GCSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Greene / 212-20261015151521 GCSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for New Bleachers for Leakesville Jr. High and Greene County High School for the Greene County School District. Bids will be received from contra"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for New Bleachers for Leakesville Jr. High and Greene County High School for the Greene County School District. Bids will be received from contra"
         }
       ]
     },

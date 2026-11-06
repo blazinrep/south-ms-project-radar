@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-11-05T18:58:45.642306+00:00",
+  "generatedAt": "2026-11-06T18:28:53.910164+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-11-05T18:58:31.464186+00:00",
+  "inputGeneratedAt": "2026-11-06T18:28:40.578540+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 2,
-    "needsAttention": 1,
-    "filtered": 1,
+    "eventsSeen": 6,
+    "needsAttention": 3,
+    "filtered": 3,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 16,
+    "rawFetchErrors": 12,
     "byType": {
-      "opportunity_closed": 1
+      "new_opportunity": 1,
+      "opportunity_closed": 2
     }
   },
   "attention": [
     {
-      "id": "08764cbcb5b7afec4e50",
-      "projectId": "msproc-46910",
-      "type": "opportunity_closed",
+      "id": "25c53f47f960cc563806",
+      "projectId": "msproc-46954",
+      "type": "new_opportunity",
       "priority": "high",
-      "title": "Opportunity no longer open",
+      "title": "New contractor-relevant opportunity",
       "project": {
-        "name": "Jones / 82-20261006093107 JCJC",
-        "county": "Jones",
-        "city": "Jones County",
+        "name": "Simpson / 29-20261015095643 SCBS",
+        "county": "Simpson",
+        "city": "Simpson County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-11-05T10:00:00-06:00",
+        "deadline": "2026-11-10T10:00:00-06:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46910?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46954?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +48,72 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-11-05T10:00:00-06:00",
+          "before": null,
+          "after": "2026-11-10T10:00:00-06:00"
+        },
+        {
+          "field": "status",
+          "before": null,
+          "after": "Accepting bids"
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": null,
+          "after": "Open"
+        },
+        {
+          "field": "lifecycleStage",
+          "before": null,
+          "after": "open_procurement"
+        },
+        {
+          "field": "scope",
+          "before": null,
+          "after": [
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be sealed and the outside envelope shall be clearly marked (2) B"
+          ]
+        },
+        {
+          "field": "nextMove",
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        }
+      ],
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+    },
+    {
+      "id": "e14aa5dbf649cde5ab1c",
+      "projectId": "msproc-46906",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Wayne / 169-20261001161536 WCBS",
+        "county": "Wayne",
+        "city": "Wayne County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-11-06T10:00:00-06:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46906?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-11-06T10:00:00-06:00",
           "after": null
         },
         {
@@ -69,7 +135,72 @@
           "field": "scope",
           "before": [
             "CONSTRUCTION - SERVICES",
-            "Sealed bids will be received by Jones County Junior College, located at the Hutcheson Hubbard Administration Building, 900 South Court Street, Ellisville, Mississippi 39437, until 10:00 a.m. local time, on November 5, 2026 for supplying all labor, equip"
+            "The Wayne County Board of Supervisors will receive bids for a Road Widening and Turn Lane Addition Project on 0.184 miles of Mississippi Drive / State Hwy 145, no later than 10:00 a.m. Local Time, Friday November 6, 2026, at the Board Room of the Wayne"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    },
+    {
+      "id": "2ea7b14c7178110da0a6",
+      "projectId": "msproc-46922",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Covington / 279-20261008104952 CCSD",
+        "county": "Covington",
+        "city": "Covington County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-11-05T14:00:00-06:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46922?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-11-05T14:00:00-06:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "Pre-Bid Conference: Date & Time: 10/22/2026 10:00:00 AM Description: 10/22/2026 @ 10:00am at 108 Main Street, Collins, Mississippi 39428 --------------------------------------------------------------------------------------------------------------------"
           ],
           "after": null
         },
@@ -84,18 +215,28 @@
   ],
   "filtered": [
     {
-      "projectId": "msproc-46940",
+      "projectId": "msproc-46950",
       "kind": "new_project",
       "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-46953",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is optional_outside_radius"
+    },
+    {
+      "projectId": "msproc-46962",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is optional_outside_radius"
     }
   ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-11-05T12:58:28.873340-06:00",
+    "checkedAt": "2026-11-06T12:28:36.952163-06:00",
     "knownActiveChecked": 5,
-    "currentRecords": 5,
+    "currentRecords": 7,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 16,
+    "rawNetworkOrHttpFailures": 12,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
