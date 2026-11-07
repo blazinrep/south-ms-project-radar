@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 110,
+  "projectCount": 114,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4197,6 +4197,162 @@
         {
           "source": "opportunity.scope",
           "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for New Bleachers for Leakesville Jr. High and Greene County High School for the Greene County School District. Bids will be received from contra"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46969",
+      "projectName": "Jackson / 94-20261005104533 JCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 94-20261005104533 JCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Jackson County Board Of Supervisors, Jackson County. Mississippi, Will receive bids for the Intersection Improvements including construction of roundabout at intersection of Hwy 613 and Hwy 614 for a total project length of 0.4 miles, Federal Aid Proj"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Jackson County Board Of Supervisors, Jackson County. Mississippi, Will receive bids for the Intersection Improvements including construction of roundabout at intersection of Hwy 613 and Hwy 614 for a total project length of 0.4 miles, Federal Aid Proj"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46975",
+      "projectName": "Lawrence / 56-20261007134625 LCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lawrence / 56-20261007134625 LCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids for paving of various county roads within Lawrence County, Mississippi will be received by the Lawrence County Board of Supervisors until 10:00 AM local time on Monday, November 16, 2026, at the Board Room located at 517 E Broad Street, Mon"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids for paving of various county roads within Lawrence County, Mississippi will be received by the Lawrence County Board of Supervisors until 10:00 AM local time on Monday, November 16, 2026, at the Board Room located at 517 E Broad Street, Mon"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46976",
+      "projectName": "Lamar / 45-20261008153541 LCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lamar / 45-20261008153541 LCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46980",
+      "projectName": "Forrest / 65-20261009090701 Hattiesburg",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 65-20261009090701 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
         }
       ]
     },
