@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:59:22.425626+00:00",
+  "generatedAt": "2026-11-08T17:14:58.200045+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 114,
   "canonicalProjectCount": 105,
@@ -106,45 +106,6 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-46969",
-      "name": "Jackson / 94-20261005104533 JCBS",
-      "county": "Jackson",
-      "deadline": "2026-11-12T12:00:00-06:00",
-      "daysToDeadline": 5.0,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 15,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 30,
-        "actionPriority": 37
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "mdot-109083-301000",
       "name": "MDOT Proposed: US 11 \u2014 Clarke County Bridge Replacement",
       "county": "Clarke",
@@ -205,7 +166,7 @@
       "name": "Greene / 212-20261007144742 GCSD",
       "county": "Greene",
       "deadline": "2026-11-09T10:00:00-06:00",
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 0.9,
       "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -244,7 +205,7 @@
       "name": "Greene / 212-20261015151521 GCSD",
       "county": "Greene",
       "deadline": "2026-11-09T10:00:00-06:00",
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 0.9,
       "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -258,6 +219,45 @@
         "evidenceQuality": 8,
         "fitTotal": 20,
         "actionPriority": 32
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
+      "id": "msproc-46969",
+      "name": "Jackson / 94-20261005104533 JCBS",
+      "county": "Jackson",
+      "deadline": "2026-11-12T12:00:00-06:00",
+      "daysToDeadline": 4.0,
+      "distanceMiles": 97.5,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 6,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 21,
+        "actionPriority": 31
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",

@@ -24,7 +24,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46954?AppId=1",
-    "verified": "2026-11-07",
+    "verified": "2026-11-08",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-07T10:59:08.979404-06:00",
+      "lastSeen": "2026-11-08T11:14:43.430679-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -75,13 +75,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 6,
+        "runway": 2,
         "geography": 13,
         "evidenceQuality": 8,
-        "fitTotal": 27,
+        "fitTotal": 23,
         "actionPriority": 0
       },
-      "daysToDeadline": 3.0,
+      "daysToDeadline": 1.9,
       "distanceMiles": 49.1,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
