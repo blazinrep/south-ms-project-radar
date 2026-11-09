@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 114,
-  "matchedProjectCount": 79,
+  "projectCount": 111,
+  "matchedProjectCount": 78,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2400,40 +2400,6 @@
           "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: paving"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46953",
-      "projectName": "Greene / 212-20261007144742 GCSD",
-      "owner": "MPTAP",
-      "county": "Greene",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46953?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "roofing",
-          "trade": "Roofing",
-          "opportunityLabel": "ROOFING OPPORTUNITY",
-          "confidence": "moderate",
-          "matchScore": 2,
-          "matchedScope": [
-            "roof",
-            "re-roof"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "insurance",
-            "manufacturer_requirements",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Relevant roofing scope appears in the project: roof, re-roof.",
-          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
-          "whyMatched": "Relevant scope detected: roof, re-roof"
         }
       ]
     },
