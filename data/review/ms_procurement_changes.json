@@ -1,11 +1,165 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-11-08T17:14:45.432766+00:00",
+  "generated_at": "2026-11-09T21:37:40.265815+00:00",
   "summary": {
     "new": 0,
     "changed": 0,
-    "no_longer_open": 0,
+    "no_longer_open": 3,
     "stale_unverified": 0
   },
-  "events": []
+  "events": [
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46962",
+      "before": {
+        "id": "msproc-46962",
+        "name": "Greene / 212-20261015151521 GCSD",
+        "county": "Greene",
+        "city": "Greene County",
+        "lat": 31.1557,
+        "lon": -88.5578,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-09T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for New Bleachers for Leakesville Jr. High and Greene County High School for the Greene County School District. Bids will be received from contra"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46962?AppId=1",
+        "verified": "2026-11-08",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-08T11:14:43.430679-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46962",
+        "sourceSmartNumber": "212-20261015151521 GCSD",
+        "sourceRFx": "3170036900",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/09/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46940",
+      "before": {
+        "id": "msproc-46940",
+        "name": "Pike / 361-20261002085447 Magnolia",
+        "county": "Pike",
+        "city": "Pike County",
+        "lat": 31.1432,
+        "lon": -90.4587,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-09T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46940?AppId=1",
+        "verified": "2026-11-08",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-08T11:14:43.430679-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46940",
+        "sourceSmartNumber": "361-20261002085447 Magnolia",
+        "sourceRFx": "3170036895",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/09/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46953",
+      "before": {
+        "id": "msproc-46953",
+        "name": "Greene / 212-20261007144742 GCSD",
+        "county": "Greene",
+        "city": "Greene County",
+        "lat": 31.1557,
+        "lon": -88.5578,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-09T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Re-Roof for Jr. High and Maintenance Building (Rebid) for the Greene County School District. Bids will be received from contractors at the Gr"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46953?AppId=1",
+        "verified": "2026-11-08",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-08T11:14:43.430679-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46953",
+        "sourceSmartNumber": "212-20261007144742 GCSD",
+        "sourceRFx": "3170036897",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/09/2026 10:00 AM"
+      }
+    }
+  ]
 }
