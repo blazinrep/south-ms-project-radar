@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 111,
+  "projectCount": 110,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4026,64 +4026,6 @@
       ]
     },
     {
-      "projectId": "msproc-46950",
-      "projectName": "Perry / 45-20261006103519 PCBS",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Perry / 45-20261006103519 PCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "HIGHWAY CONSTRUCTION"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "HIGHWAY CONSTRUCTION"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-46954",
-      "projectName": "Simpson / 29-20261015095643 SCBS",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Simpson / 29-20261015095643 SCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be sealed and the outside envelope shall be clearly marked (2) B"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46969",
       "projectName": "Jackson / 94-20261005104533 JCBS",
       "evidenceCount": 8,
@@ -4236,6 +4178,25 @@
         {
           "source": "opportunity.scope",
           "text": "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46989",
+      "projectName": "Forrest / 9280-27-R-IFBD-00022",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00022"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 8, 2026, 2:"
         }
       ]
     },

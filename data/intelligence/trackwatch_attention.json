@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-09T21:37:57.129925+00:00",
+  "generatedAt": "2026-11-10T18:50:33.492361+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-11-09T21:37:40.265815+00:00",
+  "inputGeneratedAt": "2026-11-10T18:50:20.331225+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
     "eventsSeen": 3,
@@ -12,27 +12,28 @@
     "staleUnverified": 0,
     "rawFetchErrors": 26,
     "byType": {
-      "opportunity_closed": 3
+      "new_opportunity": 1,
+      "opportunity_closed": 2
     }
   },
   "attention": [
     {
-      "id": "5fe4e12d456dd5428de1",
-      "projectId": "msproc-46962",
-      "type": "opportunity_closed",
+      "id": "e66b2b48c5988ac579ac",
+      "projectId": "msproc-46989",
+      "type": "new_opportunity",
       "priority": "high",
-      "title": "Opportunity no longer open",
+      "title": "New contractor-relevant opportunity",
       "project": {
-        "name": "Greene / 212-20261015151521 GCSD",
-        "county": "Greene",
-        "city": "Greene County",
+        "name": "Forrest / 9280-27-R-IFBD-00022",
+        "county": "Forrest",
+        "city": "Forrest County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-11-09T10:00:00-06:00",
+        "deadline": "2026-12-08T14:00:00-06:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46962?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46989?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -47,7 +48,72 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-11-09T10:00:00-06:00",
+          "before": null,
+          "after": "2026-12-08T14:00:00-06:00"
+        },
+        {
+          "field": "status",
+          "before": null,
+          "after": "Accepting bids"
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": null,
+          "after": "Open"
+        },
+        {
+          "field": "lifecycleStage",
+          "before": null,
+          "after": "open_procurement"
+        },
+        {
+          "field": "scope",
+          "before": null,
+          "after": [
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 8, 2026, 2:"
+          ]
+        },
+        {
+          "field": "nextMove",
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        }
+      ],
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+    },
+    {
+      "id": "8724174ae238cf1216ca",
+      "projectId": "msproc-46950",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Perry / 45-20261006103519 PCBS",
+        "county": "Perry",
+        "city": "Perry County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-11-10T10:00:00-06:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46950?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-11-10T10:00:00-06:00",
           "after": null
         },
         {
@@ -68,8 +134,8 @@
         {
           "field": "scope",
           "before": [
-            "CONSTRUCTION - SERVICES",
-            "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for New Bleachers for Leakesville Jr. High and Greene County High School for the Greene County School District. Bids will be received from contra"
+            "HIGHWAY CONSTRUCTION",
+            "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
           ],
           "after": null
         },
@@ -82,22 +148,22 @@
       "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
     },
     {
-      "id": "df7489b1dbdd449c1a13",
-      "projectId": "msproc-46940",
+      "id": "432444748afcd5ba6009",
+      "projectId": "msproc-46954",
       "type": "opportunity_closed",
       "priority": "high",
       "title": "Opportunity no longer open",
       "project": {
-        "name": "Pike / 361-20261002085447 Magnolia",
-        "county": "Pike",
-        "city": "Pike County",
+        "name": "Simpson / 29-20261015095643 SCBS",
+        "county": "Simpson",
+        "city": "Simpson County",
         "decision": null,
         "tradeFit": null,
         "actionPriority": null,
         "fitScore": null,
-        "deadline": "2026-11-09T10:00:00-06:00",
+        "deadline": "2026-11-10T10:00:00-06:00",
         "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46940?AppId=1"
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46954?AppId=1"
       },
       "relevance": "source record is in act bucket",
       "capabilityHits": [],
@@ -112,7 +178,7 @@
       "changes": [
         {
           "field": "deadline",
-          "before": "2026-11-09T10:00:00-06:00",
+          "before": "2026-11-10T10:00:00-06:00",
           "after": null
         },
         {
@@ -133,73 +199,8 @@
         {
           "field": "scope",
           "before": [
-            "CONSTRUCTION - SERVICES",
-            "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "a69beab73db4fd15a171",
-      "projectId": "msproc-46953",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Greene / 212-20261007144742 GCSD",
-        "county": "Greene",
-        "city": "Greene County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-11-09T10:00:00-06:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46953?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-11-09T10:00:00-06:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Re-Roof for Jr. High and Maintenance Building (Rebid) for the Greene County School District. Bids will be received from contractors at the Gr"
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be sealed and the outside envelope shall be clearly marked (2) B"
           ],
           "after": null
         },
@@ -215,9 +216,9 @@
   "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-11-09T15:37:38.727973-06:00",
-    "knownActiveChecked": 11,
-    "currentRecords": 8,
+    "checkedAt": "2026-11-10T12:50:16.978159-06:00",
+    "knownActiveChecked": 8,
+    "currentRecords": 7,
     "staleUnverified": 0,
     "rawNetworkOrHttpFailures": 26,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
