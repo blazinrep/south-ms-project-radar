@@ -10,67 +10,39 @@
     "county": "Forrest"
   },
   {
-    "detail_id": 46940,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "361-20261002085447 Magnolia",
-      "Advertised Date": "11/04/2026 5:00 PM",
-      "RFx #": "3170036895",
-      "Submission Date": "11/09/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Pre-Bid Conference: Date & Time: 10/26/2026 10:00 AM Description: A Pre-Bid Conference will be held at 10:00 am local time, on Monday, October 26, 2026 at the office of the City of Magnolia. --------------------------------------------------------------"
-    }
-  },
-  {
     "detail_id": 46950,
-    "decision": "publish",
-    "county": "Perry"
-  },
-  {
-    "detail_id": 46953,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "212-20261007144742 GCSD",
+      "Smart Number": "45-20261006103519 PCBS",
       "Advertised Date": "11/05/2026 5:00 PM",
-      "RFx #": "3170036897",
-      "Submission Date": "11/09/2026 10:00 AM",
+      "RFx #": "3170036883",
+      "Submission Date": "11/10/2026 10:00 AM",
       "RFx Status": "Closed",
       "Major Procurement Category": "CONSTRUCTION",
       "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "Sub Procurement Category": "HIGHWAY CONSTRUCTION",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Re-Roof for Jr. High and Maintenance Building (Rebid) for the Greene County School District. Bids will be received from contractors at the Gr"
+      "RFx Description": "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
     }
   },
   {
     "detail_id": 46954,
-    "decision": "publish",
-    "county": "Simpson"
-  },
-  {
-    "detail_id": 46962,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "212-20261015151521 GCSD",
-      "Advertised Date": "11/06/2026 5:00 PM",
-      "RFx #": "3170036900",
-      "Submission Date": "11/09/2026 10:00 AM",
+      "Smart Number": "29-20261015095643 SCBS",
+      "Advertised Date": "11/05/2026 5:00 PM",
+      "RFx #": "3170036898",
+      "Submission Date": "11/10/2026 10:00 AM",
       "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
+      "Major Procurement Category": "COMMODITIES",
       "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for New Bleachers for Leakesville Jr. High and Greene County High School for the Greene County School District. Bids will be received from contra"
+      "RFx Description": "Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be sealed and the outside envelope shall be clearly marked (2) B"
     }
   },
   {
@@ -89,32 +61,9 @@
     "county": "Lamar"
   },
   {
-    "detail_id": 46979,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46980,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46981,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46982,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46983,
@@ -150,6 +99,34 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46988,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46989,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46990,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46991,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
     ]
   }
 ]
