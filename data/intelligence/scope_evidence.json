@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 110,
+  "projectCount": 111,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3987,45 +3987,6 @@
       ]
     },
     {
-      "projectId": "msproc-46926",
-      "projectName": "Forrest / 9280-27-R-IFBD-00021",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 9280-27-R-IFBD-00021"
-        },
-        {
-          "source": "project.scope",
-          "text": "SUPPLIES - TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "SUPPLIES - TECHNOLOGY"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46969",
       "projectName": "Jackson / 94-20261005104533 JCBS",
       "evidenceCount": 8,
@@ -4197,6 +4158,84 @@
         {
           "source": "project.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 8, 2026, 2:"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46992",
+      "projectName": "Forrest / 9280-27-R-IFBD-00020",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00020"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, December 3, 2026, 2:00 p."
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "EQUIPMENT - TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, December 3, 2026, 2:00 p."
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-46993",
+      "projectName": "Forrest / 9280-27-R-IFBD-00021",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00021"
+        },
+        {
+          "source": "project.scope",
+          "text": "SUPPLIES - TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, December 3, 2026, 2:00"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SUPPLIES - TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Thursday, December 3, 2026, 2:00"
         }
       ]
     },

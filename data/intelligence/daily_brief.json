@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T18:50:33.088257+00:00",
+  "generatedAt": "2026-11-11T18:52:45.721983+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 110,
-  "canonicalProjectCount": 101,
+  "sourceRecordCount": 111,
+  "canonicalProjectCount": 102,
   "duplicateGroups": 8,
   "rejectedCount": 1,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 81,
+    "low_priority": 82,
     "verify_then_pursue": 2,
     "optional_outside_radius": 7,
     "verify_scope": 1
@@ -194,7 +194,7 @@
       "name": "Jackson / 94-20261005104533 JCBS",
       "county": "Jackson",
       "deadline": "2026-11-12T12:00:00-06:00",
-      "daysToDeadline": 2.0,
+      "daysToDeadline": 1.0,
       "distanceMiles": 97.5,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
