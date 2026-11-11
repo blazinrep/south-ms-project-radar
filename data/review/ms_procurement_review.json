@@ -6,43 +6,20 @@
   },
   {
     "detail_id": 46926,
-    "decision": "publish",
-    "county": "Forrest"
-  },
-  {
-    "detail_id": 46950,
     "decision": "explicitly_remove",
-    "reason": "source_status_closed",
+    "reason": "source_status_archived",
     "fields": {
-      "Smart Number": "45-20261006103519 PCBS",
-      "Advertised Date": "11/05/2026 5:00 PM",
-      "RFx #": "3170036883",
-      "Submission Date": "11/10/2026 10:00 AM",
-      "RFx Status": "Closed",
-      "Major Procurement Category": "CONSTRUCTION",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "HIGHWAY CONSTRUCTION",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "The Perry County Board of Supervisors will receive sealed bids at the Perry County Courthouse, Supervisor's Office, 103 Front Street West, New Augusta, Mississippi, unl 10:00 A.M., Tuesday, November 10, 2026 furnishing all labor, materials, and equipme"
-    }
-  },
-  {
-    "detail_id": 46954,
-    "decision": "explicitly_remove",
-    "reason": "source_status_closed",
-    "fields": {
-      "Smart Number": "29-20261015095643 SCBS",
-      "Advertised Date": "11/05/2026 5:00 PM",
-      "RFx #": "3170036898",
-      "Submission Date": "11/10/2026 10:00 AM",
-      "RFx Status": "Closed",
+      "Smart Number": "9280-27-R-IFBD-00021",
+      "Advertised Date": "11/11/2026 8:00 AM",
+      "RFx #": "3160008391",
+      "Submission Date": "12/01/2026 2:00 PM",
+      "RFx Status": "Archived",
       "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "N/A",
-      "Sub Procurement Category": "EQUIPMENT - NON-TECHNOLOGY",
-      "RFx Type": "MDA - RFx",
-      "Agency": "MPTAP",
-      "RFx Description": "Sealed bids may be submitted electronically at www.centralbidding.com or delivered to the Simpson County Board of Supervisors Office, 111 W Pine Avenue, Mendenhall, MS 39114. Bids shall be sealed and the outside envelope shall be clearly marked (2) B"
+      "RFx Opening Date": "12/01/2026 2:00 PM",
+      "Sub Procurement Category": "SUPPLIES - TECHNOLOGY",
+      "RFx Type": "Invitation for Bid",
+      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
     }
   },
   {
@@ -64,35 +41,6 @@
     "detail_id": 46980,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46983,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46984,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46985,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46986,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46987,
@@ -127,6 +75,92 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 46992,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46993,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 46994,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46995,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46996,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46997,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46998,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 46999,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47000,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47001,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47002,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47003,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
     ]
   }
 ]
