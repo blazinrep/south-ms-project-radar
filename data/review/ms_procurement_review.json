@@ -5,27 +5,22 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46926,
-    "decision": "explicitly_remove",
-    "reason": "source_status_archived",
-    "fields": {
-      "Smart Number": "9280-27-R-IFBD-00021",
-      "Advertised Date": "11/11/2026 8:00 AM",
-      "RFx #": "3160008391",
-      "Submission Date": "12/01/2026 2:00 PM",
-      "RFx Status": "Archived",
-      "Major Procurement Category": "COMMODITIES",
-      "RFx Opening Date": "12/01/2026 2:00 PM",
-      "Sub Procurement Category": "SUPPLIES - TECHNOLOGY",
-      "RFx Type": "Invitation for Bid",
-      "Agency": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-      "RFx Description": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Tuesday, December 1, 2026, 2:"
-    }
-  },
-  {
     "detail_id": 46969,
-    "decision": "publish",
-    "county": "Jackson"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "94-20261005104533 JCBS",
+      "Advertised Date": "11/06/2026 5:00 PM",
+      "RFx #": "3170036913",
+      "Submission Date": "11/12/2026 12:00 PM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "The Jackson County Board Of Supervisors, Jackson County. Mississippi, Will receive bids for the Intersection Improvements including construction of roundabout at intersection of Hwy 613 and Hwy 614 for a total project length of 0.4 miles, Federal Aid Proj"
+    }
   },
   {
     "detail_id": 46975,
@@ -43,39 +38,9 @@
     "county": "Forrest"
   },
   {
-    "detail_id": 46987,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46988,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 46989,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46990,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46991,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant"
-    ]
   },
   {
     "detail_id": 46992,
@@ -86,44 +51,6 @@
     "detail_id": 46993,
     "decision": "publish",
     "county": "Forrest"
-  },
-  {
-    "detail_id": 46994,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46995,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46996,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46997,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "not_construction_relevant",
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 46998,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
   },
   {
     "detail_id": 46999,
@@ -157,6 +84,68 @@
   },
   {
     "detail_id": 47003,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47004,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47005,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47006,
+    "decision": "publish",
+    "county": "Stone"
+  },
+  {
+    "detail_id": 47007,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47008,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 47009,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47010,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47011,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47012,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",

@@ -24,7 +24,7 @@
     "owner": "MS DEPT FINANCE AND ADMINISTRATION",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46856?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -45,53 +45,6 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "CONSTRUCTION - SERVICES",
     "submissionDateRaw": "12/10/2026 2:00 PM"
-  },
-  {
-    "id": "msproc-46969",
-    "name": "Jackson / 94-20261005104533 JCBS",
-    "county": "Jackson",
-    "city": "Jackson County",
-    "lat": 30.3674,
-    "lon": -88.5561,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-11-12T12:00:00-06:00",
-    "prebid": null,
-    "value": null,
-    "match": 55,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "CONSTRUCTION - SERVICES",
-      "The Jackson County Board Of Supervisors, Jackson County. Mississippi, Will receive bids for the Intersection Improvements including construction of roundabout at intersection of Hwy 613 and Hwy 614 for a total project length of 0.4 miles, Federal Aid Proj"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46969?AppId=1",
-    "verified": "2026-11-11",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46969",
-    "sourceSmartNumber": "94-20261005104533 JCBS",
-    "sourceRFx": "3170036913",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "CONSTRUCTION - SERVICES",
-    "submissionDateRaw": "11/12/2026 12:00 PM"
   },
   {
     "id": "msproc-46975",
@@ -118,7 +71,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46975?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "paving_base"
@@ -130,7 +83,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -167,7 +120,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46976?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -177,7 +130,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -214,7 +167,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46980?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "utilities"
@@ -226,7 +179,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -263,7 +216,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46989?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -273,7 +226,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -310,7 +263,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46992?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -320,7 +273,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -357,7 +310,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46993?AppId=1",
-    "verified": "2026-11-11",
+    "verified": "2026-11-12",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -367,7 +320,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-11T12:52:27.859411-06:00",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -378,5 +331,99 @@
     "majorProcurementCategory": "COMMODITIES",
     "subProcurementCategory": "SUPPLIES - TECHNOLOGY",
     "submissionDateRaw": "12/03/2026 2:00 PM"
+  },
+  {
+    "id": "msproc-47006",
+    "name": "Stone / 313-20261015092918 SCBS",
+    "county": "Stone",
+    "city": "Stone County",
+    "lat": 30.8582,
+    "lon": -89.1353,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-11-12T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "CONSTRUCTION - SERVICES",
+      "The Stone County Board of Supervisors shall receive separate sealed bids for the Dean Griffin Memorial Airport Fixed-Base Operator Building no later than 10:00 A.M., Local Time, November 12, 2026, at the Board Room located at 323 East Cavers Avenue, Wig"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47006?AppId=1",
+    "verified": "2026-11-12",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47006",
+    "sourceSmartNumber": "313-20261015092918 SCBS",
+    "sourceRFx": "3170036924",
+    "sourceRFxStatus": "Closed",
+    "majorProcurementCategory": "CONSTRUCTION",
+    "subProcurementCategory": "CONSTRUCTION - SERVICES",
+    "submissionDateRaw": "11/12/2026 10:00 AM"
+  },
+  {
+    "id": "msproc-47008",
+    "name": "Forrest / 9280-27-R-IFBD-00023",
+    "county": "Forrest",
+    "city": "Forrest County",
+    "lat": 31.3271,
+    "lon": -89.2903,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-12-08T14:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "CONSTRUCTION - SERVICES",
+      "Sealed bids will be received by the University of Southern Mississippi Physical Plant Division, located at West 4th Street, Hattiesburg, Mississippi 39401, until 2:00 p.m. local time, on Tuesday, December 8, 2026 for supplying all labor, equipment, and ma"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47008?AppId=1",
+    "verified": "2026-11-12",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-12T13:08:04.533467-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47008",
+    "sourceSmartNumber": "9280-27-R-IFBD-00023",
+    "sourceRFx": "3160008416",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "CONSTRUCTION",
+    "subProcurementCategory": "CONSTRUCTION - SERVICES",
+    "submissionDateRaw": "12/08/2026 2:00 PM"
   }
 ]
