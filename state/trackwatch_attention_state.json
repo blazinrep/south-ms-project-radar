@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-11T18:52:46.071541+00:00",
-  "lastInputGeneratedAt": "2026-11-11T18:52:31.093596+00:00",
+  "updatedAt": "2026-11-12T19:08:23.042718+00:00",
+  "lastInputGeneratedAt": "2026-11-12T19:08:06.654782+00:00",
   "totals": {
-    "inputsProcessed": 59,
-    "eventsSeen": 129,
-    "needsAttention": 79,
-    "filtered": 50,
+    "inputsProcessed": 60,
+    "eventsSeen": 132,
+    "needsAttention": 81,
+    "filtered": 51,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 1226
+    "rawFetchErrors": 1247
   }
 }

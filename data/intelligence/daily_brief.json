@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-11T18:52:45.721983+00:00",
+  "generatedAt": "2026-11-12T19:08:22.567378+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 111,
-  "canonicalProjectCount": 102,
+  "sourceRecordCount": 112,
+  "canonicalProjectCount": 103,
   "duplicateGroups": 8,
   "rejectedCount": 1,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 82,
+    "low_priority": 83,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 7,
+    "optional_outside_radius": 6,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -190,45 +190,6 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-46969",
-      "name": "Jackson / 94-20261005104533 JCBS",
-      "county": "Jackson",
-      "deadline": "2026-11-12T12:00:00-06:00",
-      "daysToDeadline": 1.0,
-      "distanceMiles": 97.5,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 2,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 17,
-        "actionPriority": 29
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "mdot-109253-301000",
       "name": "MDOT Proposed: I 59 \u2014 Clarke County OGFC Lift",
       "county": "Clarke",
@@ -311,6 +272,52 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
+    },
+    {
+      "id": "walthall-orphan-wells",
+      "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
+      "county": "Walthall",
+      "deadline": "2026-08-24T16:00:00",
+      "daysToDeadline": -80.1,
+      "distanceMiles": 34,
+      "decision": "specialist_only",
+      "pursuitPath": "specialist_only",
+      "tradeFit": "weak",
+      "evidenceLevel": "official_explicit",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 7,
+        "runway": 0,
+        "geography": 13,
+        "evidenceQuality": 15,
+        "fitTotal": 47,
+        "actionPriority": 30
+      },
+      "whyItMatters": "The reclamation portion uses dirt-work skills, but the prime contract is fundamentally an oil-and-gas well-plugging package. A normal excavation contractor should not spend estimating time on it unless it already has the specialty capability or a qualified teaming partner.",
+      "nextAction": "Archive for the demo contractor unless it already performs regulated oil-and-gas well plugging or has a qualified teaming partner. If specialty capability exists, use the current MSOGB active-procurement page and IFB documents.",
+      "actionType": "specialist_gate_before_any_pursuit",
+      "riskFlags": [
+        "specialized_oil_and_gas_scope",
+        "outside_demo_company_capability_profile",
+        "legacy_source_record_points_to_archived_duplicate"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        },
+        {
+          "type": "specialty_experience",
+          "status": "required_before_pursuit",
+          "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
+        }
+      ]
     }
   ],
   "fitRanking": [
