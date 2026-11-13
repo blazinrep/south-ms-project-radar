@@ -1,8 +1,8 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-11-12T19:08:06.654782+00:00",
+  "generated_at": "2026-11-13T18:46:35.390811+00:00",
   "summary": {
-    "new": 2,
+    "new": 3,
     "changed": 0,
     "no_longer_open": 1,
     "stale_unverified": 0
@@ -10,8 +10,165 @@
   "events": [
     {
       "kind": "new_project",
-      "project_id": "msproc-47006",
+      "project_id": "msproc-47019",
       "after": {
+        "id": "msproc-47019",
+        "name": "Marion / 333-20261014083633 Columbia",
+        "county": "Marion",
+        "city": "Marion County",
+        "lat": 31.2518,
+        "lon": -89.8354,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-17T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 63,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47019?AppId=1",
+        "verified": "2026-11-13",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [
+          "utilities"
+        ],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-13T12:46:31.660774-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "47019",
+        "sourceSmartNumber": "333-20261014083633 Columbia",
+        "sourceRFx": "3170036933",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/17/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "new_project",
+      "project_id": "msproc-47022",
+      "after": {
+        "id": "msproc-47022",
+        "name": "Marion / 56-20261015083729 Columbia",
+        "county": "Marion",
+        "city": "Marion County",
+        "lat": 31.2518,
+        "lon": -89.8354,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-17T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 63,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47022?AppId=1",
+        "verified": "2026-11-13",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [
+          "utilities"
+        ],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-13T12:46:31.660774-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "47022",
+        "sourceSmartNumber": "56-20261015083729 Columbia",
+        "sourceRFx": "3170036936",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/17/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "new_project",
+      "project_id": "msproc-47028",
+      "after": {
+        "id": "msproc-47028",
+        "name": "Jones / 212-20261022113556 Laurel",
+        "county": "Jones",
+        "city": "Jones County",
+        "lat": 31.6941,
+        "lon": -89.1306,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-19T14:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Oak Park Auditorium Generator and Waterproofing. Bids will be received from contractors at the Laurel School District Central Office located"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47028?AppId=1",
+        "verified": "2026-11-13",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-13T12:46:31.660774-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "47028",
+        "sourceSmartNumber": "212-20261022113556 Laurel",
+        "sourceRFx": "3170036943",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/19/2026 2:00 PM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-47006",
+      "before": {
         "id": "msproc-47006",
         "name": "Stone / 313-20261015092918 SCBS",
         "county": "Stone",
@@ -57,108 +214,6 @@
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
         "submissionDateRaw": "11/12/2026 10:00 AM"
-      }
-    },
-    {
-      "kind": "new_project",
-      "project_id": "msproc-47008",
-      "after": {
-        "id": "msproc-47008",
-        "name": "Forrest / 9280-27-R-IFBD-00023",
-        "county": "Forrest",
-        "city": "Forrest County",
-        "lat": 31.3271,
-        "lon": -89.2903,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-12-08T14:00:00-06:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "CONSTRUCTION - SERVICES",
-          "Sealed bids will be received by the University of Southern Mississippi Physical Plant Division, located at West 4th Street, Hattiesburg, Mississippi 39401, until 2:00 p.m. local time, on Tuesday, December 8, 2026 for supplying all labor, equipment, and ma"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47008?AppId=1",
-        "verified": "2026-11-12",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-11-12T13:08:04.533467-06:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "47008",
-        "sourceSmartNumber": "9280-27-R-IFBD-00023",
-        "sourceRFx": "3160008416",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "12/08/2026 2:00 PM"
-      }
-    },
-    {
-      "kind": "source_project_no_longer_open",
-      "project_id": "msproc-46969",
-      "before": {
-        "id": "msproc-46969",
-        "name": "Jackson / 94-20261005104533 JCBS",
-        "county": "Jackson",
-        "city": "Jackson County",
-        "lat": 30.3674,
-        "lon": -88.5561,
-        "locationPrecision": "county_seat_approx",
-        "status": "Accepting bids",
-        "bucket": "act",
-        "deadline": "2026-11-12T12:00:00-06:00",
-        "prebid": null,
-        "value": null,
-        "match": 55,
-        "timing": 96,
-        "confidence": 96,
-        "distance": null,
-        "scope": [
-          "CONSTRUCTION - SERVICES",
-          "The Jackson County Board Of Supervisors, Jackson County. Mississippi, Will receive bids for the Intersection Improvements including construction of roundabout at intersection of Hwy 613 and Hwy 614 for a total project length of 0.4 miles, Federal Aid Proj"
-        ],
-        "why": "Official Mississippi procurement detail page with a future published deadline.",
-        "owner": "MPTAP",
-        "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46969?AppId=1",
-        "verified": "2026-11-11",
-        "sourceType": "Official Mississippi procurement",
-        "capabilityTags": [],
-        "lifecycleStage": "open_procurement",
-        "signalType": "public_bid",
-        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-        "changeStatus": "new",
-        "freshnessStatus": "live_verified",
-        "automation": {
-          "sourceKey": "ms_procurement",
-          "lastSeen": "2026-11-11T12:52:27.859411-06:00",
-          "lastCheckStatus": "live_verified",
-          "needsHumanReview": true
-        },
-        "sourceDetailId": "46969",
-        "sourceSmartNumber": "94-20261005104533 JCBS",
-        "sourceRFx": "3170036913",
-        "sourceRFxStatus": "Open",
-        "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "11/12/2026 12:00 PM"
       }
     }
   ]
