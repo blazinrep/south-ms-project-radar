@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-11-12T18:52:37.434808+00:00",
+  "retrieved_at": "2026-11-13T18:29:38.396133+00:00",
   "records": [
     {
       "month": "2026/11",
@@ -158,17 +158,6 @@
     },
     {
       "month": "2027/02",
-      "district": "District 6",
-      "project_no": "109083/302000",
-      "fed_project_no": "STBG-2902-00(016)",
-      "parallel_to_project_no": "109083/301000",
-      "county": "Clarke",
-      "route": "US 11",
-      "scope": "Bridge Replacement",
-      "termini": "CR 370 from I-59 to MS 11 - Detour Route for the bridge replacements"
-    },
-    {
-      "month": "2027/02",
       "district": "District 7",
       "project_no": "109798/301000",
       "fed_project_no": "NH-0046-01(018)",
@@ -265,6 +254,17 @@
       "route": "US 11",
       "scope": "Bridge Replacement",
       "termini": "US 11 Bridge Replacements (#145.2 & 143.3)"
+    },
+    {
+      "month": "2027/04",
+      "district": "District 6",
+      "project_no": "109083/302000",
+      "fed_project_no": "STBG-2902-00(016)",
+      "parallel_to_project_no": "109083/301000",
+      "county": "Clarke",
+      "route": "US 11",
+      "scope": "Bridge Replacement",
+      "termini": "CR 370 from I-59 to MS 11 - Detour Route for the bridge replacements"
     },
     {
       "month": "2027/04",
