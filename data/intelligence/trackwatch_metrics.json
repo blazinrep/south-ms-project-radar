@@ -1,24 +1,23 @@
 {
-  "generatedAt": "2026-11-12T19:08:23.042791+00:00",
+  "generatedAt": "2026-11-13T18:46:50.992901+00:00",
   "purpose": "TrackWatch proof-case metrics for contractor monitoring",
   "profile": "Demo Excavation / Sitework Contractor",
   "latest": {
-    "eventsSeen": 3,
-    "needsAttention": 2,
-    "filtered": 1,
+    "eventsSeen": 4,
+    "needsAttention": 1,
+    "filtered": 3,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 21,
+    "rawFetchErrors": 0,
     "byType": {
-      "new_opportunity": 1,
       "opportunity_closed": 1
     }
   },
   "cumulative": {
-    "inputsProcessed": 60,
-    "eventsSeen": 132,
-    "needsAttention": 81,
-    "filtered": 51,
+    "inputsProcessed": 61,
+    "eventsSeen": 136,
+    "needsAttention": 82,
+    "filtered": 54,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
     "rawFetchErrors": 1247

@@ -1,6 +1,6 @@
 {
   "version": "0.10.0",
-  "projectsScanned": 112,
+  "projectsScanned": 114,
   "trades": {
     "excavation_sitework": {
       "trade": "Excavation / Sitework",
@@ -20,11 +20,11 @@
     },
     "electrical": {
       "trade": "Electrical",
-      "total": 7,
+      "total": 8,
       "strong": 0,
       "moderate": 0,
-      "possible": 7,
-      "verifyFirst": 7
+      "possible": 8,
+      "verifyFirst": 8
     },
     "plumbing": {
       "trade": "Plumbing",

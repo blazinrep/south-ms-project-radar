@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 112,
+  "projectCount": 114,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4201,25 +4201,6 @@
       ]
     },
     {
-      "projectId": "msproc-47006",
-      "projectName": "Stone / 313-20261015092918 SCBS",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Stone / 313-20261015092918 SCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Stone County Board of Supervisors shall receive separate sealed bids for the Dean Griffin Memorial Airport Fixed-Base Operator Building no later than 10:00 A.M., Local Time, November 12, 2026, at the Board Room located at 323 East Cavers Avenue, Wig"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-47008",
       "projectName": "Forrest / 9280-27-R-IFBD-00023",
       "evidenceCount": 8,
@@ -4255,6 +4236,123 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the University of Southern Mississippi Physical Plant Division, located at West 4th Street, Hattiesburg, Mississippi 39401, until 2:00 p.m. local time, on Tuesday, December 8, 2026 for supplying all labor, equipment, and ma"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47019",
+      "projectName": "Marion / 333-20261014083633 Columbia",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Marion / 333-20261014083633 Columbia"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47022",
+      "projectName": "Marion / 56-20261015083729 Columbia",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Marion / 56-20261015083729 Columbia"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47028",
+      "projectName": "Jones / 212-20261022113556 Laurel",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 212-20261022113556 Laurel"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Oak Park Auditorium Generator and Waterproofing. Bids will be received from contractors at the Laurel School District Central Office located"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Oak Park Auditorium Generator and Waterproofing. Bids will be received from contractors at the Laurel School District Central Office located"
         }
       ]
     },
