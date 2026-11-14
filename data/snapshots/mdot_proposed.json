@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-11-13T18:29:38.396133+00:00",
+  "retrieved_at": "2026-11-14T17:01:35.159762+00:00",
   "records": [
     {
       "month": "2026/11",
@@ -89,6 +89,50 @@
       "route": "I 55",
       "scope": "Bridge Repair",
       "termini": "I-55 over CNIC Railroad (Br #s 40.3 A & B)"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 7",
+      "project_no": "110299/301000",
+      "fed_project_no": "ER-0240-00(021)",
+      "parallel_to_project_no": "",
+      "county": "Covington",
+      "route": "MS 589",
+      "scope": "Storm Damage",
+      "termini": "SR 589 over Beaver Creek - Box Culvert"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 7",
+      "project_no": "110300/302000",
+      "fed_project_no": "ER-0008-02(137)",
+      "parallel_to_project_no": "110299/301000",
+      "county": "Covington",
+      "route": "US 49",
+      "scope": "Storm Damage",
+      "termini": "US 49 Retaining Wall and Median Inlet - PR"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 7",
+      "project_no": "110377/301000",
+      "fed_project_no": "ER-0008-02(139)",
+      "parallel_to_project_no": "110299/301000",
+      "county": "Covington",
+      "route": "US 49",
+      "scope": "Bridge Repair",
+      "termini": "US 49 over Big Swamp Creek Bridge #s 90.1A & 90.1B)"
+    },
+    {
+      "month": "2026/11",
+      "district": "District 7",
+      "project_no": "110378/301000",
+      "fed_project_no": "ER-0008-02(138)",
+      "parallel_to_project_no": "110299/301000",
+      "county": "Covington",
+      "route": "US 49",
+      "scope": "Bridge Repair",
+      "termini": "US 49 over Double Branch Creek (Bridge # 89.1B)"
     },
     {
       "month": "2027/01",
@@ -311,17 +355,6 @@
       "termini": "MS 26 from Stevon Moore Street in Wiggins to MS 15"
     },
     {
-      "month": "2027/05",
-      "district": "District 7",
-      "project_no": "310366/301000",
-      "fed_project_no": "MP-7587-46(014)",
-      "parallel_to_project_no": "",
-      "county": "Marion",
-      "route": "MS 587",
-      "scope": "Overlay",
-      "termini": "MS 587 from 0.9 mile north of Needham Lane/Carroll Loop to the Lawrence County Line"
-    },
-    {
       "month": "2027/06",
       "district": "District 6",
       "project_no": "108395/301000",
@@ -408,6 +441,17 @@
       "route": "MS 27",
       "scope": "Overlay",
       "termini": "MS 27 from Walthall CL to Dewey Ballard"
+    },
+    {
+      "month": "2027/07",
+      "district": "District 7",
+      "project_no": "310366/301000",
+      "fed_project_no": "MP-7587-46(014)",
+      "parallel_to_project_no": "",
+      "county": "Marion",
+      "route": "MS 587",
+      "scope": "Overlay",
+      "termini": "MS 587 from 0.9 mile north of Needham Lane/Carroll Loop to the Lawrence County Line"
     },
     {
       "month": "2027/09",
