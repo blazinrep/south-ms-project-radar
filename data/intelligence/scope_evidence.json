@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 114,
+  "projectCount": 124,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -3948,6 +3948,198 @@
       ]
     },
     {
+      "projectId": "mdot-110299-301000",
+      "projectName": "MDOT Proposed: MS 589 \u2014 Covington County Storm Damage",
+      "evidenceCount": 11,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: MS 589 \u2014 Covington County Storm Damage"
+        },
+        {
+          "source": "project.scope",
+          "text": "Storm Damage"
+        },
+        {
+          "source": "project.scope",
+          "text": "MS 589"
+        },
+        {
+          "source": "project.scope",
+          "text": "SR 589 over Beaver Creek - Box Culvert"
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "culvert"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for storm damage. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Storm Damage"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "MS 589"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SR 589 over Beaver Creek - Box Culvert"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110300-302000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Covington County Storm Damage",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 49 \u2014 Covington County Storm Damage"
+        },
+        {
+          "source": "project.scope",
+          "text": "Storm Damage"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49 Retaining Wall and Median Inlet - PR"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for storm damage. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Storm Damage"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49 Retaining Wall and Median Inlet - PR"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110377-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49 over Big Swamp Creek Bridge #s 90.1A & 90.1B)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49 over Big Swamp Creek Bridge #s 90.1A & 90.1B)"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110378-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair",
+      "evidenceCount": 10,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "project.scope",
+          "text": "US 49 over Double Branch Creek (Bridge # 89.1B)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Watch for the letting package and identify likely primes before bid release."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "Monitor MDOT proposed letting / Bid Express"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Bridge Repair"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "US 49 over Double Branch Creek (Bridge # 89.1B)"
+        }
+      ]
+    },
+    {
       "projectId": "msproc-46856",
       "projectName": "Jones / 1130-27-R-IFBD-00026",
       "evidenceCount": 8,
@@ -4353,6 +4545,220 @@
         {
           "source": "opportunity.scope",
           "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Oak Park Auditorium Generator and Waterproofing. Bids will be received from contractors at the Laurel School District Central Office located"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47056",
+      "projectName": "Jones / 169-20261019110645 BSJC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 169-20261019110645 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Jones County in Laurel, Mississippi until 10:00 A.M., on Monday November 30, 2026, and shortly thereafter publicly opened for the construction of 24.049 miles of MAINTENANCE (OTHER THAN BRIDGE)"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Jones County in Laurel, Mississippi until 10:00 A.M., on Monday November 30, 2026, and shortly thereafter publicly opened for the construction of 24.049 miles of MAINTENANCE (OTHER THAN BRIDGE)"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47057",
+      "projectName": "Clarke / 169-20261020093613 BSCC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Clarke / 169-20261020093613 BSCC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Clarke County in Quitman, Mississippi until 10:00 A.M., on Friday, November 20, 2026, and shortly thereafter publicly opened for the construction of a County Road Overlay Project of 1.928 miles"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received by the Board of Supervisors of Clarke County in Quitman, Mississippi until 10:00 A.M., on Friday, November 20, 2026, and shortly thereafter publicly opened for the construction of a County Road Overlay Project of 1.928 miles"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47058",
+      "projectName": "Lincoln / 21-20261020104123 BSLC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lincoln / 21-20261020104123 BSLC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47059",
+      "projectName": "Lincoln / 21-20261020104123 BSLC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lincoln / 21-20261020104123 BSLC"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47062",
+      "projectName": "Harrison / 43-20261022160834 Gulfport",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 43-20261022160834 Gulfport"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Pre-Bid Conference: Date & Time: 11/10/2026 10:00 AM Description: A Non-Mandatory Pre-Bid Meeting will be held at 10:00 a.m. on November 10, 2026 at the following location: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 --------"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Pre-Bid Conference: Date & Time: 11/10/2026 10:00 AM Description: A Non-Mandatory Pre-Bid Meeting will be held at 10:00 a.m. on November 10, 2026 at the following location: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 --------"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47069",
+      "projectName": "Jackson / 94-20261102144558 BSJC",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jackson / 94-20261102144558 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Monday, November 6, 2017 and the said bids will be opened and read aloud at 1:00 p.m. in the Board of Superviso"
         }
       ]
     },

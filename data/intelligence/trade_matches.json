@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 114,
-  "matchedProjectCount": 79,
+  "projectCount": 124,
+  "matchedProjectCount": 82,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -1662,7 +1662,7 @@
       "projectName": "MDOT Proposed: MS 587 \u2014 Marion County Overlay",
       "owner": "Mississippi Department of Transportation",
       "county": "Marion",
-      "status": "Proposed 2027/05 letting",
+      "status": "Proposed 2027/07 letting",
       "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
       "tradeMatches": [
         {
@@ -2404,6 +2404,78 @@
       ]
     },
     {
+      "projectId": "mdot-110377-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Covington",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "mdot-110378-301000",
+      "projectName": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair",
+      "owner": "Mississippi Department of Transportation",
+      "county": "Covington",
+      "status": "Proposed 2026/11 letting",
+      "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 4,
+          "matchedScope": [
+            "excavation",
+            "grading",
+            "drainage",
+            "erosion control"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
       "projectId": "msproc-46975",
       "projectName": "Lawrence / 56-20261007134625 LCBS",
       "owner": "MPTAP",
@@ -2467,6 +2539,39 @@
           "opportunitySummary": "Possible electrical scope detected from generator, but the package is not yet clear.",
           "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
           "whyMatched": "Relevant scope detected: generator"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47057",
+      "projectName": "Clarke / 169-20261020093613 BSCC",
+      "owner": "MPTAP",
+      "county": "Clarke",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47057?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "paving"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },

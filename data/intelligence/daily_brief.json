@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-13T18:46:50.507698+00:00",
+  "generatedAt": "2026-11-14T17:18:29.925165+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 114,
-  "canonicalProjectCount": 105,
+  "sourceRecordCount": 124,
+  "canonicalProjectCount": 115,
   "duplicateGroups": 8,
-  "rejectedCount": 1,
+  "rejectedCount": 2,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 86,
+    "low_priority": 93,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 6,
+    "optional_outside_radius": 8,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -104,6 +104,84 @@
         "sitework_scope_inferred"
       ],
       "qualificationGates": []
+    },
+    {
+      "id": "msproc-47057",
+      "name": "Clarke / 169-20261020093613 BSCC",
+      "county": "Clarke",
+      "deadline": "2026-11-20T10:00:00-06:00",
+      "daysToDeadline": 5.9,
+      "distanceMiles": 84.9,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 9,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 35,
+        "actionPriority": 42
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
+    },
+    {
+      "id": "msproc-47062",
+      "name": "Harrison / 43-20261022160834 Gulfport",
+      "county": "Harrison",
+      "deadline": "2026-11-23T10:00:00-06:00",
+      "daysToDeadline": 8.9,
+      "distanceMiles": 75.3,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "investigate",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 7,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 33,
+        "actionPriority": 37
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
     },
     {
       "id": "mdot-109083-301000",
@@ -244,80 +322,6 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
-    },
-    {
-      "id": "mdot-109994-301000",
-      "name": "MDOT Proposed: US 11 \u2014 Clarke County Overlay",
-      "county": "Clarke",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 87.0,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "watch",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 3,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 0,
-        "evidenceQuality": 8,
-        "fitTotal": 27,
-        "actionPriority": 27
-      },
-      "whyItMatters": "Official MDOT future-letting signal for overlay. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": []
-    },
-    {
-      "id": "walthall-orphan-wells",
-      "name": "MSOGB Orphaned Well Plugging \u2014 Adams & Walthall Counties",
-      "county": "Walthall",
-      "deadline": "2026-08-24T16:00:00",
-      "daysToDeadline": -81.1,
-      "distanceMiles": 34,
-      "decision": "specialist_only",
-      "pursuitPath": "specialist_only",
-      "tradeFit": "weak",
-      "evidenceLevel": "official_explicit",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 7,
-        "runway": 0,
-        "geography": 13,
-        "evidenceQuality": 15,
-        "fitTotal": 47,
-        "actionPriority": 30
-      },
-      "whyItMatters": "The reclamation portion uses dirt-work skills, but the prime contract is fundamentally an oil-and-gas well-plugging package. A normal excavation contractor should not spend estimating time on it unless it already has the specialty capability or a qualified teaming partner.",
-      "nextAction": "Archive for the demo contractor unless it already performs regulated oil-and-gas well plugging or has a qualified teaming partner. If specialty capability exists, use the current MSOGB active-procurement page and IFB documents.",
-      "actionType": "specialist_gate_before_any_pursuit",
-      "riskFlags": [
-        "specialized_oil_and_gas_scope",
-        "outside_demo_company_capability_profile",
-        "legacy_source_record_points_to_archived_duplicate"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        },
-        {
-          "type": "specialty_experience",
-          "status": "required_before_pursuit",
-          "detail": "Do not treat this as ordinary excavation/sitework. Review the current MSOGB IFB for oil-and-gas well-plugging experience, technical procedures, site requirements and financial-security requirements."
-        }
-      ]
     }
   ],
   "fitRanking": [
@@ -438,6 +442,84 @@
       "qualificationGates": []
     },
     {
+      "id": "mdot-110377-301000",
+      "name": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 51,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-110378-301000",
+      "name": "MDOT Proposed: US 49 \u2014 Covington County Bridge Repair",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 12,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 51,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-110299-301000",
+      "name": "MDOT Proposed: MS 589 \u2014 Covington County Storm Damage",
+      "county": "Covington",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 31.4,
+      "decision": "low_priority",
+      "pursuitPath": "watch",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 11,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 15,
+        "evidenceQuality": 8,
+        "fitTotal": 50,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official MDOT future-letting signal for storm damage. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": []
+    },
+    {
       "id": "mdot-106972-301000",
       "name": "MDOT Proposed: US 51 \u2014 Pike County Bridge Replacement",
       "county": "Pike",
@@ -510,84 +592,6 @@
         "actionPriority": 45
       },
       "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": []
-    },
-    {
-      "id": "mdot-106971-301000",
-      "name": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
-      "county": "Simpson",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 45.2,
-      "decision": "low_priority",
-      "pursuitPath": "watch",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 49,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": []
-    },
-    {
-      "id": "mdot-110044-301000",
-      "name": "MDOT Proposed: I 55 \u2014 Lincoln County Bridge Repair",
-      "county": "Lincoln",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 41.4,
-      "decision": "low_priority",
-      "pursuitPath": "watch",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 49,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official MDOT future-letting signal for bridge repair. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": []
-    },
-    {
-      "id": "mdot-109364-301000",
-      "name": "MDOT Proposed: US 49 \u2014 Simpson County Reconstruction",
-      "county": "Simpson",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 45.2,
-      "decision": "low_priority",
-      "pursuitPath": "watch",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 49,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official MDOT future-letting signal for reconstruction. Early-stage watch item; not yet represented as an open bid.",
       "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [],
