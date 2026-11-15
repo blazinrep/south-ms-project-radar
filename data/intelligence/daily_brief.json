@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:18:29.925165+00:00",
+  "generatedAt": "2026-11-15T17:59:10.261121+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "sourceRecordCount": 124,
   "canonicalProjectCount": 115,
@@ -106,50 +106,11 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-47057",
-      "name": "Clarke / 169-20261020093613 BSCC",
-      "county": "Clarke",
-      "deadline": "2026-11-20T10:00:00-06:00",
-      "daysToDeadline": 5.9,
-      "distanceMiles": 84.9,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "subcontract_target_or_prime_if_qualified",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 9,
-        "runway": 15,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 35,
-        "actionPriority": 42
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "msproc-47062",
       "name": "Harrison / 43-20261022160834 Gulfport",
       "county": "Harrison",
       "deadline": "2026-11-23T10:00:00-06:00",
-      "daysToDeadline": 8.9,
+      "daysToDeadline": 7.9,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -238,6 +199,45 @@
         "outside_preferred_radius"
       ],
       "qualificationGates": []
+    },
+    {
+      "id": "msproc-47057",
+      "name": "Clarke / 169-20261020093613 BSCC",
+      "county": "Clarke",
+      "deadline": "2026-11-20T10:00:00-06:00",
+      "daysToDeadline": 4.9,
+      "distanceMiles": 84.9,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "subcontract_target_or_prime_if_qualified",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 9,
+        "runway": 6,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 26,
+        "actionPriority": 36
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ]
     },
     {
       "id": "mdot-109988-301000",
