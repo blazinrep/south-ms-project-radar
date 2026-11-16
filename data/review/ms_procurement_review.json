@@ -6,8 +6,21 @@
   },
   {
     "detail_id": 46975,
-    "decision": "publish",
-    "county": "Lawrence"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "56-20261007134625 LCBS",
+      "Advertised Date": "11/06/2026 5:00 PM",
+      "RFx #": "3170036917",
+      "Submission Date": "11/16/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids for paving of various county roads within Lawrence County, Mississippi will be received by the Lawrence County Board of Supervisors until 10:00 AM local time on Monday, November 16, 2026, at the Board Room located at 517 E Broad Street, Mon"
+    }
   },
   {
     "detail_id": 46976,
@@ -110,6 +123,28 @@
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 47071,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47072,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47073,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
     ]
   }
 ]
