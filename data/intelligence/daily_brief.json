@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-15T17:59:10.261121+00:00",
+  "generatedAt": "2026-11-16T21:14:30.774634+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 124,
-  "canonicalProjectCount": 115,
+  "sourceRecordCount": 123,
+  "canonicalProjectCount": 114,
   "duplicateGroups": 8,
   "rejectedCount": 2,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 93,
+    "low_priority": 92,
     "verify_then_pursue": 2,
     "optional_outside_radius": 8,
     "verify_scope": 1
@@ -110,7 +110,7 @@
       "name": "Harrison / 43-20261022160834 Gulfport",
       "county": "Harrison",
       "deadline": "2026-11-23T10:00:00-06:00",
-      "daysToDeadline": 7.9,
+      "daysToDeadline": 6.8,
       "distanceMiles": 75.3,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -123,7 +123,7 @@
         "geography": 3,
         "evidenceQuality": 8,
         "fitTotal": 33,
-        "actionPriority": 37
+        "actionPriority": 40
       },
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
       "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -205,7 +205,7 @@
       "name": "Clarke / 169-20261020093613 BSCC",
       "county": "Clarke",
       "deadline": "2026-11-20T10:00:00-06:00",
-      "daysToDeadline": 4.9,
+      "daysToDeadline": 3.8,
       "distanceMiles": 84.9,
       "decision": "optional_outside_radius",
       "pursuitPath": "subcontract_target_or_prime_if_qualified",
