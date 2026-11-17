@@ -5,27 +5,22 @@
     "county": "Jones"
   },
   {
-    "detail_id": 46975,
+    "detail_id": 46976,
     "decision": "explicitly_remove",
     "reason": "source_status_closed",
     "fields": {
-      "Smart Number": "56-20261007134625 LCBS",
+      "Smart Number": "45-20261008153541 LCBS",
       "Advertised Date": "11/06/2026 5:00 PM",
-      "RFx #": "3170036917",
-      "Submission Date": "11/16/2026 10:00 AM",
+      "RFx #": "3170036918",
+      "Submission Date": "11/17/2026 10:00 AM",
       "RFx Status": "Closed",
       "Major Procurement Category": "CONSTRUCTION",
       "RFx Opening Date": "N/A",
       "Sub Procurement Category": "CONSTRUCTION - SERVICES",
       "RFx Type": "MDA - RFx",
       "Agency": "MPTAP",
-      "RFx Description": "Sealed bids for paving of various county roads within Lawrence County, Mississippi will be received by the Lawrence County Board of Supervisors until 10:00 AM local time on Monday, November 16, 2026, at the Board Room located at 517 E Broad Street, Mon"
+      "RFx Description": "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
     }
-  },
-  {
-    "detail_id": 46976,
-    "decision": "publish",
-    "county": "Lamar"
   },
   {
     "detail_id": 46980,
@@ -54,13 +49,39 @@
   },
   {
     "detail_id": 47019,
-    "decision": "publish",
-    "county": "Marion"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "333-20261014083633 Columbia",
+      "Advertised Date": "11/12/2026 5:00 PM",
+      "RFx #": "3170036933",
+      "Submission Date": "11/17/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
+    }
   },
   {
     "detail_id": 47022,
-    "decision": "publish",
-    "county": "Marion"
+    "decision": "explicitly_remove",
+    "reason": "source_status_closed",
+    "fields": {
+      "Smart Number": "56-20261015083729 Columbia",
+      "Advertised Date": "11/12/2026 5:00 PM",
+      "RFx #": "3170036936",
+      "Submission Date": "11/17/2026 10:00 AM",
+      "RFx Status": "Closed",
+      "Major Procurement Category": "CONSTRUCTION",
+      "RFx Opening Date": "N/A",
+      "Sub Procurement Category": "CONSTRUCTION - SERVICES",
+      "RFx Type": "MDA - RFx",
+      "Agency": "MPTAP",
+      "RFx Description": "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
+    }
   },
   {
     "detail_id": 47028,
@@ -93,27 +114,6 @@
     "county": "Harrison"
   },
   {
-    "detail_id": 47066,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 47067,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
-    "detail_id": 47068,
-    "decision": "skip_discovery_candidate",
-    "reason": [
-      "outside_or_unresolved_territory"
-    ]
-  },
-  {
     "detail_id": 47069,
     "decision": "publish",
     "county": "Jackson"
@@ -141,6 +141,167 @@
   },
   {
     "detail_id": 47073,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47074,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47075,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47076,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47077,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47078,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47079,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47080,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47081,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47082,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47083,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47084,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47085,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 47086,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47087,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47088,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 47089,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant"
+    ]
+  },
+  {
+    "detail_id": 47090,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47091,
+    "decision": "publish",
+    "county": "Forrest"
+  },
+  {
+    "detail_id": 47092,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47093,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47094,
+    "decision": "skip_discovery_candidate",
+    "reason": [
+      "not_construction_relevant",
+      "outside_or_unresolved_territory"
+    ]
+  },
+  {
+    "detail_id": 47095,
     "decision": "skip_discovery_candidate",
     "reason": [
       "not_construction_relevant",
