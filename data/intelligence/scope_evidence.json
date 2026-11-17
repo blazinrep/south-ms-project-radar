@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 123,
+  "projectCount": 121,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4179,45 +4179,6 @@
       ]
     },
     {
-      "projectId": "msproc-46976",
-      "projectName": "Lamar / 45-20261008153541 LCBS",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Lamar / 45-20261008153541 LCBS"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46980",
       "projectName": "Forrest / 65-20261009090701 Hattiesburg",
       "evidenceCount": 8,
@@ -4389,84 +4350,6 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the University of Southern Mississippi Physical Plant Division, located at West 4th Street, Hattiesburg, Mississippi 39401, until 2:00 p.m. local time, on Tuesday, December 8, 2026 for supplying all labor, equipment, and ma"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47019",
-      "projectName": "Marion / 333-20261014083633 Columbia",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Marion / 333-20261014083633 Columbia"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47022",
-      "projectName": "Marion / 56-20261015083729 Columbia",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Marion / 56-20261015083729 Columbia"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
         }
       ]
     },
@@ -4720,6 +4603,45 @@
         {
           "source": "project.scope",
           "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Monday, November 6, 2017 and the said bids will be opened and read aloud at 1:00 p.m. in the Board of Superviso"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47091",
+      "projectName": "Forrest / 9280-27-R-IFBD-00024",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 9280-27-R-IFBD-00024"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, December 9, 2026, 2"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "EQUIPMENT - TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, December 9, 2026, 2"
         }
       ]
     },
