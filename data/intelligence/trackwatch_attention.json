@@ -1,231 +1,43 @@
 {
-  "generatedAt": "2026-11-17T20:01:15.055855+00:00",
+  "generatedAt": "2026-11-18T19:37:15.662774+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-11-17T20:00:59.200087+00:00",
+  "inputGeneratedAt": "2026-11-18T19:36:56.577884+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 4,
-    "needsAttention": 3,
-    "filtered": 1,
+    "eventsSeen": 3,
+    "needsAttention": 0,
+    "filtered": 3,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 8,
-    "byType": {
-      "opportunity_closed": 3
-    }
+    "rawFetchErrors": 0,
+    "byType": {}
   },
-  "attention": [
-    {
-      "id": "e6db87d12c812e39adaf",
-      "projectId": "msproc-47022",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Marion / 56-20261015083729 Columbia",
-        "county": "Marion",
-        "city": "Marion County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-11-17T10:00:00-06:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47022?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-11-17T10:00:00-06:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "451291c15787e4f7e9de",
-      "projectId": "msproc-46976",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Lamar / 45-20261008153541 LCBS",
-        "county": "Lamar",
-        "city": "Lamar County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-11-17T10:00:00-06:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46976?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-11-17T10:00:00-06:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    },
-    {
-      "id": "f845550e123a702dd4cf",
-      "projectId": "msproc-47019",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Marion / 333-20261014083633 Columbia",
-        "county": "Marion",
-        "city": "Marion County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-11-17T10:00:00-06:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47019?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-11-17T10:00:00-06:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "CONSTRUCTION - SERVICES",
-            "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    }
-  ],
+  "attention": [],
   "filtered": [
     {
-      "projectId": "msproc-47091",
+      "projectId": "msproc-47102",
       "kind": "new_project",
       "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-47116",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is optional_outside_radius"
+    },
+    {
+      "projectId": "msproc-47117",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is optional_outside_radius"
     }
   ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-11-17T14:00:57.161326-06:00",
-    "knownActiveChecked": 16,
-    "currentRecords": 14,
+    "checkedAt": "2026-11-18T13:36:52.569250-06:00",
+    "knownActiveChecked": 14,
+    "currentRecords": 17,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 8,
+    "rawNetworkOrHttpFailures": 0,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

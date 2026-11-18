@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 121,
+  "projectCount": 124,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4642,6 +4642,123 @@
         {
           "source": "opportunity.scope",
           "text": "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, December 9, 2026, 2"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47102",
+      "projectName": "Jones / 333-20261109113319 JCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 333-20261109113319 JCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Jones County Board of Supervisors will receive sealed proposals at the Jones County Courthouse in Laurel, Mississippi, until 9:30 a.m. on Monday, November 30, 2026, to fumish all labor, materials, and equipment in connection with: CDBG ADA IMPROVEMENT"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Jones County Board of Supervisors will receive sealed proposals at the Jones County Courthouse in Laurel, Mississippi, until 9:30 a.m. on Monday, November 30, 2026, to fumish all labor, materials, and equipment in connection with: CDBG ADA IMPROVEMENT"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47116",
+      "projectName": "Greene / 45-20261020080350 GCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Greene / 45-20261020080350 GCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 10:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 10:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47117",
+      "projectName": "Greene / 45-20261020080833 GCBS",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Greene / 45-20261020080833 GCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "HIGHWAY CONSTRUCTION"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 11:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "HIGHWAY CONSTRUCTION"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 11:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
         }
       ]
     },
