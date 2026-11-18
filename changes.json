@@ -1,25 +1,219 @@
 {
-  "generated_at": "2026-11-17T19:48:48.817799+00:00",
+  "generated_at": "2026-11-18T19:22:53.445454+00:00",
   "summary": {
-    "new": 0,
-    "changed": 0,
-    "removed": 1
+    "new": 1,
+    "changed": 1,
+    "removed": 3
   },
   "events": [
     {
-      "kind": "project_removed",
-      "project_id": "msproc-46975",
+      "kind": "project_changed",
+      "project_id": "mdot-309951-301000",
       "before": {
-        "id": "msproc-46975",
-        "name": "Lawrence / 56-20261007134625 LCBS",
-        "county": "Lawrence",
-        "city": "Lawrence County",
-        "lat": 31.5538,
-        "lon": -90.107,
+        "id": "mdot-309951-301000",
+        "name": "MDOT Proposed: MS 26 \u2014 Stone County Widen & Overlay",
+        "county": "Stone",
+        "city": "Stone County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2027/05 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 60,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Widen & Overlay",
+          "MS 26",
+          "MS 26 from Stevon Moore Street in Wiggins to MS 15"
+        ],
+        "why": "Official MDOT future-letting signal for widen & overlay. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-11-17",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-11-17T19:48:48.754119+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "309951/301000",
+        "sourceFedProjectNo": "MP-6026-66(013)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2027-05-01"
+      },
+      "after": {
+        "id": "mdot-309951-301000",
+        "name": "MDOT Proposed: MS 26 \u2014 Stone County Widen & Overlay",
+        "county": "Stone",
+        "city": "Stone County corridor",
+        "lat": null,
+        "lon": null,
+        "status": "Proposed 2027/07 letting",
+        "bucket": "ahead",
+        "deadline": null,
+        "prebid": null,
+        "value": null,
+        "match": 60,
+        "timing": 72,
+        "confidence": 99,
+        "distance": null,
+        "scope": [
+          "Widen & Overlay",
+          "MS 26",
+          "MS 26 from Stevon Moore Street in Wiggins to MS 15"
+        ],
+        "why": "Official MDOT future-letting signal for widen & overlay. Early-stage watch item; not yet represented as an open bid.",
+        "owner": "Mississippi Department of Transportation",
+        "contact": "Monitor MDOT proposed letting / Bid Express",
+        "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
+        "verified": "2026-11-18",
+        "sourceType": "Official MDOT proposed letting",
+        "capabilityTags": [
+          "hauling"
+        ],
+        "lifecycleStage": "pre_bid_or_preconstruction",
+        "signalType": "future_letting",
+        "nextMove": "Watch for the letting package and identify likely primes before bid release.",
+        "changeStatus": "watch",
+        "automation": {
+          "sourceKey": "mdot_proposed",
+          "lastSeen": "2026-11-18T19:22:53.400004+00:00",
+          "needsHumanReview": false
+        },
+        "sourceProjectNo": "309951/301000",
+        "sourceFedProjectNo": "MP-6026-66(013)",
+        "sourceParallelProjectNo": "",
+        "proposedMonth": "2027-07-01"
+      }
+    },
+    {
+      "kind": "new_project",
+      "project_id": "msproc-47091",
+      "after": {
+        "id": "msproc-47091",
+        "name": "Forrest / 9280-27-R-IFBD-00024",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-11-16T10:00:00-06:00",
+        "deadline": "2026-12-09T00:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "EQUIPMENT - TECHNOLOGY",
+          "NOTICE TO BIDDERS Sealed bids will be received in the Office of the Director of Procurement Services, The University of Southern Mississippi, 118 College Drive #5003, Bond Hall, Room 214, Hattiesburg, Mississippi, until Wednesday, December 9, 2026, 2"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47091?AppId=1",
+        "verified": "2026-11-17",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-17T14:00:57.161326-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "47091",
+        "sourceSmartNumber": "9280-27-R-IFBD-00024",
+        "sourceRFx": "3160008420",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "EQUIPMENT - TECHNOLOGY",
+        "submissionDateRaw": "12/09/2026 12:00 AM"
+      }
+    },
+    {
+      "kind": "project_removed",
+      "project_id": "msproc-46976",
+      "before": {
+        "id": "msproc-46976",
+        "name": "Lamar / 45-20261008153541 LCBS",
+        "county": "Lamar",
+        "city": "Lamar County",
+        "lat": 31.1432,
+        "lon": -89.4098,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-17T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 55,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "The Lamar County Board of Supervisors, Lamar County, Mississippi, will receive bids for the Lumberton Multi-use Path for a total project length of 0.406 miles, Federal Aid Project No. STP-0144-00(004) LPA/109895-701000 no later than 10:00 a.m., Local Ti"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46976?AppId=1",
+        "verified": "2026-11-16",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-16T15:14:12.031734-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "46976",
+        "sourceSmartNumber": "45-20261008153541 LCBS",
+        "sourceRFx": "3170036918",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/17/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "project_removed",
+      "project_id": "msproc-47019",
+      "before": {
+        "id": "msproc-47019",
+        "name": "Marion / 333-20261014083633 Columbia",
+        "county": "Marion",
+        "city": "Marion County",
+        "lat": 31.2518,
+        "lon": -89.8354,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-17T10:00:00-06:00",
         "prebid": null,
         "value": null,
         "match": 63,
@@ -28,16 +222,16 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "Sealed bids for paving of various county roads within Lawrence County, Mississippi will be received by the Lawrence County Board of Supervisors until 10:00 AM local time on Monday, November 16, 2026, at the Board Room located at 517 E Broad Street, Mon"
+          "Sealed bids for the construction Of the Wastewater Collection Improvements CDBG Project NO 120225 151 PF-OI for the City of Columbia in Columbia, Mississippi. will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia. Mississippi"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46975?AppId=1",
-        "verified": "2026-11-15",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47019?AppId=1",
+        "verified": "2026-11-16",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [
-          "paving_base"
+          "utilities"
         ],
         "lifecycleStage": "open_procurement",
         "signalType": "public_bid",
@@ -46,17 +240,70 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-11-15T11:58:51.864347-06:00",
+          "lastSeen": "2026-11-16T15:14:12.031734-06:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "46975",
-        "sourceSmartNumber": "56-20261007134625 LCBS",
-        "sourceRFx": "3170036917",
+        "sourceDetailId": "47019",
+        "sourceSmartNumber": "333-20261014083633 Columbia",
+        "sourceRFx": "3170036933",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "11/16/2026 10:00 AM"
+        "submissionDateRaw": "11/17/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "project_removed",
+      "project_id": "msproc-47022",
+      "before": {
+        "id": "msproc-47022",
+        "name": "Marion / 56-20261015083729 Columbia",
+        "county": "Marion",
+        "city": "Marion County",
+        "lat": 31.2518,
+        "lon": -89.8354,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-17T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 63,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Sealed bids for the construction of the Wastewater Collection Improvements CDBG Project No. 1202-25 151-PF-01 for the City of Columbia in Columbia, Mississippi, will be received by The Honorable Justin McKenzie, Mayor of the City of Columbia, Mississippi,"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47022?AppId=1",
+        "verified": "2026-11-16",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [
+          "utilities"
+        ],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-16T15:14:12.031734-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "47022",
+        "sourceSmartNumber": "56-20261015083729 Columbia",
+        "sourceRFx": "3170036936",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/17/2026 10:00 AM"
       }
     }
   ]

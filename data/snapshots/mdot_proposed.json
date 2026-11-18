@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-11-17T19:48:48.719581+00:00",
+  "retrieved_at": "2026-11-18T19:22:53.373301+00:00",
   "records": [
     {
       "month": "2026/11",
@@ -344,17 +344,6 @@
       "termini": "I-59 over Norfolk Southern RR (Bridge #s 61.2A & 61.2B)"
     },
     {
-      "month": "2027/05",
-      "district": "District 6",
-      "project_no": "309951/301000",
-      "fed_project_no": "MP-6026-66(013)",
-      "parallel_to_project_no": "",
-      "county": "Stone",
-      "route": "MS 26",
-      "scope": "Widen & Overlay",
-      "termini": "MS 26 from Stevon Moore Street in Wiggins to MS 15"
-    },
-    {
       "month": "2027/06",
       "district": "District 6",
       "project_no": "108395/301000",
@@ -397,6 +386,17 @@
       "route": "US 98",
       "scope": "Mill & Overlay",
       "termini": "US 98 from 0.4 miles west of SR 589 in Bellview to Weathersby Road in Hattiesburg"
+    },
+    {
+      "month": "2027/07",
+      "district": "District 6",
+      "project_no": "309951/301000",
+      "fed_project_no": "MP-6026-66(013)",
+      "parallel_to_project_no": "",
+      "county": "Stone",
+      "route": "MS 26",
+      "scope": "Widen & Overlay",
+      "termini": "MS 26 from Stevon Moore Street in Wiggins to MS 15"
     },
     {
       "month": "2027/07",
