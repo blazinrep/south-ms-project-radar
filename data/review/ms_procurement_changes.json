@@ -1,27 +1,27 @@
 {
   "source": "ms_procurement",
-  "generated_at": "2026-11-18T19:36:56.577884+00:00",
+  "generated_at": "2026-11-19T19:37:39.274487+00:00",
   "summary": {
     "new": 3,
     "changed": 0,
-    "no_longer_open": 0,
+    "no_longer_open": 1,
     "stale_unverified": 0
   },
   "events": [
     {
       "kind": "new_project",
-      "project_id": "msproc-47102",
+      "project_id": "msproc-47126",
       "after": {
-        "id": "msproc-47102",
-        "name": "Jones / 333-20261109113319 JCBS",
-        "county": "Jones",
-        "city": "Jones County",
-        "lat": 31.6941,
-        "lon": -89.1306,
+        "id": "msproc-47126",
+        "name": "Forrest / 65-20261023120851 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-11-30T09:30:00-06:00",
+        "deadline": "2026-12-10T10:00:00-06:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -30,13 +30,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "The Jones County Board of Supervisors will receive sealed proposals at the Jones County Courthouse in Laurel, Mississippi, until 9:30 a.m. on Monday, November 30, 2026, to fumish all labor, materials, and equipment in connection with: CDBG ADA IMPROVEMENT"
+          "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on December 10, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47102?AppId=1",
-        "verified": "2026-11-18",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47126?AppId=1",
+        "verified": "2026-11-19",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -46,33 +46,33 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+          "lastSeen": "2026-11-19T13:37:35.120670-06:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "47102",
-        "sourceSmartNumber": "333-20261109113319 JCBS",
-        "sourceRFx": "3170037023",
+        "sourceDetailId": "47126",
+        "sourceSmartNumber": "65-20261023120851 Hattiesburg",
+        "sourceRFx": "3170037049",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "11/30/2026 9:30 AM"
+        "submissionDateRaw": "12/10/2026 10:00 AM"
       }
     },
     {
       "kind": "new_project",
-      "project_id": "msproc-47116",
+      "project_id": "msproc-47130",
       "after": {
-        "id": "msproc-47116",
-        "name": "Greene / 45-20261020080350 GCBS",
-        "county": "Greene",
-        "city": "Greene County",
-        "lat": 31.1557,
-        "lon": -88.5578,
+        "id": "msproc-47130",
+        "name": "Forrest / 187-20261027112712 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-12-02T10:00:00-06:00",
+        "deadline": "2026-12-10T10:00:00-06:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -81,13 +81,13 @@
         "distance": null,
         "scope": [
           "CONSTRUCTION - SERVICES",
-          "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 10:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
+          "NOTICE is hereby given that the Mayor and Council Of the City ofHattiesburg, Mississippi, Will receive sealed bids until December 10.2026 at 10:00 a.m. in the City Clerks Office, in the City Hall Of said City, for furnishing the City's requirements for th"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47116?AppId=1",
-        "verified": "2026-11-18",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47130?AppId=1",
+        "verified": "2026-11-19",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
         "lifecycleStage": "open_procurement",
@@ -97,33 +97,33 @@
         "freshnessStatus": "live_verified",
         "automation": {
           "sourceKey": "ms_procurement",
-          "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+          "lastSeen": "2026-11-19T13:37:35.120670-06:00",
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "47116",
-        "sourceSmartNumber": "45-20261020080350 GCBS",
-        "sourceRFx": "3170037041",
+        "sourceDetailId": "47130",
+        "sourceSmartNumber": "187-20261027112712 Hattiesburg",
+        "sourceRFx": "3170037026",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
         "subProcurementCategory": "CONSTRUCTION - SERVICES",
-        "submissionDateRaw": "12/02/2026 10:00 AM"
+        "submissionDateRaw": "12/10/2026 10:00 AM"
       }
     },
     {
       "kind": "new_project",
-      "project_id": "msproc-47117",
+      "project_id": "msproc-47131",
       "after": {
-        "id": "msproc-47117",
-        "name": "Greene / 45-20261020080833 GCBS",
-        "county": "Greene",
-        "city": "Greene County",
-        "lat": 31.1557,
-        "lon": -88.5578,
+        "id": "msproc-47131",
+        "name": "Forrest / 187-20261027113001 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
         "locationPrecision": "county_seat_approx",
         "status": "Accepting bids",
         "bucket": "act",
-        "deadline": "2026-12-02T11:00:00-06:00",
+        "deadline": "2026-12-03T10:00:00-06:00",
         "prebid": null,
         "value": null,
         "match": 55,
@@ -131,16 +131,69 @@
         "confidence": 96,
         "distance": null,
         "scope": [
-          "HIGHWAY CONSTRUCTION",
-          "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 11:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
+          "EQUIPMENT - NON-TECHNOLOGY",
+          "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until December 3, 2026 at J 0:00 a.m. in the City Clerks Omee, in the City Hall of said City, for furnishing the City's requirements for th"
         ],
         "why": "Official Mississippi procurement detail page with a future published deadline.",
         "owner": "MPTAP",
         "contact": "See official record and attachments",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47117?AppId=1",
-        "verified": "2026-11-18",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47131?AppId=1",
+        "verified": "2026-11-19",
         "sourceType": "Official Mississippi procurement",
         "capabilityTags": [],
+        "lifecycleStage": "open_procurement",
+        "signalType": "public_bid",
+        "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+        "changeStatus": "new",
+        "freshnessStatus": "live_verified",
+        "automation": {
+          "sourceKey": "ms_procurement",
+          "lastSeen": "2026-11-19T13:37:35.120670-06:00",
+          "lastCheckStatus": "live_verified",
+          "needsHumanReview": true
+        },
+        "sourceDetailId": "47131",
+        "sourceSmartNumber": "187-20261027113001 Hattiesburg",
+        "sourceRFx": "3170037027",
+        "sourceRFxStatus": "Open",
+        "majorProcurementCategory": "CONSTRUCTION",
+        "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+        "submissionDateRaw": "12/03/2026 10:00 AM"
+      }
+    },
+    {
+      "kind": "source_project_no_longer_open",
+      "project_id": "msproc-46980",
+      "before": {
+        "id": "msproc-46980",
+        "name": "Forrest / 65-20261009090701 Hattiesburg",
+        "county": "Forrest",
+        "city": "Forrest County",
+        "lat": 31.3271,
+        "lon": -89.2903,
+        "locationPrecision": "county_seat_approx",
+        "status": "Accepting bids",
+        "bucket": "act",
+        "deadline": "2026-11-19T10:00:00-06:00",
+        "prebid": null,
+        "value": null,
+        "match": 63,
+        "timing": 96,
+        "confidence": 96,
+        "distance": null,
+        "scope": [
+          "CONSTRUCTION - SERVICES",
+          "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
+        ],
+        "why": "Official Mississippi procurement detail page with a future published deadline.",
+        "owner": "MPTAP",
+        "contact": "See official record and attachments",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46980?AppId=1",
+        "verified": "2026-11-18",
+        "sourceType": "Official Mississippi procurement",
+        "capabilityTags": [
+          "utilities"
+        ],
         "lifecycleStage": "open_procurement",
         "signalType": "public_bid",
         "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
@@ -152,13 +205,13 @@
           "lastCheckStatus": "live_verified",
           "needsHumanReview": true
         },
-        "sourceDetailId": "47117",
-        "sourceSmartNumber": "45-20261020080833 GCBS",
-        "sourceRFx": "3170037042",
+        "sourceDetailId": "46980",
+        "sourceSmartNumber": "65-20261009090701 Hattiesburg",
+        "sourceRFx": "3170036920",
         "sourceRFxStatus": "Open",
         "majorProcurementCategory": "CONSTRUCTION",
-        "subProcurementCategory": "HIGHWAY CONSTRUCTION",
-        "submissionDateRaw": "12/02/2026 11:00 AM"
+        "subProcurementCategory": "CONSTRUCTION - SERVICES",
+        "submissionDateRaw": "11/19/2026 10:00 AM"
       }
     }
   ]

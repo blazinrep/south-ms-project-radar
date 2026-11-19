@@ -3772,7 +3772,7 @@
     "owner": "MS DEPT FINANCE AND ADMINISTRATION",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46856?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3782,7 +3782,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -3793,55 +3793,6 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "CONSTRUCTION - SERVICES",
     "submissionDateRaw": "12/10/2026 2:00 PM"
-  },
-  {
-    "id": "msproc-46980",
-    "name": "Forrest / 65-20261009090701 Hattiesburg",
-    "county": "Forrest",
-    "city": "Forrest County",
-    "lat": 31.3271,
-    "lon": -89.2903,
-    "locationPrecision": "county_seat_approx",
-    "status": "Accepting bids",
-    "bucket": "act",
-    "deadline": "2026-11-19T10:00:00-06:00",
-    "prebid": null,
-    "value": null,
-    "match": 63,
-    "timing": 96,
-    "confidence": 96,
-    "distance": null,
-    "scope": [
-      "CONSTRUCTION - SERVICES",
-      "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
-    ],
-    "why": "Official Mississippi procurement detail page with a future published deadline.",
-    "owner": "MPTAP",
-    "contact": "See official record and attachments",
-    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46980?AppId=1",
-    "verified": "2026-11-18",
-    "sourceType": "Official Mississippi procurement",
-    "capabilityTags": [
-      "utilities"
-    ],
-    "lifecycleStage": "open_procurement",
-    "signalType": "public_bid",
-    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-    "changeStatus": "new",
-    "freshnessStatus": "live_verified",
-    "automation": {
-      "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
-      "lastCheckStatus": "live_verified",
-      "needsHumanReview": true
-    },
-    "sourceDetailId": "46980",
-    "sourceSmartNumber": "65-20261009090701 Hattiesburg",
-    "sourceRFx": "3170036920",
-    "sourceRFxStatus": "Open",
-    "majorProcurementCategory": "CONSTRUCTION",
-    "subProcurementCategory": "CONSTRUCTION - SERVICES",
-    "submissionDateRaw": "11/19/2026 10:00 AM"
   },
   {
     "id": "msproc-46989",
@@ -3868,7 +3819,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46989?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3878,7 +3829,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -3915,7 +3866,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46992?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3925,7 +3876,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -3962,7 +3913,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46993?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -3972,7 +3923,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4009,7 +3960,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47008?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4019,7 +3970,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4056,7 +4007,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47028?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4066,7 +4017,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4103,7 +4054,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47056?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4113,7 +4064,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4150,7 +4101,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47057?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [
       "paving_base"
@@ -4162,7 +4113,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4199,7 +4150,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47058?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4209,7 +4160,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4246,7 +4197,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47059?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4256,7 +4207,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4293,7 +4244,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47062?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4303,7 +4254,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4340,7 +4291,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47069?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4350,7 +4301,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4387,7 +4338,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47091?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4397,7 +4348,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4434,7 +4385,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47102?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4444,7 +4395,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4481,7 +4432,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47116?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4491,7 +4442,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4528,7 +4479,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47117?AppId=1",
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -4538,7 +4489,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-18T13:36:52.569250-06:00",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -4549,5 +4500,146 @@
     "majorProcurementCategory": "CONSTRUCTION",
     "subProcurementCategory": "HIGHWAY CONSTRUCTION",
     "submissionDateRaw": "12/02/2026 11:00 AM"
+  },
+  {
+    "id": "msproc-47126",
+    "name": "Forrest / 65-20261023120851 Hattiesburg",
+    "county": "Forrest",
+    "city": "Forrest County",
+    "lat": 31.3271,
+    "lon": -89.2903,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-12-10T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "CONSTRUCTION - SERVICES",
+      "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on December 10, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47126?AppId=1",
+    "verified": "2026-11-19",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47126",
+    "sourceSmartNumber": "65-20261023120851 Hattiesburg",
+    "sourceRFx": "3170037049",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "CONSTRUCTION",
+    "subProcurementCategory": "CONSTRUCTION - SERVICES",
+    "submissionDateRaw": "12/10/2026 10:00 AM"
+  },
+  {
+    "id": "msproc-47130",
+    "name": "Forrest / 187-20261027112712 Hattiesburg",
+    "county": "Forrest",
+    "city": "Forrest County",
+    "lat": 31.3271,
+    "lon": -89.2903,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-12-10T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "CONSTRUCTION - SERVICES",
+      "NOTICE is hereby given that the Mayor and Council Of the City ofHattiesburg, Mississippi, Will receive sealed bids until December 10.2026 at 10:00 a.m. in the City Clerks Office, in the City Hall Of said City, for furnishing the City's requirements for th"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47130?AppId=1",
+    "verified": "2026-11-19",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47130",
+    "sourceSmartNumber": "187-20261027112712 Hattiesburg",
+    "sourceRFx": "3170037026",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "CONSTRUCTION",
+    "subProcurementCategory": "CONSTRUCTION - SERVICES",
+    "submissionDateRaw": "12/10/2026 10:00 AM"
+  },
+  {
+    "id": "msproc-47131",
+    "name": "Forrest / 187-20261027113001 Hattiesburg",
+    "county": "Forrest",
+    "city": "Forrest County",
+    "lat": 31.3271,
+    "lon": -89.2903,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-12-03T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "EQUIPMENT - NON-TECHNOLOGY",
+      "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until December 3, 2026 at J 0:00 a.m. in the City Clerks Omee, in the City Hall of said City, for furnishing the City's requirements for th"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47131?AppId=1",
+    "verified": "2026-11-19",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-19T13:37:35.120670-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47131",
+    "sourceSmartNumber": "187-20261027113001 Hattiesburg",
+    "sourceRFx": "3170037027",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "CONSTRUCTION",
+    "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+    "submissionDateRaw": "12/03/2026 10:00 AM"
   }
 ]
