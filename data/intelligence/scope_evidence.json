@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 124,
+  "projectCount": 126,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4179,45 +4179,6 @@
       ]
     },
     {
-      "projectId": "msproc-46980",
-      "projectName": "Forrest / 65-20261009090701 Hattiesburg",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Forrest / 65-20261009090701 Hattiesburg"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Separate Sealed Bids for the Construction of (detailed description) North Main Street Area Infrastructure Improvements - Phase 1.The improvements will include Sewer Replacement & Rehabilitation along portions of W 3rd St, Mable St, Broad St, Melrose Plc,"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-46989",
       "projectName": "Forrest / 9280-27-R-IFBD-00022",
       "evidenceCount": 3,
@@ -4759,6 +4720,103 @@
         {
           "source": "opportunity.scope",
           "text": "The Greene County Board of Supervisors will receive sealed bids at the Greene County Courthouse, Supervisor's Oice, 413 Greene Avenue, Leakesville, Mississippi, until 11:00 A.M., Wednesday, December 2, 2026 furnishing all labor, materials, and equipmen"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47126",
+      "projectName": "Forrest / 65-20261023120851 Hattiesburg",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 65-20261023120851 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on December 10, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE is hereby given that the City Clerk of the City of Hattiesburg, MISSISSIPPI, will receive sealed bids until 10:00AM on December 10, 2026, in the City Council Chambers at City Hall, 200 Forrest Street, Hattiesburg, MS 39401, and then at said"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47130",
+      "projectName": "Forrest / 187-20261027112712 Hattiesburg",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 187-20261027112712 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council Of the City ofHattiesburg, Mississippi, Will receive sealed bids until December 10.2026 at 10:00 a.m. in the City Clerks Office, in the City Hall Of said City, for furnishing the City's requirements for th"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council Of the City ofHattiesburg, Mississippi, Will receive sealed bids until December 10.2026 at 10:00 a.m. in the City Clerks Office, in the City Hall Of said City, for furnishing the City's requirements for th"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47131",
+      "projectName": "Forrest / 187-20261027113001 Hattiesburg",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 187-20261027113001 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until December 3, 2026 at J 0:00 a.m. in the City Clerks Omee, in the City Hall of said City, for furnishing the City's requirements for th"
         }
       ]
     },
