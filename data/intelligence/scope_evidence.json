@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 126,
+  "projectCount": 122,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4315,45 +4315,6 @@
       ]
     },
     {
-      "projectId": "msproc-47028",
-      "projectName": "Jones / 212-20261022113556 Laurel",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jones / 212-20261022113556 Laurel"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Oak Park Auditorium Generator and Waterproofing. Bids will be received from contractors at the Laurel School District Central Office located"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for Oak Park Auditorium Generator and Waterproofing. Bids will be received from contractors at the Laurel School District Central Office located"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-47056",
       "projectName": "Jones / 169-20261019110645 BSJC",
       "evidenceCount": 8,
@@ -4389,123 +4350,6 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids will be received by the Board of Supervisors of Jones County in Laurel, Mississippi until 10:00 A.M., on Monday November 30, 2026, and shortly thereafter publicly opened for the construction of 24.049 miles of MAINTENANCE (OTHER THAN BRIDGE)"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47057",
-      "projectName": "Clarke / 169-20261020093613 BSCC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Clarke / 169-20261020093613 BSCC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Clarke County in Quitman, Mississippi until 10:00 A.M., on Friday, November 20, 2026, and shortly thereafter publicly opened for the construction of a County Road Overlay Project of 1.928 miles"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Sealed bids will be received by the Board of Supervisors of Clarke County in Quitman, Mississippi until 10:00 A.M., on Friday, November 20, 2026, and shortly thereafter publicly opened for the construction of a County Road Overlay Project of 1.928 miles"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47058",
-      "projectName": "Lincoln / 21-20261020104123 BSLC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Lincoln / 21-20261020104123 BSLC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47059",
-      "projectName": "Lincoln / 21-20261020104123 BSLC",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Lincoln / 21-20261020104123 BSLC"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "The Board of Supervisors for Lincoln County, Mississippi, will receive bids for the construction/replaeement of a bridge on Harvey Drive NW for a total project length of O. 155 miles, Federal Aid project No. 109430-701000 no later than 10:00 a.m., Friday,"
         }
       ]
     },

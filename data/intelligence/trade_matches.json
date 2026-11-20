@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 126,
-  "matchedProjectCount": 81,
+  "projectCount": 122,
+  "matchedProjectCount": 79,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2472,73 +2472,6 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47028",
-      "projectName": "Jones / 212-20261022113556 Laurel",
-      "owner": "MPTAP",
-      "county": "Jones",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47028?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "electrical",
-          "trade": "Electrical",
-          "opportunityLabel": "ELECTRICAL OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "generator"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "electrical_license",
-            "insurance",
-            "bonding",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible electrical scope detected from generator, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: generator"
-        }
-      ]
-    },
-    {
-      "projectId": "msproc-47057",
-      "projectName": "Clarke / 169-20261020093613 BSCC",
-      "owner": "MPTAP",
-      "county": "Clarke",
-      "status": "Accepting bids",
-      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47057?AppId=1",
-      "tradeMatches": [
-        {
-          "tradeKey": "paving_asphalt",
-          "trade": "Paving / Asphalt",
-          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
-          "confidence": "possible",
-          "matchScore": 1,
-          "matchedScope": [
-            "paving"
-          ],
-          "strongSignals": [],
-          "exclusionsFound": [],
-          "qualificationGates": [
-            "commercial_license",
-            "equipment_capacity",
-            "insurance",
-            "crew_capacity"
-          ],
-          "riskFlags": [],
-          "verifyFirst": true,
-          "opportunitySummary": "Possible paving / asphalt scope detected from paving, but the package is not yet clear.",
-          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
-          "whyMatched": "Relevant scope detected: paving"
         }
       ]
     },
