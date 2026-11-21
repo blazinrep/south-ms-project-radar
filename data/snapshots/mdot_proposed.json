@@ -1,6 +1,6 @@
 {
   "source": "https://mdot.ms.gov/applications/Schedule_of_Proposed_Projects/ProposedLetting.aspx",
-  "retrieved_at": "2026-11-20T19:04:34.863336+00:00",
+  "retrieved_at": "2026-11-21T17:56:46.687958+00:00",
   "records": [
     {
       "month": "2026/11",
@@ -329,7 +329,7 @@
       "parallel_to_project_no": "",
       "county": "Simpson",
       "route": "MS 540",
-      "scope": "Seal",
+      "scope": "Crack Seal",
       "termini": "MS 540 From Harrisville to Dlo"
     },
     {
