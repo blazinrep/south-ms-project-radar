@@ -2612,16 +2612,16 @@
     },
     {
       "projectId": "mdot-307909-301000",
-      "projectName": "MDOT Proposed: MS 540 \u2014 Simpson County Seal",
+      "projectName": "MDOT Proposed: MS 540 \u2014 Simpson County Crack Seal",
       "evidenceCount": 10,
       "evidence": [
         {
           "source": "project.name",
-          "text": "MDOT Proposed: MS 540 \u2014 Simpson County Seal"
+          "text": "MDOT Proposed: MS 540 \u2014 Simpson County Crack Seal"
         },
         {
           "source": "project.scope",
-          "text": "Seal"
+          "text": "Crack Seal"
         },
         {
           "source": "project.scope",
@@ -2633,7 +2633,7 @@
         },
         {
           "source": "intelligence.whyItMatters",
-          "text": "Official MDOT future-letting signal for seal. Early-stage watch item; not yet represented as an open bid."
+          "text": "Official MDOT future-letting signal for crack seal. Early-stage watch item; not yet represented as an open bid."
         },
         {
           "source": "intelligence.nextAction",
@@ -2645,7 +2645,7 @@
         },
         {
           "source": "opportunity.scope",
-          "text": "Seal"
+          "text": "Crack Seal"
         },
         {
           "source": "opportunity.scope",
