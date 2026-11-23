@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 122,
+  "projectCount": 127,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4354,45 +4354,6 @@
       ]
     },
     {
-      "projectId": "msproc-47062",
-      "projectName": "Harrison / 43-20261022160834 Gulfport",
-      "evidenceCount": 8,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Harrison / 43-20261022160834 Gulfport"
-        },
-        {
-          "source": "project.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "project.scope",
-          "text": "Pre-Bid Conference: Date & Time: 11/10/2026 10:00 AM Description: A Non-Mandatory Pre-Bid Meeting will be held at 10:00 a.m. on November 10, 2026 at the following location: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 --------"
-        },
-        {
-          "source": "intelligence.whyItMatters",
-          "text": "Official Mississippi procurement detail page with a future published deadline."
-        },
-        {
-          "source": "intelligence.nextAction",
-          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
-        },
-        {
-          "source": "intelligence.recommendedContact",
-          "text": "See official record and attachments"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "CONSTRUCTION - SERVICES"
-        },
-        {
-          "source": "opportunity.scope",
-          "text": "Pre-Bid Conference: Date & Time: 11/10/2026 10:00 AM Description: A Non-Mandatory Pre-Bid Meeting will be held at 10:00 a.m. on November 10, 2026 at the following location: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 --------"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-47069",
       "projectName": "Jackson / 94-20261102144558 BSJC",
       "evidenceCount": 3,
@@ -4661,6 +4622,204 @@
         {
           "source": "project.scope",
           "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi, will receive sealed bids until December 3, 2026 at J 0:00 a.m. in the City Clerks Omee, in the City Hall of said City, for furnishing the City's requirements for th"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47150",
+      "projectName": "Harrison / 43-20261030105531 Gulfport",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 43-20261030105531 Gulfport"
+        },
+        {
+          "source": "project.scope",
+          "text": "PERSONNEL SERVICE - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "The City of Gulfport is requesting sealed bids from qualified individuals and/or firms to perform Ground Maintenance. All bids must be received in the Office of Procurement, 1422 23rd Avenue, Gulfport, MS 39501, no later than 10:00 am local time on De"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47153",
+      "projectName": "Pearl River / 61-20261102105131 PSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Pearl River / 61-20261102105131 PSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Yourfirm is invited to submit an offer under seal to the Owner located at the above address for improvements at the Poplarville High School located at 302 S. Julia St. Poplarville, MS 39470 before 10:00 am local standard time on the 1st"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Yourfirm is invited to submit an offer under seal to the Owner located at the above address for improvements at the Poplarville High School located at 302 S. Julia St. Poplarville, MS 39470 before 10:00 am local standard time on the 1st"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47154",
+      "projectName": "Harrison / 93-20261103093316 HCBS",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 93-20261103093316 HCBS"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: Three (3) New Hydraulic Excavators TRADE-IN: Asset #33147 2026 Wirtgen Compact Milling Machine, Model W120Fti, Condition: New Bids will"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47158",
+      "projectName": "Jones / 1526-20261109140816 BSJC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 1526-20261109140816 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of BITUMINOUS MATERIALS IN PLACE. Bidder"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of BITUMINOUS MATERIALS IN PLACE. Bidder"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47159",
+      "projectName": "Jones / 1526-20261109141244 BSJC",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 1526-20261109141244 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of SLURRY SEAL. Bidders are required to u"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of SLURRY SEAL. Bidders are required to u"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47160",
+      "projectName": "Jones / 1526-20261109141444 BSJC",
+      "evidenceCount": 9,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Jones / 1526-20261109141444 BSJC"
+        },
+        {
+          "source": "project.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4th, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of various sizes of PLASTIC CULVERTS."
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "culvert"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "SUPPLIES - NON-TECHNOLOGY"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4th, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of various sizes of PLASTIC CULVERTS."
         }
       ]
     },

@@ -1,27 +1,249 @@
 {
-  "generatedAt": "2026-11-22T18:39:05.383281+00:00",
+  "generatedAt": "2026-11-23T22:55:20.974402+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-11-22T18:38:48.766914+00:00",
+  "inputGeneratedAt": "2026-11-23T22:55:05.968479+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 0,
-    "needsAttention": 0,
-    "filtered": 0,
+    "eventsSeen": 7,
+    "needsAttention": 3,
+    "filtered": 4,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 30,
-    "byType": {}
+    "rawFetchErrors": 0,
+    "byType": {
+      "new_opportunity": 2,
+      "opportunity_closed": 1
+    }
   },
-  "attention": [],
-  "filtered": [],
+  "attention": [
+    {
+      "id": "ad8c872bad168c552f9c",
+      "projectId": "msproc-47150",
+      "type": "new_opportunity",
+      "priority": "high",
+      "title": "New contractor-relevant opportunity",
+      "project": {
+        "name": "Harrison / 43-20261030105531 Gulfport",
+        "county": "Harrison",
+        "city": "Harrison County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-12-02T10:00:00-06:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47150?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": null,
+          "after": "2026-12-02T10:00:00-06:00"
+        },
+        {
+          "field": "status",
+          "before": null,
+          "after": "Accepting bids"
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": null,
+          "after": "Open"
+        },
+        {
+          "field": "lifecycleStage",
+          "before": null,
+          "after": "open_procurement"
+        },
+        {
+          "field": "scope",
+          "before": null,
+          "after": [
+            "PERSONNEL SERVICE - NON-TECHNOLOGY",
+            "The City of Gulfport is requesting sealed bids from qualified individuals and/or firms to perform Ground Maintenance. All bids must be received in the Office of Procurement, 1422 23rd Avenue, Gulfport, MS 39501, no later than 10:00 am local time on De"
+          ]
+        },
+        {
+          "field": "nextMove",
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        }
+      ],
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+    },
+    {
+      "id": "be0a981671e433388fbb",
+      "projectId": "msproc-47154",
+      "type": "new_opportunity",
+      "priority": "high",
+      "title": "New contractor-relevant opportunity",
+      "project": {
+        "name": "Harrison / 93-20261103093316 HCBS",
+        "county": "Harrison",
+        "city": "Harrison County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-12-02T10:00:00-06:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47154?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [
+        "excavation"
+      ],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": null,
+          "after": "2026-12-02T10:00:00-06:00"
+        },
+        {
+          "field": "status",
+          "before": null,
+          "after": "Accepting bids"
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": null,
+          "after": "Open"
+        },
+        {
+          "field": "lifecycleStage",
+          "before": null,
+          "after": "open_procurement"
+        },
+        {
+          "field": "scope",
+          "before": null,
+          "after": [
+            "EQUIPMENT - NON-TECHNOLOGY",
+            "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: Three (3) New Hydraulic Excavators TRADE-IN: Asset #33147 2026 Wirtgen Compact Milling Machine, Model W120Fti, Condition: New Bids will"
+          ]
+        },
+        {
+          "field": "nextMove",
+          "before": null,
+          "after": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        }
+      ],
+      "action": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+    },
+    {
+      "id": "15353f49d9687f7d25c7",
+      "projectId": "msproc-47062",
+      "type": "opportunity_closed",
+      "priority": "high",
+      "title": "Opportunity no longer open",
+      "project": {
+        "name": "Harrison / 43-20261022160834 Gulfport",
+        "county": "Harrison",
+        "city": "Harrison County",
+        "decision": null,
+        "tradeFit": null,
+        "actionPriority": null,
+        "fitScore": null,
+        "deadline": "2026-11-23T10:00:00-06:00",
+        "status": "Accepting bids",
+        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47062?AppId=1"
+      },
+      "relevance": "source record is in act bucket",
+      "capabilityHits": [],
+      "changedFields": [
+        "deadline",
+        "status",
+        "sourceRFxStatus",
+        "lifecycleStage",
+        "scope",
+        "nextMove"
+      ],
+      "changes": [
+        {
+          "field": "deadline",
+          "before": "2026-11-23T10:00:00-06:00",
+          "after": null
+        },
+        {
+          "field": "status",
+          "before": "Accepting bids",
+          "after": null
+        },
+        {
+          "field": "sourceRFxStatus",
+          "before": "Open",
+          "after": null
+        },
+        {
+          "field": "lifecycleStage",
+          "before": "open_procurement",
+          "after": null
+        },
+        {
+          "field": "scope",
+          "before": [
+            "CONSTRUCTION - SERVICES",
+            "Pre-Bid Conference: Date & Time: 11/10/2026 10:00 AM Description: A Non-Mandatory Pre-Bid Meeting will be held at 10:00 a.m. on November 10, 2026 at the following location: Gulfport Engineering Department 4050 Hewes Avenue Gulfport, MS 39507 --------"
+          ],
+          "after": null
+        },
+        {
+          "field": "nextMove",
+          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+          "after": null
+        }
+      ],
+      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
+    }
+  ],
+  "filtered": [
+    {
+      "projectId": "msproc-47153",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-47158",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-47159",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is low_priority"
+    },
+    {
+      "projectId": "msproc-47160",
+      "kind": "new_project",
+      "reason": "current Project Radar decision is low_priority"
+    }
+  ],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-11-22T12:38:45.520324-06:00",
+    "checkedAt": "2026-11-23T16:55:04.007822-06:00",
     "knownActiveChecked": 15,
-    "currentRecords": 15,
+    "currentRecords": 20,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 30,
+    "rawNetworkOrHttpFailures": 0,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }

@@ -24,7 +24,7 @@
     "owner": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/46989?AppId=1",
-    "verified": "2026-11-22",
+    "verified": "2026-11-23",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -34,7 +34,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-22T12:38:45.520324-06:00",
+      "lastSeen": "2026-11-23T16:55:04.007822-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -81,7 +81,7 @@
         "fitTotal": 36,
         "actionPriority": 0
       },
-      "daysToDeadline": 16.1,
+      "daysToDeadline": 14.9,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -119,7 +119,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47069?AppId=1",
-    "verified": "2026-11-22",
+    "verified": "2026-11-23",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -129,7 +129,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-22T12:38:45.520324-06:00",
+      "lastSeen": "2026-11-23T16:55:04.007822-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -170,13 +170,13 @@
       "scores": {
         "scopeFit": 0,
         "pursuitAccessibility": 0,
-        "runway": 6,
+        "runway": 2,
         "geography": 0,
         "evidenceQuality": 8,
-        "fitTotal": 14,
+        "fitTotal": 10,
         "actionPriority": 0
       },
-      "daysToDeadline": 3.0,
+      "daysToDeadline": 1.8,
       "distanceMiles": 97.5,
       "riskFlags": [
         "outside_preferred_radius"
@@ -216,7 +216,7 @@
     "owner": "MPTAP",
     "contact": "See official record and attachments",
     "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47131?AppId=1",
-    "verified": "2026-11-22",
+    "verified": "2026-11-23",
     "sourceType": "Official Mississippi procurement",
     "capabilityTags": [],
     "lifecycleStage": "open_procurement",
@@ -226,7 +226,7 @@
     "freshnessStatus": "live_verified",
     "automation": {
       "sourceKey": "ms_procurement",
-      "lastSeen": "2026-11-22T12:38:45.520324-06:00",
+      "lastSeen": "2026-11-23T16:55:04.007822-06:00",
       "lastCheckStatus": "live_verified",
       "needsHumanReview": true
     },
@@ -273,7 +273,7 @@
         "fitTotal": 38,
         "actionPriority": 0
       },
-      "daysToDeadline": 10.9,
+      "daysToDeadline": 9.7,
       "distanceMiles": 32.6,
       "riskFlags": [],
       "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
@@ -283,6 +283,203 @@
       "automaticRejectReason": "wrong_subcategory:EQUIPMENT - NON-TECHNOLOGY",
       "sourceRecordIds": [
         "msproc-47131"
+      ]
+    }
+  },
+  {
+    "id": "msproc-47150",
+    "name": "Harrison / 43-20261030105531 Gulfport",
+    "county": "Harrison",
+    "city": "Harrison County",
+    "lat": 30.3674,
+    "lon": -89.0928,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-12-02T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 55,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "PERSONNEL SERVICE - NON-TECHNOLOGY",
+      "The City of Gulfport is requesting sealed bids from qualified individuals and/or firms to perform Ground Maintenance. All bids must be received in the Office of Procurement, 1422 23rd Avenue, Gulfport, MS 39501, no later than 10:00 am local time on De"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47150?AppId=1",
+    "verified": "2026-11-23",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-23T16:55:04.007822-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47150",
+    "sourceSmartNumber": "43-20261030105531 Gulfport",
+    "sourceRFx": "3170037064",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "PERSONNEL SERVICES NON-IT",
+    "subProcurementCategory": "PERSONNEL SERVICE - NON-TECHNOLOGY",
+    "submissionDateRaw": "12/02/2026 10:00 AM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
+    "displayName": "Harrison / 43-20261030105531 Gulfport",
+    "intelligence": {
+      "version": "0.7.2",
+      "canonicalProjectKey": "msproc-47150",
+      "displayName": "Harrison / 43-20261030105531 Gulfport",
+      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47150?AppId=1",
+      "decision": "reject",
+      "disposition": "reject",
+      "pursuitPath": "reject",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "fitEvidence": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 0,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 26,
+        "actionPriority": 0
+      },
+      "daysToDeadline": 8.7,
+      "distanceMiles": 75.3,
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "recommendedContact": "See official record and attachments",
+      "automaticRejectReason": "wrong_major_category:PERSONNEL SERVICES NON-IT",
+      "sourceRecordIds": [
+        "msproc-47150"
+      ]
+    }
+  },
+  {
+    "id": "msproc-47154",
+    "name": "Harrison / 93-20261103093316 HCBS",
+    "county": "Harrison",
+    "city": "Harrison County",
+    "lat": 30.3674,
+    "lon": -89.0928,
+    "locationPrecision": "county_seat_approx",
+    "status": "Accepting bids",
+    "bucket": "act",
+    "deadline": "2026-12-02T10:00:00-06:00",
+    "prebid": null,
+    "value": null,
+    "match": 71,
+    "timing": 96,
+    "confidence": 96,
+    "distance": null,
+    "scope": [
+      "EQUIPMENT - NON-TECHNOLOGY",
+      "The Harrison County Board of Supervisors will receive Electronic or Sealed Bids for the following: ROAD EQUIPMENT: Three (3) New Hydraulic Excavators TRADE-IN: Asset #33147 2026 Wirtgen Compact Milling Machine, Model W120Fti, Condition: New Bids will"
+    ],
+    "why": "Official Mississippi procurement detail page with a future published deadline.",
+    "owner": "MPTAP",
+    "contact": "See official record and attachments",
+    "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47154?AppId=1",
+    "verified": "2026-11-23",
+    "sourceType": "Official Mississippi procurement",
+    "capabilityTags": [
+      "excavation",
+      "paving_base"
+    ],
+    "lifecycleStage": "open_procurement",
+    "signalType": "public_bid",
+    "nextMove": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+    "changeStatus": "new",
+    "freshnessStatus": "live_verified",
+    "automation": {
+      "sourceKey": "ms_procurement",
+      "lastSeen": "2026-11-23T16:55:04.007822-06:00",
+      "lastCheckStatus": "live_verified",
+      "needsHumanReview": true
+    },
+    "sourceDetailId": "47154",
+    "sourceSmartNumber": "93-20261103093316 HCBS",
+    "sourceRFx": "3170037067",
+    "sourceRFxStatus": "Open",
+    "majorProcurementCategory": "COMMODITIES",
+    "subProcurementCategory": "EQUIPMENT - NON-TECHNOLOGY",
+    "submissionDateRaw": "12/02/2026 10:00 AM",
+    "sourceFeed": "legacy_projects",
+    "geoPrecision": "project_coordinates",
+    "geoApproximate": false,
+    "displayName": "Harrison / 93-20261103093316 HCBS",
+    "intelligence": {
+      "version": "0.7.2",
+      "canonicalProjectKey": "msproc-47154",
+      "displayName": "Harrison / 93-20261103093316 HCBS",
+      "authoritativeSource": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47154?AppId=1",
+      "decision": "reject",
+      "disposition": "reject",
+      "pursuitPath": "reject",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "fitEvidence": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
+        }
+      ],
+      "scores": {
+        "scopeFit": 0,
+        "pursuitAccessibility": 0,
+        "runway": 15,
+        "geography": 3,
+        "evidenceQuality": 8,
+        "fitTotal": 26,
+        "actionPriority": 0
+      },
+      "daysToDeadline": 8.7,
+      "distanceMiles": 75.3,
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "recommendedContact": "See official record and attachments",
+      "automaticRejectReason": "wrong_subcategory:EQUIPMENT - NON-TECHNOLOGY",
+      "sourceRecordIds": [
+        "msproc-47154"
       ]
     }
   }

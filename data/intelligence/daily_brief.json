@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-22T18:39:04.867373+00:00",
+  "generatedAt": "2026-11-23T22:55:20.456301+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
-  "sourceRecordCount": 122,
-  "canonicalProjectCount": 113,
+  "sourceRecordCount": 127,
+  "canonicalProjectCount": 118,
   "duplicateGroups": 8,
-  "rejectedCount": 3,
+  "rejectedCount": 5,
   "decisionCounts": {
     "specialist_only": 1,
-    "low_priority": 89,
+    "low_priority": 93,
     "verify_then_pursue": 2,
-    "optional_outside_radius": 9,
+    "optional_outside_radius": 8,
     "verify_scope": 1
   },
   "actionQueue": [
@@ -110,7 +110,7 @@
       "name": "Greene / 45-20261020080350 GCBS",
       "county": "Greene",
       "deadline": "2026-12-02T10:00:00-06:00",
-      "daysToDeadline": 9.9,
+      "daysToDeadline": 8.7,
       "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -149,7 +149,7 @@
       "name": "Greene / 45-20261020080833 GCBS",
       "county": "Greene",
       "deadline": "2026-12-02T11:00:00-06:00",
-      "daysToDeadline": 9.9,
+      "daysToDeadline": 8.8,
       "distanceMiles": 75.8,
       "decision": "optional_outside_radius",
       "pursuitPath": "investigate",
@@ -240,45 +240,6 @@
       "qualificationGates": []
     },
     {
-      "id": "msproc-47062",
-      "name": "Harrison / 43-20261022160834 Gulfport",
-      "county": "Harrison",
-      "deadline": "2026-11-23T10:00:00-06:00",
-      "daysToDeadline": 0.9,
-      "distanceMiles": 75.3,
-      "decision": "optional_outside_radius",
-      "pursuitPath": "investigate",
-      "tradeFit": "none",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 0,
-        "pursuitAccessibility": 7,
-        "runway": 2,
-        "geography": 3,
-        "evidenceQuality": 8,
-        "fitTotal": 20,
-        "actionPriority": 32
-      },
-      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
-      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-      "actionType": "research_and_verify",
-      "riskFlags": [
-        "outside_preferred_radius"
-      ],
-      "qualificationGates": [
-        {
-          "type": "commercial_license",
-          "status": "verify_if_applicable",
-          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
-        },
-        {
-          "type": "state_vendor_registration",
-          "status": "verify_for_state_business",
-          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
-        }
-      ]
-    },
-    {
       "id": "mdot-109988-301000",
       "name": "MDOT Proposed: MS 42 \u2014 Wayne County Overlay",
       "county": "Wayne",
@@ -327,6 +288,34 @@
         "actionPriority": 27
       },
       "whyItMatters": "Official MDOT future-letting signal for ogfc lift. Early-stage watch item; not yet represented as an open bid.",
+      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
+      "actionType": "research_and_verify",
+      "riskFlags": [
+        "outside_preferred_radius"
+      ],
+      "qualificationGates": []
+    },
+    {
+      "id": "mdot-105005-392100",
+      "name": "MDOT Proposed: Project \u2014 Clarke County Not Assigned - Define Scope",
+      "county": "Clarke",
+      "deadline": null,
+      "daysToDeadline": null,
+      "distanceMiles": 87.0,
+      "decision": "optional_outside_radius",
+      "pursuitPath": "watch",
+      "tradeFit": "none",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 3,
+        "pursuitAccessibility": 9,
+        "runway": 7,
+        "geography": 0,
+        "evidenceQuality": 8,
+        "fitTotal": 27,
+        "actionPriority": 27
+      },
+      "whyItMatters": "Official MDOT future-letting signal for not assigned - define scope. Early-stage watch item; not yet represented as an open bid.",
       "nextAction": "Watch for the letting package and identify likely primes before bid release.",
       "actionType": "research_and_verify",
       "riskFlags": [
@@ -397,6 +386,43 @@
           "type": "commercial_license",
           "status": "verify",
           "detail": "Published project value exceeds $50,000; verify the appropriate Mississippi commercial contractor classification before bidding/performing covered work."
+        }
+      ]
+    },
+    {
+      "id": "msproc-47160",
+      "name": "Jones / 1526-20261109141444 BSJC",
+      "county": "Jones",
+      "deadline": "2026-12-04T10:00:00-06:00",
+      "daysToDeadline": 10.7,
+      "distanceMiles": 51.6,
+      "decision": "low_priority",
+      "pursuitPath": "investigate",
+      "tradeFit": "weak",
+      "evidenceLevel": "source_record",
+      "scores": {
+        "scopeFit": 14,
+        "pursuitAccessibility": 7,
+        "runway": 15,
+        "geography": 13,
+        "evidenceQuality": 8,
+        "fitTotal": 57,
+        "actionPriority": 45
+      },
+      "whyItMatters": "Official Mississippi procurement detail page with a future published deadline.",
+      "nextAction": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
+      "actionType": "research_and_verify",
+      "riskFlags": [],
+      "qualificationGates": [
+        {
+          "type": "commercial_license",
+          "status": "verify_if_applicable",
+          "detail": "Verify applicable Mississippi contractor licensing/classification requirements for the exact scope and contract value."
+        },
+        {
+          "type": "state_vendor_registration",
+          "status": "verify_for_state_business",
+          "detail": "Confirm Mississippi supplier/MAGIC registration requirements for this procurement and bid method."
         }
       ]
     },
@@ -563,32 +589,6 @@
       "deadline": null,
       "daysToDeadline": null,
       "distanceMiles": 34.0,
-      "decision": "low_priority",
-      "pursuitPath": "watch",
-      "tradeFit": "weak",
-      "evidenceLevel": "source_record",
-      "scores": {
-        "scopeFit": 12,
-        "pursuitAccessibility": 9,
-        "runway": 7,
-        "geography": 13,
-        "evidenceQuality": 8,
-        "fitTotal": 49,
-        "actionPriority": 45
-      },
-      "whyItMatters": "Official MDOT future-letting signal for bridge replacement. Early-stage watch item; not yet represented as an open bid.",
-      "nextAction": "Watch for the letting package and identify likely primes before bid release.",
-      "actionType": "research_and_verify",
-      "riskFlags": [],
-      "qualificationGates": []
-    },
-    {
-      "id": "mdot-100881-301000",
-      "name": "MDOT Proposed: MS 28 \u2014 Simpson County Bridge Replacement",
-      "county": "Simpson",
-      "deadline": null,
-      "daysToDeadline": null,
-      "distanceMiles": 45.2,
       "decision": "low_priority",
       "pursuitPath": "watch",
       "tradeFit": "weak",

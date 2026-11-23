@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
-  "projectCount": 122,
-  "matchedProjectCount": 79,
+  "projectCount": 127,
+  "matchedProjectCount": 81,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -2472,6 +2472,73 @@
           "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, grading, drainage, erosion control.",
           "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
           "whyMatched": "Relevant scope detected: excavation, grading, drainage, erosion control"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47154",
+      "projectName": "Harrison / 93-20261103093316 HCBS",
+      "owner": "MPTAP",
+      "county": "Harrison",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47154?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "paving_asphalt",
+          "trade": "Paving / Asphalt",
+          "opportunityLabel": "PAVING / ASPHALT OPPORTUNITY",
+          "confidence": "possible",
+          "matchScore": 1,
+          "matchedScope": [
+            "milling"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "equipment_capacity",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Possible paving / asphalt scope detected from milling, but the package is not yet clear.",
+          "recommendedAction": "Verify trade-specific drawings/specifications before spending estimating time or contacting bidders.",
+          "whyMatched": "Relevant scope detected: milling"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47160",
+      "projectName": "Jones / 1526-20261109141444 BSJC",
+      "owner": "MPTAP",
+      "county": "Jones",
+      "status": "Accepting bids",
+      "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47160?AppId=1",
+      "tradeMatches": [
+        {
+          "tradeKey": "excavation_sitework",
+          "trade": "Excavation / Sitework",
+          "opportunityLabel": "EXCAVATION / SITEWORK OPPORTUNITY",
+          "confidence": "moderate",
+          "matchScore": 2,
+          "matchedScope": [
+            "excavation",
+            "drainage"
+          ],
+          "strongSignals": [],
+          "exclusionsFound": [],
+          "qualificationGates": [
+            "commercial_license",
+            "bonding",
+            "insurance",
+            "crew_capacity"
+          ],
+          "riskFlags": [],
+          "verifyFirst": true,
+          "opportunitySummary": "Relevant excavation / sitework scope appears in the project: excavation, drainage.",
+          "recommendedAction": "Verify the relevant plans/specs and determine whether this trade is bid directly or through a prime contractor.",
+          "whyMatched": "Relevant scope detected: excavation, drainage"
         }
       ]
     },
