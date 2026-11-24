@@ -1,6 +1,6 @@
 {
   "version": "0.11.0",
-  "projectCount": 127,
+  "projectCount": 131,
   "projects": [
     {
       "projectId": "pine-belt-landfill-cell7",
@@ -4820,6 +4820,126 @@
         {
           "source": "opportunity.scope",
           "text": "Notice is hereby given that the Board of Supervisors of Jones County, Mississippi will receive sealed bids until Friday, December 4th, 2026, at 10:00 a.m. at the Courthouse in Laurel, Mississippi for the purchase of various sizes of PLASTIC CULVERTS."
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47177",
+      "projectName": "Forrest / 187-20261109161025 Hattiesburg",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 187-20261109161025 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council ofthe City of Hattiesburg, Mississippi, will receive sealed bids until December 3.2026. at 10:00 in the City Clerks Office, in the City Hall ofsaid City, for furnishing the City's requirements for the foll"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47178",
+      "projectName": "Forrest / 187-20261109161317 Hattiesburg",
+      "evidenceCount": 3,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Forrest / 187-20261109161317 Hattiesburg"
+        },
+        {
+          "source": "project.scope",
+          "text": "EQUIPMENT - NON-TECHNOLOGY"
+        },
+        {
+          "source": "project.scope",
+          "text": "NOTICE is hereby given that the Mayor and Council of the City of Hattiesburg, Mississippi will receive sealed bids until 10:00 A.M., Thursday, December 3, 2026, in the City Clerk's Office in the City Halt of said City for furnishing the City's requirement"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47188",
+      "projectName": "Harrison / 212-20261022133726 GSD",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Harrison / 212-20261022133726 GSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for GSD District-wide Reroofing Phase 4. Bids will be received by the Board of Trustees of the Gulfport School District at the District Offices,"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "You are hereby invited to submit a sealed bid (or at the Bidders option, electronically submitted Bids) for GSD District-wide Reroofing Phase 4. Bids will be received by the Board of Trustees of the Gulfport School District at the District Offices,"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47190",
+      "projectName": "Lincoln / 21-20261027090039 LCSD",
+      "evidenceCount": 9,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lincoln / 21-20261027090039 LCSD"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids for the construction of the BOGUE CHITTO ATTENDANCE CENTER, FOOTBALL FIELD GRADING AND IMPROVEMENTS PROJECT, for the Lincoln County School District in Lincoln County, Mississippi, will be received by David Martin, Superintendent of the Linco"
+        },
+        {
+          "source": "intelligence.fitEvidence",
+          "text": "grading"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids for the construction of the BOGUE CHITTO ATTENDANCE CENTER, FOOTBALL FIELD GRADING AND IMPROVEMENTS PROJECT, for the Lincoln County School District in Lincoln County, Mississippi, will be received by David Martin, Superintendent of the Linco"
         }
       ]
     },
