@@ -4354,25 +4354,6 @@
       ]
     },
     {
-      "projectId": "msproc-47069",
-      "projectName": "Jackson / 94-20261102144558 BSJC",
-      "evidenceCount": 3,
-      "evidence": [
-        {
-          "source": "project.name",
-          "text": "Jackson / 94-20261102144558 BSJC"
-        },
-        {
-          "source": "project.scope",
-          "text": "EQUIPMENT - NON-TECHNOLOGY"
-        },
-        {
-          "source": "project.scope",
-          "text": "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Monday, November 6, 2017 and the said bids will be opened and read aloud at 1:00 p.m. in the Board of Superviso"
-        }
-      ]
-    },
-    {
       "projectId": "msproc-47091",
       "projectName": "Forrest / 9280-27-R-IFBD-00024",
       "evidenceCount": 8,
@@ -4940,6 +4921,45 @@
         {
           "source": "opportunity.scope",
           "text": "Sealed bids for the construction of the BOGUE CHITTO ATTENDANCE CENTER, FOOTBALL FIELD GRADING AND IMPROVEMENTS PROJECT, for the Lincoln County School District in Lincoln County, Mississippi, will be received by David Martin, Superintendent of the Linco"
+        }
+      ]
+    },
+    {
+      "projectId": "msproc-47196",
+      "projectName": "Lincoln / 21-20261027092525 Brookhaven",
+      "evidenceCount": 8,
+      "evidence": [
+        {
+          "source": "project.name",
+          "text": "Lincoln / 21-20261027092525 Brookhaven"
+        },
+        {
+          "source": "project.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "project.scope",
+          "text": "Sealed bids will be received until Thursday, December 3, 2026, 2:00 P.M. , and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven, MS, 39601, for furnishing all labor, materials and equipm"
+        },
+        {
+          "source": "intelligence.whyItMatters",
+          "text": "Official Mississippi procurement detail page with a future published deadline."
+        },
+        {
+          "source": "intelligence.nextAction",
+          "text": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit."
+        },
+        {
+          "source": "intelligence.recommendedContact",
+          "text": "See official record and attachments"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "CONSTRUCTION - SERVICES"
+        },
+        {
+          "source": "opportunity.scope",
+          "text": "Sealed bids will be received until Thursday, December 3, 2026, 2:00 P.M. , and then publicly opened and read at the City Clerks office, City of Brookhaven, 101 West Chickasaw Street, Brookhaven, MS, 39601, for furnishing all labor, materials and equipm"
         }
       ]
     },
