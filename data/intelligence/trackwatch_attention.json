@@ -1,101 +1,27 @@
 {
-  "generatedAt": "2026-11-25T20:40:00.311368+00:00",
+  "generatedAt": "2026-11-26T20:32:43.234968+00:00",
   "adapter": "TrackWatch Contractor Adapter V0.1.1",
   "inputSource": "Mississippi procurement monitor",
-  "inputGeneratedAt": "2026-11-25T20:39:45.095247+00:00",
+  "inputGeneratedAt": "2026-11-26T20:32:31.733048+00:00",
   "profile": "Demo Excavation / Sitework Contractor",
   "summary": {
-    "eventsSeen": 2,
-    "needsAttention": 1,
-    "filtered": 1,
+    "eventsSeen": 0,
+    "needsAttention": 0,
+    "filtered": 0,
     "sourceHealthProblems": 0,
     "staleUnverified": 0,
-    "rawFetchErrors": 24,
-    "byType": {
-      "opportunity_closed": 1
-    }
+    "rawFetchErrors": 29,
+    "byType": {}
   },
-  "attention": [
-    {
-      "id": "8f7398267c2064f1466a",
-      "projectId": "msproc-47069",
-      "type": "opportunity_closed",
-      "priority": "high",
-      "title": "Opportunity no longer open",
-      "project": {
-        "name": "Jackson / 94-20261102144558 BSJC",
-        "county": "Jackson",
-        "city": "Jackson County",
-        "decision": null,
-        "tradeFit": null,
-        "actionPriority": null,
-        "fitScore": null,
-        "deadline": "2026-11-25T13:00:00-06:00",
-        "status": "Accepting bids",
-        "source": "https://www.ms.gov/dfa/contract_bid_search/Bid/Details/47069?AppId=1"
-      },
-      "relevance": "source record is in act bucket",
-      "capabilityHits": [],
-      "changedFields": [
-        "deadline",
-        "status",
-        "sourceRFxStatus",
-        "lifecycleStage",
-        "scope",
-        "nextMove"
-      ],
-      "changes": [
-        {
-          "field": "deadline",
-          "before": "2026-11-25T13:00:00-06:00",
-          "after": null
-        },
-        {
-          "field": "status",
-          "before": "Accepting bids",
-          "after": null
-        },
-        {
-          "field": "sourceRFxStatus",
-          "before": "Open",
-          "after": null
-        },
-        {
-          "field": "lifecycleStage",
-          "before": "open_procurement",
-          "after": null
-        },
-        {
-          "field": "scope",
-          "before": [
-            "EQUIPMENT - NON-TECHNOLOGY",
-            "Notice is hereby given that sealed bids will be received by the Board of Supervisors of Jackson County, Mississippi until 12:00 noon (CDT) on Monday, November 6, 2017 and the said bids will be opened and read aloud at 1:00 p.m. in the Board of Superviso"
-          ],
-          "after": null
-        },
-        {
-          "field": "nextMove",
-          "before": "Review the official attachments, confirm exact work location and scope, then decide prime or subcontract pursuit.",
-          "after": null
-        }
-      ],
-      "action": "Stop treating this as an open bid. Confirm the official disposition if it was being pursued."
-    }
-  ],
-  "filtered": [
-    {
-      "projectId": "msproc-47196",
-      "kind": "new_project",
-      "reason": "current Project Radar decision is low_priority"
-    }
-  ],
+  "attention": [],
+  "filtered": [],
   "sourceTelemetry": {
     "monitorOk": true,
-    "checkedAt": "2026-11-25T14:39:42.388878-06:00",
+    "checkedAt": "2026-11-26T14:32:27.679937-06:00",
     "knownActiveChecked": 24,
     "currentRecords": 24,
     "staleUnverified": 0,
-    "rawNetworkOrHttpFailures": 24,
+    "rawNetworkOrHttpFailures": 29,
     "note": "Raw discovery fetch failures are telemetry, not a human alert, unless known records became stale or the monitor reports unhealthy."
   }
 }
